@@ -1576,10 +1576,10 @@ section {
 }
 #footer .copyright {
   text-align: center;
-  float: left;
+  float: right;
 }
 #footer .credits {
-  float: right;
+  float: left;
   text-align: center;
   font-size: 13px;
   color: #444444;
