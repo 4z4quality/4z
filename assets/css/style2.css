@@ -414,15 +414,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 80px;
   font-weight: 700;
   line-height: 56px;
-  color: #000066;
+  color: #FF8000;
   font-family: "Almarai", Poppins, sans-serif;
   white-space: nowrap
 }
 #hero h1 span {
-  color: #FF8000;
+  color: #000066;
 }
 #hero h2 {
   color: #555555;
@@ -477,7 +477,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
   }
   #hero h1 {
-    font-size: 28px;
+    font-size: 40px;
     line-height: 36px;
   }
   #hero h2 {
