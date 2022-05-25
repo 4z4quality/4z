@@ -110,10 +110,10 @@ h1, h2, h3, h4, h5, h6 {
   background: #000066;
   height: 40px;
   font-size: 14px;
-  transition: all 1.5s;
+  transition: all 0.5s;
   color: #fff;
   padding: 0;
-  display: grid;
+  display:-moz-grid;
 }
 #topbar .contact-info i {
   font-style: normal;
