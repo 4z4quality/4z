@@ -1186,6 +1186,19 @@ section {
   color: #777777;
   background: #f8f8f8;
 }
+.pricing .box .price{
+  font-weight: 400;
+  margin: -20px -20px 20px -20px;
+  padding: 20px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #777777;
+  background: #f8f8f8;
+}
+.pricing .featured .price {
+  color: #fff;
+  background: #FF8000;
+}
 .pricing .box h4 {
   font-size: 36px;
   color: #106eea;
