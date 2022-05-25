@@ -155,10 +155,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 75px;
 }
 #header .logo {
-  color: #000066;
-  margin-left: 0px;
-  margin-right: 130px;
-  font-size: 28px;
+  font-size: 30px;
+  margin: 0;
   padding: 0;
   line-height: 0.7;
   font-weight: 600;
