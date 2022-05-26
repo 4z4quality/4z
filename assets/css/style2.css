@@ -146,22 +146,21 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   background: #fff;
-  transition:linear 3s ease-in-out;
+  transition: 0.5s ease-in-out;
   z-index: 997;
   height: 86px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #header.fixed-top {
-  height: 75px;
+  height: 70px;
 }
 #header .logo {
   font-size: 30px;
   margin: 0;
-  margin-left: 151px;
   padding: 0;
-  line-height: 25px;
-  color: #000066;
+  line-height: 1;
   font-weight: 600;
+  letter-spacing: 0.8px;
   font-family: "Almarai", Poppins, sans-serif;
 }
 #header .logo a {
@@ -170,9 +169,8 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo a span {
   color: #106eea;
 }
-#header img {
+#header .logo img {
   max-height: 70px;
-  margin-left: 5px;
 }
 .scrolled-offset {
   margin-top: 70px;
@@ -200,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar > ul > li {
   white-space: nowrap;
-  padding: 10px 0 10px 20px;
+  padding: 10px 0 10px 28px;
 }
 .navbar a, .navbar a:focus {
   display: flex;
@@ -396,7 +394,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../../ar/assets/img/bg-1.webp") top left;
+  background: url("../../ar/assets/img/bg-1.webp") top center;
   background-size: cover;
   position: relative;
 }
@@ -414,15 +412,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0;
-  font-size: 80px;
+  font-size: 48px;
   font-weight: 700;
   line-height: 56px;
   color: #FF8000;
   font-family: "Almarai", Poppins, sans-serif;
-  white-space: nowrap
 }
 #hero h1 span {
-  color: #000066;
+  color: #106eea;
 }
 #hero h2 {
   color: #555555;
@@ -494,7 +491,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 120vh;
   }
 }
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -1144,7 +1140,7 @@ section {
 .team .member .member-info {
   padding: 25px 15px;
 }
-.team .member .member-info h4 {
+.team .member .member-info h3 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
@@ -1187,6 +1183,19 @@ section {
   font-weight: 600;
   color: #777777;
   background: #f8f8f8;
+}
+.pricing .box .price{
+  font-weight: 400;
+  margin: -20px -20px 20px -20px;
+  padding: 20px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #777777;
+  background: #f8f8f8;
+}
+.pricing .featured .price {
+  color: #fff;
+  background: #FF8000;
 }
 .pricing .box h4 {
   font-size: 36px;
@@ -1676,8 +1685,7 @@ section {
 .callout {
     position: fixed;
     bottom: 10px;
-    left: 10px;
-    margin-left: 5px;
+    left: 5px;
     max-width: 270px;
   }
   .callout-header {

@@ -152,13 +152,13 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #header.fixed-top {
-  height: 75px;
+  height: 70px;
 }
 #header .logo {
-  font-size: 25px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
-  line-height: 0.7;
+  line-height: 1;
   font-weight: 600;
   letter-spacing: 0.8px;
   font-family: "Poppins", sans-serif;
@@ -169,11 +169,11 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo a span {
   color: #106eea;
 }
-#header img {
+#header .logo img {
   max-height: 70px;
 }
 .scrolled-offset {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 /*--------------------------------------------------------------
@@ -492,7 +492,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 120vh;
   }
 }
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -804,7 +803,7 @@ section {
   text-align: center;
   border: 1px solid #e2eefd;
   padding: 80px 20px;
-  transition: all ease-in-out 1s;
+  transition: ease-in-out 1s;
   background: #fff;
 }
 .services .icon-box .icon {
@@ -1685,8 +1684,7 @@ section {
 .callout {
     position: fixed;
     bottom: 10px;
-    right: 10px;
-    margin-left: 20px;
+    right: 5px;
     max-width: 270px;
   }
   .callout-header {
