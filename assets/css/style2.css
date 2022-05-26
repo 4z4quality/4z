@@ -4,8 +4,8 @@
 @font-face {
   font-family: "al-jazeera-arabic_regular";
   src: url("https://4z4quality.github.io/4z/assets/css/fonts/al-jazeera-arabic_regular.eot");
-  src: url("https://4z4quality.github.io/4z/assets/css/fonts/al-jazeera-arabic_regular-webfont.woff") format("woff");
-  src: url("https://4z4quality.github.io/4z/assets/css/fonts/al-jazeera-arabic_regular-webfont.woff2") format("woff2");
+  src: url("https://4z4quality.github.io/4z/assets/css/fonts/al-jazeera-arabic_regular.woff") format("woff");
+  src: url("https://4z4quality.github.io/4z/assets/css/fonts/al-jazeera-arabic_regular.woff2") format("woff2");
   src: url("https://4z4quality.github.io/4z/assets/css/fonts/al-lazeera-arabic_regular.ttf") format("true type")
   }
 body {
