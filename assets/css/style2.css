@@ -3,9 +3,11 @@
 --------------------------------------------------------------*/
 @font-face {
   font-family: "al-jazeera-arabic_regular";
-  src: url("assets/css/fonts/al-jazeera-arabic_regular.woff") format("woff"),
-      url("assets/css/fonts/al-jazeera-arabic_regular.woff2") format("woff2"),
-      url("assets/css/fonts/al-jazeera-arabic_regular.ttf") format("truetype");
+  src: url("fonts/al-jazeera-arabic_regular.woff") format("woff"),
+      url("fonts/al-jazeera-arabic_regular.woff2") format("woff2"),
+      url("fonts/al-jazeera-arabic_regular.otf") format("opentype"),
+      url("fonts/al-jazeera-arabic_regular.eot") format("embedded-opentype"),
+      url("fonts/al-jazeera-arabic_regular.ttf") format("truetype");
   }
 
 body {
