@@ -1,8 +1,17 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: "al-jazeera-arabic_regular";
+  src: url("https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.eot");
+  src: url("https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular-webfont.woff") format("woff");
+  src: url("https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular-webfont.woff2") format("woff2");
+  src: url("https://the4z.com/assets/css/fonts/al-lazeera-arabic_regular.ttf") format("truetype")
+  }
 body {
-  font-family: "Almarai", Open Sans, sans-serif;
+  font-family: "al-jazeera-arabic_regular", Open Sans, sans-serif;
+  font-weight:normal;
+  font-style:normal;
   color: #000066;
 }
 
@@ -1628,7 +1637,11 @@ section {
   background: #f1f6fe;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
-
+.inner-page .container {
+  font-family: "al-jazeera-arabic_regular", Open Sans, sans-serif;
+  font-size: 16.5px;
+  line-height: 1.6em;
+}
 .training
   {
     position: relative;
