@@ -1,6 +1,14 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: "al-jazeera-arabic_regular";
+  src: url("fonts/al-jazeera-arabic_regular.woff") format("woff"),
+      url("fonts/al-jazeera-arabic_regular.woff2") format("woff2"),
+      url("fonts/al-jazeera-arabic_regular.otf") format("opentype"),
+      url("fonts/al-jazeera-arabic_regular.eot") format("embedded-opentype"),
+      url("fonts/al-jazeera-arabic_regular.ttf") format("truetype");
+  }
 body {
   font-family: "Open Sans", sans-serif;
   color: #000066;
@@ -184,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 .navbar {
   padding: 0;
-  font-family: "Almarai", sans-serif;
+  font-family: "al-jazeera-arabic_regular", sans-serif;
 }
 .navbar ul {
   margin: 0;

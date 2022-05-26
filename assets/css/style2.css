@@ -12,8 +12,6 @@
 
 body {
   font-family: "al-jazeera-arabic_regular", Open Sans, sans-serif;
-  font-weight:normal;
-  font-style:normal;
   color: #000066;
 }
 
@@ -28,7 +26,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Almarai", Roboto, sans-serif;
+  font-family: "al-jazeera-arabic_regular", Roboto, sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -165,23 +163,10 @@ h1, h2, h3, h4, h5, h6 {
 #header.fixed-top {
   height: 70px;
 }
-#header .logo {
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 600;
-  letter-spacing: 0.8px;
-  font-family: "Almarai", Poppins, sans-serif;
-}
-#header .logo a {
-  color: #222222;
-}
-#header .logo a span {
-  color: #106eea;
-}
 #header .logo img {
-  max-height: 70px;
+  max-height: 75px;
+  margin: 0;
+  padding: 5px;
 }
 .scrolled-offset {
   margin-top: 70px;
@@ -195,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 .navbar {
   padding: 0;
-  font-family: "Almarai", sans-serif;
+  font-family: "al-jazeera-arabic_regular", sans-serif;
 }
 .navbar ul {
   margin: 0;
@@ -423,11 +408,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 0.7em;
   color: #FF8000;
-  font-family: "Almarai", Poppins, sans-serif;
+  font-family: "al-jazeera-arabic_regular", Poppins, sans-serif;
 }
 #hero h1 span {
   color: #106eea;
@@ -439,10 +424,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 #hero .btn-get-started {
-  font-family: "Almarai", Roboto, sans-serif;
+  font-family: "al-jazeera-arabic_regular", Roboto, sans-serif;
   text-transform: uppercase;
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 700;
+  font-size: 19px;
   display: inline-block;
   padding: 10px 28px;
   border-radius: 4px;
@@ -454,11 +439,11 @@ h1, h2, h3, h4, h5, h6 {
   background: #FF8000;
 }
 #hero .btn-watch-video {
-  font-size: 16px;
+  font-size: 19px;
   transition: 0.5s;
   margin-left: 25px;
   color: #222222;
-  font-weight: 600;
+  font-weight: 700;
   display: flex;
   align-items: center;
 }
@@ -720,7 +705,8 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Almarai", Poppins, sans-serif;
+  font-family: "al-jazeera-arabic_regular", Poppins, sans-serif;
+  font-size: 18px;
   color: #222222;
 }
 .skills .progress .skill .val {
@@ -734,7 +720,7 @@ section {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: 5.9s;
+  transition: 2.9s;
   background-color: #106eea;
 }
 
@@ -773,7 +759,7 @@ section {
   background: #FF8000;
 }
 .counts .count-box span {
-  font-size: 36px;
+  font-size: 32px;
   display: block;
   font-weight: 600;
   color: #062b5b;
@@ -781,7 +767,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Almarai", Roboto, sans-serif;
+  font-family: "al-jazeera-arabic_regular", Roboto, sans-serif;
   font-size: 14px;
 }
 
@@ -1212,7 +1198,7 @@ section {
   font-size: 36px;
   color: #106eea;
   font-weight: 600;
-  font-family: "Almarai", Poppins, sans-serif;
+  font-family: "al-jazeera-arabic_regular", Poppins, sans-serif;
   margin-bottom: 20px;
 }
 .pricing .box h4 sup {
@@ -1231,7 +1217,7 @@ section {
   color: #444444;
   text-align: center;
   line-height: 20px;
-  font-size: 14px;
+  font-size: 17px;
 }
 .pricing .box ul li {
   padding-bottom: 16px;
@@ -1260,7 +1246,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Almarai", Roboto, sans-serif;
+  font-family: "al-jazeera-arabic_regular", Roboto, sans-serif;
   font-weight: 600;
   transition: 1s ease-out;
 }
@@ -1303,9 +1289,9 @@ section {
   display: block;
   position: relative;
   font-family: #106eea;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 500;
   padding-right: 25px;
   cursor: pointer;
   color: #0d58ba;
@@ -1319,7 +1305,7 @@ section {
 }
 .faq .faq-list p {
   margin-bottom: 0;
-  padding: 10px 0 0 25px;
+  padding: 10px 25px 0 25px;
 }
 .faq .faq-list .icon-show {
   display: none;
@@ -1535,7 +1521,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Almarai", Roboto, sans-serif;
+  font-family: "al-jazeera-arabic_regular", Roboto, sans-serif;
   color: #777777;
 }
 #footer .footer-top h4 {
@@ -1641,7 +1627,7 @@ section {
 }
 .inner-page .container {
   font-family: "al-jazeera-arabic_regular", Open Sans, sans-serif;
-  font-size: 16.5px;
+  font-size: 20px;
   line-height: 1.6em;
 }
 .training
