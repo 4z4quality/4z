@@ -162,28 +162,14 @@ h1, h2, h3, h4, h5, h6 {
 #header.fixed-top {
   height: 70px;
 }
-#header .logo {
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 600;
-  letter-spacing: 0.8px;
-  font-family: "Poppins", sans-serif;
-}
-#header .logo a {
-  color: #222222;
-}
-#header .logo a span {
-  color: #106eea;
-}
 #header .logo img {
-  max-height: 70px;
+  max-height: 75px;
+  margin: 0;
+  padding: 5px;
 }
 .scrolled-offset {
   margin-top: 70px;
 }
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -395,111 +381,129 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
-
 /*--------------------------------------------------------------
-# Hero Section
+# Intro Section
 --------------------------------------------------------------*/
-#hero {
+#intro {
   width: 100%;
   height: 75vh;
-  background: url("../img/bg-1.webp") top center;
-  background-size: cover;
+  background: #000;
+  overflow: hidden;
   position: relative;
 }
-#hero:before {
+@media (max-height: 500px) {
+  #intro {
+    height: 120vh;
+  }
+}
+#intro .carousel, #intro .carousel-inner, #intro .carousel-item, #intro .carousel-item::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+#intro .carousel-item {
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+#intro .carousel-item::before {
   content: "";
-  background: rgba(255, 255, 255, 0.6);
+}
+#intro .carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   bottom: 0;
-  top: 0;
+  top: 70px;
+  left: 50px;
+  right: 50px;
+}
+#intro .container {
+  text-align: center;
+}
+#intro h1,h2 {
+  color: #000066;
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-weight: 800;
+}
+@media (max-width: 768px) {
+  #intro h1,h2 {
+    font-size: 30px;
+  }
+}
+#intro .carousel-fade {
+  overflow: hidden;
+}
+#intro .carousel-fade .carousel-inner .carousel-item {
+  transition-property: opacity 1s ease-in-out !important;
+}
+#intro .carousel-fade .carousel-inner .carousel-item,
+#intro .carousel-fade .carousel-inner .active.carousel-item-start,
+#intro .carousel-fade .carousel-inner .active.carousel-item-end {
+  opacity: 0;
+}
+#intro .carousel-fade .carousel-inner .active,
+#intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-start,
+#intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-end {
+  opacity: 1;
+  transition: 1s ease-in-out;
+}
+#intro .carousel-fade .carousel-inner .carousel-item-next,
+#intro .carousel-fade .carousel-inner .carousel-item-prev,
+#intro .carousel-fade .carousel-inner .active.carousel-item-start,
+#intro .carousel-fade .carousel-inner .active.carousel-item-end {
   left: 0;
-  right: 0;
+  transform: translate3d(0, 0, 0);
 }
-#hero .container {
-  position: relative;
+#intro .carousel-control-prev, #intro .carousel-control-next {
+  width: 12%;
+  color: #000066;
 }
-#hero h1 {
-  margin: 0;
-  font-size: 55px;
-  letter-spacing: 2px;
-  font-weight: 700;
-  line-height: 56px;
-  color: #FF8000;
-  font-family: "Poppins", sans-serif;
-}
-#hero h1 span {
-  color: #106eea;
-}
-#hero h2 {
-  color: #555555;
-  margin: 5px 0 30px 0;
-  font-size: 24px;
-  font-weight: 600;
-}
-#hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 28px;
-  border-radius: 4px;
-  transition: 0.5s;
-  color: #fff;
-  background: #106eea;
-}
-#hero .btn-get-started:hover {
-  background: #FF8000;
-}
-#hero .btn-watch-video {
-  font-size: 16px;
-  transition: 0.5s;
-  margin-right: 25px;
-  color: #222222;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-}
-#hero .btn-watch-video i {
-  color: #106eea;
-  font-size: 32px;
-  transition: 0.3s;
-  line-height: 0;
-  margin-right: 8px;
-}
-#hero .btn-watch-video:hover {
-  color: #FF8000;
-}
-#hero .btn-watch-video:hover i {
+#intro .carousel-control-prev:hover, #intro .carousel-control-next:hover {
   color: #FF8000;
 }
 @media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
+  #intro .carousel-control-prev, #intro .carousel-control-next {
+    width: 5%;
   }
 }
-@media (max-width: 768px) {
-  #hero {
-    height: 100vh;
-  }
-  #hero h1 {
-    font-size: 40px;
-    line-height: 36px;
-  }
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-  #hero .btn-get-started, #hero .btn-watch-video {
-    font-size: 13px;
-  }
+#intro .carousel-control-next-icon, #intro .carousel-control-prev-icon {
+  background:none;
+  font-size: 32px;
+  line-height: 1;
 }
-@media (max-height: 500px) {
-  #hero {
-    height: 120vh;
-  }
+#intro .carousel-indicators li:hover {
+  background-color: #FF8000;
+}
+#intro .carousel-indicators li {
+  background-color: #000066;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  z-index: 1;
+  margin:5px;
+  cursor: pointer;
+}
+#intro .btn-get-started {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+  background: #FF8000;
+}
+#intro .btn-get-started:hover {
+  background: #000066;
+  color: #fff;
 }
 /*--------------------------------------------------------------
 # Sections General
@@ -552,7 +556,6 @@ section {
     width: 50%;
   }
 }
-
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -600,7 +603,6 @@ section {
     display: inline-block;
   }
 }
-
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
@@ -658,7 +660,6 @@ section {
 .featured-services .icon-box:hover .icon i {
   color: #fff;
 }
-
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -735,7 +736,6 @@ section {
   transition: 5.9s;
   background-color: #106eea;
 }
-
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -782,7 +782,6 @@ section {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
-
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -804,7 +803,6 @@ section {
     max-width: 40%;
   }
 }
-
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -857,7 +855,6 @@ section {
 .services .icon-box:hover .icon {
   border-color: #106eea;
 }
-
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -942,7 +939,6 @@ section {
     width: 80%;
   }
 }
-
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -1154,6 +1150,10 @@ section {
   font-size: 18px;
   color: #222222;
 }
+.team h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
 .team .member .member-info span {
   display: block;
   font-size: 13px;
@@ -1170,7 +1170,6 @@ section {
   opacity: 1;
   bottom: 15px;
 }
-
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
@@ -1280,7 +1279,6 @@ section {
   background: #FF8000;
   color: #fff;
 }
-
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
@@ -1335,7 +1333,6 @@ section {
   display: none;
   transition: 0.6s;
 }
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -1455,7 +1452,6 @@ section {
     transform: rotate(360deg);
   }
 }
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1472,7 +1468,6 @@ section {
   text-align: center;
   font-size: 15px;
 }
-
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #fff;
@@ -1598,7 +1593,6 @@ section {
   background: #f1f6fe;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
-
 .training
   {
     position: relative;
@@ -1618,6 +1612,7 @@ section {
 .training2
   {
     animation: colorchange 30s infinite alternate ease-in-out;
+    font-size: 30px;
 }
 @keyframes colorchange
 {
@@ -1657,6 +1652,7 @@ section {
     bottom: 10px;
     right: 5px;
     max-width: 270px;
+    z-index: 2
   }
   .callout-header {
     padding: 25px 15px;

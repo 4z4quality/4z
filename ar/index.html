@@ -72,8 +72,8 @@
         <ul>
           <li><a class="nav-link scrollto active" href="/#hero">الرئيسية</a></li>
           <li><a class="nav-link scrollto" href="/#about">من نحن</a></li>
-          <li><a class="nav-link scrollto" href="/#services">الخدمات</a></li>
-          <li><a class="nav-link scrollto " href="/#portfolio">لماذا نحن</a></li>
+          <li><a class="nav-link scrollto" href="/#service">الخدمات</a></li>
+          <li><a class="nav-link scrollto " href="/#whyus">لماذا نحن</a></li>
           <li><a class="nav-link scrollto" href="/#team">فريق العمل</a></li>
           <li class="dropdown"><a href="#"><span>الموسوعة</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -93,21 +93,65 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
     </div>
-</header><!-- End Header -->
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-right">
-    <div class="container" data-aos="zoom-out" data-aos-delay="100">
-      <h2>مرحبًا بكم في..</h2>
-      <h1><span style="color:#555555; font-weight: 400">شركة</span> فور زد للجــودة
-      <br><span style="font-size: 40%;">الأيزو كأبسط ما يكون</span></h1><br>
-      <h2>أفضل مستشار للأيزو والجودة ... في الشرق الأوسط</h2><br><br>
-      <div class="d-flex">
-        <a href="https://www.youtube-nocookie.com/embed/ye5Tnm1Bdcw" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>شاهد هذا الفيديو</span></a>
-        <a href="#featured-services" class="btn-get-started scrollto">أهلًا وسهلًا</a>
+  </header><!-- End Header -->
+  <section id="intro">
+  <div class="intro-container">
+    <div id="introCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+      <ol id="intro-carousel-indicators" class="carousel-indicators"></ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active" style="background-image: url(assets/img/intro-carousel/1.webp)">
+          <div class="carousel-container">
+            <div class="container">
+              <h1 class="animate__animated animate__fadeInDown">فور زد للجــودة<br><span style="font-size: 70%">الأيزو .. كأبسط .. ما يكون</span></h1>
+              <a href ="#4zname" class="btn-get-started scrollto animate__animated animate__fadeInUp">انقر للمزيد</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/2.webp)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">أفضل مستشار للأيزو والجــودة بالشرق الأوسط</h2>
+              <a href="#4zname" class="btn-get-started scrollto animate__animated animate__fadeInUp">استطلع أكثر</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/3.webp)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">حيث …. الجــودة …. ليست مجرد …. كلمة</h2>
+              <a href="#4zname" class="btn-get-started scrollto animate__animated animate__fadeInUp">استكشف الآن</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/4.webp)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">فور زد للجــودة.. سوف تقلع بك إلى النجاح</h2>
+              
+              <a href="#4zname" class="btn-get-started scrollto animate__animated animate__fadeInUp">استطلع أكثر</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/5.webp)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">شاهد هذا  <a href="https://www.youtube-nocookie.com/embed/ye5Tnm1Bdcw"  class="glightbox btn-watch-video">الفيلم » </a>القصير عن شركتنا</h2>
+              <a href="https://www.youtube-nocookie.com/embed/ye5Tnm1Bdcw" class="glightbox btn-watch-video"><span class="btn-get-started scrollto animate__animated animate__fadeInUp">شاهد الفيديو</a></span>
+            </div>
+          </div>
+        </div>
       </div>
+      <a class="carousel-control-prev" title="السابق" href="#introCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" title="التالي" href="#introCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
     </div>
-  </section><!-- End Hero -->
+  </div>
+  </section><!-- End Intro Section -->
   <main id="main">
+  <a id="4zname"></a>
     <!-- ======= Featured Services Section ======= -->
     <section id="featured-services" class="featured-services">
       <div class="container" data-aos="fade-up">
@@ -121,21 +165,21 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="150">
               <div class="icon"><i class="bx bxs-zap"></i></div>
               <span class="title" style="color: #000066">نقوم منهجيًا <span>بإزالة</span>.. جميع الأخطاء..</span><br><br>
               <p class="description">بعد ذلك، نعمل منهجيًا على <b>إزالة</b> أي أخطاء أو ممارسات تحيد عن المعايير المحلية أو الدولية.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <div class="icon"><i class="bx bx-happy-heart-eyes"></i></div>
               <span class="title" style="color: #000066">نعمل على <span>تعزيز</span>.. روح الحماس..</span><br><br>
               <p class="description">بعد ذلك، <b>نعزز</b> لدى العاملين روح الحماس والرغبة في التحسين، لضمان أداء صحي ومستدام.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="250">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <span class="title" style="color: #000066">نطور كل <span>زاوية </span>من زوايا العمل..</span><br><br>
               <p class="description">بالنهاية، نحقق معًا الهدف المراد المتمثل بتحويل جميع <b>زوايا </b>العمل لأماكن خالية من عدم المطابقة.</p>
@@ -207,8 +251,6 @@
           <li style="text-align:center"><span style="color:#000066">النمو عموديًا بمزيد من الخدمات والمنتجات، وأفقيًا في جميع البلدان المجاورة.<br>
           <li style="text-align:center"><span style="color:#000066">أن نكون رقم واحد لاستشارات الأيزو وإدارة الجودة بالشرق الأوسط.
         </div>
-        <br><br><br><a href="https://www.youtube-nocookie.com/embed/ye5Tnm1Bdcw" class="glightbox btn-watch-video"><img src="assets/img/welcome.webp" title="فيديو تعريفي قصير لشركة فور زد للجــودة" alt="فيديو تعريفي قصير لشركة فور زد للجــودة" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: 70%; -webkit-filter: drop-shadow(0px 5px 5px #222); filter: drop-shadow(0px 5px 5px #222)">
-        <br><p style="text-align:center; font-weight: 500">تفضلوا بمشاهدة هذا الفيديو التعريفي القصير لشركة فور زد للجــودة »</p></a>
     </section><!-- End About Section -->
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills">
@@ -337,6 +379,7 @@
     </section><!-- End Clients Section -->
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
+      <a id="service"></a>
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>الخدمات</h2><br><br>
@@ -352,21 +395,21 @@
               <p style="text-align: right">لا يتمثل عمل شركة فور زد للجــودة واستشارات الأيزو في مجرد إنشاء نظام إدارة للجــودة لعملائنا الكرام، بل في خلق ثقافة الجودة في جميع أنحاء العمل. كما نقوم بمرافقة جميع عملائنا وإرشادهم خطوة بخطوة، لتغيير أعمالهم من إطار النجاح اليومي المؤقت، إلى إطار النجاح المتواصل والمستدام.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="150">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-award"></i></div>
               <h4>تأهيل الشركات لنيل الأيزو</h4>
               <p style="text-align: right">نقوم بفحص نظام إدارة الجودة القائم لدى عملائنا الكرام بكل بدقة. ونختبره وفقًا لأحدث معايير الأيزو الدولية. وذلك لمعرفة ما إذا كان مؤهلاً للحصول على شهادة الأيزو. ونقدم التوصيات اللازمة لسد أي ثغرات أو نواقص. كل هذا من خلال عملية خالية من التعقيد، والأهم من ذلك بأقل تكلفة.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bxs-school"></i></div>
               <h4>مراقبة جودة التعليم ودعم الاعتماد</h4>
               <p style="text-align: right">تفخر شركة فور زد للجــودة واستشارات الأيزو بكفاءة مستشاريها لخبراتهم الأكاديمية الطويلة بمجال التعليم بمصر والسعودية وألمانيا وفنلندا والهند وجنوب أفريقيا. ونثق بقدراتهم في التعامل الاحترافي مع كل ما يرتبط بجودة التعليم والاعتماد الأكاديمي بالمدارس والمعاهد والجامعات.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="400">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="250">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-clinic"></i></div>
               <h4>استشارات جودة الأمان الحيوي</h4>
@@ -380,21 +423,21 @@
               <p style="text-align: right">نقدم هذه الخدمة للعملاء الكرام الذين نالوا بالفعل شهادة الأيزو، لكن يرغبون بالاستعانة بمصادر خارجية محايدة لعمل تدقيق داخلي شامل. أو لمن لديهم نظام جودة قائم لكن غير متأكدين ما إذا كان كافيًا للتأهل لنيل شهادة الأيزو. أو للعملاء الذين يحتاجون إلى عمل تدقيق كامل لغرض التقييم الذاتي من أجل تحسين الأداء وسد الثغرات.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="150">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-person-workspace"></i></div>
               <h4>تنمية مهارات الموارد البشرية</h4>
               <p style="text-align: right">تولي شركة فور زد للجــودة واستشارات الأيزو اهتمامًا كبيرًا بتنمية قدرات الثروة البشرية؛ نواة أي تغيير وتطوير للأداء. لذا نحرص على توفير خدمات تدريبية ضمن حزم الاستشارات الخاصة بنا، لتنمية القوى العاملة وفقًا لأحدث معايير الجودة العالمية، وأوثق مصادر المعرفة. لضمان الحصول على أفضل الممارسات</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-trending-up"></i></div>
               <h4>استشارات التخطيط الاستراتيجي</h4>
               <p style="text-align: right">تدعم شركة فور زد للجــودة واستشارات الأيزو عملائها من شركات ومؤسسات في تنفيذ التخطيط الاستراتيجي الأكثر احترافية. بدءًا بتصميم، وانتهاءًا بتنفيذ خارطة طريق واضحة وسلسة. يتم فيها تحديد الأهداف الإستراتيجية وتوفير كل الموارد البشرية والمادية اللازمة لتحقيق تلك الأهداف في أسرع وقت.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="400">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="250">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4>دعم عملية التراخيص التجارية</h4>
@@ -408,14 +451,14 @@
               <p style="text-align: right">لدينا خبرة واسعة في تصميم وتقييم المواقع الإلكترونية ووسائل الدعاية. نعدكم بزيادة البريق والتألق لخدماتكم ومنتجاتكم، وتوسيع قاعدة العملاء من خلال ضمان تقديم أنفسكم بشكل احترافي يلائم طبيعة أعمالكم، عبر موقعكم الرسمي، وجميع منصات التواصل الاجتماعي.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="150">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-bar-chart-alt"></i></div>
               <h4>تنفيذ دراسات الجدوى</h4>
               <p style="text-align: right">نحن من أفضل شركات الإستشارات في تقديم خدمات دراسات الجدوى الفعالة لعملائنا الكرام. نقوم من أجلك بتصميم وإجراء دراسات السوق قبل بدء مشروعك التجاري بشكل احترافي لضمان ميزة تنافسية لعملائنا على غيرهم في مجالات تخصصهم.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-chalkboard"></i></div>
               <h4>ورش العمل والدورات التدريبية</h4>
@@ -497,6 +540,7 @@
     </section><!-- End Testimonials Section -->
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
+      <a id="whyus"></a>
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>لماذا نحن</h2><br><br>
@@ -605,11 +649,13 @@
     </section><!-- End Portfolio Section -->
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
-      <div class="container" data-aos="fade-up">
+      <div class="container" data-aos="zoom-in">
         <div class="section-title">
           <h2>فريق العمل</h2><br><br>
           <span style="font-size: 28px; font-weight: 600">فريقنا <span style="color: #FF8000">المجتهد</span></span>
           <p>يتم اختيار فريقنا بعناية شديدة لتغطية جميع الجوانب المتعلقة بمعايير الجودة والأيزو في جميع مجالات العمل.</p>
+          <br><br><br><a href="https://www.youtube-nocookie.com/embed/ye5Tnm1Bdcw" class="glightbox btn-watch-video"><img src="assets/img/welcome.webp" title="فيديو تعريفي قصير لشركة فور زد للجــودة" alt="فيديو تعريفي قصير لشركة فور زد للجــودة" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: 70%; -webkit-filter: drop-shadow(0px 5px 5px #222); filter: drop-shadow(0px 5px 5px #222)">
+            <br><p style="text-align:center; font-weight: 500">تفضلوا بمشاهدة هذا الفيديو التعريفي القصير لشركة فور زد للجــودة »</p></a>
         </div>
         <br><span class="border-line"></span><br><br>
         <div style="text-align: center">
@@ -619,7 +665,7 @@
           <span class="border-line"></span><br>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="member">
               <div class="member-img">
                 <img src="../assets/img/team/ceo-s.webp" class="img-fluid" alt="الرئيس التنفيذي لشركة فور زد للجــودة" title="الرئيس التنفيذي لشركة فور زد للجــودة">
@@ -635,7 +681,23 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="250">
+            <div class="member">
+              <div class="member-img">
+                <img src="../assets/img/team/nagwa.webp" class="img-fluid" alt="مديرة فور زد للجــودة" title="مديرة فور زد للجــودة">
+                <div class="social">
+                  <a href="mailto:nagwa.galal@the4z.com"><i class="bx bx-mail-send"></i></a>
+                  <a href="https://www.linkedin.com/in/nagwagalal/" target="_blank" title="تابعني"><i class="bi bi-linkedin"></i></a>
+                  <a href="assets/docs/cvna.pdf" target="_blank" title="تصفح سيرتي الذاتية"><i class="bx bxs-file-pdf"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                السيدة نجوى جلال
+                <span>المديرة</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="150">
             <div class="member">
               <div class="member-img">
                 <img src="../assets/img/team/abdul.webp" class="img-fluid" alt="مستشار بشركة فور زد للجــودة" title="مستشار بشركة فور زد للجــودة">
@@ -651,7 +713,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
             <div class="member">
               <div class="member-img">
                 <img src="../assets/img/team/madan.webp" class="img-fluid" alt="مستشار بشركة فور زد للجــودة" title="مستشار بشركة فور زد للجــودة">
@@ -664,22 +726,6 @@
               <div class="member-info">
                 السيد مادان آتركار
                 <span>مستشار</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="member">
-              <div class="member-img">
-                <img src="../assets/img/team/nagwa.webp" class="img-fluid" alt="مديرة فور زد للجــودة" title="مديرة فور زد للجــودة">
-                <div class="social">
-                  <a href="mailto:nagwa.galal@the4z.com"><i class="bx bx-mail-send"></i></a>
-                  <a href="https://www.linkedin.com/in/nagwagalal/" target="_blank" title="تابعني"><i class="bi bi-linkedin"></i></a>
-                  <a href="assets/docs/cvna.pdf" target="_blank" title="تصفح سيرتي الذاتية"><i class="bx bxs-file-pdf"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                السيدة نجوى جلال
-                <span>المديرة</span>
               </div>
             </div>
           </div>
@@ -712,7 +758,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="150">
             <div class="box featured">
               <p class="price"><b>غير مكلف</b></p>
               <span style="font-size:xx-large; font-weight: 600">تدقيق</span><br><br>
@@ -728,7 +774,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
             <div class="box featured">
               <p class="price"><b>إحترافية</b></p>
               <span style="font-size:xx-large; font-weight: 600">خدمات</span><br><br>
@@ -744,7 +790,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="250">
             <div class="box">
               <span class="advanced">لفترة محدودة</span>
               <p class="price"><b>عرض</b></p>
@@ -887,78 +933,78 @@
     </section><!-- End Frequently Asked Questions Section -->
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
+      <div class="container" data-aos="zoom-in">
         <div class="section-title">
           <h2>التواصل</h2><br><br>
           <div class="quote"><i class="bx bxs-quote-alt-right quote-icon-right"></i> الجودة لا تأتي عشوائيًا، بل هي جهد منظم، وتخطيط مدروس، والتزام بالتحسين المستمر <i class="bx bxs-quote-alt-left quote-icon-left"></i></div><br>
           <span style="font-size: 28px; font-weight: 600">تواصل <span style="color: #FF8000">معنا</span></span>
           <p>للتعليقات أو الاستفسارات أو الاقتراحات أو لمجرد متابعتنا للحصول على آخر الأخبار والعروض، يرجى الاتصال بنا أو مشاركة أفكارك للشراكة معنا. يمكنك التواصل معنا عبر إحدى الوسائل التالية:</p>
         </div>
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-2 col-md-6" data-aos="zoom-in" data-aos-delay="150">
             <div class="info-box  mb-4"><a href="https://www.facebook.com/4z4quality/" target="_blank" class="facebook">
               <i class="bx bxl-facebook"></i><br><br>
               <span style="font-weight:600; font-size:larger; color: #222">انضم لنا</span>
               <p>4z4quality@</p></a>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-2 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="info-box  mb-4"><a href="https://twitter.com/4z4quality/" target="_blank" class="twitter">
               <i class="bx bxl-twitter"></i><br><br>
               <span style="font-weight:600; font-size:larger; color: #222">تابعنا</span>
               <p>4z4quality@</p></a>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-2 col-md-6" data-aos="zoom-in" data-aos-delay="250">
             <div class="info-box  mb-4"><a href="https://www.linkedin.com/company/4z4quality/" target="_blank" class="linkedin">
               <i class="bx bxl-linkedin"></i><br><br>
               <span style="font-weight:600; font-size:larger; color: #222">تواصل معنا</span>
               <p>4z4quality@</p></a>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-2 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="info-box  mb-4"><a href="https://www.instagram.com/4z4.quality/" target="_blank" class="instagram">
               <i class="bx bxl-instagram"></i><br><br>
               <span style="font-weight:600; font-size:larger; color: #222">تعرف علينا</span>
               <p>4z4.quality@</p></a>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <div class="col-lg-2 col-md-6" data-aos="zoom-in" data-aos-delay="250">
             <div class="info-box  mb-4"><a href="https://www.youtube.com/channel/UCcyVD18GqrnlKNynfqzhw6w/" target="_blank" class="youtube">
               <i class="bx bxl-youtube"></i><br><br>
               <span style="font-weight:600; font-size:larger; color: #222">شاهدنا</span>
               <p>4z4quality@</p></a>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="700">
+          <div class="col-lg-2 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <div class="info-box  mb-4"><a href="skype:live:.cid.883d4e4c26231c09?call" class="skype">
               <i class="bx bxl-skype"></i><br><br>
               <span style="font-weight:600; font-size:larger; color: #222">إسمعنا</span>
               <p>4z4quality@</p></a>
             </div>
           </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="info-box mb-4"><a href="https://goo.gl/maps/oJLhCjiyefn67YV66" target="_blank" >
               <i class="bx bx-map"></i><br><br>
               <span style="font-weight:600; font-size:larger; color: #222">قم بزيارتنا</span>
               <p>المنامة، البحرين</p></a>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-2 col-md-6" data-aos="zoom-in" data-aos-delay="150">
             <div class="info-box  mb-4"><a href="mailto:info@the4z.com">
               <i class="bx bx-envelope"></i><br><br>
               <span style="font-weight:600; font-size:larger; color: #222">راسلنا</span>
               <p>info@the4z.com</p></a>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-2 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="info-box  mb-4"><a href="https://wa.me/905050304016" target="_blank" class="WhatsApp">
               <i class="bx bxl-whatsapp"></i><br><br>
               <span style="font-weight:600; font-size:larger; color: #222">دردش معنا</span>
               <p>90-5050304016+</p></a>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-2 col-md-6" data-aos="zoom-in" data-aos-delay="250">
             <div class="info-box  mb-4"><a href="tel:+97333995807" class="phone-call">
               <i class="bx bx-phone-call"></i><br><br>
               <span style="font-weight:600; font-size:larger; color: #222">إتصل بنا</span>
@@ -966,7 +1012,7 @@
             </div>
           </div>
         </div>
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-lg-6 ">
             <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.4380251964562!2d50.5942572!3d26.2149534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49afadc52e9a3b%3A0xd8a4ba9fbad1fd15!2s4Z%20for%20Quality%20-%20Best%20ISO%20Consultant!5e0!3m2!1sen!2str!4v1652891960058!5m2!1sen!2str" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
