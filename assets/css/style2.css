@@ -410,6 +410,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #intro .carousel-item::before {
   content: "";
+  background-color: rgba(247, 247, 255, 0.8);
 }
 #intro .carousel-container {
   display: flex;

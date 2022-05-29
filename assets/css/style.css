@@ -148,7 +148,6 @@ h1, h2, h3, h4, h5, h6 {
 #topbar .social-links a:hover {
   color: white;
 }
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -404,12 +403,13 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
 }
 #intro .carousel-item {
-  background-size: cover;
+  background-size:cover;
   background-position: bottom;
   background-repeat: no-repeat;
 }
 #intro .carousel-item::before {
   content: "";
+  background-color: rgba(247, 247, 255, 0.8);
 }
 #intro .carousel-container {
   display: flex;
