@@ -520,6 +520,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  font-size: 17px;
 }
 .section-title h2 {
   font-size: 13px;
@@ -550,6 +551,7 @@ section {
 .section-title p {
   margin: 15px auto 0 auto;
   font-weight: 600;
+  font-size: 17px;
 }
 @media (min-width: 1024px) {
   .section-title p {
@@ -698,7 +700,7 @@ section {
   color: #555555;
 }
 .about .content ul p {
-  font-size: 15px;
+  font-size: 17px;
 }
 .about .content p:last-child {
   margin-bottom: 0;
@@ -842,7 +844,7 @@ section {
 }
 .services .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 17px;
   margin-bottom: 0;
 }
 .services .icon-box:hover {
@@ -990,7 +992,7 @@ section {
 }
 .portfolio .portfolio-item .portfolio-info p {
   color: #555555;
-  font-size: 14px;
+  font-size: 19px;
   margin-bottom: 0;
 }
 .portfolio .portfolio-item .portfolio-info .preview-link, .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1074,12 +1076,13 @@ section {
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  font-size: 15px;
+  font-size: 17px;
 }
 .portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 .portfolio-details .portfolio-description {
+  font-size: 17px;
   padding: 30px;
 }
 .portfolio-details .portfolio-description h2 {
@@ -1094,6 +1097,7 @@ section {
 }
 .portfolio-details .portfolio-description p {
   padding: 0;
+  font-size: 17px;
 }
 
 /*--------------------------------------------------------------
@@ -1588,6 +1592,7 @@ section {
   margin-right: auto;
 }
 .inner-page {
+  font-size: 17px;
   padding:20px;
   margin:10px;
   background: #f1f6fe;
@@ -1682,7 +1687,8 @@ section {
     text-align: center;
     color: #FF8000;
     font-style: italic;
-    font-size: 1.7em
+    font-size: 1.7em;
+    line-height:1.4em
   }
   table, th, td {
     border: 1px solid black;
