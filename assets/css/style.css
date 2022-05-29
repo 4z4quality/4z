@@ -522,7 +522,7 @@ section {
   padding-bottom: 30px;
   font-size: 17px;
 }
-.section-title h2 {
+.section-title .title {
   font-size: 13px;
   letter-spacing: 1px;
   font-weight: 700;
