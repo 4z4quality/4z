@@ -392,7 +392,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-height: 500px) {
   #intro {
-    height: 100vh;
+    height: 120vh;
   }
 }
 #intro .carousel, #intro .carousel-inner, #intro .carousel-item, #intro .carousel-item::before {
@@ -406,11 +406,6 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-}
-@media (max-height: 500px) {
-  #intro .carousel-item {
-  background-size: contain!important;
-  }
 }
 #intro .carousel-item::before {
   content: "";
