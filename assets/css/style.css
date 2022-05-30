@@ -403,9 +403,14 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
 }
 #intro .carousel-item {
-  background-size:cover;
+  background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
+}
+@media (max-height: 500px) {
+  #intro .carousel-item {
+  background-size: contain!important;
+  }
 }
 #intro .carousel-item::before {
   content: "";
