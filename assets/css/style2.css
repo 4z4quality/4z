@@ -1290,7 +1290,7 @@ section {
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
-.faq {
+.faq { 
   padding: 60px 0;
 }
 .faq .faq-list {
@@ -1755,3 +1755,72 @@ section {
   cursor:not-allowed;
   background-color:#fff;
 }
+/*--------------------------------------------------------------
+# Sharing
+--------------------------------------------------------------*/
+input[
+  type='checkbox'] 
+  { 
+    display: none;
+    scroll-behavior: smooth;
+  } 
+  .wrap-collabsible 
+  {
+    margin: 0;
+  }
+  .lbl-toggle 
+  { 
+    display: block; 
+    position:relative;
+    font-weight: bold;
+    font-size: 1.2rem; 
+    text-transform: uppercase; 
+    text-align: center; 
+    padding: 1rem; 
+    color: #DDD; 
+    background: #106eea; 
+    cursor: pointer; 
+    border-radius: 0; 
+    transition: 1s ease-in-out; 
+  } 
+  .lbl-toggle:hover 
+  { 
+    color: #FFF;
+    background: #FF8000;
+  } 
+  .lbl-toggle::before 
+  { 
+    content: ' '; 
+    display: inline-block; 
+    border-top: 7px solid transparent; 
+    border-bottom: 7px solid transparent; 
+    border-right: 7px solid currentColor; 
+    vertical-align: middle; 
+    margin-left: .7rem; 
+    transform: translateY(-2px); 
+    transition: transform 1s ease-in-out; 
+  } 
+  .toggle:checked+.lbl-toggle::before 
+  { 
+    transform: rotate(270deg) translateX(-1px);
+  } 
+  .collapsible-content 
+  { 
+    max-height: 0px; 
+    overflow: hidden; 
+    transition: max-height .25s ease-in-out; 
+  } 
+  .toggle:checked + .lbl-toggle + .collapsible-content 
+  { 
+    max-height: 100vh; 
+  } 
+  .toggle:checked+.lbl-toggle 
+  { 
+    border-bottom-right-radius: 0; 
+    border-bottom-left-radius: 0; 
+  } 
+  .collapsible-content .content-inner 
+  { 
+    background: #fff; 
+    padding: .5rem 1rem;
+  }

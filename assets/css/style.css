@@ -41,7 +41,6 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   background: #fff;
 }
-
 #preloader:before {
   content: "";
   position: fixed;
@@ -55,7 +54,6 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
 }
-
 @-webkit-keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
@@ -64,7 +62,6 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(360deg);
   }
 }
-
 @keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
@@ -102,7 +99,6 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
   opacity: 1;
 }
-
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -1461,7 +1457,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #fff;
-  padding: 0 0 30px 0;
+  padding: 0 0 10px 0;
   color: #444444;
   font-size: 14px;
   background: #f1f6fe;
@@ -1571,6 +1567,9 @@ section {
     padding: 2px 0;
   }
 }
+/*--------------------------------------------------------------
+# Border-lines
+--------------------------------------------------------------*/
 .border-line {
   width: 40px;
   height: 1px;
@@ -1591,6 +1590,9 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
+/*--------------------------------------------------------------
+# Inner-Page
+--------------------------------------------------------------*/
 .inner-page {
   font-size: 17px;
   padding:20px;
@@ -1598,6 +1600,9 @@ section {
   background: #f1f6fe;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
+/*--------------------------------------------------------------
+# Free-Training
+--------------------------------------------------------------*/
 .training
   {
     position: relative;
@@ -1652,6 +1657,9 @@ section {
         color: pink;
       }
     }
+/*--------------------------------------------------------------
+# Callout
+--------------------------------------------------------------*/
 .callout {
     position: fixed;
     bottom: 10px;
@@ -1683,6 +1691,9 @@ section {
   .closebtn:hover {
     color: #ff8000;
   }
+/*--------------------------------------------------------------
+# Quote-Div
+--------------------------------------------------------------*/
   .quote {
     text-align: center;
     color: #FF8000;
@@ -1690,6 +1701,9 @@ section {
     font-size: 1.7em;
     line-height:1.4em
   }
+/*--------------------------------------------------------------
+# Table
+--------------------------------------------------------------*/
   table, th, td {
     border: 1px solid black;
     border-radius: 3%;
@@ -1704,8 +1718,10 @@ section {
   table{
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1)
   }
+/*--------------------------------------------------------------
+# Pager
+--------------------------------------------------------------*/
   BUTTONS
-
 *********/
 .pager {
   padding-left:0;
@@ -1747,3 +1763,72 @@ section {
   cursor:not-allowed;
   background-color:#fff;
 }
+/*--------------------------------------------------------------
+# Sharing
+--------------------------------------------------------------*/
+input[
+  type='checkbox'] 
+  { 
+    display: none;
+    scroll-behavior: smooth;
+  } 
+  .wrap-collabsible 
+  {
+    margin: 0;
+  }
+  .lbl-toggle 
+  { 
+    display: block; 
+    position:relative;
+    font-weight: bold;
+    font-size: 1.2rem; 
+    text-transform: uppercase; 
+    text-align: center; 
+    padding: 1rem; 
+    color: #DDD; 
+    background: #106eea; 
+    cursor: pointer; 
+    border-radius: 0; 
+    transition: 1s ease-in-out; 
+  } 
+  .lbl-toggle:hover 
+  { 
+    color: #FFF;
+    background: #FF8000;
+  } 
+  .lbl-toggle::before 
+  { 
+    content: ' '; 
+    display: inline-block; 
+    border-top: 7px solid transparent; 
+    border-bottom: 7px solid transparent; 
+    border-left: 7px solid currentColor; 
+    vertical-align: middle;
+    margin-right: .7rem; 
+    transform: translateY(-2px); 
+    transition: transform 1s ease-in-out; 
+  } 
+  .toggle:checked+.lbl-toggle::before 
+  { 
+    transform: rotate(90deg) translateX(-3px);
+  } 
+  .collapsible-content 
+  { 
+    max-height: 0px; 
+    overflow: hidden; 
+    transition: max-height .25s ease-in-out; 
+  } 
+  .toggle:checked + .lbl-toggle + .collapsible-content 
+  { 
+    max-height: 100vh; 
+  } 
+  .toggle:checked+.lbl-toggle 
+  { 
+    border-bottom-right-radius: 0; 
+    border-bottom-left-radius: 0; 
+  } 
+  .collapsible-content .content-inner 
+  { 
+    background: #fff; 
+    padding: .5rem 1rem;
+  }
