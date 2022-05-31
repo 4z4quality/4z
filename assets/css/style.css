@@ -1817,7 +1817,7 @@ input[
     max-height: 0px; 
     overflow: hidden; 
     transition: max-height .25s ease-in-out; 
-  } 
+  }
   .toggle:checked + .lbl-toggle + .collapsible-content 
   { 
     max-height: 100vh; 
@@ -1831,4 +1831,8 @@ input[
   { 
     background: #fff; 
     padding: .5rem 1rem;
+  }
+  .content-inner i:hover
+  { 
+    color: #FF8000!important 
   }

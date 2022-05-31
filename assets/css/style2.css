@@ -1824,3 +1824,7 @@ input[
     background: #fff; 
     padding: .5rem 1rem;
   }
+  .content-inner i:hover
+  { 
+    color: #FF8000!important 
+  }
