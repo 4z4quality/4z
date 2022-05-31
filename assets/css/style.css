@@ -1810,7 +1810,7 @@ input[
   } 
   .toggle:checked+.lbl-toggle::before 
   { 
-    transform: rotate(90deg) translateX(-3px);
+    transform: rotate(90deg) translateX(-1px);
   } 
   .collapsible-content 
   { 
