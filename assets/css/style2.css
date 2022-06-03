@@ -1676,25 +1676,22 @@ section {
   }
   .callout-header {
     padding: 25px 15px;
-    background-color: #eaecff;
+    background: rgb(0, 73, 109);
     -webkit-filter: drop-shadow(0px 5px 5px #222); filter: drop-shadow(0px 5px 5px #222);
     font-size: 30px;
-    color: #000066;
+    color: white;
   }
   .callout-container {
     padding: 15px;
     -webkit-filter: drop-shadow(0px 5px 5px #222); filter: drop-shadow(0px 5px 5px #222);
-    background-color: rgb(255, 136, 0);
-    color: white
-  }
-  .callout-container a:hover {
-    color: #000066
+    background-color: #eeff00;
+    color: black
   }
   .closebtn {
     position: absolute;
     top: -5px;
     left: 10px;
-    color: #000066;
+    color: white;
     font-size: 30px;
     cursor: pointer;
   }
