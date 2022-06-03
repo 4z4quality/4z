@@ -41,7 +41,6 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   background: #fff;
 }
-
 #preloader:before {
   content: "";
   position: fixed;
@@ -55,7 +54,6 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
 }
-
 @-webkit-keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
@@ -64,7 +62,6 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(360deg);
   }
 }
-
 @keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
@@ -148,7 +145,6 @@ h1, h2, h3, h4, h5, h6 {
 #topbar .social-links a:hover {
   color: white;
 }
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -522,7 +518,7 @@ section {
   text-align: center;
   padding-bottom: 30px;
 }
-.section-title  .title {
+.section-title .title {
   font-size: 13px;
   letter-spacing: 1px;
   font-weight: 700;
@@ -557,7 +553,6 @@ section {
     width: 50%;
   }
 }
-
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -606,7 +601,6 @@ section {
     display: inline-block;
   }
 }
-
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
@@ -1660,12 +1654,21 @@ section {
         color: pink;
       }
     }
+    /*--------------------------------------------------------------
+# Callout
+--------------------------------------------------------------*/
 .callout {
     position: fixed;
-    bottom: 10px;
-    left: 5px;
     max-width: 270px;
-    z-index: 2
+    bottom: 10px;
+    z-index: 2;
+    visibility:hidden;
+    opacity: 0;
+    left: 10px;
+  }
+  .callout.active {
+    visibility: visible;
+    opacity: 1;
   }
   .callout-header {
     padding: 25px 15px;

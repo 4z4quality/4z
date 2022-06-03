@@ -1662,10 +1662,16 @@ section {
 --------------------------------------------------------------*/
 .callout {
     position: fixed;
-    bottom: 10px;
-    right: 5px;
     max-width: 270px;
-    z-index: 2
+    bottom: 10px;
+    z-index: 2;
+    visibility:hidden;
+    opacity: 0;
+    right: 10px;
+  }
+  .callout.active {
+    visibility: visible;
+    opacity: 1;
   }
   .callout-header {
     padding: 25px 15px;

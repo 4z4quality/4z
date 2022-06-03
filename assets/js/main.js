@@ -139,6 +139,22 @@
   }
 
   /**
+   * Callout
+   */
+   let Callout = select('.callout')
+   if (Callout) {
+     const togglecallout = () => {
+       if (window.scrollY > 800) {
+         Callout.classList.add('active')
+       } else {
+         Callout.classList.remove('active')
+       }
+     }
+     window.addEventListener('load', togglecallout)
+     onscroll(document, togglecallout)
+   }
+
+  /**
    * Mobile nav toggle
    */
   on('click', '.mobile-nav-toggle', function(e) {
