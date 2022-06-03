@@ -1671,7 +1671,7 @@ section {
   }
   .callout-header {
     padding: 25px 15px;
-    background: rgb(0, 73, 109);
+    background-color: rgb(255, 136, 0);
     -webkit-filter: drop-shadow(0px 5px 5px #222); filter: drop-shadow(0px 5px 5px #222);
     font-size: 30px;
     color: white;
@@ -1679,8 +1679,8 @@ section {
   .callout-container {
     padding: 15px;
     -webkit-filter: drop-shadow(0px 5px 5px #222); filter: drop-shadow(0px 5px 5px #222);
-    background-color: #eeff00;
-    color: black
+    background-color: #f1f6fe;
+    color: #000066
   }
   .closebtn {
     position: absolute;
@@ -1691,7 +1691,7 @@ section {
     cursor: pointer;
   }
   .closebtn:hover {
-    color: #ff8000;
+    color: #000066;
   }
 /*--------------------------------------------------------------
 # Quote-Div
