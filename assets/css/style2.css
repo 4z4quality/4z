@@ -379,7 +379,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #intro {
   width: 100%;
-  height: 75vh;
+  height: 78vh;
   background: #000;
   overflow: hidden;
   position: relative;
@@ -510,7 +510,6 @@ section {
 .section-bg {
   background-color: #f6f9fe;
 }
-
 .section-title {
   text-align: center;
   padding-bottom: 30px;
@@ -679,6 +678,7 @@ section {
   box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
   font-size: 24px;
   padding: 20px;
+  margin-top: 10px;
   margin-left: 15px;
   color: #106eea;
   transition: 1s ease-in-out;
@@ -698,7 +698,6 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
@@ -986,7 +985,7 @@ section {
 }
 .portfolio .portfolio-item .portfolio-info p {
   color: #555555;
-  font-size: 14px;
+  font-size: 15px;
   margin-bottom: 0;
 }
 .portfolio .portfolio-item .portfolio-info .preview-link, .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1454,7 +1453,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #fff;
-  padding: 0 0 30px 0;
+  padding: 0 0 10px 0;
   color: #444444;
   font-size: 14px;
   background: #f1f6fe;
@@ -1507,8 +1506,8 @@ section {
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
   color: #106eea;
-  font-size: 18px;
-  line-height: 1;
+  font-size: 14px;
+  line-height: 1.3;
 }
 #footer .footer-top .footer-links ul li {
   padding: 10px 0;
