@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 .navbar {
   padding: 0;
-  font-family: "al-jazeera-arabic_regular", sans-serif;
+  font-family: "al-jazeera-arabic_regular", Poppins, sans-serif;
 }
 .navbar ul {
   margin: 0;
@@ -384,6 +384,10 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   position: relative;
 }
+#intro .carousel-item::before {
+  content: "";
+  background-color: rgba(247, 247, 255, 0.8);
+}
 @media (max-height: 500px) {
   #intro {
     height: 150vh;
@@ -391,19 +395,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 #intro .carousel, #intro .carousel-inner, #intro .carousel-item, #intro .carousel-item::before {
   position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
   bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 #intro .carousel-item {
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-}
-#intro .carousel-item::before {
-  content: "";
-  background-color: rgba(247, 247, 255, 0.8);
 }
 #intro .carousel-container {
   display: flex;
@@ -506,7 +506,6 @@ section {
   padding: 60px 0;
   overflow: hidden;
 }
-
 .section-bg {
   background-color: #f6f9fe;
 }
@@ -618,7 +617,7 @@ section {
   left: 0;
   top: 0;
   bottom: 100%;
-  transition: all 1s ease-in-out;
+  transition: 1s ease-in-out;
   z-index: -1;
 }
 .featured-services .icon-box:hover::before {
@@ -633,7 +632,7 @@ section {
   font-size: 48px;
   line-height: 1;
   color: #106eea;
-  transition: all 0.3s ease-in-out;
+  transition: 1s ease-in-out;
 }
 .featured-services .title {
   font-weight: 700;
@@ -713,7 +712,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "al-jazeera-arabic_regular", Poppins, sans-serif;
+  font-family: "al-jazeera-arabic_regular", sans-serif;
   font-size: 18px;
   color: #222222;
 }
@@ -728,7 +727,7 @@ section {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: 2.9s;
+  transition: 1s;
   background-color: #106eea;
 }
 /*--------------------------------------------------------------
@@ -774,7 +773,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "al-jazeera-arabic_regular", Roboto, sans-serif;
+  font-family: "al-jazeera-arabic_regular", sans-serif;
   font-size: 14px;
 }
 /*--------------------------------------------------------------
@@ -955,7 +954,7 @@ section {
   text-transform: uppercase;
   color: #444444;
   margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
+  transition: 1s ease-in-out;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #106eea;
@@ -1008,14 +1007,14 @@ section {
   text-align: center;
   z-index: 3;
   position: absolute;
-  transition: all ease-in-out 0.3s;
+  transition: ease-in-out 1s;
 }
 .portfolio .portfolio-item .portfolio-links a {
   color: #fff;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
-  transition: 0.3s;
+  transition: 1s;
 }
 .portfolio .portfolio-item .portfolio-links a:hover {
   color: #6ba7f5;
@@ -1115,11 +1114,11 @@ section {
   bottom: 30px;
   right: 0;
   opacity: 0;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 1s;
   text-align: center;
 }
 .team .member .social a {
-  transition: color 0.3s;
+  transition: color 1s;
   color: #222222;
   margin: 0 3px;
   padding-top: 7px;
@@ -1128,7 +1127,7 @@ section {
   height: 36px;
   background: rgba(16, 110, 234, 0.8);
   display: inline-block;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 1s;
   color: #fff;
 }
 .team .member .social a:hover {
@@ -1204,7 +1203,7 @@ section {
   font-size: 36px;
   color: #106eea;
   font-weight: 600;
-  font-family: "al-jazeera-arabic_regular", Poppins, sans-serif;
+  font-family: "al-jazeera-arabic_regular", sans-serif;
   margin-bottom: 20px;
 }
 .pricing .box h4 sup {
@@ -1252,7 +1251,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "al-jazeera-arabic_regular", Roboto, sans-serif;
+  font-family: "al-jazeera-arabic_regular", sans-serif;
   font-weight: 600;
   transition: 1s ease-out;
 }
@@ -1293,13 +1292,12 @@ section {
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #106eea;
   font-size: 19px;
   line-height: 24px;
   font-weight: 500;
   padding-right: 25px;
   cursor: pointer;
-  color: #0d58ba;
+  color: #FF8000;
   transition: 0.3s;
 }
 .faq .faq-list i {
@@ -1323,11 +1321,11 @@ section {
 }
 .faq .faq-list .collapsed .icon-show {
   display: inline-block;
-  transition: 0.6s;
+  transition: 1s;
 }
 .faq .faq-list .collapsed .icon-close {
   display: none;
-  transition: 0.6s;
+  transition: 1s;
 }
 /*--------------------------------------------------------------
 # Contact
@@ -1344,7 +1342,7 @@ section {
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #b3d1fa;
-  transition: color 1s ease-in-out;
+  transition: 1s ease-in-out;
 }
 .contact .info-box i:hover {
   
@@ -1426,7 +1424,7 @@ section {
   border: 0;
   padding: 10px 30px;
   color: #fff;
-  transition: 0.4s;
+  transition: 1s;
   border-radius: 4px;
 }
 .contact .php-email-form button[type=submit]:hover {
@@ -1485,7 +1483,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "al-jazeera-arabic_regular", Roboto, sans-serif;
+  font-family: "al-jazeera-arabic_regular", sans-serif;
   color: #777777;
 }
 #footer .footer-top h4 {
@@ -1519,7 +1517,7 @@ section {
 }
 #footer .footer-top .footer-links ul a {
   color: #777777;
-  transition: 0.3s;
+  transition: 1s;
   display: inline-block;
   line-height: 1;
 }
@@ -1539,7 +1537,7 @@ section {
   text-align: center;
   width: 36px;
   height: 36px;
-  transition: 0.3s;
+  transition: 1s;
 }
 #footer .footer-top .social-links a:hover {
   background: #3b8af2;
@@ -1799,7 +1797,7 @@ input[
     color: #DDD; 
     background: #106eea; 
     cursor: pointer;
-    transition: .5s ease-in-out; 
+    transition: 1s ease-in-out; 
   } 
   .lbl-toggle:hover 
   { 
@@ -1816,7 +1814,7 @@ input[
     vertical-align: middle; 
     margin-left: .7rem; 
     transform: translateY(-2px); 
-    transition: transform .5s ease-in-out; 
+    transition: transform 1s ease-in-out; 
   } 
   .toggle:checked+.lbl-toggle::before 
   { 
@@ -1826,7 +1824,7 @@ input[
   { 
     max-height: 0px; 
     overflow: hidden; 
-    transition: max-height .5s ease-in-out; 
+    transition: max-height 1s ease-in-out; 
   } 
   .toggle:checked + .lbl-toggle + .collapsible-content 
   { 
