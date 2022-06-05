@@ -1298,11 +1298,11 @@ section {
   position: relative;
   font-size: 18px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 600;
   padding-left: 25px;
   cursor: pointer;
   color: #FF8000;
-  transition: 1s ease-in-out;
+  transition: .1s ease-in-out;
 }
 .faq .faq-list i {
   font-size: 16px;
@@ -1319,6 +1319,7 @@ section {
 }
 .faq .faq-list .collapsed {
   color: black;
+  font-weight: 400;
 }
 .faq .faq-list .collapsed:hover {
   color: #106eea;
