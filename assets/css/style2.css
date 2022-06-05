@@ -8,6 +8,7 @@
       url("fonts/al-jazeera-arabic_regular.otf") format("opentype"),
       url("fonts/al-jazeera-arabic_regular.eot") format("embedded-opentype"),
       url("fonts/al-jazeera-arabic_regular.ttf") format("truetype");
+  font-display: swap;
   }
 body {
   font-family: "al-jazeera-arabic_regular", Open Sans, sans-serif;
@@ -25,7 +26,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "al-jazeera-arabic_regular", Roboto, sans-serif;
+  font-family: "al-jazeera-arabic_regular", sans-serif;
 }
 /*--------------------------------------------------------------
 # Preloader
@@ -112,13 +113,12 @@ h1, h2, h3, h4, h5, h6 {
 #topbar {
   background: #000066;
   height: 40px;
-  font-size: 14px;
+  font-size: 18px;
   transition: 1s ease-in-out;
   color: #fff;
   padding: 0;
 }
 #topbar .contact-info i {
-  font-style: normal;
   color: #fff;
 }
 #topbar .contact-info i a, #topbar .contact-info i span {
