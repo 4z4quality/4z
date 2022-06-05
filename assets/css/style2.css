@@ -1100,6 +1100,7 @@ section {
 --------------------------------------------------------------*/
 .team {
   padding: 60px 0;
+  background: #fff;
 }
 .team .member {
   margin-bottom: 20px;
@@ -1171,6 +1172,9 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+.pricing{
+  background: #f1f6fe;
+}
 .pricing .box {
   padding: 20px;
   background: #fff;
@@ -1348,7 +1352,6 @@ section {
   transition: 1s ease-in-out;
 }
 .contact .info-box i:hover {
-  
   color: #FFF;
   background: #FF8000;
 }
