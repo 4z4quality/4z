@@ -385,7 +385,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #intro .carousel-item::before {
   content: "";
-  background-image: linear-gradient(to bottom right, rgba(241, 246, 254, 0.556), rgba(255, 255, 255, 0.95));
+  background-image: linear-gradient(to top left, rgba(241, 246, 254, 0.556), rgba(255, 255, 255, 0.95))
 }
 @media (max-height: 500px) {
   #intro {
