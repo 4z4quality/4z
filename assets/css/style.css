@@ -4,10 +4,8 @@
 @font-face {
   font-family: "al-jazeera-arabic_regular";
   src: url("fonts/al-jazeera-arabic_regular.woff") format("woff"),
-      url("fonts/al-jazeera-arabic_regular.woff2") format("woff2"),
-      url("fonts/al-jazeera-arabic_regular.otf") format("opentype"),
-      url("fonts/al-jazeera-arabic_regular.eot") format("embedded-opentype"),
-      url("fonts/al-jazeera-arabic_regular.ttf") format("truetype");
+      url("fonts/al-jazeera-arabic_regular.woff2") format("woff2");
+  font-display: swap;
   }
 body {
   font-family: "Open Sans", sans-serif;
