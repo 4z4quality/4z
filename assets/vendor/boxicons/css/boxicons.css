@@ -3,14 +3,13 @@
     font-family: 'boxicons';
     font-weight: normal;
     font-style: normal;
-
+    font-display: swap;
     src: url('../fonts/boxicons.eot');
     src: url('../fonts/boxicons.eot') format('embedded-opentype'),
     url('../fonts/boxicons.woff2') format('woff2'),
     url('../fonts/boxicons.woff') format('woff'),
     url('../fonts/boxicons.ttf') format('truetype'),
     url('../fonts/boxicons.svg?#boxicons') format('svg');
-    font-display: swap
 }
 .bx
 {
@@ -21,9 +20,7 @@
     line-height: 1;
     text-rendering: auto;
     display: inline-block;
-
     text-transform: none;
-
     speak: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -480,31 +477,31 @@
 {
     transform: rotate(90deg);
 
-    -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=1)';
+    filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=1)';
 }
 .bx-rotate-180
 {
     transform: rotate(180deg);
 
-    -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=2)';
+    filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=2)';
 }
 .bx-rotate-270
 {
     transform: rotate(270deg);
 
-    -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=3)';
+    filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=3)';
 }
 .bx-flip-horizontal
 {
     transform: scaleX(-1);
 
-    -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)';
+    filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)';
 }
 .bx-flip-vertical
 {
     transform: scaleY(-1);
 
-    -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)';
+    filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)';
 }
 .bx-border
 {
