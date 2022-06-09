@@ -15,10 +15,10 @@
   font-family: 'Poppins';
   src: url('https://the4z.com/assets/css/fonts/Poppins-SemiBold.eot');
   src: url('https://the4z.com/assets/css/fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('https://the4z.com/assets/css/fonts/Poppins-SemiBold.woff2') format('woff2'),
-        url('https://the4z.com/assets/css/fonts/Poppins-SemiBold.woff') format('woff'),
-        url('https://the4z.com/assets/css/fonts/Poppins-SemiBold.ttf') format('truetype'),
-        url('https://the4z.com/assets/css/fonts/Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
+      url('https://the4z.com/assets/css/fonts/Poppins-SemiBold.woff2') format('woff2'),
+      url('https://the4z.com/assets/css/fonts/Poppins-SemiBold.woff') format('woff'),
+      url('https://the4z.com/assets/css/fonts/Poppins-SemiBold.ttf') format('truetype'),
+      url('https://the4z.com/assets/css/fonts/Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
