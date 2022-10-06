@@ -1914,6 +1914,7 @@ section {
     visibility:hidden;
     opacity: 0;
     right: 10px;
+    font-family: 'Roboto', 'sans-serif';
   }
   .callout.active {
     visibility: visible;

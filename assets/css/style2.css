@@ -1650,6 +1650,7 @@ section {
     visibility:hidden;
     opacity: 0;
     left: 10px;
+    font-family: 'al-jazeera-arabic_regular', 'Roboto', 'sans-serif';
   }
   .callout.active {
     visibility: visible;
