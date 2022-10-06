@@ -2,12 +2,12 @@
 # General
 --------------------------------------------------------------*/
 @font-face {
-  font-family: "al-jazeera-arabic_regular";
-  src: url("https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.woff") format("woff"),
-      url("https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.woff2") format("woff2"),
-      url("https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.otf") format("opentype"),
-      url("https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.eot") format("embedded-opentype"),
-      url("https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.ttf") format("truetype");
+  font-family:'al-jazeera-arabic_regular';
+  src: url('https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.woff') format('woff'),
+      url('https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.woff2') format('woff2'),
+      url('https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.otf') format('opentype'),
+      url('https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.eot') format('embedded-opentype'),
+      url('https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.ttf/') format('truetype');
   font-style: normal;
   font-display: swap;
   }
@@ -309,17 +309,16 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   display: none;
   line-height: 0;
-  transition: .5s ease-in-out;
+  transition: .3s ease-in-out;
 }
 .mobile-nav-toggle.bi-x {
   color: #fff;
 }
-
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+    padding-top: 0px;
   }
-
   .navbar ul {
     display: none;
   }
@@ -332,7 +331,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   bottom: 0;
   background: rgba(9, 9, 9, 0.9);
-  transition: .5s ease-in-out;
+  transition: .3s ease-in-out;
   z-index: 999;
 }
 .navbar-mobile .mobile-nav-toggle {
@@ -344,24 +343,18 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   position: absolute;
   top: 55px;
-  right: 15px;
   bottom: 15px;
+  right: 15px;
   left: 15px;
   padding: 10px 0;
   background-color: #fff;
   overflow-y: auto;
-  transition: .5s ease-in-out;
+  transition: .3s ease-in-out;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
   color: #222222;
-}
-.navbar-mobile > ul > li {
-  padding: 0;
-}
-.navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
-  visibility: hidden;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #FFF;
@@ -370,8 +363,14 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
 }
+.navbar-mobile > ul > li {
+  padding: 0;
+}
+.navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
+  visibility: hidden;
+}
 .navbar-mobile .dropdown ul {
-  position: static;
+  position:static;
   display: none;
   margin: 10px 20px;
   padding: 10px 0;
@@ -385,7 +384,7 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 200px;
 }
 .navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
+  padding: 5px 20px;
 }
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
@@ -393,10 +392,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
   color: #FFF;
   background: #106eea;
-  
 }
 .navbar-mobile .dropdown > .dropdown-active {
-  display: block;
+  display:inline-block;
 }
 /*--------------------------------------------------------------
 # Intro Section
