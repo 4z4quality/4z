@@ -499,7 +499,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #222222;
   white-space: nowrap;
   text-transform: uppercase;
-  transition: .3s ease-in-out;
+  transition: .5s ease-in-out;
   position: relative;
 }
 .navbar a i, .navbar a:focus i {
@@ -609,7 +609,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   bottom: 0;
   background: rgba(26, 26, 26, 0.9);
-  transition: .3s ease-in-out;
+  transition: .5s ease-in-out;
   z-index: 999;
 }
 .navbar-mobile .mobile-nav-toggle {
@@ -627,7 +627,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0;
   background-color: #fff;
   overflow-y: auto;
-  transition: .3s ease-in-out;
+  transition: .5s ease-in-out;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
