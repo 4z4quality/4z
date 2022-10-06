@@ -2,12 +2,12 @@
 # General
 --------------------------------------------------------------*/
 @font-face {
-  font-family:'al-jazeera-arabic_regular';
-  src: url('https://the4z.com/assets/css/fonts/al-jazeera-arabic_bold.woff') format('woff'),
-      url('https://the4z.com/assets/css/fonts/al-jazeera-bold.woff2') format('woff2'),
-      url('https://the4z.com/assets/css/fonts/al-jazeera-bold.otf') format('opentype'),
-      url('https://the4z.com/assets/css/fonts/al-jazeera-bold.eot') format('embedded-opentype'),
-      url('https://the4z.com/assets/css/fonts/al-jazeera-bold.ttf/') format('truetype');
+  font-family:'al-jazeera-arabic-bold';
+  src: url('https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.woff') format('woff'),
+      url('https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.woff2') format('woff2'),
+      url('https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.otf') format('opentype'),
+      url('https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.eot') format('embedded-opentype'),
+      url('https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.ttf/') format('truetype');
   font-style: normal;
   font-display: swap;
 }
@@ -300,7 +300,7 @@
     font-display: swap;
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', 'sans-serif';
   color: #000066;
 }
 a {
@@ -312,7 +312,7 @@ a:hover {
   text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', 'sans-serif';
 }
 /*--------------------------------------------------------------
 # Preloader
@@ -450,7 +450,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 600;
   letter-spacing: 0.8px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', 'sans-serif';
 }
 #header .logo a {
   color: #222222;
@@ -473,6 +473,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
   padding: 0;
   float: right;
+  font-family: 'Poppins', 'al-jazeera-arabic-bold', 'sans-serif';
 }
 .navbar ul {
   margin: 0;
@@ -493,13 +494,12 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 0 3px;
-  font-family: 'Poppins', al-jazeera-arabic_bold, sans-serif;
   font-size: 15px;
   font-weight: 600;
   color: #222222;
   white-space: nowrap;
   text-transform: uppercase;
-  transition: 0.3s;
+  transition: .3s ease-in-out;
   position: relative;
 }
 .navbar a i, .navbar a:focus i {
@@ -517,7 +517,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #FF8000;
   visibility: hidden;
   width: 0px;
-  transition: all .5s ease-in-out 0s;
+  transition: all .5s ease-in-out;
 }
 .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
   visibility: visible;
@@ -659,7 +659,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 .navbar-mobile .dropdown ul li {
-  min-width: 170px;
+  min-width: 200px;
 }
 .navbar-mobile .dropdown ul a {
   padding: 5px 20px;
@@ -788,7 +788,7 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 #intro .btn-get-started {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', 'sans-serif';
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1019,7 +1019,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', 'sans-serif';
   color: #222222;
 }
 .skills .progress .skill .val {
@@ -1079,7 +1079,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', 'sans-serif';
   font-size: 14px;
 }
 /*--------------------------------------------------------------
@@ -1511,7 +1511,7 @@ section {
   font-size: 36px;
   color: #106eea;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', 'sans-serif';
   margin-bottom: 20px;
 }
 .pricing .box h4 sup {
@@ -1558,7 +1558,7 @@ section {
   color: #fff;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', 'sans-serif';
   font-weight: 600;
   transition: 1s ease-out;
   text-transform: uppercase;
@@ -1587,7 +1587,7 @@ section {
 --------------------------------------------------------------*/
 .faq {
   padding: 60px 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', 'sans-serif';
 }
 .faq .faq-list {
   padding: 0;
@@ -1792,7 +1792,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', 'sans-serif';
   color: #777777;
 }
 #footer .footer-top h4 {
