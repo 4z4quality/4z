@@ -103,9 +103,25 @@
   }
 
   /**
+   * Toggle .header-scrolled class to #header when page is scrolled
+   */
+   let selectHeader = select('#header')
+   if (selectHeader) {
+     const headerScrolled = () => {
+       if (window.scrollY > 30) {
+         selectHeader.classList.add('header-scrolled')
+       } else {
+         selectHeader.classList.remove('header-scrolled')
+       }
+     }
+     window.addEventListener('load', headerScrolled)
+     onscroll(document, headerScrolled)
+   }
+ 
+  /**
    * Header fixed top on scroll
    */
-  let selectHeader = select('#header')
+  
   if (selectHeader) {
     let headerOffset = selectHeader.offsetTop
     let nextElement = selectHeader.nextElementSibling
@@ -288,8 +304,7 @@
    * Initiate portfolio lightbox 
    */
   const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox',
-
+    selector: '.portfolio-lightbox'
   });
 
   /**

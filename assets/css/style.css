@@ -645,7 +645,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 .navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
-  visibility: visible;
+  visibility: hidden;
+}
+.navbar-mobile a:hover:after, .navbar-mobile li:hover > a:after, .navbar-mobile .active:after {
+  visibility: hidden;
 }
 .navbar-mobile .dropdown ul {
   position:static;
