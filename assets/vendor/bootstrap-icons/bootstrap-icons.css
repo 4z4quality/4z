@@ -25,9 +25,17 @@
 .bi-chevron-right::before { content: "\f285"; }
 .bi-chevron-up::before { content: "\f286"; }
 .bi-facebook::before { content: "\f344"; }
+.bi-fingerprint::before { content: "\f671"; }
 .bi-instagram::before { content: "\f437"; }
 .bi-linkedin::before { content: "\f472"; }
+.bi-list-check::before { content: "\f473"; }
+.bi-list-nested::before { content: "\f474"; }
+.bi-list-ol::before { content: "\f475"; }
+.bi-list-stars::before { content: "\f476"; }
+.bi-list-task::before { content: "\f477"; }
+.bi-list-ul::before { content: "\f478"; }
 .bi-list::before { content: "\f479"; }
+.bi-shield-check::before { content: "\f52f"; }
 .bi-x-circle-fill::before { content: "\f622"; }
 .bi-x-circle::before { content: "\f623"; }
 .bi-x-diamond-fill::before { content: "\f624"; }
