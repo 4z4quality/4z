@@ -34,7 +34,7 @@
   font-display: swap;
   }
 body {
-  font-family: 'al-jazeera-arabic_regular', 'sans-serif';
+  font-family: "al-jazeera-arabic_regular", sans-serif;
   color: #000066;
 }
 a {
@@ -46,7 +46,7 @@ a:hover {
   text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'al-jazeera-arabic-bold', 'sans-serif';
+  font-family: "al-jazeera-arabic-bold", sans-serif;
 }
 /*--------------------------------------------------------------
 # Preloader
@@ -132,9 +132,9 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #topbar {
   background: #000066;
-  height: 30px;
-  font-size: 18px;
-  transition: all .5s;
+  height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
   color: #fff;
   padding: 0;
 }
@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   background: #fff;
-  transition: 1s ease-in-out;
+  transition: all 1s ease-in-out;
   z-index: 997;
   height: 86px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 600;
   letter-spacing: 0.8px;
-  font-family: 'Poppins', 'sans-serif';
+  font-family: "Poppins", sans-serif;
 }
 #header .logo a {
   color: #222222;
@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
   padding: 0;
   float: left;
-  font-family: 'al-jazeera-arabic-bold', 'Poppins', 'sans-serif';
+  font-family: "al-jazeera-arabic-bold", 'Poppins', sans-serif;
 }
 .navbar ul {
   margin: 0;
@@ -251,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #FF8000;
   visibility: hidden;
   width: 0px;
-  transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out 0s;
 }
 .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
   visibility: visible;
@@ -355,8 +355,8 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   position: absolute;
   top: 55px;
-  bottom: 15px;
   right: 15px;
+  bottom: 15px;
   left: 15px;
   padding: 10px 0;
   background-color: #fff;
@@ -368,6 +368,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   color: #222222;
 }
+.navbar-mobile > ul > li {
+  padding: 0;
+}
+.navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
+  visibility: visible;
+}
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #FFF;
   background: #FF8000;
@@ -375,14 +381,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
 }
-.navbar-mobile > ul > li {
-  padding: 0;
-}
-.navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
-  visibility: visible;
-}
 .navbar-mobile .dropdown ul {
-  position:static;
+  position: static;
   display: none;
   margin: 10px 20px;
   padding: 10px 0;
@@ -396,7 +396,7 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 200px;
 }
 .navbar-mobile .dropdown ul a {
-  padding: 5px 20px;
+  padding: 10px 20px;
 }
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
@@ -522,7 +522,7 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 #intro .btn-get-started {
-  font-family: 'al-jazeera-arabic-bold', 'sans-serif';
+  font-family: "al-jazeera-arabic-bold", sans-serif;
   font-weight: 900;
   font-size: 16px;
   letter-spacing: 1px;
@@ -644,7 +644,7 @@ section {
   overflow: hidden;
   background: #fff;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-  transition: 1s ease-in-out;
+  transition: all 1s ease-in-out;
   border-radius: 8px;
   z-index: 1;
 }
@@ -656,7 +656,7 @@ section {
   left: 0;
   bottom: 0;
   top: 100%;
-  transition: 1s ease-in-out;
+  transition: all 1s ease-in-out;
   z-index: -1;
 }
 .featured-services .icon-box:hover::before {
@@ -671,7 +671,7 @@ section {
   font-size: 48px;
   line-height: 1;
   color: #106eea;
-  transition: 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 .featured-services .title {
   font-weight: 700;
@@ -751,7 +751,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: 'al-jazeera-arabic_regular', 'sans-serif';
+  font-family: "al-jazeera-arabic_regular", sans-serif;
   font-size: 18px;
   color: #222222;
 }
@@ -812,7 +812,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: 'al-jazeera-arabic_regular', 'sans-serif';
+  font-family: "al-jazeera-arabic_regular", sans-serif;
   font-size: 14px;
 }
 /*--------------------------------------------------------------
@@ -1245,7 +1245,7 @@ section {
   font-size: 36px;
   color: #106eea;
   font-weight: 600;
-  font-family: 'al-jazeera-arabic_regular', 'sans-serif';
+  font-family: "al-jazeera-arabic_regular", sans-serif;
   margin-bottom: 20px;
 }
 .pricing .box h4 sup {
@@ -1292,7 +1292,7 @@ section {
   color: #fff;
   font-size: 14px;
   font-weight: 400;
-  font-family: 'al-jazeera-arabic_regular', 'sans-serif';
+  font-family: "al-jazeera-arabic_regular", sans-serif;
   font-weight: 600;
   transition: 1s ease-out;
 }
@@ -1524,7 +1524,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: 'al-jazeera-arabic_regular', 'sans-serif';
+  font-family: "al-jazeera-arabic_regular", sans-serif;
   color: #777777;
 }
 #footer .footer-top h4 {
@@ -1635,7 +1635,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 .inner-page .container {
-  font-family: 'al-jazeera-arabic_regular', 'Open Sans', 'sans-serif';
+  font-family: "al-jazeera-arabic_regular", 'Open Sans', sans-serif;
   font-size: 20px;
   line-height: 1.6em;
 }
@@ -1650,7 +1650,7 @@ section {
     visibility:hidden;
     opacity: 0;
     left: 10px;
-    font-family: 'al-jazeera-arabic_regular', 'Roboto', 'sans-serif';
+    font-family: "al-jazeera-arabic_regular", 'Roboto', sans-serif;
   }
   .callout.active {
     visibility: visible;

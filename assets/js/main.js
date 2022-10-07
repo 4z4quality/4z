@@ -102,26 +102,10 @@
     })
   }
 
-  /**
-   * Toggle .header-scrolled class to #header when page is scrolled
-   */
-   let selectHeader = select('#header')
-   if (selectHeader) {
-     const headerScrolled = () => {
-       if (window.scrollY > 30) {
-         selectHeader.classList.add('header-scrolled')
-       } else {
-         selectHeader.classList.remove('header-scrolled')
-       }
-     }
-     window.addEventListener('load', headerScrolled)
-     onscroll(document, headerScrolled)
-   }
- 
-  /**
+    /**
    * Header fixed top on scroll
    */
-  
+   let selectHeader = select('#header')
   if (selectHeader) {
     let headerOffset = selectHeader.offsetTop
     let nextElement = selectHeader.nextElementSibling
@@ -329,8 +313,8 @@
    */
   window.addEventListener('load', () => {
     AOS.init({
-      duration: 700,
-      easing: 'ease-in',
+      duration: 1000,
+      easing: 'ease-in-out',
       once: true,
       mirror: false
     })

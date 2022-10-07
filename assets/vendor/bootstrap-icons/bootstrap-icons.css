@@ -28,4 +28,15 @@
 .bi-instagram::before { content: "\f437"; }
 .bi-linkedin::before { content: "\f472"; }
 .bi-list::before { content: "\f479"; }
+.bi-x-circle-fill::before { content: "\f622"; }
+.bi-x-circle::before { content: "\f623"; }
+.bi-x-diamond-fill::before { content: "\f624"; }
+.bi-x-diamond::before { content: "\f625"; }
+.bi-x-octagon-fill::before { content: "\f626"; }
+.bi-x-octagon::before { content: "\f627"; }
+.bi-x-square-fill::before { content: "\f628"; }
+.bi-x-square::before { content: "\f629"; }
+.bi-x::before { content: "\f62a"; }
 .bi-youtube::before { content: "\f62b"; }
+.bi-list-columns-reverse::before { content: "\f69f"; }
+.bi-list-columns::before { content: "\f6a0"; }
