@@ -1428,7 +1428,8 @@ section {
   color: blue
 }
 .portfolio-details .portfolio-description .black {
-  color: black
+  color: black;
+  font-weight: 800;
 }
 /*--------------------------------------------------------------
 # Team
