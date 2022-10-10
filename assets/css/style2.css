@@ -1155,6 +1155,15 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+.portfolio-details .portfolio-description .red {
+  color: red
+}
+.portfolio-details .portfolio-description .blue {
+  color: blue
+}
+.portfolio-details .portfolio-description .black {
+  color: black
+}
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -1757,6 +1766,7 @@ section {
   }
   td {
     background: #b4ccd722;
+    vertical-align: top
   }
   table{
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1)
