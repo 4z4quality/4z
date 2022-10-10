@@ -1431,6 +1431,18 @@ section {
   color: black;
   font-weight: 800;
 }
+.portfolio-details .portfolio-description .lightgreen {
+  background-color: rgb(121, 255, 168);
+  font-weight: 800;
+}
+.portfolio-details .portfolio-description .lightgreen {
+  background-color: rgb(121, 255, 168);
+  font-weight: 800;
+}
+.portfolio-details .portfolio-description .lightred {
+  background-color: rgb(255, 121, 121);
+  font-weight: 800;
+}
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
