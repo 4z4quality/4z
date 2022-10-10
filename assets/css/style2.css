@@ -1162,7 +1162,8 @@ section {
   color: blue
 }
 .portfolio-details .portfolio-description .black {
-  color: black
+  color: black;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
 }
 /*--------------------------------------------------------------
 # Team
