@@ -643,7 +643,7 @@ section {
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
-.featured-services .icon-box {
+.our-name .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -653,7 +653,7 @@ section {
   border-radius: 8px;
   z-index: 1;
 }
-.featured-services .icon-box::before {
+.our-name .icon-box::before {
   content: "";
   position: absolute;
   background: #cbe0fb;
@@ -664,37 +664,37 @@ section {
   transition: all 1s ease-in-out;
   z-index: -1;
 }
-.featured-services .icon-box:hover::before {
+.our-name .icon-box:hover::before {
   background: #FF8000;
   top: 0;
   border-radius: 0px;
 }
-.featured-services .icon {
+.our-name .icon {
   margin-bottom: 15px;
 }
-.featured-services .icon i {
+.our-name .icon i {
   font-size: 48px;
   line-height: 1;
   color: #106eea;
   transition: all 1s ease-in-out;
 }
-.featured-services .title {
+.our-name .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
-.featured-services .title a {
+.our-name .title a {
   color: #111;
 }
-.featured-services .description {
+.our-name .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
-.featured-services .icon-box:hover .title a, .featured-services .icon-box:hover .description {
+.our-name .icon-box:hover .title a, .our-name .icon-box:hover .description {
   color: #fff;
 }
-.featured-services .icon-box:hover .icon i {
+.our-name .icon-box:hover .icon i {
   color: #fff;
 }
 /*--------------------------------------------------------------
@@ -826,23 +826,23 @@ section {
   font-size: 14px;
 }
 /*--------------------------------------------------------------
-# Clients
+# featured-services
 --------------------------------------------------------------*/
-.clients {
+.featured-services {
   padding: 15px 0;
   text-align: center;
 }
-.clients img {
+.featured-services img {
   max-width: 45%;
   transition: 1s ease-in-out;
   display: inline-block;
   padding: 15px 0;
 }
-.clients img:hover {
+.featured-services img:hover {
   transform: scale(1.15);
 }
 @media (max-width: 768px) {
-  .clients img {
+  .featured-services img {
     max-width: 40%;
   }
 }
