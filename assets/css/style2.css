@@ -1165,8 +1165,8 @@ section {
   background-color: rgb(121, 255, 168);
   font-family: 'al-jazeera-arabic-bold', sans-serif;
 }
-.portfolio-details .portfolio-description .lightgreen {
-  background-color: rgb(121, 255, 168);
+.portfolio-details .portfolio-description .lightorange {
+  background-color: rgb(255, 181, 121);
   font-family: 'al-jazeera-arabic-bold', sans-serif;
 }
 .portfolio-details .portfolio-description .lightred {
