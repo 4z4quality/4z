@@ -34,7 +34,7 @@
   font-display: swap;
   }
 body {
-  font-family: "al-jazeera-arabic_regular", sans-serif;
+  font-family: 'al-jazeera-arabic_regular', sans-serif;
   color: #000066;
 }
 a {
@@ -47,7 +47,7 @@ a:hover {
   text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "al-jazeera-arabic-bold", sans-serif;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
 }
 /*--------------------------------------------------------------
 # Back to top button
@@ -199,6 +199,10 @@ h1, h2, h3, h4, h5, h6 {
 .scrolled-offset {
   margin-top: 70px;
 }
+.header img {
+  width:100%;
+  height:100%
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -208,7 +212,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
   padding: 0;
   float: left;
-  font-family: "al-jazeera-arabic-bold", 'Poppins', sans-serif;
+  font-family: 'al-jazeera-arabic-bold', 'Poppins', sans-serif;
 }
 .navbar ul {
   margin: 0;
@@ -523,7 +527,7 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 #intro .btn-get-started {
-  font-family: "al-jazeera-arabic-bold", sans-serif;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
   font-weight: 900;
   font-size: 16px;
   letter-spacing: 1px;
@@ -737,6 +741,11 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+.about img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1)
+}
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
@@ -752,7 +761,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "al-jazeera-arabic_regular", sans-serif;
+  font-family: 'al-jazeera-arabic_regular', sans-serif;
   font-size: 18px;
   color: #222222;
 }
@@ -813,7 +822,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "al-jazeera-arabic_regular", sans-serif;
+  font-family: 'al-jazeera-arabic_regular', sans-serif;
   font-size: 14px;
 }
 /*--------------------------------------------------------------
@@ -888,6 +897,11 @@ section {
 }
 .services .icon-box:hover .icon {
   border-color: #106eea;
+}
+.services img {
+  box-shadow: 0px 0 25px 0 rgba(16, 110, 234, 0.1);
+  width:100%;
+  height:100%
 }
 /*--------------------------------------------------------------
 # Testimonials
@@ -1065,6 +1079,8 @@ section {
 }
 .portfolio img {
   box-shadow: 5px 2px 15px rgba(0, 0, 0, 0.1);
+  width:100%;
+  height:100%
 }
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -1205,6 +1221,11 @@ section {
   opacity: 1;
   bottom: 15px;
 }
+.team img {
+  box-shadow: 5px 2px 15px rgba(0, 0, 0, 0.1);
+  width:100%;
+  height:100%
+}
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
@@ -1246,7 +1267,7 @@ section {
   font-size: 36px;
   color: #106eea;
   font-weight: 600;
-  font-family: "al-jazeera-arabic_regular", sans-serif;
+  font-family: 'al-jazeera-arabic_regular', sans-serif;
   margin-bottom: 20px;
 }
 .pricing .box h4 sup {
@@ -1293,7 +1314,7 @@ section {
   color: #fff;
   font-size: 14px;
   font-weight: 400;
-  font-family: "al-jazeera-arabic_regular", sans-serif;
+  font-family: 'al-jazeera-arabic_regular', sans-serif;
   font-weight: 600;
   transition: 1s ease-out;
 }
@@ -1346,7 +1367,7 @@ section {
   font-size: 16px;
   position: absolute;
   right: 0;
-  top: -2px;
+  top: 2px;
 }
 .faq .faq-list p {
   margin-bottom: 0;
@@ -1525,7 +1546,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "al-jazeera-arabic_regular", sans-serif;
+  font-family: 'al-jazeera-arabic_regular', sans-serif;
   color: #777777;
 }
 #footer .footer-top h4 {
@@ -1651,7 +1672,7 @@ section {
     visibility:hidden;
     opacity: 0;
     left: 10px;
-    font-family: "al-jazeera-arabic_regular", 'Roboto', sans-serif;
+    font-family: 'al-jazeera-arabic_regular', 'Roboto', sans-serif;
   }
   .callout.active {
     visibility: visible;
