@@ -1177,6 +1177,12 @@ section {
   background-color: rgb(255, 121, 121);
   font-family: 'al-jazeera-arabic-bold', sans-serif;
 }
+.portfolio-details .portfolio-description img {
+  width:100%;
+  height:100%;
+  -webkit-filter: drop-shadow(0px 5px 5px #222);
+  filter: drop-shadow(0px 5px 5px #222);
+}
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -1705,6 +1711,15 @@ section {
   background: #f1f6fe;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
+.inner-page img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: drop-shadow(0px 5px 5px #222);
+  filter: drop-shadow(0px 5px 5px #222)
+}
 .inner-page .container {
   font-family: "al-jazeera-arabic_regular", 'Open Sans', sans-serif;
   font-size: 20px;
@@ -1773,6 +1788,8 @@ section {
     border: 1px solid black;
     border-radius: 3%;
     padding: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
   }
   th {
     background: #ff80002c;
