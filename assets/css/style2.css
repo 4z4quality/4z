@@ -1783,26 +1783,29 @@ section {
   /*--------------------------------------------------------------
 # Table
 --------------------------------------------------------------*/
-  table, th, td {
-    border: 1px solid black;
-    border-radius: 3%;
-    padding: 5px;
-  }
-
-  th {
-    background: #ff80002c;
-    vertical-align: top
-  }
-  td {
-    background: #b4ccd722;
-    vertical-align: top;
-  }
-  table{
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-    max-width: 100px;
-    border-collapse: collapse;
-    empty-cells:show;
-  }
+table, th, td {
+  border: 1px solid black;
+  border-radius: 3%;
+  padding: 2px;
+}
+th {
+  background: #ff80002c;
+  font-size: 14px;
+  vertical-align: top;
+  max-width: 100%
+}
+td {
+  background: #b4ccd722;
+  vertical-align: top;
+  max-width: 100%;
+  overflow: auto;
+  white-space: wrap;
+}
+table{
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-collapse: collapse;
+}
   /*--------------------------------------------------------------
 # Pager
 --------------------------------------------------------------*/
