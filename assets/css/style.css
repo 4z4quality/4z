@@ -2045,7 +2045,10 @@ section {
   }
   th {
     background: #ff80002c;
-    vertical-align: top
+    vertical-align: top;
+    max-width: 100px;
+    overflow: hidden;
+    white-space: wrap;
   }
   td {
     background: #b4ccd722;
