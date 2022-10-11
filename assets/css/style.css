@@ -1449,13 +1449,6 @@ section {
   -webkit-filter: drop-shadow(0px 5px 5px #222);
   filter: drop-shadow(0px 5px 5px #222);
 }
-.portfolio-details .portfolio-description table {
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    border-spacing: 0;
-    border-collapse: collapse;
-    empty-cells:show
-}
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -2056,14 +2049,16 @@ section {
   }
   td {
     background: #b4ccd722;
-    vertical-align: top
+    vertical-align: top;
+    max-width: 100px;
+    overflow: hidden;
+    white-space: wrap;
   }
   table{
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     width: 100%;
     border-collapse: collapse;
     empty-cells:show;
-    table-layout:fixed
   }
 /*--------------------------------------------------------------
 # Pager
