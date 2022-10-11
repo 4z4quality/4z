@@ -2041,7 +2041,7 @@ section {
   table, th, td {
     border: 1px solid black;
     border-radius: 3%;
-    padding: 5px;
+    padding: 2px;
   }
   th {
     background: #ff80002c;
