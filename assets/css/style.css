@@ -2049,6 +2049,7 @@ section {
     max-width: 100px;
     overflow: vidible;
     white-space: wrap;
+    font-size: 14px;
   }
   td {
     background: #b4ccd722;
