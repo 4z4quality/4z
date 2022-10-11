@@ -2054,7 +2054,7 @@ section {
     background: #b4ccd722;
     vertical-align: top;
     max-width: 100px;
-    overflow: hidden;
+    overflow: auto;
     white-space: wrap;
   }
   table{
