@@ -2046,7 +2046,7 @@ section {
   th {
     background: #ff80002c;
     font-size: 14px;
-    vertical-align: middle;
+    vertical-align: top;
     max-width: 100%
   }
   td {
