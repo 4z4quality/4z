@@ -1161,6 +1161,10 @@ section {
 .portfolio-details .portfolio-description .blue {
   color: blue
 }
+.portfolio-details .portfolio-description .black {
+  color: black;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
+}
 .portfolio-details .portfolio-description .lightgreen {
   background-color: rgb(121, 255, 168);
   font-family: 'al-jazeera-arabic-bold', sans-serif;
@@ -1772,6 +1776,7 @@ section {
   }
   th {
     background: #ff80002c;
+    vertical-align: top
   }
   td {
     background: #b4ccd722;

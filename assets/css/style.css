@@ -2030,6 +2030,7 @@ section {
   }
   th {
     background: #ff80002c;
+    vertical-align: top
   }
   td {
     background: #b4ccd722;
