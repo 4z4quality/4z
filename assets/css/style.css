@@ -2047,7 +2047,7 @@ section {
     background: #ff80002c;
     vertical-align: top;
     max-width: 100px;
-    overflow: hidden;
+    overflow: vidible;
     white-space: wrap;
   }
   td {
