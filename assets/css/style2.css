@@ -1802,9 +1802,7 @@ section {
     width: 100%;
     border-spacing: 0;
     border-collapse: collapse;
-    empty-cells:show;
-    margin-left: auto;
-    margin-right: auto;
+    empty-cells:show
   }
   /*--------------------------------------------------------------
 # Pager
