@@ -2045,7 +2045,7 @@ section {
     border-collapse: collapse;
     vertical-align: top;
     max-width: 100%;
-    padding: 2px;
+    padding: 5px;
   }
   th {
     background: #ff80002c;
