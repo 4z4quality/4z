@@ -26,6 +26,8 @@
 .bi-chevron-up::before { content: "\f286"; }
 .bi-facebook::before { content: "\f344"; }
 .bi-fingerprint::before { content: "\f671"; }
+.bi-hand-index-thumb::before { content: "\F402"; }
+.bi-hand-index-thumb-fill::before { content: "\F401"; }
 .bi-instagram::before { content: "\f437"; }
 .bi-linkedin::before { content: "\f472"; }
 .bi-list-check::before { content: "\f473"; }
@@ -35,6 +37,8 @@
 .bi-list-task::before { content: "\f477"; }
 .bi-list-ul::before { content: "\f478"; }
 .bi-list::before { content: "\f479"; }
+.bi-phone::before { content: "\F4E7"; }
+.bi-phone-fill::before { content: "\F4E2"; }
 .bi-shield-check::before { content: "\f52f"; }
 .bi-x-circle-fill::before { content: "\f622"; }
 .bi-x-circle::before { content: "\f623"; }
