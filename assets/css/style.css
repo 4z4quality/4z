@@ -2042,18 +2042,16 @@ section {
   table, th, td {
     
     border: 1px solid black;
-    padding: 2px;
     border-collapse: collapse;
-    vertical-align: top
+    vertical-align: top;
+    max-width: 100%;
+    padding: 2px;
   }
   th {
     background: #ff80002c;
-    font-size: 14px;
-    
   }
   td {
     background: #b4ccd722;
-    width: 100% !important
   }
   table{
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
