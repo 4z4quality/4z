@@ -1729,67 +1729,67 @@ section {
 # Callout
 --------------------------------------------------------------*/
 .callout {
-    position: fixed;
-    max-width: 270px;
-    bottom: 10px;
-    z-index: 2;
-    visibility:hidden;
-    opacity: 0;
-    left: 10px;
-    font-family: 'al-jazeera-arabic_regular', 'Roboto', sans-serif;
-  }
-  .callout.active {
-    visibility: visible;
-    opacity: 1;
-  }
-  .callout-header {
-    padding: 25px 15px;
-    background-color: #f1f6fe;
-    -webkit-filter: drop-shadow(0px 5px 5px #222); filter: drop-shadow(0px 5px 5px #222);
-    font-size: 30px;
-    font-weight: 500;
-    color: #000066;
-  }
-  .callout-container {
-    padding: 15px;
-    -webkit-filter: drop-shadow(0px 5px 5px #222); filter: drop-shadow(0px 5px 5px #222);
-    background-color: rgb(255, 136, 0);
-    color: white;
-    font-weight: 500;
-  }
-  .callout-container a:hover {
-    color: #000066
-  }
-  .closebtn {
-    position: absolute;
-    top: -5px;
-    left: 10px;
-    color: #000066;
-    font-size: 30px;
-    cursor: pointer;
-  }
-  .closebtn:hover {
-    color: #ff8000;
-  }
-  /*--------------------------------------------------------------
+  position: fixed;
+  max-width: 270px;
+  bottom: 10px;
+  z-index: 2;
+  visibility:hidden;
+  opacity: 0;
+  left: 10px;
+  font-family: 'al-jazeera-arabic_regular', 'Roboto', sans-serif;
+}
+.callout.active {
+  visibility: visible;
+  opacity: 1;
+}
+.callout-header {
+  padding: 25px 15px;
+  background-color: #f1f6fe;
+  -webkit-filter: drop-shadow(0px 5px 5px #222); filter: drop-shadow(0px 5px 5px #222);
+  font-size: 30px;
+  font-weight: 500;
+  color: #000066;
+}
+.callout-container {
+  padding: 15px;
+  -webkit-filter: drop-shadow(0px 5px 5px #222); filter: drop-shadow(0px 5px 5px #222);
+  background-color: rgb(255, 136, 0);
+  color: white;
+  font-weight: 500;
+}
+.callout-container a:hover {
+  color: #000066
+}
+.closebtn {
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  color: #000066;
+  font-size: 30px;
+  cursor: pointer;
+}
+.closebtn:hover {
+  color: #ff8000;
+}
+/*--------------------------------------------------------------
 # Quote-Div
 --------------------------------------------------------------*/
-  .quote {
-    text-align: center;
-    color: #FF8000;
-    font-style: italic;
-    font-size: 1.5em;
-    line-height:1.4em
-  }
-  /*--------------------------------------------------------------
+.quote {
+  text-align: center;
+  color: #FF8000;
+  font-style: italic;
+  font-size: 1.5em;
+  line-height:1.4em
+}
+/*--------------------------------------------------------------
 # Table
 --------------------------------------------------------------*/
 table, th, td {
-    
   border: 1px solid black;
   border-collapse: collapse;
   vertical-align: top;
   padding: 5px;
+  font-size: 15px;
 }
 th {
   background: #ff80002c;
@@ -1801,10 +1801,10 @@ table{
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   width: 100% !important;
 }
-  /*--------------------------------------------------------------
+/*--------------------------------------------------------------
 # Pager
 --------------------------------------------------------------*/
-  BUTTONS
+BUTTONS
 *********/
 .pager {
   padding-left:0;
