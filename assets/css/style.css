@@ -2049,6 +2049,7 @@ section {
   th {
     background: #ff80002c;
     font-size: 14px;
+    width: 100% !important
   }
   td {
     background: #b4ccd722;
