@@ -2040,7 +2040,7 @@ section {
 # Table
 --------------------------------------------------------------*/
   table, th, td {
-    max-width: 100% !important;
+    
     border: 1px solid black;
     padding: 2px;
     border-collapse: collapse;
@@ -2049,6 +2049,7 @@ section {
   th {
     background: #ff80002c;
     font-size: 14px;
+    width: 100% !important;
   }
   td {
     background: #b4ccd722;
