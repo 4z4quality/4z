@@ -1785,24 +1785,21 @@ section {
 # Table
 --------------------------------------------------------------*/
 table, th, td {
+    
   border: 1px solid black;
-  border-radius: 3%;
+  border-collapse: collapse;
+  vertical-align: top;
+  max-width: 100%;
   padding: 2px;
-  vertical-align: top
 }
 th {
   background: #ff80002c;
-  font-size: 14px;
-  width: auto !important;
 }
 td {
   background: #b4ccd722;
-  max-width: 100%;
 }
 table{
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  border-collapse: collapse;
 }
   /*--------------------------------------------------------------
 # Pager
