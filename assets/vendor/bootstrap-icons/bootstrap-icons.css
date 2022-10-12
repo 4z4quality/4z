@@ -39,6 +39,8 @@
 .bi-list::before { content: "\f479"; }
 .bi-phone::before { content: "\F4E7"; }
 .bi-phone-fill::before { content: "\F4E2"; }
+.bi-phone-landscape::before { content: "\F4E4"; }
+.bi-phone-landscape-fil::before { content: "\F4E3"; }
 .bi-shield-check::before { content: "\f52f"; }
 .bi-x-circle-fill::before { content: "\f622"; }
 .bi-x-circle::before { content: "\f623"; }
