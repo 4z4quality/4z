@@ -1448,6 +1448,7 @@ section {
   height:100%;
   -webkit-filter: drop-shadow(0px 5px 5px #222);
   filter: drop-shadow(0px 5px 5px #222);
+  padding-bottom: 5px
 }
 /*--------------------------------------------------------------
 # Team
