@@ -2053,10 +2053,10 @@ section {
   }
   td {
     background: #b4ccd722;
+    width: 100% !important
   }
   table{
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-    width: 100% !important
   }
 /*--------------------------------------------------------------
 # Pager
