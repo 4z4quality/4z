@@ -1787,19 +1787,16 @@ table, th, td {
   border: 1px solid black;
   border-radius: 3%;
   padding: 2px;
+  vertical-align: top
 }
 th {
   background: #ff80002c;
   font-size: 14px;
-  vertical-align: top;
-  max-width: 100%
+  width: auto !important;
 }
 td {
   background: #b4ccd722;
-  vertical-align: top;
   max-width: 100%;
-  overflow: auto;
-  white-space: wrap;
 }
 table{
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
