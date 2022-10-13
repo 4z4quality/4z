@@ -353,7 +353,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 9999;
+  z-index: 999;
   overflow: hidden;
   background: #fff;
 }
@@ -688,6 +688,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #000;
   overflow: hidden;
   position: relative;
+  margin-bottom: 50px
 }
 #intro .carousel-item::before {
   content: "";
@@ -800,7 +801,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   padding: 8px 32px;
   border-radius: 50px;
-  transition: 1s ease-in-out;
+  transition: all 1s ease-in-out;
   margin-top: 30px;
   color: #fff;
   background: #FF8000;
@@ -911,6 +912,10 @@ section {
 /*--------------------------------------------------------------
 # Our Name
 --------------------------------------------------------------*/
+.our-name {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
 .our-name .icon-box {
   padding: 30px;
   position: relative;
@@ -968,6 +973,10 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -1098,6 +1107,7 @@ section {
 --------------------------------------------------------------*/
 .featured-services {
   padding: 15px 0;
+  margin-bottom: 60px;
   text-align: center;
 }
 .featured-services img {
@@ -1186,6 +1196,7 @@ section {
   background-position: center center;
   background-size: cover;
   position: relative;
+  margin-bottom: 60px;
 }
 .testimonials::before {
   content: "";
@@ -1264,6 +1275,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 15px auto;
@@ -1445,6 +1460,8 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
+  margin-top: 60px;
+  margin-bottom: 60px;
   padding: 60px 0;
   background: #fff;
 }
@@ -1526,6 +1543,8 @@ section {
 --------------------------------------------------------------*/
 .pricing{
   background: #f1f6fe;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .pricing .box {
   padding: 20px;
@@ -1646,6 +1665,8 @@ section {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
+  margin-top: 60px;
+  margin-bottom: 60px;
   padding: 60px 0;
   font-family: 'Poppins', sans-serif;
 }
@@ -1709,6 +1730,10 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
 .contact .info-box {
   color: #444444;
   text-align: center;
