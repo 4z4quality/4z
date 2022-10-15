@@ -1511,10 +1511,6 @@ section {
   font-size: 18px;
   color: #222222
 }
-.team h3 {
-  font-weight: 700;
-  font-size: 24px
-}
 .team .member .member-info span {
   display: block;
   font-size: 13px;
@@ -1554,15 +1550,6 @@ section {
   position: relative;
   overflow: hidden
 }
-.pricing .box h3 {
-  font-weight: 400;
-  margin: -20px -20px 20px -20px;
-  padding: 20px 15px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #777777;
-  background: #f8f8f8
-}
 .pricing .box .price{
   font-weight: 400;
   margin: -20px -20px 20px -20px;
@@ -1575,23 +1562,6 @@ section {
 .pricing .featured .price {
   color: #fff;
   background: #FF8000
-}
-.pricing .box h4 {
-  font-size: 36px;
-  color: #106eea;
-  font-weight: 600;
-  font-family: 'Poppins', sans-serif;
-  margin-bottom: 20px
-}
-.pricing .box h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px
-}
-.pricing .box h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300
 }
 .pricing .box ul {
   padding: 0;
@@ -1631,7 +1601,6 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   transition: .5s ease-out
-  
 }
 .pricing .btn-buy:hover {
   background: #FF8000
@@ -2059,7 +2028,7 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   font-size: 15px;
-  max-width: 100
+  max-width: 100%
 }
 /*--------------------------------------------------------------
 # Pager
