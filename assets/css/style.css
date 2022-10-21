@@ -1506,7 +1506,7 @@ section {
 .team .member .member-info {
   padding: 25px 15px
 }
-.team .member .member-info h4 {
+.team .member .member-info h4 { 
   font-weight: 700;
   margin-bottom: 3px;
   font-size: 18px;

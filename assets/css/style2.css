@@ -1240,9 +1240,9 @@ section {
 .team .member .member-info {
   padding: 25px 15px
 }
-.team .member .member-info h3 {
+.team .member .member-info h4 {
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 5px; 
   font-size: 18px;
   color: #222222
 }
