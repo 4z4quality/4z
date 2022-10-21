@@ -49,6 +49,9 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'al-jazeera-arabic-bold', sans-serif
 }
+img {
+  aspect-ratio: attr(width) / attr(height);
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
