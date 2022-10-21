@@ -1111,6 +1111,7 @@ section {
 }
 .featured-services img {
   max-width: 45%;
+  
   transition: 1s ease-in-out;
   display: inline-block;
   padding: 15px 0;
@@ -1217,7 +1218,7 @@ section {
   color: #fff
 }
 .testimonials .testimonial-item .testimonial-img {
-  width: 100px;
+  max-width: 100px;
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto
