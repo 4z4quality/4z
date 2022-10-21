@@ -1124,7 +1124,7 @@ section {
 @media (max-width: 768px) {
   .featured-services img {
     max-width: 40%;
-    height: 40%;
+    height: 100%;
   }
 }
 /*--------------------------------------------------------------
