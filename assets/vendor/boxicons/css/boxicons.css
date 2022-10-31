@@ -573,6 +573,9 @@
   .bxs-school:before {
     content: "\eb8d";
   }
+  .bxs-show:before {
+    content: "\eb9e";
+  }
   .bxs-user-voice:before {
     content: "\ebdf";
   }
@@ -645,4 +648,10 @@
   }
   .bx-trending-up:before {
     content: "\eeb6";
+  }
+  .bx-show:before {
+    content: "\ee6f";
+  }
+  .bx-show-alt:before {
+    content: "\ee70";
   }
