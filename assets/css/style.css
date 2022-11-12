@@ -327,7 +327,7 @@ img {
   opacity: 0;
   right: 15px;
   bottom: 15px;
-  z-index: 9999;
+  z-index: 996;
   background: #FF8000;
   width: 40px;
   height: 40px;
@@ -431,7 +431,7 @@ img {
   margin-left: 20px
 }
 #topbar .social-links a:hover {
-  color: white
+  color: #fff;
 }
 /*--------------------------------------------------------------
 # Header
@@ -462,7 +462,7 @@ img {
   color: #106eea
 }
 #header .logo img {
-  max-height: 70px
+  max-height: 70px;
 }
 .scrolled-offset {
   margin-top: 70px
