@@ -613,6 +613,18 @@
   .bx-chevrons-right:before {
     content: "\ecb8";
   }
+  .bxs-chevron-down:before {
+    content: "\ea27";
+  }
+  .bxs-chevrons-up:before {
+    content: "\ea33";
+  }
+  .bx-chevron-down:before {
+    content: "\ecad";
+  }
+  .bx-chevron-up:before {
+    content: "\ecba";
+  }
   .bx-clinic:before {
     content: "\ecc0";
   }
@@ -640,6 +652,21 @@
   .bx-mobile-vibration:before {
     content: "\edf5";
   }
+  .bx-phone:before {
+    content: "\ee15";
+  }
+  .bx-phone-call:before {
+    content: "\ee16";
+  }
+  .bx-phone-incoming:before {
+    content: "\ee17";
+  }
+  .bx-phone-off:before {
+    content: "\ee18";
+  }
+  .bx-phone-outgoing:before {
+    content: "\ee19";
+  }
   .bx-slideshow:before {
     content: "\ee7b";
   }
@@ -654,4 +681,28 @@
   }
   .bx-show-alt:before {
     content: "\ee70";
+  }
+  .bx-menu:before {
+    content: "\edc2";
+  }
+  .bx-x:before {
+    content: "\eef0";
+  }
+  .bxs-arrow-to-top:before {
+    content: "\e9a3";
+  }
+  .bx-mobile:before {
+    content: "\edf2";
+  }
+  .bx-mobile-landscape:before {
+    content: "\edf4";
+  }
+  .bxs-hand:before {
+    content: "\eacb";
+  }
+  .bx-check-shield:before {
+    content: "\ecab";
+  }
+  .bx-fingerprint:before {
+    content: "\ed3e";
   }

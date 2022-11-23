@@ -356,31 +356,23 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 9998;
+  z-index: 9999;
   overflow: hidden;
-  background: #fff
+  background: #ffffff ;
 }
+
 #preloader:before {
   content: "";
   position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #106eea;
-  border-top-color: #e2eefd;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite
+  top: calc(50% - 60px);
+  left: calc(50% - 60px);
+  width: 120px;
+  height: 120px;
+  -webkit-animation: animate-preloader 2s linear infinite;
+  animation: animate-preloader 2s linear infinite;
+  background: #fff url("../img/preloader.png") no-repeat center center;
 }
-@-webkit-keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
+
 @keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
@@ -389,14 +381,7 @@ img {
     transform: rotate(360deg);
   }
 }
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-}
+
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
@@ -596,7 +581,7 @@ img {
   line-height: 0;
   transition: all .5s ease-in-out
 }
-.mobile-nav-toggle.bi-x {
+.mobile-nav-toggle.bx-x {
   color: #fff;
 }
 @media (max-width: 991px) {
@@ -621,7 +606,7 @@ img {
 }
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
-  top: 15px;
+  top: 35px;
   right: 15px
 }
 .navbar-mobile ul {
@@ -1834,20 +1819,20 @@ section {
   background: #f1f6fe
 }
 #footer .footer-newsletter {
-  padding: 50px 0;
+  padding: 30px 0;
   background: #f1f6fe;
   text-align: center;
   font-size: 15px
 }
 #footer .footer-top {
-  padding: 60px 0 30px 0;
+  padding: 30px 0 30px 0;
   background: #fff
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px
 }
-#footer .footer-top .footer-contact span {
-  font-weight: 700
+#footer .footer-top {
+  font-weight: 700;
 }
 #footer .footer-top .footer-contact p {
   font-size: 14px;
@@ -1863,8 +1848,11 @@ section {
   position: relative;
   padding-bottom: 12px
 }
-#footer .footer-top .footer-links {
-  margin-bottom: 30px
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+#footer .footer-links .footer-contact {
+  font-weight:700
 }
 #footer .footer-top .footer-links ul {
   list-style: none;
