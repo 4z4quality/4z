@@ -27,22 +27,6 @@
          introCarouselIndicators.innerHTML += "<li data-bs-target='#introCarousel' data-bs-slide-to='" + index + "'></li>"
      });
    
-  
-    /**
-   * Hide Header on scroll
-   */
-     var prevScrollpos = window.pageYOffset;
-     window.onscroll = function() {
-     var currentScrollPos = window.pageYOffset;
-       if (prevScrollpos > currentScrollPos) {
-         document.getElementById("header").style.top = "0";
-       } else {
-         document.getElementById("header").style.top = "-91px";
-       }
-       prevScrollpos = currentScrollPos;
-     }
-
-
   /**
    * Easy event listener function
    */

@@ -93,7 +93,14 @@ img {
     transform: rotate(360deg);
   }
 }
-
+/*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
@@ -101,12 +108,13 @@ img {
   background: #000066;
   height: 40px;
   font-size: 14px;
-  transition: all 0.5s;
+  transition: all 1s;
   color: #fff;
   padding: 0
 }
 #topbar .contact-info i {
   font-style: normal;
+  font-size: 150%;
   color: #fff
 }
 #topbar .contact-info i a, #topbar .contact-info i span {
@@ -122,7 +130,8 @@ img {
   text-decoration: underline
 }
 #topbar .social-links a {
-  color: rgba(255, 255, 255, 0.7);
+  font-size: 150%;
+  color: #fff;
   line-height: 0;
   transition: 1s ease-in-out;
   margin-left: 20px
@@ -134,14 +143,15 @@ img {
 # Header
 --------------------------------------------------------------*/
 #header {
-  transition: all ease-in-out .5s;
+  transition: all ease-in-out 1.5s;
   z-index: 997;
   background: #fff;
   height: 86px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1)
 }
 #header.fixed-top {
-  height: 70px
+  height: 70px;
+  box-shadow: 1px 1px 7px 2px #888888;
 }
 #header .logo {
   font-size: 30px;
@@ -159,7 +169,7 @@ img {
   color: #106eea
 }
 #header .logo img {
-  max-height: 70px;
+  max-height: 70px
 }
 .scrolled-offset {
   margin-top: 70px
@@ -504,11 +514,11 @@ img {
   margin-top: 30px;
   color: #fff;
   background: #FF8000;
+  text-transform: uppercase
 }
 #intro .btn-get-started:hover {
   background: #000066;
   color: #fff;
-  text-transform: uppercase
 }
 /*--------------------------------------------------------------
 # Sections General
@@ -571,9 +581,9 @@ section {
 }
 .breadcrumbs h1 {
   font-size: 32px;
-  font-weight: 600;
   margin: 0;
-  text-align: center
+  text-align: center;
+  font-weight: 600;
 }
 @media (max-width: 992px) {
   .breadcrumbs h1 {
@@ -612,8 +622,8 @@ section {
 # Our Name
 --------------------------------------------------------------*/
 .our-name {
-  margin-top: 50px;
-  margin-bottom: 60px
+  margin-top: 20px;
+  margin-bottom: 30px
 }
 .our-name .icon-box {
   padding: 30px;
@@ -805,7 +815,7 @@ section {
 # Featured Services
 --------------------------------------------------------------*/
 .featured-services {
-  padding: 15px 0;
+  padding: 80px 0;
   margin-bottom: 60px;
   text-align: center
 }
@@ -895,7 +905,6 @@ section {
   background-position: center center;
   background-size: cover;
   position: relative;
-  margin-bottom: 60px
 }
 .testimonials::before {
   content: "";
@@ -1166,7 +1175,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  margin-top: 60px;
+  margin-top: 50px;
   margin-bottom: 60px;
   padding: 60px 0;
   background: #fff
@@ -1566,7 +1575,7 @@ section {
   padding-bottom: 12px
 }
 #footer .footer-top .footer-contact {
-  margin-bottom: 30px;
+  margin-bottom: 30px
 }
 #footer .footer-links .footer-contact {
   font-weight:700
