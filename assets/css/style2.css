@@ -1584,6 +1584,9 @@ section {
   text-decoration: none;
   color: #106eea
 }
+#footer .footer-links p {
+  color: #777777;
+}
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
