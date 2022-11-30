@@ -706,3 +706,9 @@
   .bx-fingerprint:before {
     content: "\ed3e";
   }
+  .bxs-chevron-right:before {
+    content: "\ea2d";
+  }
+  .bxs-chevron-left:before {
+    content: "\ea2a";
+  }
