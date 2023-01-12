@@ -727,10 +727,14 @@ section {
   margin-bottom: 0
 }
 .about img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
+  transition: all 1s ease-in-out;
   -webkit-filter: drop-shadow(0px 5px 5px #222);
   filter: drop-shadow(0px 5px 5px #222)
+}
+.about img:hover {
+  transform: scale(1.05);
 }
 /*--------------------------------------------------------------
 # Skills
@@ -840,7 +844,7 @@ section {
   text-align: center;
   border-radius: 8px;
   padding: 80px 20px;
-  transition: all 1s ease-in-out;
+  transition: all 1.5s ease-in-out;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
   overflow: hidden;
   position: relative;
@@ -863,7 +867,6 @@ section {
   bottom: 0;
   border-radius: 0px
 }
-
 .services .icon-box .icon {
   margin: 0 auto;
   width: 64px;
