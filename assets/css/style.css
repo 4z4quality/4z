@@ -1718,8 +1718,12 @@ section {
   margin-right: auto;
   max-width: 100%;
   height: auto;
+  transition: all 1s ease-in-out;
   -webkit-filter: drop-shadow(0px 5px 5px #222);
   filter: drop-shadow(0px 5px 5px #222)
+}
+.inner-page img:hover {
+  scale: 1.1;
 }
 /*--------------------------------------------------------------
 # Callout
