@@ -1646,7 +1646,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #106eea;
+  background: #FF8000;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1658,7 +1658,7 @@ section {
   transition: .5s ease-in-out
 }
 #footer .footer-top .social-links a:hover {
-  background: #FF8000;
+  background: #106eea;
   color: #fff;
   text-decoration: none
 }
@@ -1735,7 +1735,7 @@ section {
   z-index: 2;
   visibility:hidden;
   opacity: 0;
-  right: 10px;
+  left: 10px;
   font-family: 'Roboto', sans-serif
 }
 .callout.active {
