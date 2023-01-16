@@ -1121,7 +1121,11 @@ section {
 }
 .portfolio-details .portfolio-details-slider img {
   max-width: 100%;
+  transition: all 1.5s ease-in-out;
   height:auto
+}
+.portfolio-details img:hover {
+  scale:1.05
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
