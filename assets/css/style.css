@@ -623,7 +623,8 @@ section {
 --------------------------------------------------------------*/
 .our-name {
   margin-top: 20px;
-  margin-bottom: 30px
+  margin-bottom: 30px;
+  visibility: auto;
 }
 .our-name .icon-box {
   padding: 30px;
@@ -684,7 +685,8 @@ section {
 --------------------------------------------------------------*/
 .about {
   margin-top: 60px;
-  margin-bottom: 60px
+  margin-bottom: 60px;
+  visibility: auto;
 }
 .about .content h3 {
   font-weight: 600;
@@ -744,7 +746,8 @@ section {
   height: 60px;
   display: block;
   background: none;
-  border-radius: 0
+  border-radius: 0;
+  visibility: auto;
 }
 .skills .progress .skill {
   padding: 0;
@@ -773,7 +776,8 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  padding: 70px 0 60px
+  padding: 70px 0 60px;
+  visibility: auto;
 }
 .counts .count-box {
   padding: 30px 30px 25px 30px;
@@ -821,7 +825,8 @@ section {
 .featured-services {
   padding: 80px 0;
   margin-bottom: 60px;
-  text-align: center
+  text-align: center;
+  visibility: auto;
 }
 .featured-services img {
   max-width: 45%;
@@ -932,6 +937,7 @@ section {
   background-position: center center;
   background-size: cover;
   position: relative;
+  visibility: auto;
 }
 .testimonials::before {
   content: "";
@@ -1013,7 +1019,8 @@ section {
 --------------------------------------------------------------*/
 .portfolio {
   margin-top: 60px;
-  margin-bottom: 60px
+  margin-bottom: 60px;
+  visibility: auto;
 }
 .portfolio #portfolio-flters {
   padding: 0;
@@ -1213,7 +1220,8 @@ section {
   margin-top: 50px;
   margin-bottom: 60px;
   padding: 60px 0;
-  background: #fff
+  background: #fff;
+  visibility: auto;
 }
 .team .member {
   margin-bottom: 20px;
@@ -1290,7 +1298,8 @@ section {
 .pricing{
   background: #f1f6fe;
   margin-top: 60px;
-  margin-bottom: 60px
+  margin-bottom: 60px;
+  visibility: auto;
 }
 .pricing .box {
   padding: 20px;
@@ -1388,7 +1397,8 @@ section {
   font-family: 'Poppins', sans-serif;
   margin-top: 60px;
   margin-bottom: 60px;
-  padding: 60px 0
+  padding: 60px 0;
+  visibility: auto;
 }
 .faq .faq-list {
   padding: 0;
@@ -1456,7 +1466,8 @@ section {
 --------------------------------------------------------------*/
 .contact {
   margin-top: 60px;
-  margin-bottom: 60px
+  margin-bottom: 60px;
+  visibility: auto;
 }
 .contact .info-box {
   color: #444444;
@@ -1581,7 +1592,8 @@ section {
   padding: 0 0 10px 0;
   color: #444444;
   font-size: 14px;
-  background: #f1f6fe
+  background: #f1f6fe;
+  visibility: auto;
 }
 #footer .footer-newsletter {
   padding: 30px 0;
