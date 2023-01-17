@@ -1444,8 +1444,12 @@ section {
   margin-right: auto;
   max-width: 60%;
   height: auto;
+  transition: all 1.5s ease-in-out;
   -webkit-filter: drop-shadow(0px 5px 5px #222);
   filter: drop-shadow(0px 1px 3px #222)
+}
+.faq img:hover {
+  scale:1.1
 }
 /*--------------------------------------------------------------
 # Contact
