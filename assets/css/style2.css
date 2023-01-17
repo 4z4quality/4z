@@ -358,10 +358,10 @@ img {
   color: #222222
 }
 .navbar-mobile > ul > li {
-  padding: 0
+  padding: 2px
 }
 .navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
-  visibility: visible
+  visibility: hidden
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #FFF;
