@@ -892,12 +892,12 @@ section {
   font-size: 28px;
   transition: ease-in-out .5s
 }
-.services .icon-box h3 {
+.services .icon-box h2 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px
 }
-.services .icon-box h3 a {
+.services .icon-box h2 a {
   color: #222222;
   transition: ease-in-out .5s
 }
