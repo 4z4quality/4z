@@ -1602,7 +1602,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: 'al-jazeera-arabic_regular', sans-serif;
-  color: #777777
+  color: #444444
 }
 #footer .footer-top h4 {
   font-size: 16px;
@@ -1633,7 +1633,7 @@ section {
   padding-top: 0
 }
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: #444444;
   transition: .5s ease-in-out;
   display: inline-block;
   line-height: 1
@@ -1643,7 +1643,7 @@ section {
   color: #1056AD
 }
 #footer .footer-links p {
-  color: #777777;
+  color: #444444;
 }
 #footer .footer-top .social-links a {
   font-size: 18px;
