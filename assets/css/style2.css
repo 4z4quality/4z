@@ -26,7 +26,7 @@ body {
   color: #000066
 }
 a {
-  color: #106eea;
+  color: #1056AD;
   transition: 0.5s;
   text-decoration: none
 }
@@ -50,7 +50,7 @@ img {
   left: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #106eea;
+  background: #1056AD;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -120,17 +120,17 @@ img {
   height: 40px;
   font-size: 14px;
   transition: all 1s;
-  color: #fff;
+  color: #000066;
   padding: 0
 }
 #topbar .contact-info i {
   font-style: normal;
   font-size: 150%;
-  color: #fff
+  color: #000066
 }
 #topbar .contact-info i a, #topbar .contact-info i span {
   padding-right: 5px;
-  color: #fff
+  color: #000066
 }
 #topbar .contact-info i a {
   line-height: 0;
@@ -142,7 +142,7 @@ img {
 }
 #topbar .social-links a {
   font-size: 150%;
-  color: #fff;
+  color: #000066;
   line-height: 0;
   transition: 1s ease-in-out;
   margin-left: 20px
@@ -176,7 +176,7 @@ img {
   color: #222222
 }
 #header .logo a span {
-  color: #106eea
+  color: #1056AD
 }
 #header .logo img {
   max-height: 70px
@@ -248,7 +248,7 @@ img {
   width: 100%
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #106eea
+  color: #1056AD
 }
 .navbar .dropdown ul {
   display: block;
@@ -392,7 +392,7 @@ img {
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
   color: #FFF;
-  background: #106eea
+  background: #1056AD
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display:inline-block
@@ -547,7 +547,7 @@ section {
   padding: 8px 20px;
   margin: 0;
   background: #e7f1fd;
-  color: #106eea;
+  color: #1056AD;
   display: inline-block;
   border-radius: 50px
 }
@@ -556,13 +556,13 @@ section {
   font-size: 32px;
 }
 .section-title h3 span {
-  color: #106eea
+  color: #1056AD
 }
 .section-title p span {
-  color: #106eea
+  color: #1056AD
 }
 .row span {
-  color: #106eea
+  color: #1056AD
 }
 .section-title p {
   margin: 15px auto 0 auto;
@@ -659,7 +659,7 @@ section {
 .our-name .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #106eea;
+  color: #1056AD;
   transition: all .5s ease-in-out
 }
 .our-name .title {
@@ -710,7 +710,7 @@ section {
   padding: 20px;
   margin-top: 10px;
   margin-left: 15px;
-  color: #106eea;
+  color: #1056AD;
   transition: .5s ease-in-out;
   border-radius: 50px
 }
@@ -791,7 +791,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #106eea;
+  background: #1056AD;
   color: #fff;
   width: 56px;
   height: 56px;
@@ -915,7 +915,7 @@ section {
   color: #fff
 }
 .services .icon-box:hover .icon {
-  border-color: #106eea
+  border-color: #1056AD
 }
 .services img {
   max-width:100%;
@@ -993,6 +993,12 @@ section {
   margin: 0 auto 15px auto;
   color: #eee
 }
+.testimonials .testimonial-item p a {
+  color: #FF8000
+}
+.testimonials .testimonial-item p a:hover {
+  color: #c3deff
+}
 .testimonials .swiper-pagination {
   margin-top: 20px;
   position: relative
@@ -1004,7 +1010,7 @@ section {
   opacity: 1
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #106eea
+  background-color: #1056AD
 }
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
@@ -1039,7 +1045,7 @@ section {
   transition: .5s ease-in-out
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #106eea
+  color: #1056AD
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0
@@ -1076,7 +1082,7 @@ section {
   color: #3c3c3c
 }
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #106eea
+  color: #1056AD
 }
 .portfolio .portfolio-item .portfolio-info .details-link {
   left: 10px
@@ -1147,10 +1153,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #106eea
+  border: 1px solid #1056AD
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #106eea
+  background-color: #1056AD
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -1187,7 +1193,7 @@ section {
   padding: 0
 }
 .portfolio-details .portfolio-description .red {
-  color: red
+  color: #B30000
 }
 .portfolio-details .portfolio-description .blue {
   color: blue
@@ -1204,7 +1210,7 @@ section {
   padding-bottom: 5px
 }
 .portfolio-details .portfolio-description i {
-  color:red
+  color:#B30000
 }
 /*--------------------------------------------------------------
 # Team
@@ -1324,7 +1330,7 @@ section {
   padding-bottom: 16px
 }
 .pricing .box ul i {
-  color: #106eea;
+  color: #1056AD;
   font-size: 18px;
   padding-right: 4px
 }
@@ -1339,7 +1345,7 @@ section {
   text-align: center
 }
 .pricing .btn-buy {
-  background: #106eea;
+  background: #1056AD;
   display: inline-block;
   padding: 8px 35px 10px 35px;
   border-radius: 4px;
@@ -1421,7 +1427,7 @@ section {
   color: black;
 }
 .faq .faq-list .collapsed:hover {
-  color: #106eea
+  color: #1056AD
 }
 .faq .faq-list .collapsed .icon-show {
   display: inline-block;
@@ -1460,7 +1466,7 @@ section {
 }
 .contact .info-box i {
   font-size: 32px;
-  color: #106eea;
+  color: #1056AD;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #b3d1fa;
@@ -1529,7 +1535,7 @@ section {
   font-size: 14px
 }
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #106eea
+  border-color: #1056AD
 }
 .contact .php-email-form input {
   padding: 10px 15px
@@ -1538,7 +1544,7 @@ section {
   padding: 12px 15px
 }
 .contact .php-email-form button[type=submit] {
-  background: #106eea;
+  background: #1056AD;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1614,7 +1620,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #106eea;
+  color: #1056AD;
   font-size: 18px;
   line-height: 1
 }
@@ -1634,7 +1640,7 @@ section {
 }
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #106eea
+  color: #1056AD
 }
 #footer .footer-links p {
   color: #777777;
@@ -1859,7 +1865,7 @@ input[
   .lbl-toggle:hover 
   { 
     color: #DDD;
-    background: #106eea;
+    background: #1056AD;
   } 
   .lbl-toggle::before 
   { 
