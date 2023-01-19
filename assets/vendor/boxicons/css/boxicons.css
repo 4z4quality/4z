@@ -626,6 +626,9 @@
   .bx-file:before {
     content: "\ed38";
   }
+  .bx-envelope:before {
+    content:"\ed24";
+  }
   .bx-group:before {
     content: "\ed62";
   }
