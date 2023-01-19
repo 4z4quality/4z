@@ -483,11 +483,13 @@ img {
 @media (min-width: 1024px) {
   #intro .carousel-control-prev, #intro .carousel-control-next {
     width: 5%;
+    font-size: 48px;
+    padding: 20px;
   }
 }
 #intro .carousel-control-next-icon, #intro .carousel-control-prev-icon {
   background:none;
-  font-size: 48px;
+  font-size: 32px;
   line-height: 1;
 }
 #intro .carousel-indicators li:hover {
