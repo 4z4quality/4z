@@ -483,8 +483,6 @@ img {
 @media (min-width: 1024px) {
   #intro .carousel-control-prev, #intro .carousel-control-next {
     width: 5%;
-    font-size: 48px;
-    margin: 20px;
   }
 }
 #intro .carousel-control-next-icon, #intro .carousel-control-prev-icon {
