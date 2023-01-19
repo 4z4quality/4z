@@ -482,7 +482,7 @@ img {
 }
 @media (min-width: 1024px) {
   #intro .carousel-control-prev, #intro .carousel-control-next {
-    width: 5%;
+    width: 10%;
   }
 }
 #intro .carousel-control-next-icon, #intro .carousel-control-prev-icon {
