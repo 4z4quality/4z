@@ -482,12 +482,12 @@ img {
 }
 @media (min-width: 1024px) {
   #intro .carousel-control-prev, #intro .carousel-control-next {
-    width: 10%;
+    width: 5%;
   }
 }
 #intro .carousel-control-next-icon, #intro .carousel-control-prev-icon {
   background:none;
-  font-size: 32px;
+  font-size: 48px;
   line-height: 1;
 }
 #intro .carousel-indicators li:hover {
