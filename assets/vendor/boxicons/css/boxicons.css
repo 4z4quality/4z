@@ -29,7 +29,6 @@
 {
     margin-left: 2em;
     padding-left: 0;
-
     list-style: none;
 }
 .bx-ul > li
@@ -478,30 +477,35 @@
     transform: rotate(90deg);
 
     -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=1)';
+    filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=1)';
 }
 .bx-rotate-180
 {
     transform: rotate(180deg);
 
     -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=2)';
+    filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=2)';
 }
 .bx-rotate-270
 {
     transform: rotate(270deg);
 
     -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=3)';
+    filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=3)';
 }
 .bx-flip-horizontal
 {
     transform: scaleX(-1);
 
     -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)';
+    filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)';
 }
 .bx-flip-vertical
 {
     transform: scaleY(-1);
 
     -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)';
+    filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)';
 }
 .bx-border
 {
@@ -607,17 +611,8 @@
   .bx-check-square:before {
     content: "\ecac";
   }
-  .bx-chevrons-left:before {
-    content: "\ecb7";
-  }
-  .bx-chevrons-right:before {
-    content: "\ecb8";
-  }
   .bxs-chevron-down:before {
     content: "\ea27";
-  }
-  .bxs-chevrons-up:before {
-    content: "\ea33";
   }
   .bx-chevron-down:before {
     content: "\ecad";
