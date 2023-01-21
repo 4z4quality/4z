@@ -130,7 +130,6 @@
   outline: none !important;
   border: none;
   min-height: 165px;
-  -webkit-overflow-scrolling: touch;
   -ms-touch-action: auto;
   touch-action: auto;
 }
