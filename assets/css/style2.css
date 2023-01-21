@@ -31,7 +31,7 @@ a {
   text-decoration: none
 }
 a:hover {
-  color: #FF8000;
+  color: #f80;
   text-decoration: none
 }
 h1, h2, h3, h4, h5, h6 {
@@ -62,7 +62,7 @@ img {
   line-height: 0
 }
 .back-to-top:hover {
-  background: #FF8000;
+  background: #f80;
   color: #fff
 }
 .back-to-top.active {
@@ -80,7 +80,7 @@ img {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #ffffff ;
+  background: #fff ;
 }
 
 #preloader:before {
@@ -116,7 +116,7 @@ img {
 --------------------------------------------------------------*/
 #topbar {
   font-family: 'al-jazeera-arabic-bold', sans-serif;
-  background: #FF8000;
+  background: #f80;
   height: 40px;
   font-size: 14px;
   transition: all 1s;
@@ -238,7 +238,7 @@ img {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #FF8000;
+  background-color: #f80;
   visibility: hidden;
   width: 0px;
   transition: all .3s ease-in-out
@@ -275,7 +275,7 @@ img {
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
   color: #FFF;
-  background: #FF8000
+  background: #f80
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -365,7 +365,7 @@ img {
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #FFF;
-  background: #FF8000
+  background: #f80
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px
@@ -486,7 +486,7 @@ img {
   color: #000066;
 }
 #intro .carousel-control-prev:hover, #intro .carousel-control-next:hover {
-  color: #FF8000;
+  color: #f80;
 }
 @media (min-width: 1024px) {
   #intro .carousel-control-prev, #intro .carousel-control-next {
@@ -499,7 +499,7 @@ img {
   line-height: 1;
 }
 #intro .carousel-indicators li:hover {
-  background-color: #FF8000;
+  background-color: #f80;
 }
 #intro .carousel-indicators li {
   background-color: #000066;
@@ -523,7 +523,7 @@ img {
   background: #000066;
 }
 #intro .btn-get-started:hover {
-  background: #FF8000;
+  background: #f80;
   color: #fff;
 }
 /*--------------------------------------------------------------
@@ -584,7 +584,7 @@ section {
   font-size: 32px;
   margin: 0;
   text-align: center;
-  color: #FF8000
+  color: #f80
 }
 @media (max-width: 992px) {
   .breadcrumbs h1 {
@@ -649,7 +649,7 @@ section {
   z-index: -1
 }
 .our-name .icon-box:hover::before {
-  background: #FF8000;
+  background: #f80;
   top: 0;
   border-radius: 0px
 }
@@ -769,7 +769,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 1s ease-in;
-  background-color: #FF8000
+  background-color: #f80
 }
 /*--------------------------------------------------------------
 # Counts
@@ -804,7 +804,7 @@ section {
   transition: 1s ease-in-out
 }
 .counts .count-box i:hover {
-  background: #FF8000
+  background: #f80
 }
 .counts .count-box span {
   font-size: 32px;
@@ -868,7 +868,7 @@ section {
   z-index: -1
 }
 .services .icon-box:hover::before {
-  background: #FF8000;
+  background: #f80;
   bottom: 0;
   border-radius: 0px
 }
@@ -908,7 +908,7 @@ section {
   color: #fff
 }
 .services .icon-box:hover {
-  border-color: #ff8000;
+  border-color: #f80;
   box-shadow: 0px 0 25px 0 rgba(16, 110, 234, 0.1)
 }
 .services .icon-box:hover h3 {
@@ -985,7 +985,7 @@ section {
   color: #eee
 }
 .testimonials .testimonial-item a {
-  color: #FF8000
+  color: #f80
 }
 .testimonials .testimonial-item a:hover {
   color: #c3deff
@@ -1307,7 +1307,7 @@ section {
 }
 .pricing .featured .price {
   color: #fff;
-  background: #FF8000
+  background: #f80
 }
 .pricing .box ul {
   padding: 0;
@@ -1346,11 +1346,11 @@ section {
   transition: .5s ease-out
 }
 .pricing .btn-buy:hover {
-  background: #FF8000
+  background: #f80
 }
 .pricing .featured h3 {
   color: #fff;
-  background: #FF8000
+  background: #f80
 }
 .pricing .advanced {
   width: 200px;
@@ -1361,7 +1361,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #FF8000;
+  background: #f80;
   color: #fff
 }
 .pricing img {
@@ -1398,7 +1398,7 @@ section {
   line-height: 24px;
   padding-right: 25px;
   cursor: pointer;
-  color: #FF8000;
+  color: #f80;
   transition: .5s ease-in-out
 }
 .faq .faq-list i {
@@ -1465,7 +1465,7 @@ section {
 }
 .contact .info-box i:hover {
   color: #FFF;
-  background: #FF8000
+  background: #f80
 }
 .contact .info-box h3 {
   font-size: 20px;
@@ -1543,7 +1543,7 @@ section {
   border-radius: 4px
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #FF8000
+  background: #f80
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1651,7 +1651,7 @@ section {
   transition: .5s ease-in-out
 }
 #footer .footer-top .social-links a:hover {
-  background: #FF8000;
+  background: #f80;
   color: #fff;
   text-decoration: none
 }
@@ -1750,7 +1750,7 @@ section {
   padding: 15px;
   -webkit-filter: drop-shadow(0px 5px 5px #222); filter: drop-shadow(0px 5px 5px #222);
   background-color: rgb(255, 136, 0);
-  color: white;
+  color: #fff;
 }
 .callout-container a:hover {
   color: #000066
@@ -1764,7 +1764,7 @@ section {
   cursor: pointer
 }
 .closebtn:hover {
-  color: #ff8000
+  color: #f80
 }
 /*--------------------------------------------------------------
 # Quote-Div
@@ -1803,7 +1803,7 @@ BUTTONS
   display:inline-block;
   padding:5px 14px;
   background-color:#fff;
-  border:3px solid #FF8000;
+  border:3px solid #f80;
   border-radius:15px
 }
 .pager li>a:focus,.pager li>a:hover {
@@ -1849,7 +1849,7 @@ input[
     text-align: center; 
     padding: .5rem;
     color: #000066;
-    background: #FF8000; 
+    background: #f80; 
     cursor: pointer;
     transition: .5s ease-in-out
   } 
@@ -1896,5 +1896,5 @@ input[
   }
   .content-inner i:hover
   { 
-    color: #FF8000!important 
+    color: #f80!important 
   }
