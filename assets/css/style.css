@@ -137,7 +137,7 @@ section {padding:60px 0;overflow:hidden;}
 .our-name .icon-box::before {content:"";position:absolute;background:#cbe0fb;right:0;left:0;bottom:0;top:100%;transition:all .5s ease-in-out;z-index:-1;}
 .our-name .icon-box:hover::before {background:#f80;top:0;border-radius:0;}
 .our-name .icon {margin-bottom:15px;}
-.our-name .icon i {font-size:48px;line-height:1;color:#1056ad;transition:all .5s ease-in-out;}
+.our-name .icon i {font-size:48px;font-weight:400;line-height:1;color:#1056ad;transition:all .5s ease-in-out;}
 .our-name .title {font-weight:700;margin-bottom:15px;font-size:18px;}
 .our-name .title a {color:#111;}
 .our-name .description {font-size:15px;line-height:28px;margin-bottom:0;}

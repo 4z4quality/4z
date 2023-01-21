@@ -658,6 +658,7 @@ section {
 }
 .our-name .icon i {
   font-size: 48px;
+  font-weight: 400;
   line-height: 1;
   color: #1056AD;
   transition: all .5s ease-in-out
