@@ -38,3 +38,10 @@ AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css a
   ExpiresByType application/pdf "access plus 1 year"
   ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
 </IfModule>
+
+# Extra Security Headers
+<IfModule mod_headers.c>
+    Header set X-XSS-Protection "1; mode=block"
+    Header always append X-Frame-Options SAMEORIGIN
+    Header set X-Content-Type-Options nosniff
+</IfModule>
