@@ -2207,8 +2207,8 @@
 
 
   function getContainingBlock(element) {
-    var isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') !== -1;
-    var isIE = navigator.userAgent.indexOf('Trident') !== -1;
+    var isFirefox = navigator.userAgentData.toLowerCase().indexOf('firefox') !== -1;
+    var isIE = navigator.userAgentData.indexOf('Trident') !== -1;
 
     if (isIE && isHTMLElement(element)) {
       // In IE 9, 10 and 11 fixed elements containing block is always established by the viewport
@@ -2626,7 +2626,7 @@
       // 0.001
       // Fallback here: "Not Safari" userAgent
 
-      if (!/^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {
+      if (!/^((?!chrome|android).)*safari/i.test(navigator.userAgentData)) {
         x = visualViewport.offsetLeft;
         y = visualViewport.offsetTop;
       }
