@@ -11,14 +11,6 @@
 @font-face {font-family:'Open Sans';src:url(https://the4z.com/assets/css/fonts/OpenSans-BoldItalic.eot);src:url(https://the4z.com/assets/css/fonts/OpenSans-BoldItalic.eot?#iefix) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/OpenSans-BoldItalic.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/OpenSans-BoldItalic.woff) format('woff'),url(https://the4z.com/assets/css/fonts/OpenSans-BoldItalic.ttf) format('truetype'),url(https://the4z.com/assets/css/fonts/OpenSans-BoldItalic.svg#OpenSans-BoldItalic) format('svg');font-weight:700;font-style:italic;font-display:swap}
 @font-face {font-family:'Open Sans';src:url(https://the4z.com/assets/css/fonts/OpenSans-ExtraBold.eot);src:url(https://the4z.com/assets/css/fonts/OpenSans-ExtraBold.eot?#iefix) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/OpenSans-ExtraBold.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/OpenSans-ExtraBold.woff) format('woff'),url(https://the4z.com/assets/css/fonts/OpenSans-ExtraBold.ttf) format('truetype'),url(https://the4z.com/assets/css/fonts/OpenSans-ExtraBold.svg#OpenSans-ExtraBold) format('svg');font-weight:800;font-style:normal;font-display:swap}
 @font-face {font-family:'Open Sans';src:url(https://the4z.com/assets/css/fonts/OpenSans-ExtraBoldItalic.eot);src:url(https://the4z.com/assets/css/fonts/OpenSans-ExtraBoldItalic.eot?#iefix) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/OpenSans-ExtraBoldItalic.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/OpenSans-ExtraBoldItalic.woff) format('woff'),url(https://the4z.com/assets/css/fonts/OpenSans-ExtraBoldItalic.ttf) format('truetype'),url(https://the4z.com/assets/css/fonts/OpenSans-ExtraBoldItalic.svg#OpenSans-ExtraBoldItalic) format('svg');font-weight:800;font-style:italic;font-display:swap}
-@font-face {font-family:'Roboto';src:url(https://the4z.com/assets/css/fonts/Roboto-Light.eot);src:url(https://the4z.com/assets/css/fonts/Roboto-Light.eot?#iefix) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/Roboto-Light.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/Roboto-Light.woff) format('woff'),url(https://the4z.com/assets/css/fonts/Roboto-Light.ttf) format('truetype'),url(https://the4z.com/assets/css/fonts/Roboto-Light.svg#Roboto-Light) format('svg');font-weight:300;font-style:normal;font-display:swap}
-@font-face {font-family:'Roboto';src:url(https://the4z.com/assets/css/fonts/Roboto-LightItalic.eot);src:url(https://the4z.com/assets/css/fonts/Roboto-LightItalic.eot?#iefix) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/Roboto-LightItalic.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/Roboto-LightItalic.woff) format('woff'),url(https://the4z.com/assets/css/fonts/Roboto-LightItalic.ttf) format('truetype'),url(https://the4z.com/assets/css/fonts/Roboto-LightItalic.svg#Roboto-LightItalic) format('svg');font-weight:300;font-style:italic;font-display:swap}
-@font-face {font-family:'Roboto';src:url(https://the4z.com/assets/css/fonts/Roboto-Regular.eot);src:url(https://the4z.com/assets/css/fonts/Roboto-Regular.eot?#iefix) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/Roboto-Regular.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/Roboto-Regular.woff) format('woff'),url(https://the4z.com/assets/css/fonts/Roboto-Regular.ttf) format('truetype'),url(https://the4z.com/assets/css/fonts/Roboto-Regular.svg#Roboto-Regular) format('svg');font-weight:400;font-style:normal;font-display:swap}
-@font-face {font-family:'Roboto';src:url(https://the4z.com/assets/css/fonts/Roboto-Italic.eot);src:url(https://the4z.com/assets/css/fonts/Roboto-Italic.eot?#iefix) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/Roboto-Italic.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/Roboto-Italic.woff) format('woff'),url(https://the4z.com/assets/css/fonts/Roboto-Italic.ttf) format('truetype'),url(https://the4z.com/assets/css/fonts/Roboto-Italic.svg#Roboto-Italic) format('svg');font-weight:400;font-style:italic;font-display:swap}
-@font-face {font-family:'Roboto';src:url(https://the4z.com/assets/css/fonts/Roboto-Medium.eot);src:url(https://the4z.com/assets/css/fonts/Roboto-Medium.eot?#iefix) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/Roboto-Medium.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/Roboto-Medium.woff) format('woff'),url(https://the4z.com/assets/css/fonts/Roboto-Medium.ttf) format('truetype'),url(https://the4z.com/assets/css/fonts/Roboto-Medium.svg#Roboto-Medium) format('svg');font-weight:500;font-style:normal;font-display:swap}
-@font-face {font-family:'Roboto';src:url(https://the4z.com/assets/css/fonts/Roboto-MediumItalic.eot);src:url(https://the4z.com/assets/css/fonts/Roboto-MediumItalic.eot?#iefix) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/Roboto-MediumItalic.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/Roboto-MediumItalic.woff) format('woff'),url(https://the4z.com/assets/css/fonts/Roboto-MediumItalic.ttf) format('truetype'),url(https://the4z.com/assets/css/fonts/Roboto-MediumItalic.svg#Roboto-MediumItalic) format('svg');font-weight:500;font-style:italic;font-display:swap}
-@font-face {font-family:'Roboto';src:url(https://the4z.com/assets/css/fonts/Roboto-Bold.eot);src:url(https://the4z.com/assets/css/fonts/Roboto-Bold.eot?#iefix) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/Roboto-Bold.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/Roboto-Bold.woff) format('woff'),url(https://the4z.com/assets/css/fonts/Roboto-Bold.ttf) format('truetype'),url(https://the4z.com/assets/css/fonts/Roboto-Bold.svg#Roboto-Bold) format('svg');font-weight:700;font-style:normal;font-display:swap}
-@font-face {font-family:'Roboto';src:url(https://the4z.com/assets/css/fonts/Roboto-BoldItalic.eot);src:url(https://the4z.com/assets/css/fonts/Roboto-BoldItalic.eot?#iefix) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/Roboto-BoldItalic.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/Roboto-BoldItalic.woff) format('woff'),url(https://the4z.com/assets/css/fonts/Roboto-BoldItalic.ttf) format('truetype'),url(https://the4z.com/assets/css/fonts/Roboto-BoldItalic.svg#Roboto-BoldItalic) format('svg');font-weight:700;font-style:italic;font-display:swap}
 @font-face {font-family:'Poppins';src:url(https://the4z.com/assets/css/fonts/Poppins-Poppins-Light.eot);src:url(https://the4z.com/assets/css/fonts/Poppins-Light.eot?#iefix) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/Poppins-Light.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/Poppins-Light.woff) format('woff'),url(https://the4z.com/assets/css/fonts/Poppins-Light.ttf) format('truetype'),url(https://the4z.com/assets/css/fonts/Poppins-Light.svg#Poppins-Light) format('svg');font-weight:300;font-style:normal;font-display:swap}
 @font-face {font-family:'Poppins';src:url(https://the4z.com/assets/css/fonts/Poppins-LightItalic.eot);src:url(https://the4z.com/assets/css/fonts/Poppins-LightItalic.eot?#iefix) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/Poppins-LightItalic.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/Poppins-LightItalic.woff) format('woff'),url(https://the4z.com/assets/css/fonts/Poppins-LightItalic.ttf) format('truetype'),url(https://the4z.com/assets/css/fonts/Poppins-LightItalic.svg#Poppins-LightItalic) format('svg');font-weight:300;font-style:italic;font-display:swap}
 @font-face {font-family:'Poppins';src:url(https://the4z.com/assets/css/fonts/Poppins-Regular.eot);src:url(https://the4z.com/assets/css/fonts/Poppins-Regular.eot?#iefix) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/Poppins-Regular.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/Poppins-Regular.woff) format('woff'),url(https://the4z.com/assets/css/fonts/Poppins-Regular.ttf) format('truetype'),url(https://the4z.com/assets/css/fonts/Poppins-Regular.svg#Poppins-Regular) format('svg');font-weight:400;font-style:normal;font-display:swap}
@@ -32,7 +24,7 @@
 body {font-family:'Open Sans',sans-serif;color:#006}
 a {color:#1056ad;transition:.5s;text-decoration:none}
 a:hover{color:#f80;text-decoration:none}
-h1,h2,h3,h4,h5,h6 {font-family:'Roboto',sans-serif}
+h1,h2,h3,h4,h5,h6 {font-family:'Poppins',sans-serif}
 img {aspect-ratio:attr(width)/attr(height)}
 #preloader:before {content:"";position:fixed;top:calc(50% - 60px);left:calc(50% - 60px);width:120px;height:120px;-webkit-animation:animate-preloader 2s linear infinite;animation:animate-preloader 2s linear infinite;background:#fff url(https://the4z.com/assets/img/preloader.png) no-repeat center center}
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;z-index:9999;overflow:hidden;background:#fff}
@@ -99,7 +91,7 @@ img {aspect-ratio:attr(width)/attr(height)}
 #intro .carousel-item {background-size:cover;background-position:bottom;background-repeat:no-repeat}
 #intro .carousel-container {display:flex;justify-content:center;align-items:center;position:absolute;bottom:0;top:0;left:50px;right:50px}
 #intro .container {text-align:center}
-#intro h1,h2 {color:#006;margin-bottom:60px;font-size:80px;font-weight:900}
+#intro h1,h2 {color:#006;margin-bottom:60px;font-size:80px;font-weight:600}
 @media (max-width:768px) {#intro h1 {font-size:50px}}
 @media (max-width:768px) {#intro h2 {font-size:40px}}
 #intro .carousel-fade {overflow:hidden}
@@ -117,8 +109,8 @@ img {aspect-ratio:attr(width)/attr(height)}
 #intro .btn-get-started:hover {background:#006;color:#fff}
 section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
-.section-title {text-align:center;padding-bottom:30px;font-size:17px}
-.section-title .title {font-size:13px;letter-spacing:1px;font-weight:700;padding:8px 20px;margin:0;background:#e7f1fd;color:#1056ad;display:inline-block;text-transform:uppercase;border-radius:50px}
+.section-title {font-family:'Poppins',sans-serif; text-align:center;padding-bottom:30px;font-size:17px}
+.section-title .title {font-family:'Poppins',sans-serif; font-size:13px;letter-spacing:1px;font-weight:600;padding:8px 20px;margin:0;background:#e7f1fd;color:#1056ad;display:inline-block;text-transform:uppercase;border-radius:50px}
 .section-title h3 {margin:15px 0 0 0;font-size:32px;font-weight:700}
 .section-title h3 span {color:#1056ad}
 .section-title p span {color:#1056ad}
@@ -138,7 +130,7 @@ section {padding:60px 0;overflow:hidden}
 .our-name .icon-box:hover::before {background:#f80;top:0;border-radius:0}
 .our-name .icon {margin-bottom:15px}
 .our-name .icon i {font-size:48px;font-weight:400;line-height:1;color:#1056ad;transition:all .5s ease-in-out}
-.our-name .title {font-weight:700;margin-bottom:15px;font-size:18px}
+.our-name .title {font-family: 'Poppins',sans-serif;font-weight:600;margin-bottom:15px;font-size:18px}
 .our-name .title a {color:#111}
 .our-name .description {font-size:15px;line-height:28px;margin-bottom:0}
 .our-name .icon-box:hover .description,.our-name .icon-box:hover .title a {color:#fff}
@@ -175,7 +167,7 @@ section {padding:60px 0;overflow:hidden}
 .services .icon-box:hover::before {background:#f80;bottom:0;border-radius:0}
 .services .icon-box .icon {margin:0 auto;width:64px;height:64px;background:#f1f6fe;border-radius:4px;border:1px solid #deebfd;display:flex;align-items:center;justify-content:center;margin-bottom:20px;transition:ease-in-out .5s}
 .services .icon-box .icon i {color:#3b8af2;font-size:28px;transition:ease-in-out .5s}
-.services .icon-box h2 {font-weight:700;margin-bottom:15px;font-size:24px}
+.services .icon-box h2 {font-weight:600;margin-bottom:15px;font-size:22px}
 .services .icon-box h2 a {color:#222;transition:ease-in-out .5s}
 .services .icon-box p {line-height:24px;font-size:17px;margin-bottom:0}
 .services .icon-box:hover p {color:#fff}
@@ -218,7 +210,6 @@ section {padding:60px 0;overflow:hidden}
 .portfolio img {max-width:95%;height:auto;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .portfolio img:hover {scale:1.1}
 .portfolio .projects {font-size:15px;line-height:1.7em;text-align:center}
-
 .portfolio-details {padding-top:40px}
 .portfolio-details .portfolio-details-slider img {display:inline-block;max-width:100%;transition:all 1.5s ease-in-out;height:auto}
 .portfolio-details img:hover {scale:1.05}
@@ -261,7 +252,7 @@ section {padding:60px 0;overflow:hidden}
 .pricing .box ul i {color:#1056ad;font-size:18px;padding-right:4px}
 .pricing .box ul .na {color:#ccc;text-decoration:line-through}
 .pricing .btn-wrap {margin:20px -20px -20px -20px;padding:20px 15px;background:#f8f8f8;text-align:center}
-.pricing .btn-buy {background:#1056ad;display:inline-block;padding:8px 35px 10px 35px;border-radius:4px;color:#fff;font-size:14px;font-weight:400;font-family:'Roboto',sans-serif;font-weight:600;text-transform:uppercase;transition:.5s ease-out}
+.pricing .btn-buy {background:#1056ad;display:inline-block;padding:8px 35px 10px 35px;border-radius:4px;color:#fff;font-size:14px;font-weight:400;font-family:'Poppins',sans-serif;font-weight:600;text-transform:uppercase;transition:.5s ease-out}
 .pricing .btn-buy:hover {background:#f80}
 .pricing .featured h3 {color:#fff;background:#f80}
 .pricing .advanced {width:200px;position:absolute;top:18px;right:-68px;transform:rotate(45deg);z-index:1;font-size:14px;padding:1px 0 3px 0;background:#f80;color:#fff}
@@ -269,7 +260,7 @@ section {padding:60px 0;overflow:hidden}
 .faq {margin-top:60px;margin-bottom:60px;padding:60px 0;visibility:auto}
 .faq .faq-list {padding:0;list-style:none}
 .faq .faq-list li {border-bottom:1px solid #d4e5fc;margin-bottom:20px;padding-bottom:20px}
-.faq .faq-list .question {display:block;position:relative;font-size:20px;line-height:24px;padding-left:25px;cursor:pointer;color:#f80;transition:.5s ease-in-out}
+.faq .faq-list .question {font-family:'Poppins',sans-serif;display:block;position:relative;font-size:20px;line-height:24px;padding-left:25px;cursor:pointer;color:#f80;transition:.5s ease-in-out}
 .faq .faq-list i {font-size:16px;position:absolute;left:0;top:2px}
 .faq .faq-list p {margin-bottom:0;padding:10px 0 0 25px}
 .faq .faq-list .icon-show {display:none}
@@ -304,7 +295,7 @@ section {padding:60px 0;overflow:hidden}
 #footer .footer-newsletter {padding:30px 0;background:#f1f6fe;text-align:center;font-size:15px}
 #footer .footer-top {padding:30px 0 30px 0;background:#fff;font-weight:700}
 #footer .footer-top .footer-contact {margin-bottom:30px}
-#footer .footer-top .footer-contact p {font-size:14px;line-height:24px;margin-bottom:0;font-family:'Roboto',sans-serif;color:#444}
+#footer .footer-top .footer-contact p {font-size:14px;line-height:24px;margin-bottom:0;font-family:'Poppins',sans-serif;color:#444}
 #footer .footer-top .footer-contact p a {font-size:16px;font-weight:700;color:#444;position:relative;padding-bottom:12px}
 #footer .footer-top .footer-contact {margin-bottom:30px}
 #footer .footer-links .footer-contact {font-weight:700}
@@ -325,8 +316,7 @@ section {padding:60px 0;overflow:hidden}
 .inner-page {padding:20px;margin:10px;background:#f1f6fe;font-size:17px;box-shadow:0 2px 15px rgba(0,0,0,.1)}
 .inner-page img {display:block;margin-left:auto;margin-right:auto;max-width:100%;height:auto;transition:all 1s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .inner-page img:hover {scale:1.1}
-
-.callout {position:fixed;max-width:270px;bottom:10px;z-index:2;visibility:hidden;opacity:0;left:10px;font-family:'Roboto',sans-serif}
+.callout {position:fixed;max-width:270px;bottom:10px;z-index:2;visibility:hidden;opacity:0;left:10px;font-family:'Poppins',sans-serif}
 .callout.active {visibility:visible;opacity:1}
 .callout-header {padding:25px 15px;background-color:#f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);font-size:30px;font-weight:500;color:#fff}
 .callout-container {padding:15px;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);background-color:#f1f6fe;color:#006;font-weight:500}
