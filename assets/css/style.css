@@ -34,9 +34,9 @@ a {color:#1056ad;transition:.5s;text-decoration:none}
 a:hover{color:#f80;text-decoration:none}
 h1,h2,h3,h4,h5,h6 {font-family:'Roboto',sans-serif}
 img {aspect-ratio:attr(width)/attr(height)}
+#preloader:before {content:"";position:fixed;top:calc(50% - 60px);left:calc(50% - 60px);width:120px;height:120px;-webkit-animation:animate-preloader 2s linear infinite;animation:animate-preloader 2s linear infinite;background:#fff url(https://the4z.com/assets/img/preloader.png) no-repeat center center}
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;z-index:9999;overflow:hidden;background:#fff}
-#preloader:before {content:"";position:fixed;top:calc(50% - 60px);left:calc(50% - 60px);width:120px;height:120px;-webkit-animation:animate-preloader 1s linear infinite;animation:animate-preloader 1s linear infinite;background:#fff url(https://the4z.com/assets/img/preloader.png) no-repeat center center}
-@keyframes animate-preloader {0% {transform:rotate(0)}100% {transform:rotate(0deg)}}
+@keyframes animate-preloader {0% {transform: rotate(0deg);}100% {transform: rotate(360deg);}}
 .back-to-top {position:fixed;visibility:hidden;opacity:0;right:15px;bottom:15px;z-index:996;background:#f80;width:40px;height:40px;border-radius:50px;transition:all .4s}
 .back-to-top i {font-size:28px;color:#fff;line-height:0}
 .back-to-top:hover {background:#3284f1;color:#fff}
