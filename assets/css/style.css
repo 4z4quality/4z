@@ -296,7 +296,7 @@ section {padding:60px 0;overflow:hidden;}
 .contact .php-email-form input {padding:10px 15px;}
 .contact .php-email-form textarea {padding:12px 15px;}
 .contact .php-email-form button[type=submit] {background:#1056ad;border:0;padding:10px 30px;color:#fff;transition:1s ease-in-out;border-radius:4px;}
-contact .php-email-form button[type=submit]:hover {background:#f80;}
+.contact .php-email-form button[type=submit]:hover {background:#f80;}
 @-webkit-keyframes animate-loading {0% {transform:rotate(0);}100% {transform:rotate(0deg);}}
 @keyframes animate-loading {0% {transform:rotate(0);}100% {transform:rotate(0deg);}}
 #footer {background:#fff;padding:0 0 10px 0;color:#444;font-size:14px;background:#f1f6fe;visibility:auto;}
@@ -330,7 +330,7 @@ contact .php-email-form button[type=submit]:hover {background:#f80;}
 .callout-container {padding:15px;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);background-color:#f1f6fe;color:#006;font-weight:500;}
 .closebtn {position:absolute;top:-5px;right:10px;color:#fff;font-size:30px;cursor:pointer;}
 .closebtn:hover {color:#006;}
-.quote {font-family:'Poppins',sans-serif;text-align:center;color:#b85a00;font-style:italic;font-weight:300;font-size:1.6em;line-height:1.4em;}
+.quote {font-family:'Poppins',sans-serif;text-align:center;color:#b85a00;font-style:italic;font-weight:300;font-size:1.6em;line-height:1.4em;margin:10px}
 table,td,th {border:1px solid #000;border-collapse:collapse;font-size:15px;max-width:100%;}
 .pager {padding-left:0;margin:20px 0;text-align:center;list-style:none;font-weight: 700}
 .pager li {display:inline;}
