@@ -617,6 +617,12 @@
   .bx-chevron-down:before {
     content: "\ecad";
   }
+  .bx-chevron-left:before {
+    content: "\ecb0";
+  }
+  .bx-chevron-right:before {
+    content: "\ecb3";
+  }
   .bx-chevron-up:before {
     content: "\ecba";
   }
