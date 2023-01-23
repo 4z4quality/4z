@@ -142,7 +142,6 @@ section {padding:60px 0;overflow:hidden}
 .about .content ul li:first-child {margin-top:35px}
 .about .content ul i {background:#fff;box-shadow:0 6px 15px rgba(16,110,234,.12);font-size:24px;padding:20px;margin-top:10px;margin-left:15px;color:#1056ad;transition:.5s ease-in-out;border-radius:50px}
 .about .content ul i:hover {color:#fff;background:#daa520}
-.about .content ul h5 {font-size:18px;color:#555}
 .about .content ul p {font-size:15px}
 .about .content p:last-child {margin-bottom:0}
 .about img {display:inline-block;max-width:60%;height:auto;transition:all 1s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
