@@ -91,7 +91,7 @@ img {aspect-ratio:attr(width)/attr(height)}
 #intro .carousel-item {background-size:cover;background-position:bottom;background-repeat:no-repeat}
 #intro .carousel-container {display:flex;justify-content:center;align-items:center;position:absolute;bottom:0;top:0;left:50px;right:50px}
 #intro .container {text-align:center}
-#intro h1,h2 {color:#006;margin-bottom:60px;font-size:80px;font-weight:600}
+#intro h1,h2 {color:#006;margin-bottom:60px;font-size:70px;font-weight:600}
 @media (max-width:768px) {#intro h1 {font-size:50px}}
 @media (max-width:768px) {#intro h2 {font-size:40px}}
 #intro .carousel-fade {overflow:hidden}
