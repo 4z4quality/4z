@@ -102,7 +102,8 @@ img {aspect-ratio:attr(width)/attr(height)}
 
 #intro .carousel-control-prev, #intro .carousel-control-next {width: 12%;color: rgb(0, 68, 0);}
 @media (min-width: 1024px) {#intro .carousel-control-prev, #intro .carousel-control-next {width: 5%;}}
-#intro .carousel-control-next-icon, #intro .carousel-control-prev-icon {background: none;font-size: 32px;line-height: 1;}
+
+#intro .carousel-control-next-icon, #intro .carousel-control-prev-icon {background: none;font-size: 32px;margin:8px;padding:3px;line-height: 1;}
 
 
 #intro .carousel-indicators li:hover {background-color:#f80}
