@@ -160,7 +160,7 @@ section {padding:60px 0;overflow:hidden}
 .counts .count-box p {padding:0;margin:0;font-family:'al-jazeera-arabic_regular',sans-serif;font-size:14px}
 .featured-services {padding:80px 0;margin-bottom:60px;text-align:center;visibility:auto}
 .featured-services img {display:inline-block;max-width:45%;transition:1s ease-in-out;display:inline-block;padding:15px 0;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
-.featured-services img:hover {transform:scale(1.15)}
+.featured-services img:hover {transform:scale(1.05)}
 @media (max-width:768px) {.featured-services img {max-width:40%}}
 .services .icon-box {text-align:center;border-radius:8px;padding:80px 20px;transition:all 1.5s ease-in-out;box-shadow:0 0 29px 0 rgba(68,88,144,.12);overflow:hidden;position:relative;z-index:1;background:#fff}
 .services .icon-box::before {content:"";position:absolute;background:#cbe0fb;right:0;left:0;bottom:100%;top:0;transition:all .5s ease-in-out;z-index:-1}
@@ -207,8 +207,8 @@ section {padding:60px 0;overflow:hidden}
 .portfolio .portfolio-item .portfolio-links a {color:#fff;margin:0 2px;font-size:28px;display:inline-block;transition:.5s ease-in-out}
 .portfolio .portfolio-item .portfolio-links a:hover {color:#6ba7f5}
 .portfolio .portfolio-item:hover .portfolio-info {opacity:1;bottom:20px}
-.portfolio img {max-width:95%;height:auto;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
-.portfolio img:hover {scale:1.1}
+.portfolio img {max-width:100%;height:auto;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
+.portfolio img:hover {scale:1.05}
 .portfolio .projects {font-size:16px;line-height:1.7em;text-align:center}
 .portfolio .projects span:hover {color:#f80}
 .portfolio-details {line-height:1.7em;padding-top:40px}
@@ -270,7 +270,7 @@ section {padding:60px 0;overflow:hidden}
 .faq .faq-list .collapsed .icon-show {display:inline-block;transition:.5s ease-in-out}
 .faq .faq-list .collapsed .icon-close {display:none;transition:.5s ease-in-out}
 .faq img {display:inline-block;padding:10px;max-width:100%;height:auto;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222)}
-.faq img:hover {scale:1.1}
+.faq img:hover {scale:1.05}
 .contact {margin-top:60px;margin-bottom:60px;visibility:auto}
 .contact .info-box {color:#444;text-align:center;box-shadow:0 0 30px rgba(214,215,216,.3);padding:20px 0 30px 0}
 .contact .info-box i {font-size:32px;color:#1056ad;border-radius:50%;padding:8px;border:2px dotted #b3d1fa;transition:.5s ease-in-out}
@@ -317,7 +317,7 @@ section {padding:60px 0;overflow:hidden}
 .border-line2 {width:200px;height:2px;margin-top:20px;display:block;text-align:center;background-color:#03a9f4;margin-left:auto;margin-right:auto}
 .inner-page {padding:20px;margin:10px;background:#f1f6fe;box-shadow:0 2px 15px rgba(0,0,0,.1)}
 .inner-page img {display:block;margin-left:auto;margin-right:auto;max-width:100%;height:auto;transition:all 1s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
-.inner-page img:hover {scale:1.1}
+.inner-page img:hover {scale:1.05}
 .inner-page .container {font-family:"al-jazeera-arabic_regular",Open Sans,sans-serif;font-size:20px;line-height:1.6em}
 .callout {position:fixed;max-width:270px;bottom:10px;z-index:2;visibility:hidden;opacity:0;right:10px;font-family:'al-jazeera-arabic_regular',Open Sans,sans-serif}
 .callout.active {visibility:visible;opacity:1}
