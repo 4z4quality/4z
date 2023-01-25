@@ -146,7 +146,7 @@ section {padding:60px 0;overflow:hidden}
 .about .content ul i:hover {color:#fff;background:#daa520}
 .about .content ul p {font-size:17px}
 .about .content p:last-child {margin-bottom:0}
-.about img {margin-left:auto;margin-right:auto;display:block;max-width:90%;height:auto;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1s ease-in-out;}
+.about img {display:block;max-width:90%;height:auto;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1s ease-in-out;margin-left:auto;margin-right:auto}
 .about img:hover {transform:scale(1.05)}
 .skills .progress {height:60px;display:block;background:none;border-radius:0;visibility:auto}
 .skills .progress .skill {padding:0;margin:0 0 6px 0;text-transform:uppercase;display:block;font-weight:600;font-family:'Poppins','sans-serif';color:#222}
