@@ -308,6 +308,7 @@ section {padding:60px 0;overflow:hidden}
 .closebtn {position:absolute;top:-5px;left:10px;color:#006;font-size:30px;cursor:pointer}
 .closebtn:hover {color:#f80}
 .quote {text-align:center;color:#B85A00;font-style:italic;font-size:1.6em;line-height:1.4em;margin:0 30px}
+.quote2 {text-align:center;color:#B85A00;font-style:italic;font-size:18px}
 table,td,th {border:1px solid #000;border-collapse:collapse;font-size:15px;max-width:100%}
 .pager {padding-left:0;margin:20px 0;text-align:center;list-style:none}
 .pager li {display:inline}
