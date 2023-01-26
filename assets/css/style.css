@@ -14,7 +14,7 @@ img {aspect-ratio:attr(width)/attr(height)}
 .back-to-top.active {visibility:visible;opacity:1}
 @media screen and (max-width:768px) {[data-aos-delay] {transition-delay:0!important}}
 #topbar {background:#006;height:40px;font-size:14px;transition:all 1s;color:#fff;padding:0}
-#topbar .contact-info i {font-style:normal;font-size:150%;color:#fff}
+#topbar .contact-info i {font-style:normal;font-size:150%;color:#fff; animation-duration:4s}
 #topbar .contact-info i a,#topbar .contact-info i span {padding-left:5px;color:#fff}
 #topbar .contact-info i a {line-height:0;transition:all 1.5s ease-in-out}
 #topbar .contact-info i a:hover {color:#f80;text-decoration:underline}
@@ -109,7 +109,7 @@ section {padding:60px 0;overflow:hidden}
 .our-name .icon-box::before {content:"";position:absolute;background:#cbe0fb;right:0;left:0;bottom:0;top:100%;transition:all .5s ease-in-out;z-index:-1}
 .our-name .icon-box:hover::before {background:#f80;top:0;border-radius:0}
 .our-name .icon {margin-bottom:15px}
-.our-name .icon i {font-size:48px;font-weight:400;line-height:1;color:#1056ad;transition:all .5s ease-in-out}
+.our-name .icon i {font-size:48px;font-weight:400;line-height:1;color:#1056ad;transition:all .5s ease-in-out; animation-duration:4s}
 .our-name .title {font-family:'Poppins',sans-serif;font-weight:600;margin-bottom:15px;font-size:18px}
 .our-name .title a {color:#111}
 .our-name .description {font-size:15px;line-height:28px;margin-bottom:0}
@@ -120,7 +120,7 @@ section {padding:60px 0;overflow:hidden}
 .about .content ul {list-style:none;padding:0}
 .about .content ul li {display:flex;align-items:flex-start;margin-bottom:35px}
 .about .content ul li:first-child {margin-top:35px}
-.about .content ul i {background:#fff;box-shadow:0 6px 15px rgba(16,110,234,.12);font-size:24px;padding:20px;margin-top:10px;margin-right:15px;color:#1056ad;transition:.5s ease-in-out;border-radius:50px}
+.about .content ul i {background:#fff;box-shadow:0 6px 15px rgba(16,110,234,.12);font-size:24px;padding:20px;margin-top:10px;margin-right:15px;color:#1056ad;transition:.5s ease-in-out;border-radius:50px; animation-duration:4s}
 .about .content ul i:hover {color:#fff;background:#daa520}
 .about .content ul p {font-size:17px}
 .about .content p:last-child {margin-bottom:0}
