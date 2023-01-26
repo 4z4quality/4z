@@ -1,5 +1,5 @@
 @font-face {font-family:'al-jazeera-arabic-bold';src:url(https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.woff) format('woff'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.otf) format('opentype'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.eot) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.ttf) format('truetype');font-style:normal;font-display:swap}
-@font-face {font-family:'al-jazeera-arabic_regular';src: url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.woff) format('woff'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.otf) format('opentype'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.eot) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.ttf) format('truetype');font-style: normal;font-display: swap;}
+@font-face {font-family:'al-jazeera-arabic_regular';src: url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.woff) format('woff'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.otf) format('opentype'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.eot) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.ttf) format('truetype');font-style: normal;font-display: swap}
 @font-face {font-family:'Open Sans';src:url(https://the4z.com/assets/css/fonts/OpenSans-Light.eot);src:url(https://the4z.com/assets/css/fonts/OpenSans-Light.eot?#iefix) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/OpenSans-Light.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/OpenSans-Light.woff) format('woff'),url(https://the4z.com/assets/css/fonts/OpenSans-Light.ttf) format('truetype'),url(https://the4z.com/assets/css/fonts/OpenSans-Light.svg#OpenSans-Light) format('svg');font-weight:300;font-style:normal;font-display:swap}
 @font-face {font-family:'Open Sans';src:url(https://the4z.com/assets/css/fonts/OpenSans-LightItalic.eot);src:url(https://the4z.com/assets/css/fonts/OpenSans-LightItalic.eot?#iefix) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/OpenSans-LightItalic.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/OpenSans-LightItalic.woff) format('woff'),url(https://the4z.com/assets/css/fonts/OpenSans-LightItalic.ttf) format('truetype'),url(https://the4z.com/assets/css/fonts/OpenSans-LightItalic.svg#OpenSans-LightItalic) format('svg');font-weight:300;font-style:italic;font-display:swap}
 @font-face {font-family:'Open Sans';src:url(https://the4z.com/assets/css/fonts/OpenSans-Regular.eot);src:url(https://the4z.com/assets/css/fonts/OpenSans-Regular.eot?#iefix) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/OpenSans-Regular.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/OpenSans-Regular.woff) format('woff'),url(https://the4z.com/assets/css/fonts/OpenSans-Regular.ttf) format('truetype'),url(https://the4z.com/assets/css/fonts/OpenSans-Regular.svg#OpenSans-Regular) format('svg');font-weight:400;font-style:normal;font-display:swap}
@@ -112,7 +112,7 @@ img {aspect-ratio:attr(width)/attr(height)}
 section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
 .section-title {font-family:'Poppins',sans-serif; text-align:center;padding-bottom:30px;font-size:17px;margin:0 30px}
-.section-title .title {font-family:'Poppins',sans-serif; font-size:13px;letter-spacing:1px;font-weight:600;padding:8px 20px;margin:0;background:#e7f1fd;color:#1056ad;display:inline-block;text-transform:uppercase;border-radius:50px}
+.section-title .title {font-family:'Poppins',sans-serif;font-size:13px;letter-spacing:1px;font-weight:600;padding:8px 20px;margin:0;background:#e7f1fd;color:#1056ad;display:inline-block;text-transform:uppercase;border-radius:50px}
 .section-title h3 {margin:15px 0 0 0;font-size:32px;font-weight:700}
 .section-title h3 span {color:#1056ad}
 .section-title p span {color:#1056ad}
@@ -132,7 +132,7 @@ section {padding:60px 0;overflow:hidden}
 .our-name .icon-box:hover::before {background:#f80;top:0;border-radius:0}
 .our-name .icon {margin-bottom:15px}
 .our-name .icon i {font-size:48px;font-weight:400;line-height:1;color:#1056ad;transition:all .5s ease-in-out}
-.our-name .title {font-family: 'Poppins',sans-serif;font-weight:600;margin-bottom:15px;font-size:18px}
+.our-name .title {font-family:'Poppins',sans-serif;font-weight:600;margin-bottom:15px;font-size:18px}
 .our-name .title a {color:#111}
 .our-name .description {font-size:15px;line-height:28px;margin-bottom:0}
 .our-name .icon-box:hover .description,.our-name .icon-box:hover .title a {color:#fff}
@@ -212,8 +212,8 @@ section {padding:60px 0;overflow:hidden}
 .portfolio img {max-width:100%;height:auto;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .portfolio img:hover {scale:1.05}
 .portfolio .projects {font-size:15px;line-height:1.7em;text-align:center}
-.portfolio-details {padding-top:40px}
 
+.portfolio-details {padding-top:40px}
 .portfolio-details .portfolio-details-slider img {display:inline-block;max-width:100%;transition:all 1.5s ease-in-out;height:auto}
 .portfolio-details img:hover {scale:1.05}
 .portfolio-details .portfolio-details-slider .swiper-pagination {margin-top:20px;position:relative}
@@ -248,7 +248,7 @@ section {padding:60px 0;overflow:hidden}
 .team img {max-width:100%;height:auto;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .pricing {background:#f1f6fe;margin-top:60px;margin-bottom:60px;visibility:auto}
 .pricing .box {padding:20px;background:#fff;text-align:center;box-shadow:0 0 4px rgba(0,0,0,.12);border-radius:5px;position:relative;overflow:hidden}
-.pricing .box .price {font-weight:400;margin:-20px -20px 20px -20px;padding:20px 15px;font-size:16px;font-weight:600;color:#777;background:#f8f8f8}
+.pricing .box .price {font-weight:400;margin:-20px -20px 20px -20px;padding:20px 15px;font-size:16px;color:#777;background:#f8f8f8}
 .pricing .featured .price {color:#fff;background:#f80}
 .pricing .box ul {padding:0;list-style:none;color:#444;text-align:center;line-height:20px;font-size:14px}
 .pricing .box ul li {padding-bottom:16px}

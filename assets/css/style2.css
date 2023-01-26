@@ -1,5 +1,5 @@
 @font-face {font-family:'al-jazeera-arabic-bold';src:url(https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.woff) format('woff'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.otf) format('opentype'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.eot) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.ttf) format('truetype');font-style:normal;font-display:swap}
-@font-face {font-family:'al-jazeera-arabic_regular';src: url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.woff) format('woff'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.otf) format('opentype'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.eot) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.ttf) format('truetype');font-style: normal;font-display: swap;}
+@font-face {font-family:'al-jazeera-arabic_regular';src: url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.woff) format('woff'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.otf) format('opentype'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.eot) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/al-jazeera-arabic_regular.ttf) format('truetype');font-style: normal;font-display: swap}
 
 
 
@@ -22,10 +22,10 @@
 
 
 
-body {font-family: 'al-jazeera-arabic_regular', Open Sans, sans-serif;color:#006}
+body {font-family: 'al-jazeera-arabic_regular',Open Sans, sans-serif;color:#006}
 a {color:#1056ad;transition:.5s;text-decoration:none}
 a:hover{color:#f80;text-decoration:none}
-h1,h2,h3,h4,h5,h6 {font-family:'al-jazeera-arabic-bold', sans-serif}
+h1,h2,h3,h4,h5,h6 {font-family:'al-jazeera-arabic-bold',sans-serif}
 img {aspect-ratio:attr(width)/attr(height)}
 #preloader:before {content:"";position:fixed;top:calc(50% - 60px);left:calc(50% - 60px);width:120px;height:120px;-webkit-animation:animate-preloader 1s linear infinite;animation:animate-preloader 1s linear infinite;background:#fff url(https://the4z.com/ar/assets/img/preloader.png) no-repeat center center}
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;z-index:9999;overflow:hidden;background:#fff}
@@ -35,7 +35,7 @@ img {aspect-ratio:attr(width)/attr(height)}
 .back-to-top:hover {background:#f80;color:#fff}
 .back-to-top.active {visibility:visible;opacity:1}
 @media screen and (max-width:768px) {[data-aos-delay] {transition-delay:0!important}}
-#topbar {font-family: 'al-jazeera-arabic-bold', sans-serif;background:#f80;height:40px;font-size:14px;transition:all 1s;color:#006;padding:0}
+#topbar {font-family: 'al-jazeera-arabic-bold',sans-serif;background:#f80;height:40px;font-size:14px;transition:all 1s;color:#006;padding:0}
 #topbar .contact-info i {font-style: normal;font-size:150%;color:#006}
 #topbar .contact-info i a,#topbar .contact-info i span {padding-right:5px;color:#006}
 #topbar .contact-info i a {line-height:0;transition:all 1.5s ease-in-out}
@@ -44,7 +44,7 @@ img {aspect-ratio:attr(width)/attr(height)}
 #topbar .social-links a:hover {color:#fff}
 #header {transition:all 1.5s ease-in-out;z-index:997;background:#fff;height:86px;box-shadow:0 2px 15px rgba(0,0,0,0.1)}
 #header.fixed-top {height:70px;box-shadow: 1px 1px 7px 2px #888}
-#header .logo {font-size:30px;margin:0;padding:0;line-height:1;letter-spacing:.8px;font-family:'Poppins',sans-serif}
+#header .logo {font-size:30px;margin:0;padding:0;line-height:1;letter-spacing:.8px;font-family:'al-jazeera-arabic-bold',Poppins,sans-serif}
 #header .logo a {color:#222}
 #header .logo a span {color:#1056ad}
 #header .logo img {display:inline-block;max-height:70px}
@@ -73,7 +73,7 @@ img {aspect-ratio:attr(width)/attr(height)}
 @media (max-width:991px) {.mobile-nav-toggle {display:block;padding-top:0}.navbar ul {display:none}}
 .navbar-mobile {position:fixed;overflow:hidden;top:0;right:0;left:0;bottom:0;background:rgba(26,26,26,.9);transition:all .3s ease-in-out;z-index:999}
 .navbar-mobile .mobile-nav-toggle {position:absolute;top:35px;left:15px}
-.navbar-mobile ul {display:block;position:absolute;top:55px;right:15px;bottom:15px;left:15px;padding:10px 0;background-color:#fff;overflow-y: auto;transition: .3s ease-in-out}
+.navbar-mobile ul {display:block;position:absolute;top:55px;right:15px;bottom:15px;left:15px;padding:10px 0;background-color:#fff;overflow-y:auto;transition:.3s ease-in-out}
 .navbar-mobile a,.navbar-mobile a:focus {padding:10px 20px;font-size:15px;color:#222}
 .navbar-mobile>ul>li {padding:2px}
 .navbar-mobile a:hover:before,.navbar-mobile li:hover>a:before,.navbar-mobile .active:before {visibility:hidden}
@@ -112,7 +112,7 @@ img {aspect-ratio:attr(width)/attr(height)}
 section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
 .section-title {text-align:center;padding-bottom:30px;margin:0 30px}
-.section-title .title {font-size:13px;font-family:'al-jazeera-arabic-bold',sans-serif;padding: 8px 20px;margin:0;background:#e7f1fd;color:#1056ad;display:inline-block;border-radius:50px}
+.section-title .title {font-size:13px;font-family:'al-jazeera-arabic-bold',sans-serif;padding:8px 20px;margin:0;background:#e7f1fd;color:#1056ad;display:inline-block;border-radius:50px}
 .section-title h3 {margin:15px 0 0 0;font-size:32px}
 .section-title h3 span {color:#1056ad}
 .section-title p span {color:#1056ad}
@@ -137,7 +137,7 @@ section {padding:60px 0;overflow:hidden}
 .our-name .description {font-size:15px;line-height:28px;margin-bottom:0}
 .our-name .icon-box:hover .description,.our-name .icon-box:hover .title a {color:#fff}
 .our-name .icon-box:hover .icon i {color:#fff}
-.about {margin-top: 60px;margin-bottom:60px;visibility:auto}
+.about {margin-top:60px;margin-bottom:60px;visibility:auto}
 .about .content h3 {font-size:26px}
 .about .content ul {list-style:none;padding:0}
 .about .content ul li {display:flex;align-items:flex-start;margin-bottom:35px}
@@ -146,10 +146,10 @@ section {padding:60px 0;overflow:hidden}
 .about .content ul i:hover {color:#fff;background:#daa520}
 .about .content ul p {font-size:15px}
 .about .content p:last-child {margin-bottom:0}
-.about img {display:inline-block;max-width:60%;height:auto;transition:all 1s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
+.about img {display:block;max-width:90%;height:auto;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1s ease-in-out;margin-left:auto;margin-right:auto}
 .about img:hover {transform:scale(1.05)}
 .skills .progress {height:60px;display:block;background:none;border-radius:0;visibility:auto}
-.skills .progress .skill {padding:0;margin:0 0 6px 0;text-transform:uppercase;display:block;font-size:18px;font-family:'al-jazeera-arabic_regular', sans-serif;color:#222}
+.skills .progress .skill {padding:0;margin:0 0 6px 0;text-transform:uppercase;display:block;font-size:18px;font-family:'al-jazeera-arabic_regular',sans-serif;color:#222}
 .skills .progress .skill .val {float:left;font-style:normal}
 .skills .progress-bar-wrap {background:#e2eefd;height:10px}
 .skills .progress-bar {width:1px;height:10px;transition:1s ease-in;background-color:#f80}
@@ -175,7 +175,8 @@ section {padding:60px 0;overflow:hidden}
 .services .icon-box:hover {border-color:#f80;box-shadow:0 0 25px 0 rgba(16,110,234,0.1)}
 .services .icon-box:hover h3 {color:#fff}
 .services .icon-box:hover .icon {border-color:#1056ad}
-.services img {display:inline-block;max-width:100%;height:auto;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);display:block;margin-left:auto;margin-right:auto}
+.services img {display:block;max-width:90%;height:auto;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1s ease-in-out;margin-left:auto;margin-right:auto}
+.services img:hover {transform:scale(1.05)}
 .testimonials {padding:80px 0;background:url(https://the4z.com/ar/assets/img/bg-3.webp) no-repeat;background-position:center center;background-size:cover;position:relative;visibility:auto}
 .testimonials::before {content:"";position:absolute;left:0;right:0;top:0;bottom:0;background:rgba(0,0,0,.7)}
 .testimonials .section-header {margin-bottom:40px}
@@ -229,7 +230,7 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details .portfolio-description p {padding:0}
 .portfolio-details .portfolio-description .red {color:#b30}
 .portfolio-details .portfolio-description .blue {color:#00f}
-.portfolio-details .portfolio-description .black {color:#000;font-family:'al-jazeera-arabic-bold', sans-serif}
+.portfolio-details .portfolio-description .black {color:#000;font-family:'al-jazeera-arabic-bold',sans-serif}
 .portfolio-details .portfolio-description img {display:inline-block;max-width:100%;height:100%;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);padding-bottom:5px}
 .portfolio-details .portfolio-description i {color:#b30}
 .team {margin-top:50px;margin-bottom:60px;padding:60px 0;background:#fff;visibility:auto}
@@ -247,7 +248,7 @@ section {padding:60px 0;overflow:hidden}
 .team img {max-width:100%;height:auto;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .pricing {background:#f1f6fe;margin-top:60px;margin-bottom:60px;visibility:auto}
 .pricing .box {padding:20px;background:#fff;text-align:center;box-shadow:0 0 4px rgba(0,0,0,.12);border-radius:5px;position:relative;overflow:hidden}
-.pricing .box .price{margin:-20px -20px 20px -20px;padding: 20px 15px;font-size:16px;color:#777;background:#f8f8f8}
+.pricing .box .price{margin:-20px -20px 20px -20px;padding:20px 15px;font-size:16px;color:#777;background:#f8f8f8}
 .pricing .featured .price {color:#fff;background:#f80}
 .pricing .box ul {padding:0;list-style:none;color:#444;text-align:center;line-height:20px;font-size:17px}
 .pricing .box ul li {padding-bottom:16px}
