@@ -39,9 +39,9 @@ img {aspect-ratio:attr(width)/attr(height)}
 #topbar .contact-info i {font-style:normal;font-size:150%;color:#fff}
 #topbar .contact-info i a,#topbar .contact-info i span {padding-left:5px;color:#fff}
 #topbar .contact-info i a {line-height:0;transition:all 1.5s ease-in-out}
-#topbar .contact-info i a:hover {color:#fff;text-decoration:underline}
+#topbar .contact-info i a:hover {color:#f80;text-decoration:underline}
 #topbar .social-links a {font-size:150%;color:#fff;line-height:0;transition:1s ease-in-out;margin-left:20px}
-#topbar .social-links a:hover {color:#fff}
+#topbar .social-links a:hover {color:#f80}
 #header {transition:all 1.5s ease-in-out;z-index:997;background:#fff;height:86px;box-shadow:0 2px 15px rgba(0,0,0,0.1)}
 #header.fixed-top {height:70px;box-shadow: 1px 1px 7px 2px #888}
 #header .logo {font-size:30px;margin:0;padding:0;line-height:1;font-weight:600;letter-spacing:.8px;font-family:'Poppins',sans-serif}
