@@ -200,10 +200,11 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details .portfolio-info {padding:30px;box-shadow:5px 0 30px rgba(34,34,34,.2)}
 .portfolio-details .portfolio-info h3 {font-size:22px;font-weight:600;margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #eee}
 .portfolio-details .portfolio-info ul {list-style:none;padding:0;font-size:17px}
-.portfolio-details .portfolio-info ul li+li {margin-top:10px}
-.portfolio-details .portfolio-description {padding:30px;font-size:17px}
-.portfolio-details .portfolio-description h2 {font-size:24px;font-weight:700;margin-bottom:20px}
-.portfolio-details .portfolio-description h3 {font-size:18px;font-weight:700;margin-bottom:20px}
+.portfolio-details .portfolio-info ul {line-height:1.7em}
+.portfolio-details .portfolio-info ul li+li {margin-top:10px;}
+.portfolio-details .portfolio-description {padding:30px;font-size:17px;line-height:1.7em}
+.portfolio-details .portfolio-description h2 {font-size:24px;font-weight:600;margin-bottom:20px}
+.portfolio-details .portfolio-description h3 {font-size:20px;font-weight:600;margin-bottom:20px}
 .portfolio-details .portfolio-description p {font-size:17px;padding:0}
 .portfolio-details .portfolio-description .red {color:#b30}
 .portfolio-details .portfolio-description .blue {color:#00f}
