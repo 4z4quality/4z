@@ -8,7 +8,7 @@ h1,h2,h3,h4,h5,h6 {font-family:'al-jazeera-arabic-bold',sans-serif}
 img {aspect-ratio:attr(width)/attr(height)}
 #preloader:before {content:"";position:fixed;top:calc(50% - 60px);left:calc(50% - 60px);width:120px;height:120px;-webkit-animation:animate-preloader 1s linear infinite;animation:animate-preloader 1s linear infinite;background:#fff url(https://the4z.com/ar/assets/img/preloader.png) no-repeat center center}
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;z-index:9999;overflow:hidden;background:#fff}
-@keyframes animate-preloader {0% {transform: rotate(0deg);}100% {transform: rotate(360deg);}}
+@keyframes animate-preloader {0% {transform: rotate(0deg);}100% {transform: rotate(360deg)}}
 .back-to-top {position:fixed;visibility:hidden;opacity:0;left:15px;bottom:15px;z-index:996;background:#1056ad;width:40px;height:40px;border-radius:50px;transition:all .4s}
 .back-to-top i {font-size:28px;color:#fff;line-height:0}
 .back-to-top:hover {background:#f80;color:#fff}
@@ -280,8 +280,8 @@ section {padding:60px 0;overflow:hidden}
 #footer .footer-top {padding:30px 0 30px 0;background:#fff}
 #footer .footer-top .footer-contact {margin-bottom:30px}
 #footer .footer-top .footer-contact p {padding-right:10px;font-size:14px;line-height:24px;margin-bottom:0;font-family:'al-jazeera-arabic_regular',sans-serif;color:#444}
-#footer .footer-contact span {font-family:'al-jazeera-arabic-bold',sans-serif;}
-#footer .footer-links span {font-family:'al-jazeera-arabic-bold',sans-serif;}
+#footer .footer-contact span {font-family:'al-jazeera-arabic-bold',sans-serif}
+#footer .footer-links span {font-family:'al-jazeera-arabic-bold',sans-serif}
 #footer .footer-contact i {padding-right:10px}
 #footer .footer-top .footer-links ul {list-style:none;padding:0;margin:0}
 #footer .footer-top .footer-links ul i {padding-right:5px;padding-top:3px;color:#1056ad;font-size:18px;line-height:1}
