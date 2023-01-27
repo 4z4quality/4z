@@ -204,6 +204,8 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details .portfolio-info ul {list-style:none;padding:0;font-size:17px}
 .portfolio-details .portfolio-info ul li+li {margin-top:10px}
 .portfolio-details .portfolio-description {padding:30px;font-size:20px;line-height:1.6em}
+.portfolio-details .portfolio-description ol li+li {margin-top:10px}
+.portfolio-details .portfolio-description ul li+li {margin-top:10px}
 .portfolio-details .portfolio-description h2 {font-size:24px;margin-bottom:20px}
 .portfolio-details .portfolio-description h3 {font-size:18px;margin-bottom:20px}
 .portfolio-details .portfolio-description p {padding:0}

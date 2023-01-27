@@ -190,7 +190,7 @@ section {padding:60px 0;overflow:hidden}
 .portfolio img {max-width:100%;height:auto;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .portfolio img:hover {scale:1.05}
 .portfolio .projects {font-size:15px;line-height:1.7em;text-align:center}
-.portfolio-details {padding-top:40px}
+.portfolio-details {line-height:1.7em;padding-top:40px}
 .portfolio-details .portfolio-details-slider img {display:inline-block;max-width:100%;transition:all 1.5s ease-in-out;height:auto}
 .portfolio-details img:hover {scale:1.05}
 .portfolio-details .portfolio-details-slider .swiper-pagination {margin-top:20px;position:relative}
@@ -200,9 +200,10 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details .portfolio-info {padding:30px;box-shadow:5px 0 30px rgba(34,34,34,.2)}
 .portfolio-details .portfolio-info h3 {font-size:22px;font-weight:600;margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #eee}
 .portfolio-details .portfolio-info ul {list-style:none;padding:0;font-size:17px}
-.portfolio-details .portfolio-info ul {line-height:1.7em}
 .portfolio-details .portfolio-info ul li+li {margin-top:10px;}
-.portfolio-details .portfolio-description {padding:30px;font-size:17px;line-height:1.7em}
+.portfolio-details .portfolio-description {padding:30px;font-size:17px}
+.portfolio-details .portfolio-description ol li+li {margin-top:10px}
+.portfolio-details .portfolio-description ul li+li {margin-top:10px}
 .portfolio-details .portfolio-description h2 {font-size:24px;font-weight:600;margin-bottom:20px}
 .portfolio-details .portfolio-description h3 {font-size:20px;font-weight:600;margin-bottom:20px}
 .portfolio-details .portfolio-description p {font-size:17px;padding:0}
