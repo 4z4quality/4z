@@ -13,13 +13,13 @@ img {aspect-ratio:attr(width)/attr(height)}
 .back-to-top:hover {background:#3284f1;color:#fff}
 .back-to-top.active {visibility:visible;opacity:1}
 @media screen and (max-width:768px) {[data-aos-delay] {transition-delay:0!important}}
-#topbar {background:#006;height:40px;font-size:14px;transition:all 1s;color:#fff;padding:0}
-#topbar .contact-info i {font-style:normal;font-size:150%;color:#fff; animation-duration:4s}
+#topbar {background:#006;height:40px;font-size:14px;transition:all 1.5s ease-in-out;color:#fff;padding:0}
+#topbar .contact-info i {font-style:normal;font-size:150%;color:#fff;transition:all 1.5s ease-in-out;animation-duration:4s}
 #topbar .contact-info i a,#topbar .contact-info i span {padding-left:5px;color:#fff}
-#topbar .contact-info i a {line-height:0;transition:all 1.5s ease-in-out}
+#topbar .contact-info i a {line-height:0}
 #topbar .contact-info i a:hover {color:#f80;text-decoration:underline}
-#topbar .social-links a {font-size:150%;color:#fff;line-height:0;transition:1s ease-in-out;margin-left:20px}
-#topbar .social-links a:hover {color:#f80}
+#topbar .social-links a {font-size:150%;color:#fff;line-height:0;margin-left:20px}
+#topbar .social-links a:hover {transition:all 1.5s ease-in-out;color:#f80}
 #header {transition:all 1.5s ease-in-out;z-index:997;background:#fff;height:86px;box-shadow:0 2px 15px rgba(0,0,0,0.1)}
 #header.fixed-top {height:70px;box-shadow: 1px 1px 7px 2px #888}
 #header .logo {font-size:30px;margin:0;padding:0;line-height:1;font-weight:600;letter-spacing:.8px;font-family:'Poppins',sans-serif}
@@ -109,7 +109,7 @@ section {padding:60px 0;overflow:hidden}
 .our-name .icon-box::before {content:"";position:absolute;background:#cbe0fb;right:0;left:0;bottom:0;top:100%;transition:all .5s ease-in-out;z-index:-1}
 .our-name .icon-box:hover::before {background:#f80;top:0;border-radius:0}
 .our-name .icon {margin-bottom:15px}
-.our-name .icon i {font-size:48px;font-weight:400;line-height:1;color:#1056ad;transition:all .5s ease-in-out; animation-duration:4s}
+.our-name .icon i {font-size:48px;font-weight:400;line-height:1;color:#1056ad;transition:all 1.5s ease-in-out;animation-duration:4s}
 .our-name .title {font-family:'Poppins',sans-serif;font-weight:600;margin-bottom:15px;font-size:18px}
 .our-name .title a {color:#111}
 .our-name .description {font-size:15px;line-height:28px;margin-bottom:0}
@@ -120,7 +120,7 @@ section {padding:60px 0;overflow:hidden}
 .about .content ul {list-style:none;padding:0}
 .about .content ul li {display:flex;align-items:flex-start;margin-bottom:35px}
 .about .content ul li:first-child {margin-top:35px}
-.about .content ul i {background:#fff;box-shadow:0 6px 15px rgba(16,110,234,.12);font-size:24px;padding:20px;margin-top:10px;margin-right:15px;color:#1056ad;transition:.5s ease-in-out;border-radius:50px; animation-duration:4s}
+.about .content ul i {background:#fff;box-shadow:0 6px 15px rgba(16,110,234,.12);font-size:24px;padding:20px;margin-top:10px;margin-right:15px;color:#1056ad;border-radius:50px;transition:all 1.5s ease-in-out;animation-duration:4s}
 .about .content ul i:hover {color:#fff;background:#daa520}
 .about .content ul p {font-size:17px}
 .about .content p:last-child {margin-bottom:0}
@@ -144,7 +144,7 @@ section {padding:60px 0;overflow:hidden}
 .services .icon-box {text-align:center;border-radius:8px;padding:80px 20px;transition:all 1.5s ease-in-out;box-shadow:0 0 29px 0 rgba(68,88,144,.12);overflow:hidden;position:relative;z-index:1;background:#fff}
 .services .icon-box::before {content:"";position:absolute;background:#cbe0fb;right:0;left:0;bottom:100%;top:0;transition:all .5s ease-in-out;z-index:-1}
 .services .icon-box:hover::before {background:#f80;bottom:0;border-radius:0}
-.services .icon-box .icon {margin:0 auto;width:64px;height:64px;background:#f1f6fe;border-radius:4px;border:1px solid #deebfd;display:flex;align-items:center;justify-content:center;margin-bottom:20px;transition:ease-in-out .5s}
+.services .icon-box .icon {margin:0 auto;width:64px;height:64px;background:#f1f6fe;border-radius:4px;display:flex;align-items:center;justify-content:center;margin-bottom:40px;transition:all 1.5s ease-in-out;animation-duration:4s}
 .services .icon-box .icon i {color:#3b8af2;font-size:28px;transition:ease-in-out .5s}
 .services .icon-box h2 {font-weight:600;margin-bottom:15px;font-size:22px}
 .services .icon-box h2 a {color:#222;transition:ease-in-out .5s}
@@ -180,7 +180,7 @@ section {padding:60px 0;overflow:hidden}
 .portfolio .portfolio-item .portfolio-info {opacity:0;position:absolute;left:30px;right:30px;bottom:0;z-index:3;transition:1s ease-in-out;background:rgba(255,255,255,.9);padding:15px}
 .portfolio .portfolio-item .portfolio-info h4 {font-size:18px;color:#fff;color:#222;font-weight:600}
 .portfolio .portfolio-item .portfolio-info p {color:#555;font-size:19px;margin-bottom:0}
-.portfolio .portfolio-item .portfolio-info .preview-link,.portfolio .portfolio-item .portfolio-info .details-link {position:absolute;right:40px;font-size:24px;top:calc(50% - 18px);color:#3c3c3c}
+.portfolio .portfolio-item .portfolio-info .preview-link,.portfolio .portfolio-item .portfolio-info .details-link {position:absolute;right:40px;font-size:24px;top:calc(50% - 8px);color:#3c3c3c;transition:all 1.5s ease-in-out;animation-duration:4s}
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,.portfolio .portfolio-item .portfolio-info .details-link:hover {color:#1056ad}
 .portfolio .portfolio-item .portfolio-info .details-link {right:10px}
 .portfolio .portfolio-item .portfolio-links {opacity:0;left:0;right:0;text-align:center;z-index:3;position:absolute;transition:ease-in-out .5s}
