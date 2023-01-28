@@ -24,7 +24,7 @@ img {aspect-ratio:attr(width)/attr(height)}
 #header.fixed-top {height:70px;box-shadow: 1px 1px 7px 2px #888}
 #header .logo {font-size:30px;margin:0;padding:0;line-height:20px;font-weight:600;font-family:"Poppins",sans-serif}
 @media (max-width:768px) {#header .logo {margin-right:150px}}
-@media (min-width:768px) {#header .logo {margin-right:80px}}
+@media (min-width:768px) {#header .logo {margin-right:75px}}
 #header .logo a {color:#006}
 #header .logo a:hover {color:#f80}
 #header .logo a span {color:#1056ad}
