@@ -178,7 +178,7 @@ section {padding:60px 0;overflow:hidden}
 .portfolio #portfolio-flters li {cursor:pointer;display:inline-block;padding:10px 15px 8px 15px;font-size:16px;font-weight:600;line-height:1;text-transform:uppercase;color:#444;margin-bottom:5px;transition:all .5s ease-in-out}
 .portfolio #portfolio-flters li.filter-active,.portfolio #portfolio-flters li:hover {color:#1056ad}
 .portfolio #portfolio-flters li:last-child {margin-right:0}
-.portfolio .portfolio-item {margin-bottom:30px}
+.portfolio .portfolio-item {margin-bottom:40px}
 .portfolio .portfolio-item .portfolio-info {opacity:0;position:absolute;left:30px;right:30px;bottom:0;z-index:3;transition:all 1s ease-in-out;background:rgba(255,255,255,.9);padding:15px;font-size:18px;font-weight:600}
 .portfolio .portfolio-item .portfolio-info p {color:#555;font-size:16px;margin-top:10px;margin-bottom:0;font-weight:700}
 .portfolio .portfolio-item .portfolio-info .preview-link,.portfolio .portfolio-item .portfolio-info .details-link {position:absolute;margin-right:10px;font-size:20px;bottom:10px;color:#3c3c3c}
