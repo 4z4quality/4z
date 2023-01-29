@@ -23,13 +23,12 @@ img {aspect-ratio:attr(width)/attr(height)}
 #topbar .social-links a:hover {transition:all 1.5s ease-in-out;color:#006}
 #header {transition:all 1.5s ease-in-out;z-index:997;background:#fff;height:86px;box-shadow:0 2px 15px rgba(0,0,0,0.1)}
 #header.fixed-top {height:70px;box-shadow: 1px 1px 7px 2px #888}
-#header .logo {font-size:30px;margin:0;padding:0;line-height:1;font-family:'al-jazeera-arabic-bold'}
-@media screen and (max-width:768px) {#header .logo {margin-left:55px;font-size:30px;}}
-@media screen and (min-width:769px) {#header .logo {margin-left:80px}}
-#header .logo a {color:#006}
-#header .logo a:hover {color:#f80}
+#header .logo {font-size:30px;margin:0;padding:0;line-height:1;letter-spacing:.8px;font-family:'al-jazeera-arabic-bold'}
+#header .logo a {color:#222}
 #header .logo a span {color:#1056ad}
+#header .logo img {display:inline-block;max-height:70px}
 .scrolled-offset {margin-top:70px}
+.header img {max-width:100%;height:auto}
 .navbar {padding:0;float:left;font-family:'al-jazeera-arabic-bold',Poppins,sans-serif}
 .navbar ul {margin:0;padding:0;display:flex;list-style:none;align-items:center}
 .navbar li {position:relative}
