@@ -23,7 +23,7 @@ img {aspect-ratio:attr(width)/attr(height)}
 #header {transition:all 1.5s ease-in-out;z-index:997;background:#fff;height:86px;box-shadow:0 2px 15px rgba(0,0,0,0.1)}
 #header.fixed-top {height:70px;box-shadow: 1px 1px 7px 2px #888}
 #header .logo {font-size:30px;margin:0;padding:0;line-height:20px;font-weight:600;font-family:"Poppins",sans-serif}
-@media (max-width:768px) {#header .logo {float:right;margin-right:90px;font-size:22px;}}
+@media (max-width:768px) {#header .logo {float:right;margin-right:70px;font-size:28px;}}
 @media (min-width:768px) {#header .logo {margin-right:80px}}
 #header .logo a {color:#006}
 #header .logo a:hover {color:#f80}
