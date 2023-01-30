@@ -300,6 +300,7 @@ section {padding:60px 0;overflow:hidden}
 .inner-page {padding:20px;margin:10px;background:#f1f6fe;font-size:17px;box-shadow:0 2px 15px rgba(0,0,0,.1)}
 .inner-page img {display:block;margin-left:auto;margin-right:auto;max-width:100%;height:auto;transition:all 1s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .inner-page img:hover {scale:1.05}
+.inner-page span {color:#f80}
 .callout {position:fixed;max-width:270px;bottom:10px;z-index:2;visibility:hidden;opacity:0;left:10px;font-family:'Poppins',sans-serif}
 .callout.active {visibility:visible;opacity:1}
 .callout-header {padding:25px 15px;background-color:#f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);font-size:30px;font-weight:500;color:#fff}

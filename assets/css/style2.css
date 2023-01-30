@@ -303,6 +303,7 @@ section {padding:60px 0;overflow:hidden}
 .inner-page img {display:block;margin-left:auto;margin-right:auto;max-width:100%;height:auto;transition:all 1s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .inner-page img:hover {scale:1.05}
 .inner-page .container {font-family:"al-jazeera-arabic_regular",open sans,sans-serif;font-size:20px;line-height:1.6em}
+.inner-page span {color:#f80}
 .callout {position:fixed;max-width:270px;bottom:10px;z-index:2;visibility:hidden;opacity:0;right:10px;font-family:'al-jazeera-arabic_regular',Poppins,sans-serif}
 .callout.active {visibility:visible;opacity:1}
 .callout-header {padding:25px 15px;background-color:#f1f6fe;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);font-size:30px;color:#006}
