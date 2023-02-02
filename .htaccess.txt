@@ -1,3 +1,7 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^the4z.com$
+RewriteRule ^(.*)$ https://the4z.com/$1 [R=301,L]
+
 <IfModule mod_deflate.c>
 # Insert filters / compress text, html, javascript, css, xml:
 # mod_deflate can be used for Apache v2 and later and is the recommended GZip mechanism to use
