@@ -525,6 +525,9 @@
   .bxl-facebook:before {
     content: "\e926";
   }
+  .bxl-facebook-circle:before {
+    content:"\e927";
+  }
   .bxl-instagram:before {
     content: "\e939";
   }
