@@ -196,6 +196,7 @@ section {padding:60px 0;overflow:hidden}
 .portfolio img {max-width:100%;height:auto;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 2px 2px #222);filter:drop-shadow(0 2px 2px #222)}
 .portfolio .projects {font-size:16px;line-height:1.7em;text-align:center}
 .portfolio .projects span:hover {color:#f80}
+.portfolio .projects img:hover{scale:1.05}
 .portfolio-details {line-height:1.7em;padding-top:40px}
 .portfolio-details .portfolio-details-slider img {display:inline-block;max-width:100%;transition:all 1.5s ease-in-out;height:auto}
 .portfolio-details img:hover {scale:1.05}
