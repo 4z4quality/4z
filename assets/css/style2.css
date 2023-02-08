@@ -92,6 +92,7 @@ section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
 .section-title {text-align:center;padding-bottom:30px;margin:0 30px}
 .section-title .title {font-size:17px;font-family:'al-jazeera-arabic-bold';padding:8px 20px;margin:0;background:#e7f1fd;color:#1056ad;display:inline-block;border-radius:50px}
+.section-title h2 {margin:15px 0 0 0;font-size:32px;line-height:1.6}
 .section-title h3 {margin:15px 0 0 0;font-size:32px}
 .section-title h3 span {color:#1056ad}
 .section-title p span {color:#1056ad}
