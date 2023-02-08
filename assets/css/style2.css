@@ -266,6 +266,7 @@ section {padding:60px 0;overflow:hidden}
 .contact .info-box i:hover {color:#fff;background:#f80}
 .contact .info-box h3 {font-size:20px;color:#777;margin:10px 0}
 .contact .info-box p {padding:0;line-height:24px;font-size:14px;margin-bottom:0}
+.contact .info-box span {line-height:1.9;font-family:al-jazeera-arabic-bold;font-size:larger;color:#222}
 .contact .php-email-form {box-shadow:0 0 30px rgba(214,215,216,.4);padding:30px}
 .contact .php-email-form .error-message {display:none;color:#fff;background:#ed3c0d;text-align:left;padding:15px}
 .contact .php-email-form .error-message br+br {margin-top:25px}
