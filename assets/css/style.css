@@ -91,7 +91,7 @@ img {aspect-ratio:attr(width)/attr(height)}
 @media (max-width:768px) {#intro h1 {font-size:50px}}
 @media (max-width:768px) {#intro h2 {font-size:40px}}
 #intro .carousel-fade {overflow:hidden}
-#intro .carousel-fade .carousel-inner .carousel-item {transition-property:opacity 1.5s ease-in!important}
+#intro .carousel-fade .carousel-inner .carousel-item {transition-property:opacity all 1.5s ease-in-out!important}
 #intro .carousel-fade .carousel-inner .active.carousel-item-end,#intro .carousel-fade .carousel-inner .active.carousel-item-start,#intro .carousel-fade .carousel-inner .carousel-item {opacity:0}
 #intro .carousel-fade .carousel-inner .active,#intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-start,#intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-end {opacity:1;transition:all 1.5s ease-in-out}
 #intro .carousel-fade .carousel-inner .active.carousel-item-end,#intro .carousel-fade .carousel-inner .active.carousel-item-start,#intro .carousel-fade .carousel-inner .carousel-item-next,#intro .carousel-fade .carousel-inner .carousel-item-prev {left:0;transform:translate3d(0,0,0)}
@@ -106,7 +106,7 @@ img {aspect-ratio:attr(width)/attr(height)}
 #intro .btn-get-started:hover {background:#006;color:#fff}
 section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
-.section-title {font-family:'Poppins',sans-serif; text-align:center;padding-bottom:30px;margin:0 30px}
+.section-title {font-family:'Poppins';text-align:center;padding-bottom:30px;margin:0 30px}
 .section-title .title {font-size:15px;letter-spacing:1px;font-weight:600;padding:8px 20px;margin:0;background:#e7f1fd;color:#1056ad;display:inline-block;text-transform:uppercase;border-radius:50px}
 .section-title h3 {margin:15px 0 0 0;font-size:32px;font-weight:700}
 .section-title h3 span {color:#1056ad}
@@ -148,7 +148,7 @@ section {padding:60px 0;overflow:hidden}
 .about .trust {color:#006;font-size:18px;line-height:1.7em}
 #skills {background:#fff}
 .skills .progress {height:60px;display:block;background:none;border-radius:0;visibility:auto}
-.skills .progress .skill {padding:0;margin:0 0 6px 0;text-transform:uppercase;display:block;font-weight:600;font-family:'Poppins','sans-serif';color:#222}
+.skills .progress .skill {padding:0;margin:0 0 6px 0;text-transform:uppercase;display:block;font-weight:600;font-family:'Poppins';color:#222}
 .skills .progress .skill .val {float:right;font-style:normal}
 .skills .progress-bar-wrap {background:#e2eefd;height:10px}
 .skills .progress-bar {width:1px;height:10px;transition:all 1.5s ease-in;background-color:#f80}
@@ -207,6 +207,7 @@ section {padding:60px 0;overflow:hidden}
 .portfolio .portfolio-item:hover .portfolio-info {opacity:1;bottom:20px}
 .portfolio .portfolio-item img {width:800;height:600;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .portfolio .projects {font-size:15px;line-height:1.7em;text-align:center}
+
 .portfolio .projects img {display: block; margin-left: auto; margin-right: auto;width:960;height:540;;transition:all 1.5s ease-in-out;box-shadow:0px 2px 15px rgba(0, 0, 0, 0.1)}
 .portfolio .projects img:hover{scale:1.05}
 .portfolio-details {line-height:1.7em;padding-top:40px}
@@ -253,7 +254,7 @@ section {padding:60px 0;overflow:hidden}
 .pricing .box ul i {color:#1056ad;font-size:18px;padding-right:4px}
 .pricing .box ul .na {color:#ccc;text-decoration:line-through}
 .pricing .btn-wrap {margin:20px -20px -20px -20px;padding:20px 15px;background:#f8f8f8;text-align:center}
-.pricing .btn-buy {background:#1056ad;display:inline-block;padding:8px 35px 10px 35px;border-radius:4px;color:#fff;font-size:14px;font-weight:400;font-family:'Poppins',sans-serif;font-weight:600;text-transform:uppercase;transition:all 1.5s ease-out}
+.pricing .btn-buy {background:#1056ad;display:inline-block;padding:8px 35px 10px 35px;border-radius:4px;color:#fff;font-size:14px;font-weight:400;font-family:'Poppins';font-weight:600;text-transform:uppercase;transition:all 1.5s ease-out}
 .pricing .btn-buy:hover {background:#f80}
 .pricing .featured h3 {color:#fff;background:#f80}
 .pricing .advanced {width:200px;position:absolute;top:18px;right:-68px;transform:rotate(45deg);z-index:1;font-size:14px;padding:1px 0 3px 0;background:#f80;color:#fff}
@@ -261,7 +262,7 @@ section {padding:60px 0;overflow:hidden}
 .faq {margin-bottom:60px;padding:60px 0;visibility:auto}
 .faq .faq-list {padding:0;list-style:none}
 .faq .faq-list li {border-bottom:1px solid #d4e5fc;margin-bottom:20px;padding-bottom:20px}
-.faq .faq-list .question {font-family:'Poppins',sans-serif;display:block;position:relative;font-size:18px;line-height:24px;padding-left:25px;cursor:pointer;color:#f80;transition:all 1.5s ease-in-out}
+.faq .faq-list .question {font-family:'Poppins';display:block;position:relative;font-size:18px;line-height:24px;padding-left:25px;cursor:pointer;color:#f80;transition:all 1.5s ease-in-out}
 .faq .faq-list i {font-size:22px;position:absolute;left:0;top:0}
 .faq .faq-list p {margin-bottom:0;padding:10px 0 0 25px}
 .faq .faq-list .icon-show {display:none}
@@ -326,6 +327,7 @@ section {padding:60px 0;overflow:hidden}
 .callout.active {visibility:visible;opacity:1}
 .callout-header {padding:25px 15px;background-color:#f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);font-size:30px;font-weight:500;color:#fff}
 .callout-container {padding:15px;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);background-color:#f1f6fe;color:#006;font-weight:500}
+
 .closebtn {position:absolute;top:-5px;right:10px;color:#fff;font-size:30px;cursor:pointer}
 .closebtn:hover {color:#006}
 .quote {font-family:'Poppins',sans-serif;text-align:center;color:#b85a00;font-style:italic;font-weight:300;font-size:1.6em;line-height:1.4em;margin:0 30px}
