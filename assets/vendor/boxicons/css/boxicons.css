@@ -595,7 +595,12 @@
   .bxs-zoom-out:before {
     content: "\ebff";
   }
-
+  .bx-arrow-from-right:before {
+    content: "\ec1a";
+  }
+  .bx-arrow-to-right:before {
+    content: "\ec1e";
+  }
   .bx-award:before {
     content: "\ec22";
   }

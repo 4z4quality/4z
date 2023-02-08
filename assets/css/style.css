@@ -333,6 +333,7 @@ section {padding:60px 0;overflow:hidden}
 .quote2 {font-family:'Poppins',sans-serif;color:#b85a00;font-style:italic;font-weight:300;font-size: 20px}
 table,td,th {border:1px solid #000;border-collapse:collapse;font-size:15px;max-width:100%}
 .pager {padding-left:0;margin:20px 0;text-align:center;list-style:none;font-weight:700}
+.pager i {font-weight:800}
 .pager li {display:inline}
 .pager li>a,.pager li>span {display:inline-block;padding:5px 14px;background-color:#fff;border:3px solid #f80;border-radius:15px}
 .pager li>a:focus,.pager li>a:hover {text-decoration:#fff;background-color:#006}
@@ -341,11 +342,11 @@ table,td,th {border:1px solid #000;border-collapse:collapse;font-size:15px;max-w
 .pager .disabled>a,.pager .disabled>a:focus,.pager .disabled>a:hover,.pager .disabled>span {color:#777;cursor:not-allowed;background-color:#fff}
 .wrap-collabsible{margin:0}
 input[type='checkbox'] {display: none;scroll-behavior: smooth}
-.lbl-toggle {display:block;position:relative;font-weight:700;font-size:1rem;text-transform:uppercase;text-align:center;padding:.5rem;color:#fff;background:#1056ad;cursor:pointer;transition:all 1.5s ease-in-out}
+.lbl-toggle {display:block;position:relative;font-weight:600;font-size:1rem;text-transform:uppercase;text-align:center;padding:.5rem;color:#fff;background:#1056ad;cursor:pointer;transition:all .5s ease-in-out}
 .lbl-toggle:hover {color:#fff;background:#f80}
-.lbl-toggle::before {content:' ';display:inline-block;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:7px solid currentColor;vertical-align:middle;margin-right:.7rem;transform:translateY(-2px);transition:transform 1.5s ease-in-out}
+.lbl-toggle::before {content:' ';display:inline-block;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:7px solid currentColor;vertical-align:middle;margin-right:.7rem;transform:translateY(-2px);transition:transform .5s ease-in-out}
 .toggle:checked+.lbl-toggle::before {transform:rotate(90deg) translateX(-1px)}
-.collapsible-content {max-height:0;overflow:hidden;transition:max-height 1.5s ease-in-out}
+.collapsible-content {max-height:0;overflow:hidden;transition:max-height .5s ease-in-out}
 .toggle:checked+.lbl-toggle+.collapsible-content {max-height:100vh}
 .toggle:checked+.lbl-toggle {border-bottom-right-radius:0;border-bottom-left-radius:0}
 .collapsible-content .content-inner {background:#fff;padding:.5rem 1rem}
