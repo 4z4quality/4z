@@ -337,3 +337,4 @@ input[type='checkbox'] {display: none;scroll-behavior: smooth}
 .collapsible-content .content-inner {background:#fff;padding:.5rem 1rem}
 .content-inner i:hover{color:#f80!important}
 .linktext {text-align:center;font-style:italic;margin-top:20px;font-size: 18px;color:#006;font-family:'al-jazeera-arabic-bold'}
+.linktext:hover {color:#f80}
