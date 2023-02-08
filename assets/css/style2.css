@@ -226,7 +226,6 @@ section {padding:60px 0;overflow:hidden}
 .team .member .member-info {padding:25px 15px}
 .team .member .member-info h4 {margin-bottom:5px;font-size:18px;color:#222}
 .team .member .member-info span {display:block;font-size:13px;color:#aaa}
-.team .member .member-info p {font-style:italic;font-size:14px;line-height:26px;color:#777}
 .team .member:hover .social {opacity:1;bottom:15px}
 .team img {max-width:100%;height:auto;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .pricing {background:#f1f6fe;margin-bottom:60px;visibility:auto}
@@ -337,3 +336,4 @@ input[type='checkbox'] {display: none;scroll-behavior: smooth}
 .toggle:checked+.lbl-toggle {border-bottom-right-radius:0;border-bottom-left-radius:0} 
 .collapsible-content .content-inner {background:#fff;padding:.5rem 1rem}
 .content-inner i:hover{color:#f80!important}
+.linktext {text-align:center;font-style:italic;margin-top:20px;font-size: 18px;color:#006;font-family:'al-jazeera-arabic-bold'}
