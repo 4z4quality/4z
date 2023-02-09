@@ -133,7 +133,7 @@ section {padding:60px 0;overflow:hidden}
 .about .trust {color:#006;font-size:18px;line-height:2em}
 #skills {background:#fff}
 .skills .progress {height:60px;display:block;background:none;border-radius:0;visibility:auto}
-.skills .progress .skill {padding:0;margin:0 0 6px 0;text-transform:uppercase;display:block;font-size:18px;font-family:'al-jazeera-arabic_regular';color:#222}
+.skills .progress .skill {padding:0;margin:0 0 6px 0;text-transform:uppercase;display:block;font-size:18px;font-family:'al-jazeera-arabic-bold';color:#006}
 .skills .progress .skill .val {float:left;font-style:normal}
 .skills .progress-bar-wrap {background:#e2eefd;height:10px}
 .skills .progress-bar {width:1px;height:10px;transition:all 1.5s ease-in;background-color:#f80}

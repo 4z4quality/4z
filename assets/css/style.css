@@ -143,7 +143,7 @@ section {padding:60px 0;overflow:hidden}
 .about .trust {color:#006;font-size:18px;line-height:1.7em}
 #skills {background:#fff}
 .skills .progress {height:60px;display:block;background:none;border-radius:0;visibility:auto}
-.skills .progress .skill {padding:0;margin:0 0 6px 0;text-transform:uppercase;display:block;font-weight:600;font-family:'Poppins';color:#222}
+.skills .progress .skill {padding:0;margin:0 0 6px 0;text-transform:uppercase;display:block;font-weight:600;font-size:16px;font-family:'Poppins';color:#006}
 .skills .progress .skill .val {float:right;font-style:normal}
 .skills .progress-bar-wrap {background:#e2eefd;height:10px}
 .skills .progress-bar {width:1px;height:10px;transition:all 1.5s ease-in;background-color:#f80}
