@@ -229,6 +229,7 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details .portfolio-description img {display:inline-block;max-width:100%;height:100%;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);padding-bottom:5px}
 .portfolio-details .portfolio-description i {color:#b30}
 .team {margin-bottom:60px;padding:60px 0;background:#fff;visibility:auto}
+.team p {font-size: 18px; line-height: 1.9em}
 .team .member {margin-bottom:20px;overflow:hidden;border-radius:4px;background:#fff;box-shadow:0 2px 15px rgba(16,110,234,.15)}
 .team .member .member-img {display:inline-block;position:relative;overflow:hidden}
 .team .member .social {position:absolute;left:0;bottom:30px;right:0;opacity:0;transition:all 1.5s ease-in-out;text-align:center}
