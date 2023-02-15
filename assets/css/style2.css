@@ -1,16 +1,6 @@
 @font-face {font-family:'al-jazeera-arabic-bold';src:url(../../assets/css/fonts/al-jazeera-arabic-bold.woff) format('woff'),url(../../assets/css/fonts/al-jazeera-arabic-bold.woff2) format('woff2'),url(../../assets/css/fonts/al-jazeera-arabic-bold.otf) format('opentype'),url(../../assets/css/fonts/al-jazeera-arabic-bold.eot) format('embedded-opentype'),url(../../assets/css/fonts/al-jazeera-arabic-bold.ttf) format('truetype');font-style:normal;font-display:swap}
 @font-face {font-family:'al-jazeera-arabic_regular';src: url(../../assets/css/fonts/al-jazeera-arabic_regular.woff) format('woff'),url(../../assets/css/fonts/al-jazeera-arabic_regular.woff2) format('woff2'),url(../../assets/css/fonts/al-jazeera-arabic_regular.otf) format('opentype'),url(../../assets/css/fonts/al-jazeera-arabic_regular.eot) format('embedded-opentype'),url(../../assets/css/fonts/al-jazeera-arabic_regular.ttf) format('truetype');font-style: normal;font-display: swap}
-
-
-
-
-
-
-
-
-
 @font-face {font-family:'Poppins';src:url(../../assets/css/fonts/Poppins-SemiBold.eot);src:url(../../assets/css/fonts/Poppins-SemiBold.eot?#iefix) format('embedded-opentype'),url(../../assets/css/fonts/Poppins-SemiBold.woff2) format('woff2'),url(../../assets/css/fonts/Poppins-SemiBold.woff) format('woff'),url(../../assets/css/fonts/Poppins-SemiBold.ttf) format('truetype'),url(../../assets/css/fonts/Poppins-SemiBold.svg#Poppins-SemiBold) format('svg');font-weight:600;font-style:normal;font-display:swap}
-
 body {font-family: 'al-jazeera-arabic_regular',sans-serif;color:#006}
 a {color:#1056ad;transition:all .5s ease-in-out;text-decoration:none}
 a:hover{color:#f80;text-decoration:none}
@@ -32,9 +22,6 @@ img {aspect-ratio:attr(width)/attr(height)}
 #topbar .social-links a:hover {transition:all .5s ease-in-out;color:#006}
 #header {transition:all .5s ease-in-out;z-index:997;background:#fff;height:86px;box-shadow:0 2px 15px rgba(0,0,0,0.1)}
 #header.fixed-top {height:70px;box-shadow: 1px 1px 7px 2px #888}
-#header .logo {font-size:30px;margin:0;padding:0;line-height:1;letter-spacing:.8px;font-family:'al-jazeera-arabic-bold'}
-#header .logo a {color:#222}
-#header .logo a span {color:#1056ad}
 #header .logo img {display:inline-block;max-height:70px}
 .scrolled-offset {margin-top:70px}
 .header img {max-width:100%;height:auto}
@@ -102,8 +89,8 @@ img {aspect-ratio:attr(width)/attr(height)}
 section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
 .section-title {font-family:'al-jazeera-arabic-bold';text-align:center;padding-bottom:30px;margin:0 30px}
-.section-title .title {font-size:17px;font-family:'al-jazeera-arabic-bold';padding:8px 20px;margin:0;background:#e7f1fd;color:#1056ad;display:inline-block;border-radius:50px}
-.section-title .subtitle {font-size: 28px;font-family:'al-jazeera-arabic-bold'}
+.section-title .title {font-size:17px;padding:8px 20px;margin:0;background:#e7f1fd;color:#1056ad;display:inline-block;border-radius:50px}
+.section-title .subtitle {font-size: 28px}
 .section-title .subtitle span {color:#f80}
 .section-title h2 {margin:15px 0 0 0;font-size:32px;line-height:1.6}
 .section-title p {margin:15px auto 0 auto;font-size:18px;line-height:2}
@@ -120,7 +107,7 @@ section {padding:60px 0;overflow:hidden}
 .breadcrumbs ol li+li::before {display:inline-block;padding-right:10px;color:#6c757d;content:"/"}
 @media (max-width:768px) {.breadcrumbs .d-flex {display:block!important}.breadcrumbs ol {display:block}.breadcrumbs ol li {display:inline-block}}
 .our-name {margin-bottom:30px;visibility:auto}
-.our-name .because {text-align:center;font-size:48px;font-weight:600;color:#f80}
+.our-name .because {text-align:center;font-size:48px;color:#f80}
 .our-name .because span {font-size:20px;color:#006}
 .our-name .icon-box {padding:30px;position:relative;overflow:hidden;background:#fff;box-shadow:0 0 29px 0 rgba(68,88,144,.12);transition:all .5s ease-in-out;border-radius:8px;z-index:1}
 .our-name .icon-box::before {content:"";position:absolute;background:#cbe0fb;right:0;left:0;bottom:0;top:100%;transition:all .5s ease-in-out;z-index:-1}
@@ -258,7 +245,7 @@ section {padding:60px 0;overflow:hidden}
 .pricing {background:#f1f6fe;margin-bottom:60px;visibility:auto}
 .pricing .box {padding:20px;background:#fff;text-align:center;box-shadow:0 0 4px rgba(0,0,0,.12);border-radius:5px;position:relative;overflow:hidden}
 .pricing .box .price{margin:-20px -20px 20px -20px;padding:20px 15px;font-size:16px;color:#777;background:#f8f8f8}
-.pricing .box .offer {font-weight:400;color: #bababa;font-size:16px}
+.pricing .box .offer {color: #bababa;font-size:16px}
 .pricing .featured .price {color:#fff;background:#f80}
 .pricing .box ul {padding:0;list-style:none;color:#444;text-align:center;line-height:20px;font-size:17px}
 .pricing .box ul li {padding-bottom:16px}
@@ -268,7 +255,7 @@ section {padding:60px 0;overflow:hidden}
 .pricing .btn-buy {background:#1056ad;display:inline-block;padding:8px 35px 10px 35px;border-radius:4px;color:#fff;font-size:14px;font-family:'al-jazeera-arabic_regular';transition:all .5s ease-out}
 .pricing .btn-buy:hover {background:#f80}
 .pricing .featured h3 {color:#fff;background:#f80}
-.pricing .featured span {font-weight:700;font-size:32px;font-family:'al-jazeera-arabic-bold'}
+.pricing .featured span {font-size:32px;font-family:'al-jazeera-arabic-bold'}
 .pricing .box span {font-size:32px;font-family:'al-jazeera-arabic-bold'}
 .pricing .box .advanced {width:200px;position:absolute;top:18px;right:-68px;transform:rotate(45deg);z-index:1;font-size:14px;padding:1px 0 3px 0;background:#f80;color:#fff}
 .pricing img {max-width:25%;height:auto;display:inline-block;margin-left:auto;margin-right:auto;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222)}
@@ -292,7 +279,7 @@ section {padding:60px 0;overflow:hidden}
 .faq .faq-list .collapsed .icon-close {display:none;transition:all .5s ease-in-out}
 .faq img {display:block;padding:10px;margin:auto;max-width:100%;height:auto;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222)}
 .faq img:hover {scale:1.05}
-.faq .pedia {border:30px solid #f80;background-color:#fff;margin:30px 10px}
+.faq .pedia {border:5px solid #f80;background-color:#fff;margin:30px 10px}
 .faq .pedia p {border:0;font-family:'al-jazeera-arabic-bold';margin:0 30px;font-size:18px;line-height:2;text-align:center}
 .faq .pedia p span {color:#f80}
 .faq .pedia .subtitle {font-family:'al-jazeera-arabic-bold';font-size: 28px}
@@ -373,7 +360,7 @@ th {font-family:'al-jazeera-arabic-bold';text-align: center}
 .pager .disabled>a,.pager .disabled>a:focus,.pager .disabled>a:hover,.pager .disabled>span {color:#777;cursor:not-allowed;background-color:#fff}
 .wrap-collabsible{margin:0}
 input[type='checkbox'] {display: none;scroll-behavior: smooth} 
-.lbl-toggle {display:block;position:relative;font-size:1rem;text-transform:uppercase;text-align:center;padding:.5rem;color:#006;background:#f80;cursor:pointer;transition:all .5s ease-in-out}
+.lbl-toggle {font-family:'al-jazeera-arabic-bold';display:block;position:relative;font-size:1rem;text-transform:uppercase;text-align:center;padding:.5rem;color:#006;background:#f80;cursor:pointer;transition:all .5s ease-in-out}
 .lbl-toggle:hover {color:#fff;background:#1056ad}
 .lbl-toggle::before {content:' ';display:inline-block;border-top:7px solid transparent;border-bottom:7px solid transparent;border-right:7px solid currentColor;vertical-align:middle;margin-left:.7rem;transform:translateY(-2px);transition:transform .5s ease-in-out}
 .toggle:checked+.lbl-toggle::before {transform:rotate(270deg) translateX(-1px)}
