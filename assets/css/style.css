@@ -70,12 +70,12 @@ img {aspect-ratio:attr(width)/attr(height)}
 .navbar-mobile .dropdown ul a i {font-size:12px}
 .navbar-mobile .dropdown ul a:hover,.navbar-mobile .dropdown ul .active:hover,.navbar-mobile .dropdown ul li:hover>a {color:#fff;background:#1056ad}
 .navbar-mobile .dropdown>.dropdown-active {display:inline-block}
-#intro {width:100%;height:78vh;overflow:hidden;position:relative}
+#intro {width:100%;height:78vh;overflow:hidden;position:relative;background:#000}
 #intro .carousel-item::before {content:"";background-image:linear-gradient(to top left,rgba(241,246,254,.556),rgba(255,255,255,.95))}
-@media (max-height:500px) {#intro {height:120vh}}
+@media (max-height:500px) {#intro {height:150vh}}
 #intro .carousel,#intro .carousel-inner,#intro .carousel-item,#intro .carousel-item::before {position:absolute;bottom:0;top:0;left:0;right:0}
-#intro .carousel-item {background-size:cover;background-position:center;background-repeat:no-repeat}
-#intro .carousel-container {display:flex;align-items:center;position:absolute;bottom:0;top:0;left:50px;right:50px}
+#intro .carousel-item {background-size:cover;background-position:top;background-repeat:no-repeat}
+#intro .carousel-container {display:flex;justify-content:center;align-items:center;position:absolute;bottom:0;top:0;left:50px;right:50px}
 #intro .container {text-align:center}
 #intro h1,h2 {color:#006;margin-bottom:60px;font-size:70px;font-weight:600}
 #intro h1 span {font-size:42px}
@@ -83,9 +83,9 @@ img {aspect-ratio:attr(width)/attr(height)}
 @media (max-width:768px) {#intro h2 {font-size:40px}}
 @media (max-width:768px) {#intro h1 span {font-size:30px}}
 #intro .carousel-fade {overflow:hidden}
-#intro .carousel-fade .carousel-inner .carousel-item {transition-property:opacity all .5s ease-in-out!important}
+#intro .carousel-fade .carousel-inner .carousel-item {transition-property:opacity 1s ease-in-out!important}
 #intro .carousel-fade .carousel-inner .active.carousel-item-end,#intro .carousel-fade .carousel-inner .active.carousel-item-start,#intro .carousel-fade .carousel-inner .carousel-item {opacity:0}
-#intro .carousel-fade .carousel-inner .active,#intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-start,#intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-end {opacity:1;transition:all 5.5s ease-in-out}
+#intro .carousel-fade .carousel-inner .active,#intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-start,#intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-end {opacity:1;transition:1.5s ease-in-out}
 #intro .carousel-fade .carousel-inner .active.carousel-item-end,#intro .carousel-fade .carousel-inner .active.carousel-item-start,#intro .carousel-fade .carousel-inner .carousel-item-next,#intro .carousel-fade .carousel-inner .carousel-item-prev {left:0;transform:translate3d(0,0,0)}
 #intro .carousel-control-prev, #intro .carousel-control-next {width:12%;color:#006}
 #intro .carousel-control-next:hover,#intro .carousel-control-prev:hover {color:#f80}
@@ -146,6 +146,11 @@ section {padding:60px 0;overflow:hidden}
 .about .golden2 span {color:#006}
 .about .golden3 {margin:auto;width:96%;border:20px solid #DAA520;padding: 15px}
 .about .golden {color:#DAA520;font-weight:700;line-height:2em;font-size:larger}
+.about .golden span {color:#DAA520;font-weight:700;line-height:2em;font-size:larger}
+.about .golden .circle1 {content: "\2776";font-size:28px;font-weight: 400;padding-top: 12px;}
+.about .golden .circle2 {content: "\2461";font-size:18px}
+.about .golden .circle3 {content: "\2462";font-size:18px}
+.about .golden .circle4 {content: "\2463";font-size:18px}
 .about li {color:#f80;padding-bottom:10px}
 .about .trust {color:#006;font-size:18px;line-height:1.6em}
 .about .vision {display: flex; text-align:left}
