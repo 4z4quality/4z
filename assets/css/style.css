@@ -146,11 +146,6 @@ section {padding:60px 0;overflow:hidden}
 .about .golden2 span {color:#006}
 .about .golden3 {margin:auto;width:96%;border:20px solid #DAA520;padding: 15px}
 .about .golden {color:#DAA520;font-weight:700;line-height:2em;font-size:larger}
-.about .golden span {color:#DAA520;font-weight:700;line-height:2em;font-size:larger}
-.about .golden .circle1 {content: "\2776";font-size:28px;font-weight: 400;padding-top: 12px;}
-.about .golden .circle2 {content: "\2461";font-size:18px}
-.about .golden .circle3 {content: "\2462";font-size:18px}
-.about .golden .circle4 {content: "\2463";font-size:18px}
 .about li {color:#f80;padding-bottom:10px}
 .about .trust {color:#006;font-size:18px;line-height:1.6em}
 .about .vision {display: flex; text-align:left}
