@@ -89,7 +89,6 @@ img {aspect-ratio:attr(width)/attr(height)}
 section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
 .section-title {font-family:'al-jazeera-arabic-bold';text-align:center;padding-bottom:30px;margin:0 30px}
-.section-title a:hover{color:#f80}
 .section-title .title {font-size:17px;padding:8px 20px;margin:0;background:#e7f1fd;color:#1056ad;display:inline-block;border-radius:50px}
 .section-title .subtitle {font-size: 28px}
 .section-title .subtitle span {color:#f80}
