@@ -72,14 +72,15 @@ img {aspect-ratio:attr(width)/attr(height)}
 .navbar-mobile .dropdown>.dropdown-active {display:inline-block}
 #intro {width:100%;height:78vh;overflow:hidden;position:relative;background:#000}
 #intro .carousel-item::before {content:"";background-image:linear-gradient(to top left,rgba(241,246,254,.556),rgba(255,255,255,.95))}
-@media (max-height:500px) {#intro {height:150vh}}
+@media (max-height:579px) {#intro {height:78vh}}
+@media (min-height:580px) {#intro {height:88vh}}
 #intro .carousel,#intro .carousel-inner,#intro .carousel-item,#intro .carousel-item::before {position:absolute;bottom:0;top:0;left:0;right:0}
 #intro .carousel-item {background-size:cover;background-position:top;background-repeat:no-repeat}
 #intro .carousel-container {display:flex;justify-content:center;align-items:center;position:absolute;bottom:0;top:0;left:50px;right:50px}
 #intro .container {text-align:center}
 #intro p {font-family:'Poppins';color:#006;margin-bottom:30px;font-size:70px;font-weight:600}
 #intro p span {font-size:42px}
-@media (max-width:768px) {#intro p {font-size:40px}}
+@media (max-width:768px) {#intro p {font-size:50px}}
 @media (max-width:768px) {#intro p span {font-size:30px}}
 #intro .carousel-fade {overflow:hidden}
 #intro .carousel-fade .carousel-inner .carousel-item {transition-property:opacity 1s ease-in-out!important}
@@ -127,9 +128,9 @@ section {padding:60px 0;overflow:hidden}
 #our-name .icon-box:hover .description1,.our-name .icon-box:hover .description2 {color:#fff}
 #our-name .icon-box:hover .icon i {color:#fff}
 .about {visibility:auto}
-.about .fourz1 {font-family:'Poppins';font-weight:600;color:#f80;font-size:36px;text-align:center}
+.about .fourz1 {font-family:'Poppins';font-weight:600;color:#f80;font-size:36px;text-align:center;padding:10px}
 .about .fourz1 span {color:#1056AD}
-.about .fourz2 {padding:0 40px;color:#1056AD;font-weight:700;font-size:36px;text-align:center}
+.about .fourz2 {padding:0 10px;color:#1056AD;font-weight:700;font-size:36px;text-align:center}
 .about .fourz2 span {color:#006}
 .about .content ul {list-style:none;padding:0}
 .about .content ul li {display:flex;align-items:flex-start;margin-bottom:35px}
