@@ -89,6 +89,7 @@ img {aspect-ratio:attr(width)/attr(height)}
 section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
 .section-title {font-family:'al-jazeera-arabic-bold';text-align:center;padding-bottom:30px;margin:0 30px}
+.section-title a:hover{color:#f80}
 .section-title .title {font-size:17px;padding:8px 20px;margin:0;background:#e7f1fd;color:#1056ad;display:inline-block;border-radius:50px}
 .section-title .subtitle {font-size: 28px}
 .section-title .subtitle span {color:#f80}
@@ -96,7 +97,8 @@ section {padding:60px 0;overflow:hidden}
 .section-title p span {color:#1056ad}
 .section-title img {border:10px solid #006;padding:10px;display:block;margin-left:auto;margin-right:auto;transition:all 1.5s ease-in-out;box-shadow:0px 2px 15px rgba(0,0,0,0.1)}
 .section-title img:hover{scale:1.05}
-.section-title h4 {font-family:'al-jazeera-arabic-bold';font-size:18px;line-height:1.6}
+.section-title h4 {font-family:'al-jazeera-arabic_regular';font-size:18px;line-height:1.6}
+.section-title h4 a {font-family:'al-jazeera-arabic-bold'}
 .row span {color:#1056ad}
 @media (min-width:1024px) {.section-title p {width:50%}}
 .breadcrumbs {padding:80px 0;background-color:#f1f6fe;min-height:40px}
