@@ -3,8 +3,8 @@
   "short_name": "4Z for Quality",
   "theme_color": "#ff8000",
   "background_color": "#000066",
-  "display": "browser",
-  "orientation": "portrait",
+  "display": "fullscreen",
+  "orientation": "landscape",
   "scope": "https://the4z.com/",
   "start_url": "https://the4z.com",
   "icons": [
