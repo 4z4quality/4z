@@ -67,7 +67,7 @@ h1,h2,h3,h4,h5 {font-family:'al-jazeera-arabic-bold',sans-serif}
 @media (min-height:580px) {#intro {height:88vh}}
 #intro .carousel,#intro .carousel-inner,#intro .carousel-item,#intro .carousel-item::before {position:absolute;bottom:0;top:0;left:0;right:0}
 #intro .carousel-item {background-size:cover;background-position:top;background-repeat:no-repeat}
-#intro .carousel-container {display:flex;justify-content:center;align-items:center;position:absolute;bottom:0;top:0;left:50px;right:50px}
+#intro .carousel-container {display:flex;justify-content:center;align-items:center;position:absolute;bottom:0;top:0;left:40px;right:40px}
 #intro .container {text-align:center}
 #intro h1,p {font-family:'al-jazeera-arabic-bold';color:#006;margin-bottom:30px;font-size:80px;line-height:1.4}
 #intro h1 span {font-size:45px}
