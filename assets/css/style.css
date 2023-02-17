@@ -228,6 +228,7 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details .portfolio-description ul li+li {margin-top:10px}
 .portfolio-details .portfolio-description h2 {font-size:24px;font-weight:600;margin-bottom:20px}
 .portfolio-details .portfolio-description h3 {font-size:20px;font-weight:600;margin-bottom:20px}
+.portfolio-details .portfolio-description h4 {font-size:20px;font-weight:600;margin-bottom:20px;line-height:1.7}
 .portfolio-details .portfolio-description p {font-size:17px;padding:0}
 .portfolio-details .portfolio-description .red {color:#b30}
 .portfolio-details .portfolio-description .blue {color:#00f}

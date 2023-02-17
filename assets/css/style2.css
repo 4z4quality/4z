@@ -219,6 +219,7 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details .portfolio-description ul li+li {margin-top:10px}
 .portfolio-details .portfolio-description h2 {font-size:24px;margin-bottom:20px}
 .portfolio-details .portfolio-description h3 {font-size:18px;margin-bottom:20px}
+.portfolio-details .portfolio-description h4 {font-size:22px;font-family:'al-jazeera-arabic-bold';margin-bottom:20px;line-height:1.7}
 .portfolio-details .portfolio-description p {padding:0}
 .portfolio-details .portfolio-description .red {color:#b30}
 .portfolio-details .portfolio-description .blue {color:#00f}
