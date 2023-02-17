@@ -69,9 +69,11 @@ h1,h2,h3,h4,h5 {font-family:'al-jazeera-arabic-bold',sans-serif}
 #intro .carousel-item {background-size:cover;background-position:top;background-repeat:no-repeat}
 #intro .carousel-container {display:flex;justify-content:center;align-items:center;position:absolute;bottom:0;top:0;left:50px;right:50px}
 #intro .container {text-align:center}
-#intro p {font-family:'al-jazeera-arabic-bold';color:#006;margin-bottom:30px;font-size:80px}
+#intro h1,p {font-family:'al-jazeera-arabic-bold';color:#006;margin-bottom:30px;font-size:80px;line-height:1.4}
+#intro h1 span {font-size:45px}
 #intro p span {font-size:45px}
-@media (max-width:768px) {#intro p {font-size:50px}}
+@media (max-width:768px) {#intro h1,p {font-size:50px}}
+@media (max-width:768px) {#intro h1 span {font-size:30px}}
 @media (max-width:768px) {#intro p span {font-size:30px}}
 #intro .carousel-fade {overflow:hidden}
 #intro .carousel-fade .carousel-inner .active.carousel-item-end,#intro .carousel-fade .carousel-inner .active.carousel-item-start,#intro .carousel-fade .carousel-inner .carousel-item {opacity:0}
@@ -118,7 +120,7 @@ section {padding:60px 0;overflow:hidden}
 #our-name .icon-box:hover .description1,.our-name .icon-box:hover .description2 {color:#fff}
 #our-name .icon-box:hover .icon i {color:#fff}
 .about {visibility:auto}
-.about .fourz1 {font-family:'al-jazeera-arabic-bold';color:#f80;font-size:36px;text-align:center}
+.about .fourz1 {font-family:'al-jazeera-arabic-bold';color:#f80;font-size:36px}
 .about .fourz1 span {color:#1056AD}
 .about .fourz2 {padding:0 40px;color:#1056AD;font-size:36px;text-align:center;font-family:'al-jazeera-arabic-bold';}
 .about .fourz2 span {color:#006}
