@@ -12,6 +12,6 @@
         //scrolled up
 direction = 2;}else if (curScroll < prevScroll) {
         //scrolled down
-direction = 1;}if (direction !== prevDirection) {toggleHeader(direction, curScroll);}prevScroll = curScroll;};var toggleHeader = function(direction, curScroll) {if (direction === 2 && curScroll > 126) {        
+direction = 1;}if (direction !== prevDirection) {toggleHeader(direction, curScroll);}prevScroll = curScroll;};var toggleHeader = function(direction, curScroll) {if (direction === 2 && curScroll > 70) {        
         //replace 52 with the height of your header in px
 header.classList.add('hide');prevDirection = direction;}else if (direction === 1) {header.classList.remove('hide');prevDirection = direction;}};window.addEventListener('scroll', checkScroll);})();
