@@ -34,6 +34,7 @@ h1,h2,h3,h4,h5 {font-family:'Poppins',sans-serif}
 #header .logo img {display:inline-block;max-height:70px}
 .scrolled-offset {margin-top:70px}
 .header img {max-width:100%;height:auto}
+header.hide {top: -127px;}
 .navbar {padding:0;float:right;font-family:'Poppins','al-jazeera-arabic-bold',sans-serif}
 .navbar ul {margin:0;padding:0;display:flex;list-style:none;align-items:center}
 .navbar li {position:relative}
