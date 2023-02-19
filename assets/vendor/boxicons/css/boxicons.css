@@ -228,14 +228,12 @@
     {
         -webkit-transform: translateY(0);
                 transform: translateY(0);
-
         opacity: 1;
     }
     75%
     {
         -webkit-transform: translateY(-20px);
                 transform: translateY(-20px);
-
         opacity: 0;
     }
 }
@@ -296,7 +294,6 @@
         -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 10deg);
                 transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 10deg);
     }
-
     40%,
     60%,
     80%
@@ -304,14 +301,12 @@
         -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -10deg);
                 transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -10deg);
     }
-
     to
     {
         -webkit-transform: scale3d(1, 1, 1);
                 transform: scale3d(1, 1, 1);
     }
 }
-
 @keyframes tada
 {
     from
@@ -319,14 +314,12 @@
         -webkit-transform: scale3d(1, 1, 1);
                 transform: scale3d(1, 1, 1);
     }
-
     10%,
     20%
     {
         -webkit-transform: scale3d(.95, .95, .95) rotate3d(0, 0, 1, -10deg);
                 transform: scale3d(.95, .95, .95) rotate3d(0, 0, 1, -10deg);
     }
-
     30%,
     50%,
     70%,
@@ -335,7 +328,6 @@
         -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 10deg);
                 transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 10deg);
     }
-
     40%,
     60%,
     80%
@@ -343,15 +335,13 @@
         -webkit-transform: rotate3d(0, 0, 1, -10deg);
                 transform: rotate3d(0, 0, 1, -10deg);
     }
-
     to
     {
         -webkit-transform: scale3d(1, 1, 1);
                 transform: scale3d(1, 1, 1);
     }
 }
-.bx-spin
-{
+.bx-spin {
     -webkit-animation: spin 2s linear infinite;
             animation: spin 2s linear infinite;
 }
@@ -360,9 +350,7 @@
     -webkit-animation: spin 2s linear infinite;
             animation: spin 2s linear infinite;
 }
-
-.bx-tada
-{
+.bx-tada {
     -webkit-animation: tada 1.5s ease infinite;
             animation: tada 1.5s ease infinite;
 }
@@ -371,9 +359,7 @@
     -webkit-animation: tada 1.5s ease infinite;
             animation: tada 1.5s ease infinite;
 }
-
-.bx-flashing
-{
+.bx-flashing {
     -webkit-animation: flashing 1.5s infinite linear;
             animation: flashing 1.5s infinite linear;
 }
@@ -382,9 +368,7 @@
     -webkit-animation: flashing 1.5s infinite linear;
             animation: flashing 1.5s infinite linear;
 }
-
-.bx-burst
-{
+.bx-burst {
     -webkit-animation: burst 1.5s infinite linear;
             animation: burst 1.5s infinite linear;
 }
@@ -393,8 +377,7 @@
     -webkit-animation: burst 1.5s infinite linear;
             animation: burst 1.5s infinite linear;
 }
-.bx-fade-up
-{
+.bx-fade-up {
     -webkit-animation: fade-up 1.5s infinite linear;
             animation: fade-up 1.5s infinite linear;
 }
@@ -423,8 +406,7 @@
     -webkit-animation: fade-left 1.5s infinite linear;
             animation: fade-left 1.5s infinite linear;
 }
-.bx-fade-right
-{
+.bx-fade-right {
     -webkit-animation: fade-right 1.5s infinite linear;
             animation: fade-right 1.5s infinite linear;
 }
@@ -437,20 +419,16 @@
 {
     font-size: 1rem!important;
 }
-.bx-sm
-{
+.bx-sm {
     font-size: 1.55rem!important;
 }
-.bx-md
-{
+.bx-md {
     font-size: 2.25rem!important;
 }
-.bx-lg
-{
+.bx-lg {
     font-size: 3.0rem!important;
 }
-.bx-fw
-{
+.bx-fw {
     font-size: 1.2857142857em;
     line-height: .8em;
 
@@ -521,7 +499,6 @@
     border: .07em solid rgba(0,0,0,.1);
     border-radius: 50%;
 }
-
   .bxl-facebook:before {
     content: "\e926";
   }
@@ -552,7 +529,6 @@
   .bxl-youtube:before {
     content: "\e989";
   }
-
   .bxs-envelope:before {
     content: "\ea92";
   }
@@ -601,20 +577,11 @@
   .bx-arrow-to-right:before {
     content: "\ec1e";
   }
-  .bx-award:before {
-    content: "\ec22";
-  }
-  .bx-bar-chart-alt:before {
-    content: "\ec28";
-  }
   .bx-bulb:before {
     content: "\ec70";
   }
   .bx-calendar:before {
     content: "\ec78";
-  }
-  .bx-chalkboard:before {
-    content: "\eca1";
   }
   .bx-check-square:before {
     content: "\ecac";
@@ -634,14 +601,11 @@
   .bx-chevron-up:before {
     content: "\ecba";
   }
-  .bx-clinic:before {
-    content: "\ecc0";
+  .bx-envelope:before {
+    content:"\ed24";
   }
   .bx-file:before {
     content: "\ed38";
-  }
-  .bx-envelope:before {
-    content:"\ed24";
   }
   .bx-group:before {
     content: "\ed62";
@@ -670,23 +634,11 @@
   .bx-phone-call:before {
     content: "\ee16";
   }
-  .bx-phone-incoming:before {
-    content: "\ee17";
-  }
   .bx-phone-off:before {
     content: "\ee18";
   }
-  .bx-phone-outgoing:before {
-    content: "\ee19";
-  }
-  .bx-slideshow:before {
-    content: "\ee7b";
-  }
   .bx-support:before {
     content: "\ee98";
-  }
-  .bx-trending-up:before {
-    content: "\eeb6";
   }
   .bx-show:before {
     content: "\ee6f";
