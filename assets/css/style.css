@@ -322,23 +322,22 @@ section {padding:60px 0;overflow:hidden}
 .contact .php-email-form button[type=submit]:hover {background:#f80}
 @-webkit-keyframes animate-loading {0% {transform:rotate(0)}100% {transform:rotate(360deg)}}
 @keyframes animate-loading {0% {transform:rotate(0)}100% {transform:rotate(360deg)}}
-#footer {background:#fff;padding:0 0 10px 0;color:#444;font-size:14px;background:#f1f6fe;visibility:auto}
+#footer {background:#fff;padding-bottom:20px;color:#444;font-size:14px;background:#f1f6fe;visibility:auto}
 #footer .footer-newsletter {padding:30px 0;background:#f1f6fe}
 #footer .footer-top {padding:30px 0;background:#fff}
+#footer .footer-top .footer-contact {font-family:'poppins'}
 #footer .footer-top .footer-contact .fourz4 {color: #f80; font-size:x-large}
-#footer .footer-top .footer-contact {font-weight:600;font-family:'poppins'}
-#footer .footer-top .footer-contact i {font-size:16px}
 #footer .footer-top .footer-contact p {margin:0;line-height:2.1;padding-left:10px;padding-top:3px;font-size:14px;font-weight:600;font-family:'Poppins';color:#444}
-#footer .footer-contact span {font-weight:700}
-#footer .footer-links span {color:#222;font-weight:600;font-size:larger}
-#footer .footer-contact i {padding-left:10px;font-size:110%}
+#footer .footer-top .footer-contact span {font-weight:600}
+#footer .footer-top .footer-contact i {font-size:18px;padding-left:10px;padding-top:3px}
+#footer .footer-top .footer-links p {padding-left:10px;padding-bottom:85px;color:#444;font-size:16px}
+#footer .footer-top .footer-links span {color:#222;font-size:18px;padding-bottom:30px;font-weight:600}
 #footer .footer-top .footer-links ul {list-style:none;padding:0;margin:0}
-#footer .footer-top .footer-links ul i {padding-left:5px;color:#1056ad;font-size:18px;line-height:1}
+#footer .footer-top .footer-links ul i {padding-left:5px;padding-top:3px;color:#1056ad;font-size:18px;line-height:1}
 #footer .footer-top .footer-links ul li {padding:10px 0;display:flex;align-items:center}
 #footer .footer-top .footer-links ul li:first-child {padding-top:0}
 #footer .footer-top .footer-links ul a {color:#444;transition:all .5s ease-in-out;display:inline-block;line-height:1}
 #footer .footer-top .footer-links ul a:hover {text-decoration:none;color:#1056ad}
-#footer .footer-links p {padding-left:10px;color:#444;font-size:17px;}
 #footer .footer-top .social-links a {padding-left:10px;font-size:18px;display:inline-block;background:#f80;color:#fff;line-height:1;padding:8px 0;margin-right:4px;border-radius:4px;text-align:center;width:36px;height:36px;transition:all .5s ease-in-out}
 #footer .footer-top .social-links .facebook {margin-left:10px}
 #footer .footer-top .social-links a:hover {background:#1056ad;color:#fff;text-decoration:none}
@@ -363,7 +362,6 @@ section {padding:60px 0;overflow:hidden}
 .quote2 {font-family:'Poppins';color:#b85a00;font-style:italic;font-weight:400;font-size: 20px}
 table,td,th {border:1px solid #000;border-collapse:collapse;font-size:15px;max-width:96%;margin-left: auto;margin-right: auto; box-shadow:0px 2px 15px rgba(0, 0, 0, 0.5)}
 th {font-weight:800;color:#006;text-align:center}
-
 .pager {padding-left:0;margin:20px 0;text-align:center;list-style:none;font-weight:700}
 .pager i {font-weight:800}
 .pager li {display:inline}
@@ -374,7 +372,7 @@ th {font-weight:800;color:#006;text-align:center}
 .pager .disabled>a,.pager .disabled>a:focus,.pager .disabled>a:hover,.pager .disabled>span {color:#777;cursor:not-allowed;background-color:#fff}
 .wrap-collabsible{margin:0}
 input[type='checkbox'] {display: none;scroll-behavior: smooth}
-.lbl-toggle {display:block;position:relative;font-weight:700;font-size:1rem;text-transform:uppercase;text-align:center;padding:.5rem;color:#fff;background:#1056ad;cursor:pointer;transition:all .5s ease-in-out}
+.lbl-toggle {display:block;position:relative;font-weight:700;font-size:1rem;text-transform:uppercase;text-align:center;padding:.3rem;color:#fff;background:#1056ad;cursor:pointer;transition:all .5s ease-in-out}
 .lbl-toggle:hover {color:#fff;background:#f80}
 .lbl-toggle::before {content:' ';display:inline-block;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:7px solid currentColor;vertical-align:middle;margin-right:.7rem;transform:translateY(-2px);transition:transform .5s ease-in-out}
 .toggle:checked+.lbl-toggle::before {transform:rotate(90deg) translateX(-1px)}

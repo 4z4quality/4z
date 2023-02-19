@@ -1,10 +1,8 @@
 @font-face {font-family:'al-jazeera-arabic-bold';src:url(../../assets/css/fonts/al-jazeera-arabic-bold.woff) format('woff'),url(../../assets/css/fonts/al-jazeera-arabic-bold.woff2) format('woff2'),url(../../assets/css/fonts/al-jazeera-arabic-bold.otf) format('opentype'),url(../../assets/css/fonts/al-jazeera-arabic-bold.eot) format('embedded-opentype'),url(../../assets/css/fonts/al-jazeera-arabic-bold.ttf) format('truetype');font-style:normal;font-display:swap}
 @font-face {font-family:'al-jazeera-arabic_regular';src: url(../../assets/css/fonts/al-jazeera-arabic_regular.woff) format('woff'),url(../../assets/css/fonts/al-jazeera-arabic_regular.woff2) format('woff2'),url(../../assets/css/fonts/al-jazeera-arabic_regular.otf) format('opentype'),url(../../assets/css/fonts/al-jazeera-arabic_regular.eot) format('embedded-opentype'),url(../../assets/css/fonts/al-jazeera-arabic_regular.ttf) format('truetype');font-style: normal;font-display: swap}
+@font-face {font-family:'Open Sans';src:url(../../assets/css/fonts/OpenSans-Medium.eot);src:url(../../assets/css/fonts/OpenSans-Medium.eot?#iefix) format('embedded-opentype'),url(../../assets/css/fonts/OpenSans-Medium.woff2) format('woff2'),url(../../assets/css/fonts/OpenSans-Medium.woff) format('woff'),url(../../assets/css/fonts/OpenSans-Medium.ttf) format('truetype'),url(../../assets/css/fonts/OpenSans-Medium.svg#OpenSans-Medium) format('svg');font-weight:500;font-style:normal;font-display:swap}
+@font-face {font-family:'Open Sans';src:url(../../assets/css/fonts/OpenSans-SemiBold.eot);src:url(../../assets/css/fonts/OpenSans-SemiBold.eot?#iefix) format('embedded-opentype'),url(../../assets/css/fonts/OpenSans-SemiBold.woff2) format('woff2'),url(../../assets/css/fonts/OpenSans-SemiBold.woff) format('woff'),url(../../assets/css/fonts/OpenSans-SemiBold.ttf) format('truetype'),url(../../assets/css/fonts/OpenSans-SemiBold.svg#OpenSans-SemiBold) format('svg');font-weight:600;font-style:normal;font-display:swap}
 @font-face {font-family:'Open Sans';src:url(../../assets/css/fonts/OpenSans-ExtraBold.eot);src:url(https://the4z.com/assets/css/fonts/OpenSans-ExtraBold.eot?#iefix) format('embedded-opentype'),url(https://the4z.com/assets/css/fonts/OpenSans-ExtraBold.woff2) format('woff2'),url(https://the4z.com/assets/css/fonts/OpenSans-ExtraBold.woff) format('woff'),url(https://the4z.com/assets/css/fonts/OpenSans-ExtraBold.ttf) format('truetype'),url(https://the4z.com/assets/css/fonts/OpenSans-ExtraBold.svg#OpenSans-ExtraBold) format('svg');font-weight:800;font-style:normal;font-display:swap}
-
-
-
-
 
 
 
@@ -314,7 +312,7 @@ section {padding:60px 0;overflow:hidden}
 .contact .php-email-form .loading {display:none;background:#fff;text-align:center;padding:15px}
 .contact .php-email-form .loading:before {content:"";display:inline-block;border-radius:50%;width:24px;height:24px;margin:0 10px -6px 0;border:3px solid #18d26e;border-top-color:#eee;-webkit-animation:animate-loading .5s linear infinite;animation:animate-loading .5s linear infinite}
 .contact .php-email-form .form-group {margin-bottom:20px}
-.contact .php-email-form input,.contact .php-email-form textarea {border-radius:0;box-shadow:none;font-size:16px;font-family:'al-jazeera-arabic-bold'}
+.contact .php-email-form input,.contact .php-email-form textarea {border-radius:0;box-shadow:none;font-size:14px;font-family:'al-jazeera-arabic-bold'}
 .contact .php-email-form input:focus,.contact .php-email-form textarea:focus {border-color:#1056ad}
 .contact .php-email-form input {padding:10px 15px}
 .contact .php-email-form textarea {padding:12px 15px}
@@ -322,28 +320,27 @@ section {padding:60px 0;overflow:hidden}
 .contact .php-email-form button[type=submit]:hover {background:#f80}
 @-webkit-keyframes animate-loading {0% {transform:rotate(0)}100% {transform:rotate(360deg)}}
 @keyframes animate-loading {0% {transform:rotate(0)}100% {transform:rotate(360deg)}}
-#footer {background:#fff;padding:0 0 10px 0;color:#444;font-size:14px;background:#f1f6fe;visibility:auto}
+#footer {background:#fff;padding-bottom:20px;color:#444;font-size:14px;background:#f1f6fe;visibility:auto}
 #footer .footer-newsletter {padding:30px 0;background:#f1f6fe}
 #footer .footer-top {padding:30px 0;background:#fff}
-#footer .footer-top .footer-contact .fourz4 {color: #f80; font-size:x-large;font-family:'al-jazeera-arabic-bold'}
 #footer .footer-top .footer-contact {font-family:'al-jazeera-arabic-bold','poppins'}
-#footer .footer-top .footer-contact i {font-size:16px}
+#footer .footer-top .footer-contact .fourz4 {color: #f80; font-size:x-large;font-family:'al-jazeera-arabic-bold'}
 #footer .footer-top .footer-contact p {margin:0;line-height:2.1;padding-right:10px;padding-top:3px;font-size:14px;font-family:'al-jazeera-arabic-bold';color:#444}
 #footer .footer-top .footer-contact span {font-family:'al-jazeera-arabic-bold'}
-#footer .footer-links span {color:#222;font-size:larger;font-family:'al-jazeera-arabic-bold'}
-#footer .footer-contact i {padding-right:10px;font-size:110%}
+#footer .footer-top .footer-contact i {font-size:18px;padding-right:10px;padding-top:3px;font-family:'poppins'}
+#footer .footer-top .footer-links p {padding-right:10px;padding-bottom:74px;color:#444;font-size:16px;font-family:'al-jazeera-arabic_regular'}
+#footer .footer-top .footer-links span {color:#222;font-size:18px;padding-bottom:30px;font-family:'al-jazeera-arabic-bold'}
 #footer .footer-top .footer-links ul {list-style:none;padding:0;margin:0}
 #footer .footer-top .footer-links ul i {padding-right:5px;padding-top:3px;color:#1056ad;font-size:18px;line-height:1}
 #footer .footer-top .footer-links ul li {padding:10px 0;display:flex;align-items:center}
 #footer .footer-top .footer-links ul li:first-child {padding-top:0}
 #footer .footer-top .footer-links ul a {color:#444;transition:all .5s ease-in-out;display:inline-block;line-height:1}
 #footer .footer-top .footer-links ul a:hover {text-decoration:none;color:#1056ad}
-#footer .footer-links p {padding-right:10px;color:#444;font-size:17px;font-family:'al-jazeera-arabic_regular';}
 #footer .footer-top .social-links a {padding-right:10px;font-size:18px;display:inline-block;background:#3b8af2;color:#fff;line-height:1;padding:8px 0;margin-right:4px;border-radius:4px;text-align:center;width:36px;height:36px;transition:all .5s ease-in-out}
-#footer .footer-top .social-links .facebook {margin-left:10px}
+#footer .footer-top .social-links .facebook {margin-right:10px}
 #footer .footer-top .social-links a:hover {background:#f80;color:#fff;text-decoration:none}
 #footer .copyright {font-family:'al-jazeera-arabic-bold';text-align:center;float:left}
-#footer .credits {float:right;text-align: center;font-size:14px;color:#444;font-family:'al-jazeera-arabic-bold'}
+#footer .credits {float:right;text-align:center;font-size:14px;color:#444;font-family:'al-jazeera-arabic-bold';padding-bottom:10px}
 @media (max-width:768px) {#footer .copyright,#footer .credits {float:none;text-align:center;padding:2px 0}}
 .border-line {width:40px;height:1px;margin-top:20px;display:block;text-align:center;background-color:#03a9f4;margin-left:auto;margin-right:auto}
 .border-line2 {width:200px;height:2px;margin-top:20px;display:block;text-align:center;background-color:#03a9f4;margin-left:auto;margin-right:auto}
@@ -362,8 +359,9 @@ section {padding:60px 0;overflow:hidden}
 .closebtn:hover {color:#f80}
 .quote {text-align:center;color:#B85A00;font-style:italic;font-size:1.6em;line-height:1.4em;margin:0 30px;font-family:'al-jazeera-arabic_regular'}
 .quote2 {text-align:center;color:#B85A00;font-style:italic;font-size:22px}
-table,td,th {border:1px solid #000;border-collapse:collapse;font-size:16px;max-width:96%;margin-left: auto;margin-right: auto; box-shadow:0px 2px 15px rgba(0, 0, 0, 0.5)}
-th {font-family:'al-jazeera-arabic-bold';text-align: center}
+table,td,th {font-family:'al-jazeera-arabic-bold';border:1px solid #000;border-collapse:collapse;max-width:96%;margin-left:auto;margin-right:auto;box-shadow:0px 2px 15px rgba(0, 0, 0, 0.5)}
+th {text-align: center;line-height:1;font-size:15px}
+td {font-size:16px}
 .pager {padding-left:0;margin:20px 0;text-align:center;list-style:none;font-family:'al-jazeera-arabic-bold'}
 .pager i {font-weight:800}
 .pager li {display:inline}
@@ -374,7 +372,7 @@ th {font-family:'al-jazeera-arabic-bold';text-align: center}
 .pager .disabled>a,.pager .disabled>a:focus,.pager .disabled>a:hover,.pager .disabled>span {color:#777;cursor:not-allowed;background-color:#fff}
 .wrap-collabsible{margin:0}
 input[type='checkbox'] {display: none;scroll-behavior: smooth} 
-.lbl-toggle {font-family:'al-jazeera-arabic-bold';display:block;position:relative;font-size:1rem;text-transform:uppercase;text-align:center;padding:.5rem;color:#006;background:#f80;cursor:pointer;transition:all .5s ease-in-out}
+.lbl-toggle {font-family:'al-jazeera-arabic-bold';display:block;position:relative;font-size:1rem;text-transform:uppercase;text-align:center;padding:.3rem;color:#006;background:#f80;cursor:pointer;transition:all .5s ease-in-out}
 .lbl-toggle:hover {color:#fff;background:#1056ad}
 .lbl-toggle::before {content:' ';display:inline-block;border-top:7px solid transparent;border-bottom:7px solid transparent;border-right:7px solid currentColor;vertical-align:middle;margin-left:.7rem;transform:translateY(-2px);transition:transform .5s ease-in-out}
 .toggle:checked+.lbl-toggle::before {transform:rotate(270deg) translateX(-1px)}
