@@ -85,7 +85,7 @@ header.hide {top:-71px;}
 #intro .carousel-item {background-size:cover;background-position:top;background-repeat:no-repeat}
 #intro .carousel-container {display:flex;justify-content:center;align-items:center;position:absolute;bottom:0;top:0;left:40px;right:40px}
 #intro .container {text-align:center}
-#intro .carousel-item .carousel-container .container p {font-family:'Poppins';color:#006;margin-bottom:40px;font-size:70px;font-weight:600;line-height:1.2}
+#intro .carousel-item .carousel-container .container p {font-family:'Poppins';color:#006;margin-bottom:50px;font-size:70px;font-weight:600;line-height:1.2}
 #intro .carousel-item .carousel-container .container p span {font-size:42px}
 @media (max-width:768px) {#intro .carousel-item .carousel-container .container p {font-size:50px}}
 @media (max-width:768px) {#intro .carousel-item .carousel-container .container p span {font-size:30px}}
@@ -99,7 +99,7 @@ header.hide {top:-71px;}
 @media (max-width: 1024px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:48px}}
 #intro .carousel-control-next-icon,#intro .carousel-control-prev-icon {background: none;font-size:32px}
 #intro .carousel-indicators li:hover {background-color:#f80}
-#intro .carousel-indicators li {background-color:#006;width:10px;height:10px;border-radius:100%;z-index:1;margin:5px;cursor:pointer}
+#intro .carousel-indicators li {display:none;background-color:#006;width:10px;height:10px;border-radius:100%;z-index:1;margin:5px;cursor:pointer}
 #intro .btn-get-started {font-size:16px;display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;margin-bottom:40px;color:#fff;background:#f80;font-family:'Poppins';font-weight:600;letter-spacing:1px;text-transform:uppercase}
 #intro .btn-get-started:hover {background:#006;color:#fff}
 
