@@ -15,32 +15,32 @@
     }
   }
 
-  /**
+    /**
    * Intro carousel indicators
    */
-  let introCarouselIndicators = select("#intro-carousel-indicators")
-  let introCarouselItems = select('#introCarousel .carousel-item', true)
-
-  introCarouselItems.forEach((item, index) => {
-    (index === 0) ?
-    introCarouselIndicators.innerHTML += "<li data-bs-target='#introCarousel' data-bs-slide-to='" + index + "' class='active'></li>":
-      introCarouselIndicators.innerHTML += "<li data-bs-target='#introCarousel' data-bs-slide-to='" + index + "'></li>"
-  });
-
-
- /**
-* Hide Header on scroll
-*/
-  var prevScrollpos = window.pageYOffset;
-  window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("header").style.top = "0";
-    } else {
-      document.getElementById("header").style.top = "-91px";
-    }
-    prevScrollpos = currentScrollPos;
-  }
+     let introCarouselIndicators = select("#intro-carousel-indicators")
+     let introCarouselItems = select('#introCarousel .carousel-item', true)
+   
+     introCarouselItems.forEach((item, index) => {
+       (index === 0) ?
+       introCarouselIndicators.innerHTML += "<li data-bs-target='#introCarousel' data-bs-slide-to='" + index + "' class='active'></li>":
+         introCarouselIndicators.innerHTML += "<li data-bs-target='#introCarousel' data-bs-slide-to='" + index + "'></li>"
+     });
+   
+  
+    /**
+   * Hide Header on scroll
+   */
+     var prevScrollpos = window.pageYOffset;
+     window.onscroll = function() {
+     var currentScrollPos = window.pageYOffset;
+       if (prevScrollpos > currentScrollPos) {
+         document.getElementById("header").style.top = "0";
+       } else {
+         document.getElementById("header").style.top = "-91px";
+       }
+       prevScrollpos = currentScrollPos;
+     }
 
 
   /**
@@ -102,10 +102,10 @@
     })
   }
 
-  /**
+    /**
    * Header fixed top on scroll
    */
-  let selectHeader = select('#header')
+   let selectHeader = select('#header')
   if (selectHeader) {
     let headerOffset = selectHeader.offsetTop
     let nextElement = selectHeader.nextElementSibling
@@ -141,18 +141,18 @@
   /**
    * Callout
    */
-  let Callout = select('.callout')
-  if (Callout) {
-    const togglecallout = () => {
-      if (window.scrollY > 800) {
-        Callout.classList.add('active')
-      } else {
-        Callout.classList.remove('active')
-      }
-    }
-    window.addEventListener('load', togglecallout)
-    onscroll(document, togglecallout)
-  }
+   let Callout = select('.callout')
+   if (Callout) {
+     const togglecallout = () => {
+       if (window.scrollY > 800) {
+         Callout.classList.add('active')
+       } else {
+         Callout.classList.remove('active')
+       }
+     }
+     window.addEventListener('load', togglecallout)
+     onscroll(document, togglecallout)
+   }
 
   /**
    * Mobile nav toggle
@@ -210,7 +210,7 @@
     window.addEventListener('load', () => {
       preloader.remove()
     });
-  }
+   }
 
   /**
    * Initiate glightbox
