@@ -98,11 +98,10 @@ header.hide {top:-71px;}
 @media (min-width: 1024px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:5%}}
 @media (max-width: 1024px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:48px}}
 #intro .carousel-control-next-icon,#intro .carousel-control-prev-icon {background: none;font-size:32px}
-#intro .carousel-indicators li:hover {background-color:#f80}
-#intro .carousel-indicators li {background-color:#006;width:10px;height:10px;border-radius:100%;z-index:1;margin:5px;cursor:pointer}
+#intro .carousel-indicators li:hover {background-color:#006}
+#intro .carousel-indicators li {background-color:#f80;width:10px;height:10px;border-radius:100%;z-index:1;margin:5px;cursor:pointer}
 #intro .btn-get-started {font-size:16px;display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;margin-bottom:40px;color:#fff;background:#f80;font-family:'al-jazeera-arabic-bold'}
 #intro .btn-get-started:hover {background:#006;color:#fff}
-
 section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
 .section-title {text-align:center;padding-bottom:30px;margin:0 30px;font-family:'al-jazeera-arabic-bold';}
