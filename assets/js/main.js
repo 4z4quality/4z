@@ -32,7 +32,7 @@
     if (prevScrollpos > currentScrollPos) {
       document.getElementById("header").style.top = "0";
     } else {
-      document.getElementById("header").style.top = "-91px";
+      document.getElementById("header").style.top = "-71px";
     }
     prevScrollpos = currentScrollPos;
   }
