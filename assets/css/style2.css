@@ -134,7 +134,7 @@ section {padding:60px 0;overflow:hidden}
 .about .golden1 {color:#DAA520;font-style:italic;text-align: center;font-size:32px;line-height:2;font-family:al-jazeera-arabic-bold,sans-serif}
 .about .golden2 {color:#DAA520;font-style:italic;text-align: center;font-size:19px;font-family:al-jazeera-arabic-bold,sans-serif}
 .about .golden2 span {color:#006}
-.about .golden3 {margin:auto;width:96%;border:20px solid #DAA520;padding: 15px;-webkit-animation: mover 4s infinite  alternate;animation: mover 4s infinite  alternate}
+.about .golden3 {width:100%;height:auto;margin:auto;border:20px solid #DAA520;padding:15px;-webkit-animation: mover 4s infinite  alternate;animation: mover 4s infinite  alternate}
 @-moz-keyframes mover {0% { transform: translateY(-80px); } 100% { transform: translateY(50px); }}
 @-o-keyframes mover {0% { transform: translateY(-80px); } 100% { transform: translateY(50px); }}
 @-webkit-keyframes mover {0% { transform: translateY(-80px); } 100% { transform: translateY(50px); }}
@@ -280,7 +280,7 @@ section {padding:60px 0;overflow:hidden}
 .faq .pedia .subtitle {font-size: 28px;font-family:al-jazeera-arabic-bold,sans-serif}
 .faq .pedia li {color:#f80;font-size:18px; line-height: 1.9em}
 .faq .pedia ul {border:0}
-.faq .pedia img {margin:auto;width:96%;border:20px solid #f80;padding:10px;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);-webkit-animation: mover 4s infinite  alternate;animation: mover 4s infinite  alternate;}
+.faq .pedia img {max-width:95%;display:inline-block;margin:10px;border:20px solid #f80;padding:10px;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);-webkit-animation: mover 4s infinite  alternate;animation: mover 4s infinite  alternate;}
 @-moz-keyframes mover {0% { transform: translateY(-80px); } 100% { transform: translateY(80px); }}
 @-o-keyframes mover {0% { transform: translateY(-80px); } 100% { transform: translateY(80px); }}
 @-webkit-keyframes mover {0% { transform: translateY(-80px); } 100% { transform: translateY(80px); }}
