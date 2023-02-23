@@ -93,7 +93,7 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 #intro .carousel-indicators li:hover {background-color:#006}
 #intro .carousel-indicators li {background-color:#f80;width:10px;height:3px;z-index:1;margin:5px;cursor:pointer}
 @media screen and (max-width: 992px) {#intro .carousel-indicators li {display:none}}
-#intro .btn-get-started {margin-top:40px;font-size:16px;display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;color:#fff;background:#f80;font-family:Poppins,sans-serif;font-weight:600;letter-spacing:1px;text-transform:uppercase}
+#intro .btn-get-started {margin-top:30px;font-size:16px;display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;color:#fff;background:#f80;font-family:Poppins,sans-serif;font-weight:600;letter-spacing:1px;text-transform:uppercase}
 #intro .btn-get-started:hover {background:#006;color:#fff}
 section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
