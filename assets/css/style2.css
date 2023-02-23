@@ -68,9 +68,9 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 @media screen and (min-height:580px) {#intro {height:88vh}}
 #intro .carousel,#intro .carousel-inner,#intro .carousel-item,#intro .carousel-item::before {position:absolute;bottom:0;top:0;left:0;right:0}
 #intro .carousel-item {background-size:cover;background-position:top;background-repeat:no-repeat}
-#intro .carousel-container {display:flex;justify-content:center;align-items:center;position:absolute;bottom:0;top:0;left:0;right:0}
+#intro .carousel-container {display:flex;justify-content:center;align-items:center;position:absolute;bottom:0;top:0;left:30px;right:30px}
 #intro .container {text-align:center}
-#intro .carousel-item .carousel-container .container p {font-family:al-jazeera-arabic-bold,sans-serif;color:#006;margin:35px;font-size:70px;line-height:1.4}
+#intro .carousel-item .carousel-container .container p {font-family:al-jazeera-arabic-bold,sans-serif;font-size:70px;line-height:1.4}
 #intro .carousel-item .carousel-container .container p span {font-size:35px}
 @media screen and (max-width:500px) {#intro .carousel-item .carousel-container .container p {font-size:50px}}
 @media screen and (max-width:500px) {#intro .carousel-item .carousel-container .container p span {font-size:25px}}
@@ -86,7 +86,7 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 #intro .carousel-indicators li:hover {background-color:#006}
 #intro .carousel-indicators li {background-color:#f80;width:10px;height:3px;z-index:1;margin:5px;cursor:pointer}
 @media screen and (max-width: 992px) {#intro .carousel-indicators li {display:none}}
-#intro .btn-get-started {font-size:16px;display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;color:#fff;background:#f80;font-family:al-jazeera-arabic-bold,sans-serif}
+#intro .btn-get-started {margin-top:40px;font-size:16px;display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;color:#fff;background:#f80;font-family:al-jazeera-arabic-bold,sans-serif}
 #intro .btn-get-started:hover {background:#006;color:#fff}
 section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
