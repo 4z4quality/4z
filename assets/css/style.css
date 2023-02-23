@@ -50,10 +50,10 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 .navbar .dropdown:hover>ul {opacity:1;top:100%;visibility:visible}
 .navbar .dropdown .dropdown ul {top:0;left:calc(100% - 30px);visibility:hidden}
 .navbar .dropdown .dropdown:hover>ul {opacity:1;top:0;left:100%;visibility:visible}
-@media (max-width:1366px) {.navbar .dropdown .dropdown ul {left:-90%}.navbar .dropdown .dropdown:hover>ul {left:-100%}}
+@media screen and (max-width:1366px) {.navbar .dropdown .dropdown ul {left:-90%}.navbar .dropdown .dropdown:hover>ul {left:-100%}}
 .mobile-nav-toggle {color:#222;font-size:28px;cursor:pointer;display:none;line-height:0;transition:all .5s ease-in-out}
 .mobile-nav-toggle.bx-x {color:#fff}
-@media (max-width:991px) {.mobile-nav-toggle {display:block;padding-top:0}.navbar ul {display:none}}
+@media screen and (max-width:991px) {.mobile-nav-toggle {display:block;padding-top:0}.navbar ul {display:none}}
 .navbar-mobile {position:fixed;overflow:hidden;top:0;right:0;left:0;bottom:0;background:rgba(26,26,26,.9);transition:all .3s ease-in-out;z-index:999}
 .navbar-mobile .mobile-nav-toggle {position:absolute;top:35px;right:15px}
 .navbar-mobile ul {display:block;position:absolute;top:55px;right:15px;bottom:15px;left:15px;padding:10px 0;background-color:#fff;overflow-y:auto;transition:all .3s ease-in-out}
@@ -70,27 +70,28 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 .navbar-mobile .dropdown>.dropdown-active {display:inline-block}
 #intro {width:100%;height:78vh;overflow:hidden;position:relative;background:#000}
 #intro .carousel-item::before {content:"";background-image:linear-gradient(to top left,rgba(241,246,254,.556),rgba(255,255,255,.95))}
-@media (max-height:579px) {#intro {height:78vh}}
-@media (min-height:580px) {#intro {height:88vh}}
+@media screen and (max-height:579px) {#intro {height:78vh}}
+@media screen and (min-height:580px) {#intro {height:88vh}}
 #intro .carousel,#intro .carousel-inner,#intro .carousel-item,#intro .carousel-item::before {position:absolute;bottom:0;top:0;left:0;right:0}
 #intro .carousel-item {background-size:cover;background-position:top;background-repeat:no-repeat}
-#intro .carousel-container {display:flex;justify-content:center;align-items:center;position:absolute;bottom:0;top:0;left:40px;right:40px}
+#intro .carousel-container {display:flex;justify-content:center;align-items:center;position:absolute;bottom:0;top:0;left:0;right:0}
 #intro .container {text-align:center}
-#intro .carousel-item .carousel-container .container p {font-family:Poppins,sans-serif;color:#006;margin-bottom:50px;font-size:70px;font-weight:600;line-height:1.2}
-#intro .carousel-item .carousel-container .container p span {font-size:42px}
-@media (max-width:768px) {#intro .carousel-item .carousel-container .container p {font-size:50px}}
-@media (max-width:768px) {#intro .carousel-item .carousel-container .container p span {font-size:30px}}
+#intro .carousel-item .carousel-container .container p {font-family:Poppins,sans-serif;color:#006;margin:35px;font-size:70px;font-weight:600;line-height:1.2}
+#intro .carousel-item .carousel-container .container p span {font-size:35px}
+@media screen and (max-width:500px) {#intro .carousel-item .carousel-container .container p {font-size:50px}}
+@media screen and (max-width:500px) {#intro .carousel-item .carousel-container .container p span {font-size:25px}}
 #intro .carousel-fade {overflow:hidden}
 #intro .carousel-fade .carousel-inner .active.carousel-item-end,#intro .carousel-fade .carousel-inner .active.carousel-item-start,#intro .carousel-fade .carousel-inner .carousel-item {opacity:0}
 #intro .carousel-fade .carousel-inner .active,#intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-start,#intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-end {opacity:1;transition:1.5s ease-in-out}
 #intro .carousel-fade .carousel-inner .active.carousel-item-end,#intro .carousel-fade .carousel-inner .active.carousel-item-start,#intro .carousel-fade .carousel-inner .carousel-item-next,#intro .carousel-fade .carousel-inner .carousel-item-prev {left:0;transform:translate3d(0,0,0)}
 #intro .carousel-control-prev, #intro .carousel-control-next {width:12%;color:#006}
 #intro .carousel-control-next:hover,#intro .carousel-control-prev:hover {color:#f80}
-@media (min-width: 1024px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:5%}}
-@media (max-width: 1024px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:48px}}
+@media screen and (min-width: 1025px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:5%}}
+@media screen and (max-width: 1024px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:48px}}
 #intro .carousel-control-next-icon,#intro .carousel-control-prev-icon {background: none;font-size:32px}
 #intro .carousel-indicators li:hover {background-color:#006}
-#intro .carousel-indicators li {background-color:#f80;width:10px;height:10px;border-radius:100%;z-index:1;margin:5px;cursor:pointer}
+#intro .carousel-indicators li {background-color:#f80;width:10px;height:3px;z-index:1;margin:5px;cursor:pointer}
+@media screen and (max-width: 992px) {#intro .carousel-indicators li {display:none}}
 #intro .btn-get-started {font-size:16px;display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;margin-bottom:40px;color:#fff;background:#f80;font-family:Poppins,sans-serif;font-weight:600;letter-spacing:1px;text-transform:uppercase}
 #intro .btn-get-started:hover {background:#006;color:#fff}
 section {padding:60px 0;overflow:hidden}
@@ -105,7 +106,7 @@ section {padding:60px 0;overflow:hidden}
 .section-title img:hover{scale:1.05}
 .section-title h4 {font-size:18px;line-height:1.6;font-weight:400}
 .section-title h4 a {font-weight:600}
-@media (min-width:1024px) {.section-title p {width:50%}}
+@media screen and (min-width:1024px) {.section-title p {width:50%}}
 .row span {color:#1056ad}
 .breadcrumbs {padding:120px 0;background-color:#f1f6fe;min-height:40px}
 .breadcrumbs h1 {font-size:32px;margin:0;text-align:center}
@@ -251,7 +252,7 @@ section {padding:60px 0;overflow:hidden}
 .testimonials .swiper-pagination {margin-top:20px;position:relative}
 .testimonials .swiper-pagination .swiper-pagination-bullet {width:12px;height:12px;background-color:rgba(255,255,255,.5);opacity:1}
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {background-color:#1056ad}
-@media (min-width:992px) {.testimonials .testimonial-item {width:80%}}
+@media screen and (min-width:992px) {.testimonials .testimonial-item {width:80%}}
 .team {margin-bottom:60px;padding:60px 0;background:#fff;visibility:auto}
 .team p {font-size: 18px; line-height: 1.9em}
 .team .member {margin-bottom:20px;overflow:hidden;border-radius:4px;background:#fff;box-shadow:0 2px 15px rgba(16,110,234,.15)}
@@ -296,7 +297,7 @@ section {padding:60px 0;overflow:hidden}
 .contact .info-box i:hover {color:#fff;background:#f80}
 .contact .info-box span {line-height:2.2;font-size:18px;color:#222;font-weight:500}
 .contact .php-email {margin-left:auto;margin-right:auto}
-@media (min-width:992px) {.contact .php-email {width:70%}}
+@media screen and (min-width:992px) {.contact .php-email {width:70%}}
 .contact .php-email-form {box-shadow:0 0 30px rgba(214,215,216,.4);padding:30px}
 .contact .php-email-form .error-message {display:none;color:#fff;background:#ed3c0d;text-align:left;padding:15px;font-weight:600}
 .contact .php-email-form .error-message br+br {margin-top:25px}
@@ -334,7 +335,7 @@ section {padding:60px 0;overflow:hidden}
 #footer .copyright {text-align:center;float:right;font-weight:600}
 #footer .credits {float:left;text-align:center;font-size:13px;color:#444}
 #footer .credits a {font-weight:700}
-@media (max-width:768px) {#footer .copyright,#footer .credits {float:none;text-align:center;padding:2px 0}}
+@media screen and (max-width:768px) {#footer .copyright,#footer .credits {float:none;text-align:center;padding:2px 0}}
 .border-line {width:40px;height:1px;margin-top:20px;display:block;text-align:center;background-color:#03a9f4;margin-left:auto;margin-right:auto}
 .border-line2 {width:200px;height:2px;margin-top:20px;display:block;text-align:center;background-color:#03a9f4;margin-left:auto;margin-right:auto}
 .inner-page {padding:20px;margin:10px;background:#f1f6fe;box-shadow:0 2px 15px rgba(0,0,0,.1);line-height:1.7;font-size:17px}
