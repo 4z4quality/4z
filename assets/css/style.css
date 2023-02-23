@@ -33,7 +33,8 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 #header.fixed-top {height:70px;box-shadow:1px 1px 7px 2px #888}
 #header .logo img {display:inline-block;aspect-ratio: auto 3665 / 1012;max-width:61%;height:auto}
 @media only screen and (max-width:1024px) {#header .logo img {display:inline-block;aspect-ratio: auto 3665 / 1012;max-width:30%;height:auto}}
-@media only screen and (max-width:640px) {#header .logo img {display:inline-block;aspect-ratio: auto 3665 / 1012;max-width:70%;height:auto}}
+@media only screen and (max-width:641px) {#header .logo img {display:inline-block;aspect-ratio: auto 3665 / 1012;max-width:70%;height:auto}}
+@media only screen and (max-width:640px) {#header .logo img {display:inline-block;aspect-ratio: auto 3665 / 1012;max-width:75%;height:auto}}
 .scrolled-offset {margin-top:70px}
 .navbar {padding:0;float:right;font-family:Poppins,al-jazeera-arabic-bold,sans-serif;font-weight:600}
 .navbar ul {margin:0;padding:0;display:flex;list-style:none;align-items:center}
