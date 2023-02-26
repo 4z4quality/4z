@@ -293,7 +293,7 @@ section {padding:60px 0;overflow:hidden}
 @-webkit-keyframes mover {0% { transform: translateY(-80px); } 100% { transform: translateY(80px); }}
 @keyframes mover {0% { transform: translateY(-80px); } 100% { transform: translateY(80px); }}
 .contact {margin-bottom:60px;visibility:auto}
-.contact .info-box {color:#444;text-align:center;box-shadow:0 0 30px rgba(214,215,216,.3);padding:20px 0 30px 0;line-height:24px;font-size:14px;font-family:Poppins,sans-serif;font-weight:600}
+.contact .info-box {color:#444;text-align:center;box-shadow:0 0 30px rgba(214,215,216,.3);padding:20px 0 30px 0;line-height:24px;font-size:14px;font-family:Poppins,sans-serif}
 .contact .info-box i {font-size:32px;color:#1056ad;border-radius:50%;padding:12px;border:2px dotted #b3d1fa;transition:all .5s ease-in-out;margin-bottom:30px}
 .contact .info-box i:hover {color:#fff;background:#f80}
 .contact .info-box span {line-height:2.2;font-size:18px;color:#222;font-weight:500}
