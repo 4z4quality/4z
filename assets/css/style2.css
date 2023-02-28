@@ -1,8 +1,7 @@
 @font-face {font-family:al-jazeera-arabic-bold;src:url(../../assets/css/fonts/al-jazeera-arabic-bold.woff) format('woff'),url(../../assets/css/fonts/al-jazeera-arabic-bold.woff2) format('woff2'),url(../../assets/css/fonts/al-jazeera-arabic-bold.otf) format('opentype'),url(../../assets/css/fonts/al-jazeera-arabic-bold.eot) format('embedded-opentype'),url(../../assets/css/fonts/al-jazeera-arabic-bold.ttf) format('truetype');font-style:normal;font-display:swap}
 @font-face {font-family:al-jazeera-arabic_regular;src:url(../../assets/css/fonts/al-jazeera-arabic_regular.woff) format('woff'),url(../../assets/css/fonts/al-jazeera-arabic_regular.woff2) format('woff2'),url(../../assets/css/fonts/al-jazeera-arabic_regular.otf) format('opentype'),url(../../assets/css/fonts/al-jazeera-arabic_regular.eot) format('embedded-opentype'),url(../../assets/css/fonts/al-jazeera-arabic_regular.ttf) format('truetype');font-style:normal;font-display:swap}
-@font-face {font-family:'Open Sans';src:url(../../assets/css/fonts/OpenSans-Medium.eot);src:url(../../assets/css/fonts/OpenSans-Medium.eot?#iefix) format('embedded-opentype'),url(../../assets/css/fonts/OpenSans-Medium.woff2) format('woff2'),url(../../assets/css/fonts/OpenSans-Medium.woff) format('woff'),url(../../assets/css/fonts/OpenSans-Medium.ttf) format('truetype'),url(../../assets/css/fonts/OpenSans-Medium.svg#OpenSans-Medium) format('svg');font-weight:500;font-style:normal;font-display:swap}
+@font-face {font-family:'Open Sans';src:url(../../assets/css/fonts/OpenSans-Medium.eot);src:url(../../assets/css/fonts/OpenSans-Medium.eot?#iefix) format('embedded-opentype'),url(../../assets/css/fonts/OpenSans-Medium.woff2) format('woff2'),url(../../assets/css/fonts/OpenSans-Medium.woff) format('woff'),url(../../assets/css/fonts/OpenSans-Medium.ttf) format('truetype'),url(../../assets/css/fonts/OpenSans-Medium.svg#OpenSans-Medium) format('svg');font-weight:400;font-style:normal;font-display:swap}
 @font-face {font-family:'Open Sans';src:url(../../assets/css/fonts/OpenSans-SemiBold.eot);src:url(../../assets/css/fonts/OpenSans-SemiBold.eot?#iefix) format('embedded-opentype'),url(../../assets/css/fonts/OpenSans-SemiBold.woff2) format('woff2'),url(../../assets/css/fonts/OpenSans-SemiBold.woff) format('woff'),url(../../assets/css/fonts/OpenSans-SemiBold.ttf) format('truetype'),url(../../assets/css/fonts/OpenSans-SemiBold.svg#OpenSans-SemiBold) format('svg');font-weight:600;font-style:normal;font-display:swap}
-@font-face {font-family:'Open Sans';src:url(../../assets/css/fonts/OpenSans-ExtraBold.eot);src:url(../../assets/css/fonts/OpenSans-ExtraBold.eot?#iefix) format('embedded-opentype'),url(../../assets/css/fonts/OpenSans-ExtraBold.woff2) format('woff2'),url(../../assets/css/fonts/OpenSans-ExtraBold.woff) format('woff'),url(../../assets/css/fonts/OpenSans-ExtraBold.ttf) format('truetype'),url(../../assets/css/fonts/OpenSans-ExtraBold.svg#OpenSans-ExtraBold) format('svg');font-weight:800;font-style:normal;font-display:swap}
 @font-face {font-family:Poppins;src:url(../../assets/css/fonts/Poppins-Regular.eot);src:url(../../assets/css/fonts/Poppins-Regular.eot?#iefix) format('embedded-opentype'),url(../../assets/css/fonts/Poppins-Regular.woff2) format('woff2'),url(../../assets/css/fonts/Poppins-Regular.woff) format('woff'),url(../../assets/css/fonts/Poppins-Regular.ttf) format('truetype'),url(../../assets/css/fonts/Poppins-Regular.svg#Poppins-Regular) format('svg');font-weight:400;font-style:normal;font-display:swap}
 @font-face {font-family:Poppins;src:url(../../assets/css/fonts/Poppins-SemiBold.eot);src:url(../../assets/css/fonts/Poppins-SemiBold.eot?#iefix) format('embedded-opentype'),url(../../assets/css/fonts/Poppins-SemiBold.woff2) format('woff2'),url(../../assets/css/fonts/Poppins-SemiBold.woff) format('woff'),url(../../assets/css/fonts/Poppins-SemiBold.ttf) format('truetype'),url(../../assets/css/fonts/Poppins-SemiBold.svg#Poppins-SemiBold) format('svg');font-weight:600;font-style:normal;font-display:swap}
 body {font-family:al-jazeera-arabic_regular,sans-serif;color:#006}
@@ -351,8 +350,8 @@ td {font-size:16px}
 .pager li {display:inline}
 .pager li>a,.pager li>span {display:inline-block;padding:5px 14px;background-color:#fff;border:3px solid #f80;border-radius:15px}
 .pager li>a:focus,.pager li>a:hover {text-decoration:#fff;background-color:#006}
-.pager .next>a,.pager .next>span {float:right;position:absolute;right:40px;box-shadow:4px 3px 3px 3px #888;font-weight:700}
-.pager .previous>a,.pager .previous>span {float:left;position:absolute;left:40px;box-shadow:-4px 3px 3px 3px #888;font-weight:700}
+.pager .next>a,.pager .next>span {float:right;position:absolute;right:40px;box-shadow:4px 3px 3px 3px #888;font-weight:600}
+.pager .previous>a,.pager .previous>span {float:left;position:absolute;left:40px;box-shadow:-4px 3px 3px 3px #888;font-weight:600}
 .pager .disabled>a,.pager .disabled>a:focus,.pager .disabled>a:hover,.pager .disabled>span {color:#777;cursor:not-allowed;background-color:#fff}
 .wrap-collabsible{margin:0}
 input[type='checkbox'] {display:none;scroll-behavior:smooth} 
@@ -372,7 +371,7 @@ input[type='checkbox'] {display:none;scroll-behavior:smooth}
 .linktext {text-align:center;font-style:italic;margin-top:25px;font-size:17px;color:#006;font-family:al-jazeera-arabic-bold,sans-serif}
 .linktext:hover {color:#f80}
 .ornament {display:block;margin-left:auto;margin-right:auto;width:100%;height:100%;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
-.circle1 {content:"\2460";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:700}
-.circle2 {content:"\2461";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:700}
-.circle3 {content:"\2462";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:700}
-.circle4 {content:"\2463";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:700}
+.circle1 {content:"\2460";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:600}
+.circle2 {content:"\2461";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:600}
+.circle3 {content:"\2462";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:600}
+.circle4 {content:"\2463";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:600}
