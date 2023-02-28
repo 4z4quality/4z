@@ -118,7 +118,7 @@ section {padding:60px 0;overflow:hidden}
 #our-name .icon-box::before {content:"";position:absolute;background:#cbe0fb;right:0;left:0;bottom:0;top:100%;transition:all .5s ease-in-out;z-index:-1}
 #our-name .icon-box:hover::before {background:#f80;top:0;border-radius:0}
 #our-name .icon {margin-bottom:15px}
-#our-name .icon i {font-size:48px;line-height:1;color:#1056ad;transition:all .5s ease-in-out;animation-duration:8s}
+#our-name .icon i {font-size:48px;line-height:1;color:#1056ad;transition:all .5s ease-in-out;animation-duration:6s}
 #our-name .icon-box .description1 {margin-bottom:15px;font-size:22px;font-family:Poppins,sans-serif}
 #our-name .icon-box .description1 span {font-weight:700}
 #our-name .icon-box .description2 {font-size:18px;line-height:28px;margin-bottom:0;font-family:'Open Sans',sans-serif;font-weight:500}
