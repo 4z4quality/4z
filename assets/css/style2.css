@@ -1,5 +1,5 @@
 @font-face {font-family:al-jazeera-arabic-bold;src:url(../../assets/css/fonts/al-jazeera-arabic-bold.woff) format('woff'),url(../../assets/css/fonts/al-jazeera-arabic-bold.woff2) format('woff2'),url(../../assets/css/fonts/al-jazeera-arabic-bold.otf) format('opentype'),url(../../assets/css/fonts/al-jazeera-arabic-bold.eot) format('embedded-opentype'),url(../../assets/css/fonts/al-jazeera-arabic-bold.ttf) format('truetype');font-style:normal;font-display:swap}
-@font-face {font-family:al-jazeera-arabic_regular;src: url(../../assets/css/fonts/al-jazeera-arabic_regular.woff) format('woff'),url(../../assets/css/fonts/al-jazeera-arabic_regular.woff2) format('woff2'),url(../../assets/css/fonts/al-jazeera-arabic_regular.otf) format('opentype'),url(../../assets/css/fonts/al-jazeera-arabic_regular.eot) format('embedded-opentype'),url(../../assets/css/fonts/al-jazeera-arabic_regular.ttf) format('truetype');font-style: normal;font-display: swap}
+@font-face {font-family:al-jazeera-arabic_regular;src:url(../../assets/css/fonts/al-jazeera-arabic_regular.woff) format('woff'),url(../../assets/css/fonts/al-jazeera-arabic_regular.woff2) format('woff2'),url(../../assets/css/fonts/al-jazeera-arabic_regular.otf) format('opentype'),url(../../assets/css/fonts/al-jazeera-arabic_regular.eot) format('embedded-opentype'),url(../../assets/css/fonts/al-jazeera-arabic_regular.ttf) format('truetype');font-style:normal;font-display:swap}
 @font-face {font-family:'Open Sans';src:url(../../assets/css/fonts/OpenSans-Medium.eot);src:url(../../assets/css/fonts/OpenSans-Medium.eot?#iefix) format('embedded-opentype'),url(../../assets/css/fonts/OpenSans-Medium.woff2) format('woff2'),url(../../assets/css/fonts/OpenSans-Medium.woff) format('woff'),url(../../assets/css/fonts/OpenSans-Medium.ttf) format('truetype'),url(../../assets/css/fonts/OpenSans-Medium.svg#OpenSans-Medium) format('svg');font-weight:500;font-style:normal;font-display:swap}
 @font-face {font-family:'Open Sans';src:url(../../assets/css/fonts/OpenSans-SemiBold.eot);src:url(../../assets/css/fonts/OpenSans-SemiBold.eot?#iefix) format('embedded-opentype'),url(../../assets/css/fonts/OpenSans-SemiBold.woff2) format('woff2'),url(../../assets/css/fonts/OpenSans-SemiBold.woff) format('woff'),url(../../assets/css/fonts/OpenSans-SemiBold.ttf) format('truetype'),url(../../assets/css/fonts/OpenSans-SemiBold.svg#OpenSans-SemiBold) format('svg');font-weight:600;font-style:normal;font-display:swap}
 @font-face {font-family:'Open Sans';src:url(../../assets/css/fonts/OpenSans-ExtraBold.eot);src:url(../../assets/css/fonts/OpenSans-ExtraBold.eot?#iefix) format('embedded-opentype'),url(../../assets/css/fonts/OpenSans-ExtraBold.woff2) format('woff2'),url(../../assets/css/fonts/OpenSans-ExtraBold.woff) format('woff'),url(../../assets/css/fonts/OpenSans-ExtraBold.ttf) format('truetype'),url(../../assets/css/fonts/OpenSans-ExtraBold.svg#OpenSans-ExtraBold) format('svg');font-weight:800;font-style:normal;font-display:swap}
@@ -11,7 +11,7 @@ a:hover{color:#f80;text-decoration:none}
 h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 #preloader:before {content:"";position:fixed;top:calc(50% - 60px);left:calc(50% - 60px);width:120px;height:120px;-webkit-animation:animate-preloader 1s linear infinite;animation:animate-preloader 1s linear infinite;background:#fff url(../../assets/img/preloader.png) no-repeat center center}
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;z-index:9999;overflow:hidden;background:#fff}
-@keyframes animate-preloader {0% {transform: rotate(0deg);}100% {transform: rotate(360deg)}}
+@keyframes animate-preloader {0% {transform:rotate(0deg);}100% {transform:rotate(360deg)}}
 .back-to-top {position:fixed;visibility:hidden;opacity:0;left:15px;bottom:15px;z-index:996;background:#006;width:40px;height:40px;border-radius:50px;transition:all .4s ease-in-out}
 .back-to-top i {font-size:28px;color:#fff;line-height:0}
 .back-to-top:hover {background:#3284f1;color:#fff}
@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 #topbar .social-links a:hover {color:#006}
 #header {transition:all 1.5s ease-in-out;background:#fff;height:86px;box-shadow:0 2px 15px rgba(0,0,0,0.1)}
 #header.fixed-top {height:70px;box-shadow:1px 1px 7px 2px #888}
-#header .logo img {display:inline-block;aspect-ratio: auto 3700 / 1012; width:auto;max-height:70px}
+#header .logo img {display:inline-block;aspect-ratio:auto 3700 / 1012;width:auto;max-height:70px}
 .scrolled-offset {margin-top:70px}
 .navbar {padding:0;float:left;font-family:al-jazeera-arabic-bold,Poppins,sans-serif;font-weight:600}
 .navbar ul {margin:0;padding:0;display:flex;list-style:none;align-items:center}
@@ -81,19 +81,19 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 #intro .carousel-fade .carousel-inner .active.carousel-item-end,#intro .carousel-fade .carousel-inner .active.carousel-item-start,#intro .carousel-fade .carousel-inner .carousel-item-next,#intro .carousel-fade .carousel-inner .carousel-item-prev {right:0;transform:translate3d(0,0,0)}
 #intro .carousel-control-prev, #intro .carousel-control-next {width:12%;color:#006}
 #intro .carousel-control-next:hover,#intro .carousel-control-prev:hover {color:#f80}
-@media screen and (min-width: 1025px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:5%}}
-@media screen and (max-width: 1024px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:48px}}
-#intro .carousel-control-next-icon,#intro .carousel-control-prev-icon {background: none;font-size:32px}
+@media screen and (min-width:1025px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:5%}}
+@media screen and (max-width:1024px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:48px}}
+#intro .carousel-control-next-icon,#intro .carousel-control-prev-icon {background:none;font-size:32px}
 #intro .carousel-indicators li:hover {background-color:#006}
 #intro .carousel-indicators li {background-color:#f80;width:10px;height:3px;margin:5px;cursor:pointer}
-@media screen and (max-width: 992px) {#intro .carousel-indicators li {display:none}}
+@media screen and (max-width:992px) {#intro .carousel-indicators li {display:none}}
 #intro .btn-get-started {margin-top:30px;font-size:16px;display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;color:#fff;background:#f80;font-family:al-jazeera-arabic-bold,sans-serif}
 #intro .btn-get-started:hover {background:#006;color:#fff}
 section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
 .section-title {text-align:center;padding-bottom:30px;margin:0 30px;font-family:al-jazeera-arabic-bold,sans-serif}
 .section-title .title {font-size:18px;padding:8px 20px;margin:0;background:#e7f1fd;color:#1056ad;display:inline-block;border-radius:50px}
-.section-title .subtitle {font-size: 28px}
+.section-title .subtitle {font-size:28px}
 .section-title .subtitle span {color:#f80}
 .section-title p {margin:15px auto 0 auto;font-size:18px;line-height:2}
 .section-title p span {color:#1056ad}
@@ -132,10 +132,10 @@ section {padding:60px 0;overflow:hidden}
 .about .content p:last-child {margin-bottom:0}
 .about img {width:96%;border:30px solid #f80;padding:10px;display:block;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1.5s ease-in-out;margin-left:auto;margin-right:auto}
 .about img:hover {transform:scale(1.05)}
-.about .golden1 {color:#DAA520;font-style:italic;text-align: center;font-size:32px;line-height:2;font-family:al-jazeera-arabic-bold,sans-serif}
-.about .golden2 {color:#DAA520;font-style:italic;text-align: center;font-size:19px;font-family:al-jazeera-arabic-bold,sans-serif}
+.about .golden1 {color:#DAA520;font-style:italic;text-align:center;font-size:32px;line-height:2;font-family:al-jazeera-arabic-bold,sans-serif}
+.about .golden2 {color:#DAA520;font-style:italic;text-align:center;font-size:19px;font-family:al-jazeera-arabic-bold,sans-serif}
 .about .golden2 span {color:#006}
-.about .golden3 {width:100%;height:auto;margin:auto;border:20px solid #DAA520;padding:15px;-webkit-animation: mover 4s infinite  alternate;animation: mover 4s infinite  alternate}
+.about .golden3 {width:100%;height:auto;margin:auto;border:20px solid #DAA520;padding:15px;-webkit-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
 .about .golden {color:#DAA520;line-height:2em;font-size:20px;font-family:al-jazeera-arabic-bold,sans-serif}
 .about li {color:#f80;padding-bottom:10px}
 .about .trust {color:#006;font-size:18px;line-height:1.7;font-family:al-jazeera-arabic_regular,sans-serif}
@@ -214,7 +214,7 @@ section {padding:60px 0;overflow:hidden}
 .pricing {background:#f1f6fe;margin-bottom:60px;visibility:auto}
 .pricing .box {padding:20px;background:#fff;text-align:center;box-shadow:0 0 4px rgba(0,0,0,.12);border-radius:5px;position:relative;overflow:hidden}
 .pricing .box .price {margin:-20px -20px 20px -20px;padding:20px 15px;font-size:17px;color:#777;background:#f8f8f8;font-family:al-jazeera-arabic-bold,sans-serif}
-.pricing .box .offer {color: #bababa;font-size:16px}
+.pricing .box .offer {color:#bababa;font-size:16px}
 .pricing .featured .price {color:#fff;background:#f80}
 .pricing .box ul {padding:0;list-style:none;color:#444;text-align:center;line-height:20px}
 .pricing .box ul li {padding-bottom:16px}
@@ -225,7 +225,7 @@ section {padding:60px 0;overflow:hidden}
 .pricing .box span {font-size:32px;font-family:al-jazeera-arabic-bold,sans-serif}
 .pricing .box .advanced {width:200px;position:absolute;top:18px;left:-68px;transform:rotate(-45deg);z-index:1;font-size:13px;padding:1px 0 3px 0;background:#f80;color:#fff}
 .pricing img {max-width:25%;height:auto;display:inline-block;margin-left:auto;margin-right:auto;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222)}
-.pricing .banner {border:30px solid #f80;margin:auto;padding:30px;width:90%;background:#fff;text-align:center;-webkit-filter: drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);transition:1.5s ease-in-out;line-height:2;font-family:al-jazeera-arabic-bold,sans-serif}
+.pricing .banner {border:30px solid #f80;margin:auto;padding:30px;width:90%;background:#fff;text-align:center;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);transition:1.5s ease-in-out;line-height:2;font-family:al-jazeera-arabic-bold,sans-serif}
 .pricing .banner:hover {scale:1.05}
 .testimonials {padding:80px 0;background:url(../../assets/img/bg-3.webp) no-repeat;background-position:center center;background-size:cover;position:relative;visibility:auto}
 .testimonials::before {content:"";position:absolute;left:0;right:0;top:0;bottom:0;background:rgba(0,0,0,.7)}
@@ -245,7 +245,7 @@ section {padding:60px 0;overflow:hidden}
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {background-color:#1056ad}
 @media screen and (min-width:992px) {.testimonials .testimonial-item {width:80%}}
 .team {margin-bottom:60px;padding:60px 0;background:#fff;visibility:auto}
-.team p {font-size: 18px; line-height: 1.9em}
+.team p {font-size:18px;line-height:1.9em}
 .team .member {margin-bottom:20px;overflow:hidden;border-radius:4px;background:#fff;box-shadow:0 2px 15px rgba(16,110,234,.15)}
 .team .member .member-img {display:inline-block;position:relative;overflow:hidden}
 .team .member .social {position:absolute;left:0;bottom:30px;right:0;opacity:0;transition:all 1.5s ease-in-out;text-align:center}
@@ -274,14 +274,14 @@ section {padding:60px 0;overflow:hidden}
 .pedia {border:5px solid #f80;background-color:#fff;margin:30px 10px}
 .pedia p {border:0;margin:0 30px;font-size:18px;line-height:2;text-align:center;font-family:al-jazeera-arabic-bold,sans-serif}
 .pedia p span {color:#f80}
-.pedia .subtitle {font-size: 28px;font-family:al-jazeera-arabic-bold,sans-serif}
-.pedia li {color:#f80;font-size:18px; line-height: 1.9em}
+.pedia .subtitle {font-size:28px;font-family:al-jazeera-arabic-bold,sans-serif}
+.pedia li {color:#f80;font-size:18px;line-height:1.9em}
 .pedia ul {border:0}
-.pedia img {max-width:95%;display:inline-block;margin:10px;border:20px solid #f80;padding:10px;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);-webkit-animation: mover 4s infinite  alternate;animation: mover 4s infinite  alternate;}
-@-moz-keyframes mover {0% { transform: translateY(-50px)} 100% { transform: translateY(50px)}}
-@-o-keyframes mover {0% { transform: translateY(-50px)} 100% { transform: translateY(50px)}}
-@-webkit-keyframes mover {0% { transform: translateY(-50px)} 100% { transform: translateY(50px)}}
-@keyframes mover {0% { transform: translateY(-50px)} 100% { transform: translateY(50px)}}
+.pedia img {max-width:95%;display:inline-block;margin:10px;border:20px solid #f80;padding:10px;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);-webkit-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate;}
+@-moz-keyframes mover {0% { transform:translateY(-50px)} 100% { transform:translateY(50px)}}
+@-o-keyframes mover {0% { transform:translateY(-50px)} 100% { transform:translateY(50px)}}
+@-webkit-keyframes mover {0% { transform:translateY(-50px)} 100% { transform:translateY(50px)}}
+@keyframes mover {0% { transform:translateY(-50px)} 100% { transform:translateY(50px)}}
 .contact {margin-bottom:60px;visibility:auto}
 .contact .info-box {color:#444;text-align:center;box-shadow:0 0 30px rgba(214,215,216,.3);padding:20px 0 30px 0;line-height:24px;font-size:14px;font-family:Poppins,sans-serif}
 .contact .info-box i {font-size:32px;color:#1056ad;border-radius:50%;padding:12px;border:2px dotted #b3d1fa;transition:all .5s ease-in-out;margin-bottom:30px;animation-duration:8s}
@@ -308,7 +308,7 @@ section {padding:60px 0;overflow:hidden}
 #footer .footer-newsletter {padding:30px 0;background:#f1f6fe}
 #footer .footer-top {padding:30px 0;background:#fff}
 #footer .footer-top .footer-contact {line-height:1.7;font-family:Poppins,al-jazeera-arabic-bold,sans-serif;font-weight:400}
-#footer .footer-top .footer-contact .fourz4 {color: #f80;font-size:24px;font-family:al-jazeera-arabic-bold,sans-serif}
+#footer .footer-top .footer-contact .fourz4 {color:#f80;font-size:24px;font-family:al-jazeera-arabic-bold,sans-serif}
 #footer .footer-top .footer-contact p {margin:0;line-height:2.1;padding-right:10px;padding-top:3px;font-size:14px;color:#444;font-family:al-jazeera-arabic-bold,sans-serif}
 #footer .footer-top .footer-contact span {font-family:al-jazeera-arabic-bold,sans-serif}
 #footer .footer-top .footer-contact i {font-size:18px;padding-right:10px;padding-top:3px;font-family:Poppins,sans-serif}
@@ -355,7 +355,7 @@ td {font-size:16px}
 .pager .previous>a,.pager .previous>span {float:left;position:absolute;left:40px;box-shadow:-4px 3px 3px 3px #888;font-weight:700}
 .pager .disabled>a,.pager .disabled>a:focus,.pager .disabled>a:hover,.pager .disabled>span {color:#777;cursor:not-allowed;background-color:#fff}
 .wrap-collabsible{margin:0}
-input[type='checkbox'] {display: none;scroll-behavior: smooth} 
+input[type='checkbox'] {display:none;scroll-behavior:smooth} 
 .lbl-toggle {display:block;position:relative;font-size:1rem;text-align:center;padding:.3rem;color:#006;background:#f80;cursor:pointer;transition:all .5s ease-in-out;font-family:al-jazeera-arabic-bold;}
 .lbl-toggle:hover {color:#fff;background:#1056ad}
 .lbl-toggle::before {content:' ';display:inline-block;border-top:7px solid transparent;border-bottom:7px solid transparent;border-right:7px solid currentColor;vertical-align:middle;margin-left:.7rem;transform:translateY(-2px);transition:transform .5s ease-in-out}
@@ -364,15 +364,15 @@ input[type='checkbox'] {display: none;scroll-behavior: smooth}
 .toggle:checked+.lbl-toggle+.collapsible-content {max-height:100vh}
 .toggle:checked+.lbl-toggle {border-bottom-right-radius:0;border-bottom-left-radius:0} 
 .collapsible-content .content-inner {background:#fff;padding:.1rem 1rem;text-align:center;font-size:200%}
-.collapsible-content .content-inner .whatsapp {color: #25D366}
-.collapsible-content .content-inner .linkedin {color: #0072b1}
-.collapsible-content .content-inner .facebook {color: #4267B2}
-.collapsible-content .content-inner .twitter {color: #00acee}
+.collapsible-content .content-inner .whatsapp {color:#25D366}
+.collapsible-content .content-inner .linkedin {color:#0072b1}
+.collapsible-content .content-inner .facebook {color:#4267B2}
+.collapsible-content .content-inner .twitter {color:#00acee}
 .content-inner i:hover{color:#f80!important}
 .linktext {text-align:center;font-style:italic;margin-top:25px;font-size:17px;color:#006;font-family:al-jazeera-arabic-bold,sans-serif}
 .linktext:hover {color:#f80}
 .ornament {display:block;margin-left:auto;margin-right:auto;width:100%;height:100%;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
-.circle1 {content: "\2460";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:700}
-.circle2 {content: "\2461";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:700}
-.circle3 {content: "\2462";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:700}
-.circle4 {content: "\2463";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:700}
+.circle1 {content:"\2460";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:700}
+.circle2 {content:"\2461";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:700}
+.circle3 {content:"\2462";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:700}
+.circle4 {content:"\2463";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:700}
