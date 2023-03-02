@@ -141,7 +141,7 @@ section {padding:60px 0;overflow:hidden}
 .about .golden2 span {color:#006}
 .about .golden3 {width:100%;height:auto;margin:auto;border:20px solid #DAA520;padding:15px;-webkit-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
 .about .golden4 {width:384px;border:10px solid #f80;padding:0}
-@media screen and (max-width:390px) {.about .golden4  {width:100%;}}
+@media screen and (max-width:390px) {.about .golden4  {width:96%}}
 .about .golden {color:#DAA520;line-height:2em;font-size:20px;font-family:'Open Sans',sans-serif;font-weight:600}
 .about li {color:#f80;padding-bottom:10px}
 .about .trust {color:#006;font-size:18px;line-height:1.6;font-family:'Open Sans',sans-serif;font-weight:400;}
