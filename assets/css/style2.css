@@ -100,7 +100,7 @@ section {padding:60px 0;overflow:hidden}
 .section-title .subtitle span {color:#f80}
 .section-title p {margin:15px auto 0 auto;font-size:18px;line-height:2}
 .section-title p span {color:#1056ad}
-.section-title img {border:10px solid #006;padding:10px;display:block;margin-left:auto;margin-right:auto;transition:all 1.5s ease-in-out;box-shadow:0px 2px 15px rgba(0,0,0,0.1)}
+.section-title img {border:10px solid #f80;display:block;margin-left:auto;margin-right:auto;transition:all 1.5s ease-in-out;box-shadow:0px 2px 15px rgba(0,0,0,0.1)}
 .section-title img:hover{scale:1.05}
 .section-title h4 {font-size:18px;line-height:1.6;font-family:al-jazeera-arabic_regular,sans-serif}
 .section-title h4 a {font-family:al-jazeera-arabic-bold,sans-serif}
@@ -121,6 +121,8 @@ section {padding:60px 0;overflow:hidden}
 #our-name .icon-box .description2 {font-size:18px;line-height:28px;margin-bottom:0;font-family:al-jazeera-arabic_regular,sans-serif}
 #our-name .icon-box .description2 span {font-family:al-jazeera-arabic-bold,sans-serif}
 #our-name .icon-box:hover .description1, #our-name .icon-box:hover .description2, #our-name .icon-box:hover .icon i {color:#fff}
+#our-name .golden4 {display:block;margin:auto;max-width:480px;height:auto;border:10px solid #f80}
+@media screen and (max-width:900px) {#our-name .golden4 {width:94%;height:auto}}
 .about {visibility:auto}
 .about .fourz1 {color:#f80;font-size:36px;text-align:center;padding:30px;font-family:al-jazeera-arabic-bold,sans-serif}
 .about .fourz1 span {color:#1056AD}
@@ -133,14 +135,12 @@ section {padding:60px 0;overflow:hidden}
 .about .content ul i:hover {color:#fff;background:#daa520}
 .about .content ul p {font-size:18px}
 .about .content p:last-child {margin-bottom:0}
-.about img {max-width:95%;border:30px solid #f80;padding:5px;display:block;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1.5s ease-in-out;margin-left:auto;margin-right:auto}
+.about img {border:10px solid #f80;display:block;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1.5s ease-in-out;margin-left:auto;margin-right:auto}
 .about img:hover {transform:scale(1.05)}
 .about .golden1 {color:#DAA520;font-style:italic;text-align:center;font-size:32px;line-height:2;font-family:al-jazeera-arabic-bold,sans-serif}
 .about .golden2 {color:#DAA520;font-style:italic;text-align:center;font-size:19px;font-family:al-jazeera-arabic-bold,sans-serif}
 .about .golden2 span {color:#006}
-.about .golden3 {width:100%;height:auto;margin:auto;border:20px solid #DAA520;padding:15px;-webkit-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
-.about .golden4 {display:block;margin:auto;max-width:480px;height:auto;border:10px solid #f80;padding:0}
-@media screen and (max-width:390px) {.about .golden4 {width:96%;height:auto}}
+.about .golden3 {width:100%;height:auto;margin:auto;border:10px solid #daa520;padding:5px;-webkit-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
 .about .golden {color:#DAA520;line-height:2em;font-size:20px;font-family:al-jazeera-arabic-bold,sans-serif}
 .about li {color:#f80;padding-bottom:10px}
 .about .trust {color:#006;font-size:18px;line-height:1.7;font-family:al-jazeera-arabic_regular,sans-serif}
@@ -171,11 +171,11 @@ section {padding:60px 0;overflow:hidden}
 .services .icon-box img:hover {transform:scale(1.3)}
 .services h3 {text-align:center;line-height:2}
 .services h3 span {color:#f80}
-.services img {margin-left:auto;margin-right:auto;display:block;max-width:95%;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:1.5s ease-in-out}
+.services img {margin-left:auto;margin-right:auto;display:block;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:1.5s ease-in-out}
 .services img:hover {transform:scale(1.05)}
-.welcome1 {width:600px;height:auto;border:30px solid #f80}
-.welcome2 {width:600px;height:auto;border:30px solid #006}
-@media screen and (max-width:900px) {.welcome1 .welcome2 {width:96%;height:auto}}
+.welcome1 {width:600px;height:auto;border:10px solid #f80}
+.welcome2 {width:600px;height:auto;border:10px solid #006}
+@media screen and (max-width:900px) {.welcome1, .welcome2 {width:95%;height:auto}}
 .portfolio {visibility:auto}
 .portfolio #portfolio-flters {padding:0;margin:0 auto 15px auto;list-style:none;text-align:center;border-radius:50px;padding:2px 15px}
 .portfolio #portfolio-flters li {cursor:pointer;display:inline-block;padding:10px 15px 8px 15px;font-size:18px;line-height:1;color:#444;margin-bottom:5px;transition:all 1.5s ease-in-out;font-family:al-jazeera-arabic-bold,sans-serif}
@@ -215,7 +215,7 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details .portfolio-description .red {color:#b30}
 .portfolio-details .portfolio-description .blue {color:#00f}
 .portfolio-details .portfolio-description .black {color:#000;font-family:al-jazeera-arabic-bold,sans-serif}
-.portfolio-details .portfolio-description img {border:20px solid #f80;display:block;max-width:100%;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
+.portfolio-details .portfolio-description img {border:10px solid #f80;display:block;max-width:100%;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .portfolio-details .portfolio-description i {color:#b30}
 .pricing {background:#f1f6fe;margin-bottom:60px;visibility:auto}
 .pricing .box {padding:20px;background:#fff;text-align:center;box-shadow:0 0 4px rgba(0,0,0,.12);border-radius:5px;position:relative;overflow:hidden}
@@ -231,8 +231,8 @@ section {padding:60px 0;overflow:hidden}
 .pricing .box span {font-size:32px;font-family:al-jazeera-arabic-bold,sans-serif}
 .pricing .box .advanced {width:200px;position:absolute;top:18px;left:-68px;transform:rotate(-45deg);z-index:1;font-size:13px;padding:1px 0 3px 0;background:#f80;color:#fff}
 .pricing img {max-width:25%;height:auto;display:inline-block;margin-left:auto;margin-right:auto;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222)}
-.pricing .banner {border:30px solid #f80;margin:40px auto;padding:30px;width:600px;background:#fff;text-align:center;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);transition:1.5s ease-in-out;line-height:2;font-family:al-jazeera-arabic-bold,sans-serif}
-@media screen and (max-width:900px) {.pricing .banner {width:96%;height:auto}}
+.pricing .banner {border:10px solid #f80;margin:40px auto;width:600px;background:#fff;text-align:center;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);transition:1.5s ease-in-out;line-height:2;font-family:al-jazeera-arabic-bold,sans-serif}
+@media screen and (max-width:900px) {.pricing .banner {width:94%;height:auto}}
 .pricing .banner:hover {scale:1.05}
 .testimonials {padding:40px 0;background:url(../../assets/img/bg-3.webp) no-repeat;background-position:center center;background-size:cover;position:relative;visibility:auto}
 .testimonials::before {content:"";position:absolute;left:0;right:0;top:0;bottom:0;background:rgba(0,0,0,.7)}
@@ -284,7 +284,7 @@ section {padding:60px 0;overflow:hidden}
 .pedia .subtitle {font-size:28px;font-family:al-jazeera-arabic-bold,sans-serif}
 .pedia li {color:#f80;font-size:18px;line-height:1.9em}
 .pedia ul {border:0}
-.pedia img {max-width:95%;display:inline-block;margin:10px;border:20px solid #f80;padding:10px;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);-webkit-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate;}
+.pedia img {max-width:95%;display:inline-block;margin:10px;border:10px solid #f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);-webkit-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate;}
 @-moz-keyframes mover {0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
 @-o-keyframes mover {0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
 @-webkit-keyframes mover {0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
@@ -335,7 +335,7 @@ section {padding:60px 0;overflow:hidden}
 @media screen and (max-width:768px) {#footer .copyright,#footer .credits {float:none;text-align:center;padding:2px 0}}
 hr {width:100px;border-top: 5px solid #3b8af2;color:#3b8af2;align-content:center;margin-left:auto;margin:50px auto}
 .inner-page {padding:20px;margin:10px;background:#f1f6fe;box-shadow:0 2px 15px rgba(0,0,0,.1)}
-.inner-page img {border:30px solid #f80;display:block;margin:auto;max-width:100%;height:auto;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
+.inner-page img {border:10px solid #f80;display:block;margin:auto;max-width:100%;height:auto;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .inner-page img:hover {scale:1.05}
 .inner-page .container {font-family:al-jazeera-arabic_regular,'Open Sans',sans-serif;font-size:20px;line-height:1.7em}
 .inner-page span {color:#f80}
@@ -349,7 +349,7 @@ hr {width:100px;border-top: 5px solid #3b8af2;color:#3b8af2;align-content:center
 .closebtn:hover {color:#f80}
 .quote {text-align:center;color:#b85a00;font-style:italic;font-size:1.6em;line-height:1.4em;margin:0 30px;font-family:al-jazeera-arabic_regular,sans-serif}
 .quote2 {color:#b85a00;font-style:italic;font-size:22px}
-table,td,th {border:1px solid #000;border-collapse:collapse;max-width:96%;margin-left:auto;margin-right:auto;box-shadow:0px 2px 15px rgba(0, 0, 0, 0.5);font-family:al-jazeera-arabic-bold,sans-serif}
+table,td,th {border:1px solid #000;border-collapse:collapse;max-width:94%;margin-left:auto;margin-right:auto;box-shadow:0px 2px 15px rgba(0, 0, 0, 0.5);font-family:al-jazeera-arabic-bold,sans-serif}
 th {text-align:center;color:#006;line-height:1;font-size:15px}
 td {font-size:16px}
 .pager {padding-left:0;margin:20px 0;text-align:center;list-style:none;font-family:al-jazeera-arabic-bold,sans-serif}
