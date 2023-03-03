@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 .navbar a:hover,.navbar .active,.navbar .active:focus,.navbar li:hover>a {color:#1056ad}
 .navbar .dropdown ul {display:block;position:absolute;left:28px;top:calc(100% + 30px);margin:0;padding:10px 0;z-index:99;opacity:0;visibility:hidden;background:#fff;box-shadow:0 0 30px rgba(127,137,161,.25);transition:all .3s ease-in-out}
 .navbar .dropdown ul li {min-width:200px}
-.navbar .dropdown ul a {padding:10px 20px}
+.navbar .dropdown ul a {padding:10px 20px;font-family:Poppins,al-jazeera-arabic_regular,sans-serif}
 .navbar .dropdown ul a i {font-size:16px}
 .navbar .dropdown ul a:hover,.navbar .dropdown ul .active:hover,.navbar .dropdown ul li:hover>a {color:#006;background:#f80}
 .navbar .dropdown:hover>ul {opacity:1;top:100%;visibility:visible}
@@ -178,7 +178,7 @@ section {padding:60px 0;overflow:hidden}
 .services img:hover {transform:scale(1.05)}
 .welcome1 {width:600px;height:auto;border:10px solid #f80}
 .welcome2 {width:600px;height:auto;border:10px solid #006}
-@media screen and (max-width:900px) {.welcome1, .welcome2 {width:95%;height:auto}}
+@media screen and (max-width:900px) {.welcome1, .welcome2 {width:94%;height:auto}}
 .portfolio {visibility:auto}
 .portfolio #portfolio-flters {padding:0;margin:0 auto 15px auto;list-style:none;text-align:center;border-radius:50px;padding:2px 15px}
 .portfolio #portfolio-flters li {cursor:pointer;display:inline-block;padding:10px 15px 8px 15px;font-size:18px;line-height:1;color:#444;margin-bottom:5px;transition:all 1.5s ease-in-out;font-family:al-jazeera-arabic-bold,sans-serif}
@@ -220,6 +220,7 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details .portfolio-description .black {color:#000;font-family:al-jazeera-arabic-bold,sans-serif}
 .portfolio-details .portfolio-description img {border:10px solid #f80;display:block;max-width:100%;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .portfolio-details .portfolio-description i {color:#b30}
+
 .pricing {background:#f1f6fe;margin-bottom:60px;visibility:auto}
 .pricing .box {padding:20px;background:#fff;text-align:center;box-shadow:0 0 4px rgba(0,0,0,.12);border-radius:5px;position:relative;overflow:hidden}
 .pricing .box .price {margin:-20px -20px 20px -20px;padding:20px 15px;font-size:17px;color:#777;background:#f8f8f8;font-family:al-jazeera-arabic-bold,sans-serif}
@@ -287,7 +288,7 @@ section {padding:60px 0;overflow:hidden}
 .pedia .subtitle {font-size:28px;font-family:al-jazeera-arabic-bold,sans-serif}
 .pedia li {color:#f80;font-size:18px;line-height:1.9em}
 .pedia ul {border:0}
-.pedia img {max-width:95%;display:inline-block;margin:10px;border:10px solid #f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);-webkit-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate;}
+.pedia img {max-width:94%;display:inline-block;margin:10px;border:10px solid #f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);-webkit-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate;}
 @-moz-keyframes mover {0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
 @-o-keyframes mover {0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
 @-webkit-keyframes mover {0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
@@ -335,6 +336,7 @@ section {padding:60px 0;overflow:hidden}
 #footer .footer-top .social-links a:hover {background:#f80;color:#fff;text-decoration:none}
 #footer .copyright {text-align:center;float:left;font-family:al-jazeera-arabic-bold,sans-serif}
 #footer .credits {float:right;text-align:center;font-size:14px;color:#444;font-family:al-jazeera-arabic-bold,sans-serif}
+
 @media screen and (max-width:768px) {#footer .copyright,#footer .credits {float:none;text-align:center;padding:2px 0}}
 hr {width:100px;border-top: 5px solid #3b8af2;color:#3b8af2;align-content:center;margin-left:auto;margin:50px auto}
 .inner-page {padding:20px;margin:10px;background:#f1f6fe;box-shadow:0 2px 15px rgba(0,0,0,.1)}
