@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 #topbar .social-links a:hover {color:#f80}
 #header {transition:all 1.5s ease-in-out;background:#fff;height:86px;box-shadow:0 2px 15px rgba(0,0,0,0.1)}
 #header.fixed-top {height:70px;box-shadow:1px 1px 7px 2px #888}
-#header .logo img {display:inline-block;aspect-ratio:auto 3665 / 1012;width:auto;max-height:70px}
+#header .logo img {display:inline-block;aspect-ratio:auto 600 / 164;width:auto;max-height:69px}
 .scrolled-offset {margin-top:70px}
 .navbar {padding:0;float:right;font-family:Poppins,al-jazeera-arabic-bold,sans-serif;font-weight:600}
 .navbar ul {margin:0;padding:0;display:flex;list-style:none;align-items:center}
