@@ -154,10 +154,10 @@ section {padding:60px 0;overflow:hidden}
 .skills .progress-bar {width:1px;height:10px;transition:all 1.5s ease-in;background-color:#f80}
 .counts {background:#fff;padding:70px 0 60px;visibility:auto}
 .counts .count-box {padding:30px 30px 25px 30px;width:100%;position:relative;text-align:center;background:#f1f6fe;-webkit-filter:drop-shadow(0 2px 2px #222);filter:drop-shadow(0 2px 2px #222)}
-.counts .count-box i {position:absolute;top:-28px;left:50%;transform:translateX(-50%);font-size:24px;background:#1056ad;color:#fff;width:56px;height:56px;line-height:0;border-radius:50px;border:5px solid #fff;display:inline-flex;align-items:center;justify-content:center;transition:all 1.5s ease-in-out;animation-duration:4s}
+.counts .count-box i {position:absolute;top:-28px;left:50%;transform:translateX(-50%);font-size:24px;background:#1056ad;color:#fff;width:56px;height:56px;line-height:0;border-radius:50px;border:5px solid #fff;display:inline-flex;align-items:center;justify-content:center;transition:all .5s ease-in-out;animation-duration:4s}
 .counts .count-box i:hover {background:#f80}
 .counts .count-box span {font-size:32px;display:block;font-weight:600;color:#062b5b;font-family:'Open Sans',sans-serif}
-.counts .count-box p {padding:0;margin:10px;font-size:16px;font-family:al-jazeera-arabic-bold,sans-serif}
+.counts .count-box p {padding:0;margin-top:10px;font-size:16px;font-family:al-jazeera-arabic-bold,sans-serif}
 #services {background:#f6f9fe}
 .services .icon-box {text-align:center;border-radius:8px;padding:80px 20px;transition:all .5s ease-in-out;box-shadow:0 0 29px 0 rgba(68,88,144,.12);overflow:hidden;position:relative;z-index:1;background:#fff}
 .services .icon-box::before {content:"";position:absolute;background:#cbe0fb;right:0;left:0;bottom:100%;top:0;transition:all .5s ease-in-out;z-index:-1}
