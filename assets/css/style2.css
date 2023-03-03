@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 .navbar ul {margin:0;padding:0;display:flex;list-style:none;align-items:center}
 .navbar li {position:relative}
 .navbar>ul>li {padding:10px 15px}
-.navbar a,.navbar a:focus {display:flex;align-items:center;justify-content:space-between;padding:0 3px;font-size:16px;color:#222;white-space:nowrap;text-transform:uppercase;transition:all .5s ease-in-out;position:relative}
+.navbar a,.navbar a:focus {display:flex;align-items:center;justify-content:space-between;padding:0 3px;font-size:16px;color:#222;white-space:nowrap;transition:all .5s ease-in-out;position:relative}
 .navbar a i,.navbar a:focus i {font-size:16px;line-height:0;margin-right:5px}
 .navbar>ul>li>a:before {content:"";position:absolute;height:2px;bottom:-6px;left:0;background-color:#f80;visibility:hidden;width:0;transition:all .3s ease-in-out}
 .navbar a:hover:before,.navbar li:hover>a:before,.navbar .active:before {visibility:visible;width:100%}
@@ -79,18 +79,18 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 @media screen and (max-width:500px) {#intro .carousel-item .carousel-container .container p {font-size:50px}}
 @media screen and (max-width:500px) {#intro .carousel-item .carousel-container .container p span {font-size:25px}}
 #intro .carousel-fade {overflow:hidden}
-#intro .carousel-fade .carousel-inner .active.carousel-item-end,#intro .carousel-fade .carousel-inner .active.carousel-item-start,#intro .carousel-fade .carousel-inner .carousel-item {opacity:0}
-#intro .carousel-fade .carousel-inner .active,#intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-start,#intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-end {opacity:1;transition:1.5s ease-in-out}
+#intro .carousel-fade .carousel-inner .active.carousel-item-end, #intro .carousel-fade .carousel-inner .active.carousel-item-start, #intro .carousel-fade .carousel-inner .carousel-item {opacity:0}
+#intro .carousel-fade .carousel-inner .active, #intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-start, #intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-end {opacity:1;transition:1.5s ease-in-out}
 #intro .carousel-fade .carousel-inner .active.carousel-item-end,#intro .carousel-fade .carousel-inner .active.carousel-item-start,#intro .carousel-fade .carousel-inner .carousel-item-next,#intro .carousel-fade .carousel-inner .carousel-item-prev {left:0;transform:translate3d(0,0,0)}
 #intro .carousel-control-prev, #intro .carousel-control-next {width:12%;color:#006}
 #intro .carousel-control-next:hover,#intro .carousel-control-prev:hover {color:#f80}
 @media screen and (min-width:1025px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:5%}}
 @media screen and (max-width:1024px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:48px}}
 #intro .carousel-control-next-icon,#intro .carousel-control-prev-icon {background:none;font-size:32px}
-#intro .carousel-indicators li:hover {background-color:#006}
-#intro .carousel-indicators li {background-color:#f80;width:10px;height:3px;margin:5px;cursor:pointer}
+#intro .carousel-indicators li:hover {background-color:#f80}
+#intro .carousel-indicators li {background-color:#1056ad;width:10px;height:3px;margin:5px;cursor:pointer}
 @media screen and (max-width:992px) {#intro .carousel-indicators li {display:none}}
-#intro .btn-get-started {margin-top:30px;font-size:16px;display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;color:#fff;background:#f80;font-family:al-jazeera-arabic-bold,sans-serif}
+#intro .btn-get-started {margin-top:30px;font-size:16px;display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;color:#fff;background:#1056ad;font-family:al-jazeera-arabic-bold,sans-serif}
 #intro .btn-get-started:hover {background:#006;color:#fff}
 section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
