@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 .back-to-top:hover {background:#3284f1;color:#fff}
 .back-to-top.active {visibility:visible;opacity:1}
 @media screen and (max-width:768px) {[data-aos-delay] {transition-delay:0s!important}}
-#topbar {background:#006;height:40px;font-size:16px;transition:all 1.5s ease-in-out;color:#fff;padding:0;font-family:Poppins,sans-serif}
+#topbar {background:#006;height:40px;font-size:16px;transition:all 1.5s ease-in-out;padding:0;font-family:Poppins,sans-serif}
 #topbar a {color:#fff}
 #topbar .contact-info .chat {font-size:19px;padding-left:5px;font-family:Poppins,sans-serif;line-height:2}
 #topbar .contact-info .chat:hover {color:#f80;text-decoration:underline}
