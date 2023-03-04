@@ -141,7 +141,7 @@ section {padding:60px 0;overflow:hidden}
 .about img {border:10px solid #f80;display:block;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1.5s ease-in-out;margin-left:auto;margin-right:auto}
 .about img:hover {transform:scale(1.05)}
 .about .golden1 {color:#DAA520;font-style:italic;text-align:center;font-size:32px;line-height:2;font-weight:600}
-.about .golden2 {color:#DAA520;font-style:italic;text-align:center;font-size:19px;font-weight:600;letter-spacing:1px}
+.about .golden2 {color:#DAA520;font-style:italic;text-align:center;font-size:19px;letter-spacing:1px;font-weight:600}
 .about .golden2 span {color:#006}
 .about .golden3 {width:100%;height:auto;margin:auto;border:10px solid #daa520;padding:5px;-webkit-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
 .about .golden {color:#DAA520;line-height:2em;font-size:20px;font-family:'Open Sans',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:1px}
@@ -248,8 +248,9 @@ section {padding:60px 0;overflow:hidden}
 .testimonials .testimonial-item .quote-icon-left,.testimonials .testimonial-item .quote-icon-right {color:rgba(255,255,255,.4);font-size:26px}
 .testimonials .testimonial-item .quote-icon-left {display:inline-block;left:-5px;position:relative}
 .testimonials .testimonial-item .quote-icon-right {display:inline-block;right:-5px;position:relative;top:10px}
-.testimonials .testimonial-item {font-style:italic;line-height:1.8em;margin:0 auto 15px auto;color:#eee}
-.testimonials .testimonial-item a {color:#f80;font-weight:600}
+.testimonials .testimonial-item {line-height:1.8em;margin:0 auto 15px auto;color:#eee;font-weight:600}
+.testimonials .testimonial-item p {font-style:italic}
+.testimonials .testimonial-item a {color:#f80}
 .testimonials .testimonial-item a:hover {color:#c3deff}
 .testimonials .swiper-pagination {margin-top:20px;position:relative}
 .testimonials .swiper-pagination .swiper-pagination-bullet {width:12px;height:12px;background-color:rgba(255,255,255,.5);opacity:1}

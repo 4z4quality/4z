@@ -248,8 +248,9 @@ section {padding:60px 0;overflow:hidden}
 .testimonials .testimonial-item .quote-icon-left,.testimonials .testimonial-item .quote-icon-right {color:rgba(255,255,255,.4);font-size:26px}
 .testimonials .testimonial-item .quote-icon-left {display:inline-block;left:-5px;position:relative}
 .testimonials .testimonial-item .quote-icon-right {display:inline-block;right:-5px;position:relative;top:10px}
-.testimonials .testimonial-item {font-style:italic;line-height:1.8em;margin:0 auto 15px auto;color:#eee}
-.testimonials .testimonial-item a {color:#f80;font-family:al-jazeera-arabic-bold,sans-serif}
+.testimonials .testimonial-item {line-height:1.8em;margin:0 auto 15px auto;color:#eee;font-family:al-jazeera-arabic-bold,sans-serif}
+.testimonials .testimonial-item p {font-style:italic}
+.testimonials .testimonial-item a {color:#f80}
 .testimonials .testimonial-item a:hover {color:#c3deff}
 .testimonials .swiper-pagination {margin-top:20px;position:relative}
 .testimonials .swiper-pagination .swiper-pagination-bullet {width:12px;height:12px;background-color:rgba(255,255,255,.5);opacity:1}
