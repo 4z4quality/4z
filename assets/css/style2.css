@@ -100,7 +100,7 @@ section {padding:60px 0;overflow:hidden}
 .section-title .title {font-size:18px;padding:8px 20px;margin-bottom:60px;background:#e7f1fd;color:#1056ad;display:inline-block;border-radius:50px}
 .section-title .subtitle {margin-bottom:40px;font-size:28px}
 .section-title .subtitle span {color:#f80}
-.section-title p {margin:15px auto 0 auto;font-size:18px;line-height:2}
+.section-title p {margin:15px auto 0 auto;font-size:18px;line-height:1.6}
 .section-title p span {color:#1056ad}
 .section-title img {border:10px solid #f80;display:block;margin-left:auto;margin-right:auto;transition:all 1.5s ease-in-out;box-shadow:0px 2px 15px rgba(0,0,0,0.1)}
 .section-title img:hover{scale:1.05}
@@ -120,7 +120,7 @@ section {padding:60px 0;overflow:hidden}
 #our-name .icon i {font-size:48px;line-height:1;color:#1056ad;transition:all .5s ease-in-out;animation-duration:4s}
 #our-name .icon-box .description1 {margin-bottom:15px;font-size:22px;font-family:al-jazeera-arabic-bold;}
 #our-name .icon-box .description1 span {font-family:al-jazeera-arabic-bold,sans-serif}
-#our-name .icon-box .description2 {font-size:18px;line-height:28px;margin-bottom:0;font-family:al-jazeera-arabic_regular,sans-serif}
+#our-name .icon-box .description2 {font-size:18px;line-height:1.6;margin-bottom:0;font-family:al-jazeera-arabic_regular,sans-serif}
 #our-name .icon-box .description2 span {font-family:al-jazeera-arabic-bold,sans-serif}
 #our-name .icon-box:hover .description1, #our-name .icon-box:hover .description2, #our-name .icon-box:hover .icon i {color:#fff}
 #our-name .golden4 {display:block;margin:auto;max-width:480px;height:auto;border:10px solid #f80}
@@ -139,13 +139,13 @@ section {padding:60px 0;overflow:hidden}
 .about .content p:last-child {margin-bottom:0}
 .about img {border:10px solid #f80;display:block;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1.5s ease-in-out;margin-left:auto;margin-right:auto}
 .about img:hover {transform:scale(1.05)}
-.about .golden1 {color:#DAA520;font-style:italic;text-align:center;font-size:32px;line-height:2;font-family:al-jazeera-arabic-bold,sans-serif}
+.about .golden1 {color:#DAA520;font-style:italic;text-align:center;font-size:32px;line-height:1.6;font-family:al-jazeera-arabic-bold,sans-serif}
 .about .golden2 {color:#DAA520;font-style:italic;text-align:center;font-size:19px;font-family:al-jazeera-arabic-bold,sans-serif}
 .about .golden2 span {color:#006}
 .about .golden3 {width:100%;height:auto;margin:auto;border:10px solid #daa520;padding:5px;-webkit-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
-.about .golden {color:#DAA520;line-height:2em;font-size:20px;font-family:al-jazeera-arabic-bold,sans-serif}
+.about .golden {color:#DAA520;line-height:1.6;font-size:20px;font-family:al-jazeera-arabic-bold,sans-serif}
 .about li {color:#f80;padding-bottom:10px}
-.about .trust {color:#006;font-size:18px;line-height:1.7;font-family:al-jazeera-arabic_regular,sans-serif}
+.about .trust {color:#006;font-size:18px;line-height:1.6;font-family:al-jazeera-arabic_regular,sans-serif}
 .about .vision {display:flex;font-size:18px;text-align:right}
 .about .vision p {color:#f80;font-size:32px;font-family:al-jazeera-arabic-bold,sans-serif}
 #skills {background:#fff}
@@ -164,14 +164,14 @@ section {padding:60px 0;overflow:hidden}
 .services .icon-box {text-align:center;border-radius:8px;padding:80px 20px;transition:all .5s ease-in-out;box-shadow:0 0 29px 0 rgba(68,88,144,.12);overflow:hidden;position:relative;z-index:1;background:#fff}
 .services .icon-box::before {content:"";position:absolute;background:#cbe0fb;right:0;left:0;bottom:100%;top:0;transition:all .5s ease-in-out;z-index:-1}
 .services .icon-box:hover::before {background:#f80;bottom:0;border-radius:0}
-.services .icon-box h2 {margin-bottom:20px;font-size:24px;line-height:1.5;font-family:al-jazeera-arabic-bold,sans-serif}
+.services .icon-box h2 {margin-bottom:20px;font-size:24px;line-height:1.6;font-family:al-jazeera-arabic-bold,sans-serif}
 .services .icon-box h2 a {color:#222;transition:all .5s ease-in-out}
-.services .icon-box p {line-height:24px;font-size:18px;margin-bottom:0;text-align:right}
+.services .icon-box p {line-height:1.6;font-size:18px;margin-bottom:0;text-align:right}
 .services .icon-box:hover p {color:#fff}
 .services .icon-box:hover h2 {color:#fff}
 .services .icon-box img {padding-bottom:40px;margin-left:auto;margin-right:auto;display:block;max-width:80px;-webkit-filter:drop-shadow(0 2px 2px #222);filter:drop-shadow(0 2px 2px #222);transition:1.5s ease-in-out}
 .services .icon-box img:hover {transform:scale(1.3)}
-.services h3 {text-align:center;line-height:2}
+.services h3 {text-align:center;line-height:1.7}
 .services h3 span {color:#f80}
 .services img {margin-left:auto;margin-right:auto;display:block;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:1.5s ease-in-out}
 .services img:hover {transform:scale(1.05)}
@@ -196,7 +196,7 @@ section {padding:60px 0;overflow:hidden}
 .portfolio .portfolio-item .portfolio-links a:hover {color:#6ba7f5}
 .portfolio .portfolio-item:hover .portfolio-info {opacity:1;bottom:20px}
 .portfolio .portfolio-item img {transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
-.portfolio-details {line-height:1.7em;padding-top:40px}
+.portfolio-details {line-height:1.6;padding-top:40px}
 .portfolio-details .portfolio-details-slider img {display:inline-block;max-width:100%;transition:all 1.5s ease-in-out;height:auto}
 .portfolio-details img:hover {scale:1.05}
 .portfolio-details .portfolio-details-slider .swiper-pagination {margin-top:20px;position:relative}
@@ -207,12 +207,12 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details .portfolio-info h3 {font-size:22px;margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #eee}
 .portfolio-details .portfolio-info ul {list-style:none;padding:0;font-size:18px}
 .portfolio-details .portfolio-info ul li+li {margin-top:10px}
-.portfolio-details .portfolio-description {padding:30px;font-size:20px;line-height:1.6em}
+.portfolio-details .portfolio-description {padding:30px;font-size:20px;line-height:1.6}
 .portfolio-details .portfolio-description ol li+li {margin-top:10px}
 .portfolio-details .portfolio-description ul li+li {margin-top:10px}
 .portfolio-details .portfolio-description h2 {font-size:24px;margin-bottom:20px}
 .portfolio-details .portfolio-description h3 {font-size:18px;margin-bottom:20px}
-.portfolio-details .portfolio-description h4 {font-size:22px;margin-bottom:20px;line-height:1.7;font-family:al-jazeera-arabic-bold,sans-serif}
+.portfolio-details .portfolio-description h4 {font-size:22px;margin-bottom:20px;line-height:1.6;font-family:al-jazeera-arabic-bold,sans-serif}
 .portfolio-details .portfolio-description p {padding:0}
 .portfolio-details .portfolio-description .red {color:#b30}
 .portfolio-details .portfolio-description .blue {color:#00f}
@@ -225,7 +225,7 @@ section {padding:60px 0;overflow:hidden}
 .pricing .box .price {margin:-20px -20px 20px -20px;padding:20px 15px;font-size:17px;color:#777;background:#f8f8f8;font-family:al-jazeera-arabic-bold,sans-serif}
 .pricing .box .offer {color:#bababa;font-size:16px}
 .pricing .featured .price {color:#fff;background:#f80}
-.pricing .box ul {padding:0;list-style:none;color:#444;text-align:center;line-height:20px}
+.pricing .box ul {padding:0;list-style:none;color:#444;text-align:center;line-height:1.6}
 .pricing .box ul li {padding-bottom:16px}
 .pricing .btn-buy {background:#1056ad;display:inline-block;padding:6px 35px 8px 35px;border-radius:4px;color:#fff;font-size:17px;transition:all .5s ease-out;font-family:al-jazeera-arabic-bold,sans-serif}
 .pricing .btn-buy:hover {background:#f80}
@@ -234,7 +234,7 @@ section {padding:60px 0;overflow:hidden}
 .pricing .box span {font-size:32px;font-family:al-jazeera-arabic-bold,sans-serif}
 .pricing .box .advanced {width:200px;position:absolute;top:18px;left:-68px;transform:rotate(-45deg);z-index:1;font-size:13px;padding:1px 0 3px 0;background:#f80;color:#fff}
 .pricing img {max-width:25%;height:auto;display:inline-block;margin-left:auto;margin-right:auto;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222)}
-.pricing .banner {border:10px solid #f80;margin:40px auto;width:600px;background:#fff;text-align:center;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);transition:1.5s ease-in-out;line-height:2;font-family:al-jazeera-arabic-bold,sans-serif}
+.pricing .banner {border:10px solid #f80;margin:40px auto;width:600px;background:#fff;text-align:center;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);transition:1.5s ease-in-out;line-height:1.6;font-family:al-jazeera-arabic-bold,sans-serif}
 @media screen and (max-width:900px) {.pricing .banner {width:94%;height:auto}}
 .pricing .banner:hover {scale:1.05}
 .testimonials {padding:40px 0;background:url(../../assets/img/bg-3.webp) no-repeat;background-position:center center;background-size:cover;position:relative;visibility:auto}
@@ -247,7 +247,7 @@ section {padding:60px 0;overflow:hidden}
 .testimonials .testimonial-item .quote-icon-left,.testimonials .testimonial-item .quote-icon-right {color:rgba(255,255,255,.4);font-size:26px}
 .testimonials .testimonial-item .quote-icon-left {display:inline-block;left:-5px;position:relative}
 .testimonials .testimonial-item .quote-icon-right {display:inline-block;right:-5px;position:relative;top:10px}
-.testimonials .testimonial-item {line-height:1.8em;margin:0 auto 15px auto;color:#eee;font-family:al-jazeera-arabic-bold,sans-serif}
+.testimonials .testimonial-item {line-height:1.6;margin:0 auto 15px auto;color:#eee;font-family:al-jazeera-arabic-bold,sans-serif}
 .testimonials .testimonial-item p {font-style:italic}
 .testimonials .testimonial-item a {color:#f80}
 .testimonials .testimonial-item a:hover {color:#c3deff}
@@ -256,7 +256,7 @@ section {padding:60px 0;overflow:hidden}
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {background-color:#f80}
 @media screen and (min-width:992px) {.testimonials .testimonial-item {width:80%}}
 .team {margin-bottom:60px;background:#fff;visibility:auto}
-.team p {font-size:18px;line-height:1.9em}
+.team p {font-size:18px;line-height:1.6}
 .team .member {margin-bottom:20px;overflow:hidden;border-radius:4px;background:#fff;box-shadow:0 2px 15px rgba(16,110,234,.15)}
 .team .member .member-img {display:inline-block;position:relative;overflow:hidden}
 .team .member .social {position:absolute;left:0;bottom:30px;right:0;opacity:0;transition:all 1.5s ease-in-out;text-align:center}
@@ -271,9 +271,9 @@ section {padding:60px 0;overflow:hidden}
 .faq {padding:60px 0;visibility:auto}
 .faq .faq-list {padding:0;list-style:none}
 .faq .faq-list li {border-bottom:1px solid #d4e5fc;margin-bottom:20px;padding-bottom:20px}
-.faq .faq-list .question {display:block;position:relative;font-size:19px;line-height:24px;padding-right:25px;cursor:pointer;color:#f80;transition:all .5s ease-in-out}
+.faq .faq-list .question {display:block;position:relative;font-size:19px;line-height:1.6;padding-right:25px;cursor:pointer;color:#f80;transition:all .5s ease-in-out}
 .faq .faq-list i {font-size:22px;position:absolute;right:0;top:2px}
-.faq .faq-list p {font-size:18px;color:#006;margin-bottom:0;padding:10px 25px 0 25px;line-height:1.7;font-family:al-jazeera-arabic_regular,sans-serif}
+.faq .faq-list p {font-size:18px;color:#006;margin-bottom:0;padding:10px 25px 0 25px;line-height:1.6;font-family:al-jazeera-arabic_regular,sans-serif}
 .faq .faq-list p a {font-family:al-jazeera-arabic-bold,sans-serif}
 .faq .faq-list .icon-show {display:none}
 .faq .faq-list .collapsed {color:#000}
@@ -286,7 +286,7 @@ section {padding:60px 0;overflow:hidden}
 .pedia p {border:0;margin:0 30px;font-size:18px;line-height:2;text-align:center;font-family:al-jazeera-arabic-bold,sans-serif}
 .pedia p span {color:#f80}
 .pedia .subtitle {font-size:28px;font-family:al-jazeera-arabic-bold,sans-serif}
-.pedia li {color:#f80;font-size:18px;line-height:1.9em}
+.pedia li {color:#f80;font-size:18px;line-height:1.6;margin-bottom:10px}
 .pedia ul {border:0}
 .pedia img {max-width:94%;display:inline-block;margin:10px;border:10px solid #f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);-webkit-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate;}
 @-moz-keyframes mover {0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
@@ -294,10 +294,10 @@ section {padding:60px 0;overflow:hidden}
 @-webkit-keyframes mover {0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
 @keyframes mover {0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
 .contact {margin-bottom:60px;visibility:auto}
-.contact .info-box {color:#444;text-align:center;box-shadow:0 0 30px rgba(214,215,216,.3);padding:20px 0 30px 0;line-height:24px;font-size:14px;font-family:Poppins,sans-serif}
+.contact .info-box {color:#444;text-align:center;box-shadow:0 0 30px rgba(214,215,216,.3);padding:20px 0 30px 0;line-height:1.6;font-size:14px;font-family:Poppins,sans-serif}
 .contact .info-box i {font-size:32px;color:#1056ad;border-radius:50%;padding:12px;border:2px dotted #b3d1fa;transition:all .5s ease-in-out;margin-bottom:30px;animation-duration:4s}
 .contact .info-box i:hover {color:#fff;background:#f80}
-.contact .info-box span {line-height:2.2;font-size:18px;color:#222;font-family:al-jazeera-arabic-bold,sans-serif}
+.contact .info-box span {line-height:1.6;font-size:18px;color:#222;font-family:al-jazeera-arabic-bold,sans-serif}
 .contact .php-email {margin-left:auto;margin-right:auto}
 @media screen and (min-width:992px) {.contact .php-email {width:70%}}
 .contact .php-email-form {box-shadow:0 0 30px rgba(214,215,216,.4);padding:30px}
@@ -342,7 +342,7 @@ hr {width:100px;border-top: 5px solid #3b8af2;color:#3b8af2;align-content:center
 .inner-page {padding:20px;margin:10px;background:#f1f6fe;box-shadow:0 2px 15px rgba(0,0,0,.1)}
 .inner-page img {border:10px solid #f80;display:block;margin:auto;max-width:100%;height:auto;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .inner-page img:hover {scale:1.05}
-.inner-page .container {font-family:al-jazeera-arabic_regular,'Open Sans',sans-serif;font-size:20px;line-height:1.7em}
+.inner-page .container {font-family:al-jazeera-arabic_regular,'Open Sans',sans-serif;font-size:20px;line-height:1.6}
 .inner-page span {color:#f80}
 .inner-page ul li {padding-bottom:5px}
 .callout {position:fixed;max-width:270px;bottom:10px;z-index:2;visibility:hidden;opacity:0;right:10px}
@@ -352,10 +352,10 @@ hr {width:100px;border-top: 5px solid #3b8af2;color:#3b8af2;align-content:center
 .callout-container a:hover {color:#006}
 .closebtn {position:absolute;top:-5px;left:10px;color:#006;font-size:30px;cursor:pointer}
 .closebtn:hover {color:#f80}
-.quote {text-align:center;color:#b85a00;font-style:italic;font-size:1.6em;line-height:1.4em;margin:0 30px;font-family:al-jazeera-arabic_regular,sans-serif}
+.quote {text-align:center;color:#b85a00;font-style:italic;font-size:1.6em;line-height:1.7;margin:0 30px;font-family:al-jazeera-arabic_regular,sans-serif}
 .quote2 {color:#b85a00;font-style:italic;font-size:22px}
 table,td,th {border:1px solid #000;border-collapse:collapse;max-width:94%;margin-left:auto;margin-right:auto;box-shadow:0px 2px 15px rgba(0, 0, 0, 0.5);font-family:al-jazeera-arabic-bold,sans-serif}
-th {text-align:center;color:#006;line-height:1;font-size:15px}
+th {text-align:center;color:#006;line-height:1.6;font-size:15px}
 td {font-size:16px}
 .pager {padding-left:0;margin:20px 0;text-align:center;list-style:none;font-family:al-jazeera-arabic-bold,sans-serif}
 .pager i {font-weight:800}
