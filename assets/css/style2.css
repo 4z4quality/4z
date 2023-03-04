@@ -100,7 +100,7 @@ section {padding:60px 0;overflow:hidden}
 .section-title .title {font-size:18px;padding:8px 20px;margin-bottom:40px;background:#e7f1fd;color:#1056ad;display:inline-block;border-radius:50px}
 .section-title .subtitle {font-size:28px;line-height:1.6}
 .section-title .subtitle span {color:#f80}
-.section-title p {margin:0 auto;font-size:18px;line-height:1.7;padding-bottom:40px}
+.section-title p {margin:40px auto;font-size:18px;line-height:1.7}
 .section-title p span {color:#1056ad}
 .section-title img {border:10px solid #f80;display:block;margin:auto;transition:all 1.5s ease-in-out;box-shadow:0px 2px 15px rgba(0,0,0,0.1)}
 .section-title img:hover{scale:1.05}
@@ -283,7 +283,7 @@ section {padding:60px 0;overflow:hidden}
 .faq .faq-list img {display:block;padding:10px;margin:auto;max-width:100%;height:auto;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222)}
 .faq .faq-list img:hover {scale:1.05}
 .pedia {border:5px solid #f80;background-color:#fff;margin:30px 10px}
-.pedia p {border:0;margin:0 30px;font-size:18px;line-height:2;text-align:center;font-family:al-jazeera-arabic-bold,sans-serif}
+.pedia p {border:0;margin:40px 30px;font-size:18px;line-height:2;text-align:center;font-family:al-jazeera-arabic-bold,sans-serif}
 .pedia p span {color:#f80}
 .pedia .subtitle {font-size:28px;font-family:al-jazeera-arabic-bold,sans-serif}
 .pedia li {color:#f80;font-size:18px;line-height:1.6;margin-bottom:10px}
