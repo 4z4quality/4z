@@ -96,13 +96,13 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 #intro .btn-get-started:hover {background:#006;color:#fff}
 section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
-.section-title {text-align:center;margin:0 60px;font-family:Poppins,sans-serif}
-.section-title .title {font-size:17px;padding:8px 20px;margin-bottom:60px;background:#e7f1fd;color:#1056ad;display:inline-block;border-radius:50px;text-transform:uppercase;letter-spacing:2px;font-weight:600}
-.section-title .subtitle {margin-bottom:40px;font-size:28px;font-weight:600;letter-spacing:1px;line-height:1.6}
+.section-title {text-align:center;margin:0 40px;font-family:Poppins,sans-serif}
+.section-title .title {font-size:17px;padding:8px 20px;margin-bottom:40px;background:#e7f1fd;color:#1056ad;display:inline-block;border-radius:50px;text-transform:uppercase;letter-spacing:2px;font-weight:600}
+.section-title .subtitle {font-size:28px;font-weight:600;letter-spacing:1px;line-height:1.6}
 .section-title .subtitle span {color:#f80}
-.section-title p {margin:0 auto;font-size:18px;line-height:1.7}
+.section-title p {margin:0 auto;font-size:18px;line-height:1.7;padding-bottom:40px}
 .section-title p span {color:#1056ad}
-.section-title img {border:10px solid #f80;display:block;margin-left:auto;margin-right:auto;transition:all 1.5s ease-in-out;box-shadow:0px 2px 15px rgba(0,0,0,0.1)}
+.section-title img {border:10px solid #f80;display:block;margin:auto;transition:all 1.5s ease-in-out;box-shadow:0px 2px 15px rgba(0,0,0,0.1)}
 .section-title img:hover{scale:1.05}
 .section-title h4 {font-size:18px;line-height:1.6;font-weight:400}
 .section-title h4 a {font-weight:600}
@@ -143,7 +143,7 @@ section {padding:60px 0;overflow:hidden}
 .about .golden2 {color:#DAA520;font-style:italic;text-align:center;font-size:19px;letter-spacing:1px;font-weight:600;line-height:1.7}
 .about .golden2 span {color:#006}
 .about .golden3 {width:100%;height:auto;margin:auto;border:10px solid #daa520;padding:5px;-webkit-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
-.about .golden {color:#DAA520;font-size:20px;font-family:'Open Sans',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:1px;line-height:2.1}
+.about .golden {display:block;padding-bottom:7px;color:#DAA520;font-size:20px;font-family:'Open Sans',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:1px}
 .about li {color:#f80;padding-bottom:10px}
 .about .trust {color:#006;font-size:18px;line-height:1.6;font-family:'Open Sans',sans-serif}
 .about .vision {display:flex;font-size:18px;text-align:left}
@@ -171,7 +171,7 @@ section {padding:60px 0;overflow:hidden}
 .services .icon-box:hover h2 {color:#fff}
 .services .icon-box img {padding-bottom:40px;margin-left:auto;margin-right:auto;display:block;max-width:80px;-webkit-filter:drop-shadow(0 2px 2px #222);filter:drop-shadow(0 2px 2px #222);transition:1.5s ease-in-out}
 .services .icon-box img:hover {transform:scale(1.3)}
-.services h3 {text-align:center;line-height:1.5}
+.services h3 {text-align:center;line-height:1.6}
 .services h3 span {color:#f80}
 .services img {margin-left:auto;margin-right:auto;display:block;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:1.5s ease-in-out}
 .services img:hover {transform:scale(1.05)}
@@ -179,7 +179,7 @@ section {padding:60px 0;overflow:hidden}
 .welcome2 {width:600px;height:auto;border:10px solid #006}
 @media screen and (max-width:900px) {.welcome1, .welcome2 {width:94%;height:auto}}
 .portfolio {visibility:auto}
-.portfolio #portfolio-flters {padding:25px 15px 0 15px;margin:0 auto 15px auto;list-style:none;text-align:center;border-radius:50px}
+.portfolio #portfolio-flters {margin:0 auto 15px auto;list-style:none;text-align:center;border-radius:50px}
 .portfolio #portfolio-flters li {cursor:pointer;display:inline-block;padding:10px 15px 8px 15px;font-size:17px;color:#444;margin-bottom:5px;transition:all 1.5s ease-in-out;font-weight:600;text-transform:uppercase;letter-spacing:1px}
 .portfolio #portfolio-flters li.filter-active,.portfolio #portfolio-flters li:hover {color:#1056ad}
 .portfolio #portfolio-flters li:last-child {margin-right:0}
@@ -352,7 +352,7 @@ hr {width:100px;border-top: 5px solid #3b8af2;color:#3b8af2;align-content:center
 
 .closebtn {position:absolute;top:-5px;right:10px;color:#fff;font-size:30px;cursor:pointer}
 .closebtn:hover {color:#006}
-.quote {text-align:center;color:#b85a00;font-style:italic;font-size:26px;line-height:1.6;margin:0 30px;font-family:Poppins,sans-serif;font-weight:400}
+.quote {text-align:center;color:#b85a00;font-style:italic;font-size:26px;line-height:1.6;margin:0 10px;font-family:Poppins,sans-serif;font-weight:400}
 .quote2 {color:#b85a00;font-style:italic;font-size:20px;font-family:Poppins,sans-serif;font-weight:400}
 table,td,th {border:1px solid #000;border-collapse:collapse;max-width:96%;margin:auto;box-shadow:0px 2px 15px rgba(0, 0, 0, 0.5)}
 th {text-align:center;vertical-align:middle;line-height:.8;color:#006;font-size:15px;font-weight:600}
