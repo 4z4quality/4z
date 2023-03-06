@@ -6,7 +6,6 @@
 @font-face {font-family:Poppins;src:url(../../assets/css/fonts/Poppins-Regular.woff) format('woff'),url(../../assets/css/fonts/Poppins-Regular.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
 @font-face {font-family:Poppins;src:url(../../assets/css/fonts/Poppins-Italic.woff) format('woff'),url(../../assets/css/fonts/Poppins-Italic.woff2) format('woff2');font-weight:400;font-style:italic;font-display:swap}
 @font-face {font-family:Poppins;src:url(../../assets/css/fonts/Poppins-SemiBold.woff) format('woff'),url(../../assets/css/fonts/Poppins-SemiBold.woff2) format('woff2');font-weight:600;font-style:normal;font-display:swap}
-b {font-weight:600}
 body {font-family:'Open Sans',sans-serif;color:#006}
 a {color:#1056ad;transition:all .5s ease-in-out;text-decoration:none}
 a:hover{color:#f80;text-decoration:none}
@@ -20,7 +19,7 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 .back-to-top:hover {background:#3284f1;color:#fff}
 .back-to-top.active {visibility:visible;opacity:1}
 @media screen and (max-width:768px) {[data-aos-delay] {transition-delay:0s!important}}
-#topbar {background:#006;height:40px;font-size:16px;transition:all 1.5s ease-in-out;padding:0;font-family:Poppins,sans-serif}
+#topbar {background:#006;height:40px;font-size:16px;transition:all 1.5s ease-in-out;padding:0}
 #topbar a {color:#fff}
 #topbar .contact-info .chat {font-size:18px;padding-left:5px;font-family:Poppins,sans-serif;line-height:2}
 #topbar .contact-info .chat:hover {color:#f80;text-decoration:underline}
@@ -143,9 +142,9 @@ section {padding:60px 0;overflow:hidden}
 .about .golden2 {color:#DAA520;font-style:italic;text-align:center;font-size:19px;letter-spacing:1px;font-weight:600;line-height:1.7}
 .about .golden2 span {color:#006}
 .about .golden3 {width:100%;height:auto;margin:auto;border:10px solid #daa520;padding:5px;-webkit-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
-.about .golden {display:block;padding-bottom:7px;color:#DAA520;font-size:20px;font-family:'Open Sans',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:1px}
+.about .golden {display:block;padding-bottom:7px;color:#DAA520;font-size:20px;font-weight:600;text-transform:uppercase;letter-spacing:1px}
 .about li {color:#f80;padding-bottom:10px}
-.about .trust {color:#006;font-size:18px;line-height:1.6;font-family:'Open Sans',sans-serif}
+.about .trust {color:#006;font-size:18px;line-height:1.6}
 .about .vision {display:flex;font-size:18px;text-align:left}
 .about .vision p {color:#f80;font-size:32px;font-family:Poppins;font-weight:600}
 #skills {background:#fff}
@@ -207,10 +206,10 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details .portfolio-info h3 {font-size:22px;margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #eee;font-weight:600}
 .portfolio-details .portfolio-info ul {list-style:none;padding:0;font-size:18px}
 .portfolio-details .portfolio-info ul li+li {margin-top:10px}
-.portfolio-details .portfolio-description {padding:30px;font-size:18px}
+.portfolio-details .portfolio-description {padding:30px 30px 60px;font-size:18px}
 .portfolio-details .portfolio-description ol li+li {margin-top:10px}
 .portfolio-details .portfolio-description ul li+li {margin-top:10px}
-.portfolio-details .portfolio-description h2 {font-size:24px;margin-bottom:20px;font-weight:600}
+.portfolio-details .portfolio-description h2 {font-size:24px;margin-bottom:20px;font-weight:600;line-height:1.6}
 .portfolio-details .portfolio-description h3 {font-size:20px;margin-bottom:20px;font-weight:600}
 .portfolio-details .portfolio-description h4 {font-size:20px;margin-bottom:20px;line-height:1.6;font-weight:600}
 .portfolio-details .portfolio-description p {font-size:17px;padding:0}
@@ -339,12 +338,13 @@ section {padding:60px 0;overflow:hidden}
 #footer .credits a {font-weight:600}
 @media screen and (max-width:768px) {#footer .copyright,#footer .credits {float:none;text-align:center;padding:2px 0}}
 hr {width:100px;border-top: 5px solid #3b8af2;color:#3b8af2;align-content:center;margin-left:auto;margin:50px auto}
-.inner-page {padding:20px;margin:10px;background:#f1f6fe;box-shadow:0 2px 15px rgba(0,0,0,.1);line-height:1.6;font-size:17px}
+.inner-page {padding:20px;margin:10px;background:#f1f6fe;box-shadow:0 2px 15px rgba(0,0,0,.1)}
 .inner-page img {border:10px solid #f80;display:block;margin:auto;max-width:100%;height:auto;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .inner-page img:hover {scale:1.05}
-
+.inner-page .container {padding-bottom:60px;font-weight:400;font-size:19px;line-height:1.6}
 .inner-page span {color:#f80}
 .inner-page ul li {padding-bottom:5px}
+.inner-page h3 {font-size:20px}
 .callout {position:fixed;max-width:270px;bottom:10px;z-index:2;visibility:hidden;opacity:0;left:10px;font-family:Poppins,sans-serif}
 .callout.active {visibility:visible;opacity:1}
 .callout-header {padding:25px 15px;background-color:#f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);font-size:30px}

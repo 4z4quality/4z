@@ -6,7 +6,6 @@
 @font-face {font-family:Poppins;src:url(../../assets/css/fonts/Poppins-Regular.woff) format('woff'),url(../../assets/css/fonts/Poppins-Regular.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
 
 @font-face {font-family:Poppins;src:url(../../assets/css/fonts/Poppins-SemiBold.woff) format('woff'),url(../../assets/css/fonts/Poppins-SemiBold.woff2) format('woff2');font-weight:600;font-style:normal;font-display:swap}
-
 body {font-family:al-jazeera-arabic_regular,sans-serif;color:#006}
 a {color:#1056ad;transition:all .5s ease-in-out;text-decoration:none}
 a:hover{color:#f80;text-decoration:none}
@@ -20,7 +19,7 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 .back-to-top:hover {background:#3284f1;color:#fff}
 .back-to-top.active {visibility:visible;opacity:1}
 @media screen and (max-width:768px) {[data-aos-delay] {transition-delay:0s!important}}
-#topbar {background:#f80;height:40px;font-size:16px;transition:all 1.5s ease-in-out;padding:0;font-family:al-jazeera-arabic-bold,sans-serif}
+#topbar {background:#f80;height:40px;font-size:16px;transition:all 1.5s ease-in-out;padding:0}
 #topbar a {color:#006}
 #topbar .contact-info .chat {font-size:18px;padding-right:5px;font-family:al-jazeera-arabic-bold,sans-serif;line-height:2}
 #topbar .contact-info .chat:hover {color:#0000c9;text-decoration:underline}
@@ -42,7 +41,7 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 .navbar a:hover,.navbar .active,.navbar .active:focus,.navbar li:hover>a {color:#1056ad}
 .navbar .dropdown ul {display:block;position:absolute;left:28px;top:calc(100% + 30px);margin:0;padding:10px 0;z-index:99;opacity:0;visibility:hidden;background:#fff;box-shadow:0 0 30px rgba(127,137,161,.25);transition:all .3s ease-in-out}
 .navbar .dropdown ul li {min-width:200px}
-.navbar .dropdown ul a {padding:10px 20px;font-family:Poppins,al-jazeera-arabic_regular,sans-serif}
+.navbar .dropdown ul a {padding:10px 20px;font-family:al-jazeera-arabic_regular,sans-serif}
 .navbar .dropdown ul a i {font-size:16px}
 .navbar .dropdown ul a:hover,.navbar .dropdown ul .active:hover,.navbar .dropdown ul li:hover>a {color:#006;background:#f80}
 .navbar .dropdown:hover>ul {opacity:1;top:100%;visibility:visible}
@@ -111,14 +110,14 @@ section {padding:60px 0;overflow:hidden}
 .breadcrumbs {padding:120px 0;background-color:#f1f6fe;min-height:40px}
 .breadcrumbs h1 {font-size:32px;margin:0;text-align:center;color:#f80}
 #our-name {visibility:auto}
-#our-name .because {text-align:center;font-size:32px;color:#f80;font-family:al-jazeera-arabic-bold;}
+#our-name .because {text-align:center;font-size:32px;color:#f80;font-family:al-jazeera-arabic-bold}
 #our-name .because span {font-size:20px;color:#006}
 #our-name .icon-box {padding:30px;position:relative;overflow:hidden;background:#fff;box-shadow:0 0 29px 0 rgba(68,88,144,.12);transition:all .5s ease-in-out;border-radius:8px;z-index:1}
 #our-name .icon-box::before {content:"";position:absolute;background:#cbe0fb;right:0;left:0;bottom:0;top:100%;transition:all .5s ease-in-out;z-index:-1}
 #our-name .icon-box:hover::before {background:#f80;top:0;border-radius:0}
 #our-name .icon {margin-bottom:15px}
 #our-name .icon i {font-size:48px;color:#1056ad;transition:all .5s ease-in-out;animation-duration:4s}
-#our-name .icon-box .description1 {margin-bottom:15px;font-size:22px;font-family:al-jazeera-arabic-bold;}
+#our-name .icon-box .description1 {margin-bottom:15px;font-size:22px;font-family:al-jazeera-arabic-bold}
 #our-name .icon-box .description1 span {font-family:al-jazeera-arabic-bold,sans-serif}
 #our-name .icon-box .description2 {font-size:18px;line-height:1.6;margin-bottom:0;font-family:al-jazeera-arabic_regular,sans-serif}
 #our-name .icon-box .description2 span {font-family:al-jazeera-arabic-bold,sans-serif}
@@ -179,7 +178,7 @@ section {padding:60px 0;overflow:hidden}
 .welcome2 {width:600px;height:auto;border:10px solid #006}
 @media screen and (max-width:900px) {.welcome1, .welcome2 {width:94%;height:auto}}
 .portfolio {visibility:auto}
-.portfolio #portfolio-flters {margin:0 auto 15px;list-style:none;text-align:center;border-radius:50px}
+.portfolio #portfolio-flters {margin:0 auto 15px auto;list-style:none;text-align:center;border-radius:50px}
 .portfolio #portfolio-flters li {cursor:pointer;display:inline-block;padding:10px 15px 8px 15px;font-size:18px;line-height:1;color:#444;margin-bottom:5px;transition:all 1.5s ease-in-out;font-family:al-jazeera-arabic-bold,sans-serif}
 .portfolio #portfolio-flters li.filter-active,.portfolio #portfolio-flters li:hover {color:#1056ad}
 .portfolio #portfolio-flters li:last-child {margin-right:0}
@@ -204,13 +203,13 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {width:12px;height:12px;background-color:#fff;opacity:1;border:1px solid #1056ad}
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {background-color:#1056ad}
 .portfolio-details .portfolio-info {padding:30px;box-shadow:5px 0 30px rgba(34,34,34,.2)}
-.portfolio-details .portfolio-info h3 {font-size:22px;margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #eee}
+.portfolio-details .portfolio-info h3 {font-size:22px;margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #eee;font-family:al-jazeera-arabic-bold,sans-serif}
 .portfolio-details .portfolio-info ul {list-style:none;padding:0;font-size:18px}
 .portfolio-details .portfolio-info ul li+li {margin-top:10px}
-.portfolio-details .portfolio-description {padding:30px;font-size:20px;line-height:1.6}
+.portfolio-details .portfolio-description {padding:30px 30px 60px;font-size:20px;line-height:1.6}
 .portfolio-details .portfolio-description ol li+li {margin-top:10px}
 .portfolio-details .portfolio-description ul li+li {margin-top:10px}
-.portfolio-details .portfolio-description h2 {font-size:24px;margin-bottom:20px}
+.portfolio-details .portfolio-description h2 {font-size:24px;margin-bottom:20px;line-height:1.6}
 .portfolio-details .portfolio-description h3 {font-size:18px;margin-bottom:20px}
 .portfolio-details .portfolio-description h4 {font-size:22px;margin-bottom:20px;line-height:1.6;font-family:al-jazeera-arabic-bold,sans-serif}
 .portfolio-details .portfolio-description p {padding:0}
@@ -342,9 +341,10 @@ hr {width:100px;border-top: 5px solid #3b8af2;color:#3b8af2;align-content:center
 .inner-page {padding:20px;margin:10px;background:#f1f6fe;box-shadow:0 2px 15px rgba(0,0,0,.1)}
 .inner-page img {border:10px solid #f80;display:block;margin:auto;max-width:100%;height:auto;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .inner-page img:hover {scale:1.05}
-.inner-page .container {font-family:al-jazeera-arabic_regular,'Open Sans',sans-serif;font-size:20px;line-height:1.6}
+.inner-page .container {padding-bottom:60px;font-family:al-jazeera-arabic_regular,sans-serif;font-size:20px;line-height:1.6}
 .inner-page span {color:#f80}
 .inner-page ul li {padding-bottom:5px}
+.inner-page h3 {font-size:20px}
 .callout {position:fixed;max-width:270px;bottom:10px;z-index:2;visibility:hidden;opacity:0;right:10px}
 .callout.active {visibility:visible;opacity:1}
 .callout-header {padding:25px 15px;background-color:#f1f6fe;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);color:#006;font-size:28px;font-family:al-jazeera-arabic-bold,sans-serif}
