@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 @media screen and (max-width:768px) {[data-aos-delay] {transition-delay:0s!important}}
 #topbar {background:#006;height:40px;font-size:16px;transition:all 1.5s ease-in-out;padding:0}
 #topbar a {color:#fff}
-#topbar .contact-info .chat {font-size:18px;padding-left:5px;font-family:Poppins,sans-serif;line-height:2}
+#topbar .contact-info .chat {font-size:18px;padding-left:5px;font-family:Poppins,sans-serif;font-weight:600}
 #topbar .contact-info .chat:hover {color:#f80;text-decoration:underline}
 #topbar .contact-info i {font-style:normal;font-size:150%;color:#fff;animation-duration:4s}
 #topbar .social-links a {font-size:150%;line-height:0;margin-left:20px}
@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 .navbar a:hover,.navbar .active,.navbar .active:focus,.navbar li:hover>a {color:#1056ad}
 .navbar .dropdown ul {display:block;position:absolute;left:28px;top:calc(100% + 30px);margin:0;padding:10px 0;z-index:99;opacity:0;visibility:hidden;background:#fff;box-shadow:0 0 30px rgba(127,137,161,.25);transition:all .3s ease-in-out}
 .navbar .dropdown ul li {min-width:200px}
-.navbar .dropdown ul a {padding:10px 20px;font-weight:400}
+.navbar .dropdown ul a {padding:10px 20px}
 .navbar .dropdown ul a i {font-size:16px}
 .navbar .dropdown ul a:hover,.navbar .dropdown ul .active:hover,.navbar .dropdown ul li:hover>a {color:#fff;background:#1056ad}
 .navbar .dropdown:hover>ul {opacity:1;top:100%;visibility:visible}
