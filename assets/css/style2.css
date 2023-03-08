@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 #intro .carousel-fade .carousel-inner .active.carousel-item-end, #intro .carousel-fade .carousel-inner .active.carousel-item-start, #intro .carousel-fade .carousel-inner .carousel-item {opacity:0}
 #intro .carousel-fade .carousel-inner .active, #intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-start, #intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-end {opacity:1;transition:1.5s ease-in-out}
 #intro .carousel-fade .carousel-inner .active.carousel-item-end,#intro .carousel-fade .carousel-inner .active.carousel-item-start,#intro .carousel-fade .carousel-inner .carousel-item-next,#intro .carousel-fade .carousel-inner .carousel-item-prev {left:0;transform:translate3d(0,0,0)}
-#intro .carousel-control-prev, #intro .carousel-control-next {width:12%;color:#006}
+#intro .carousel-control-prev, #intro .carousel-control-next {width:12%;color:#000}
 #intro .carousel-control-next:hover,#intro .carousel-control-prev:hover {color:#f80}
 @media screen and (min-width:1025px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:5%}}
 @media screen and (max-width:1024px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:48px}}
