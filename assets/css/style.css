@@ -28,7 +28,45 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 #topbar .social-links a:hover {color:#f80}
 #header {transition:all 1.5s ease-in-out;background:#fff;height:86px;box-shadow:0 2px 15px rgba(0,0,0,0.1)}
 #header.fixed-top {height:70px;box-shadow:1px 1px 7px 2px #888}
-#header .logo img {display:inline-block;aspect-ratio:auto 600 / 164;width:auto;max-height:69px}
+#header .logo {
+    cursor: pointer;
+    position: relative;
+    padding: 5px 20px;
+    background: white;
+    font-size: 28px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: all 1s;
+  }
+  .logo:after, .logo:before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border: 0px solid #fff;
+    transition: all 1s;
+  }
+  .logo:after {
+    top: 0;
+    left: 0;
+    border-top: 3px solid #f80;
+    border-left: 3px solid #f80;
+  }
+  .logo:before {
+    bottom: 0;
+    right: 0;
+    border-bottom: 3px solid #006;
+    border-right: 3px solid #006;
+  }
+  .logo:hover {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .logo:hover:before, .logo:hover:after {
+    width: 100%;
+    height: 100%;
+  }
+#header .logo img {display:inline-block;aspect-ratio:auto 600 / 164;width:auto;max-height:59px}
 .scrolled-offset {margin-top:70px}
 .navbar {padding:0;float:right;font-family:Poppins,al-jazeera-arabic-bold,sans-serif;font-weight:600;letter-spacing:1px}
 .navbar ul {margin:0;padding:0;display:flex;list-style:none;align-items:center}
