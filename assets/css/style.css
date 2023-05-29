@@ -175,13 +175,12 @@ section {padding:60px 0;overflow:hidden}
 .services .icon-box:hover h2 {color:#fff}
 .services .icon-box img {padding-bottom:40px;margin-left:auto;margin-right:auto;display:block;max-width:80px;-webkit-filter:drop-shadow(0 2px 2px #222);filter:drop-shadow(0 2px 2px #222);transition:1.5s ease-in-out}
 .services .icon-box img:hover {transform:scale(1.3)}
-.services h3 {text-align:center;line-height:1.6}
+.services h3 {text-align:center;line-height:1.6;padding:20px}
 .services h3 span {color:#f80}
-.services img {margin-left:auto;margin-right:auto;display:block;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:1.5s ease-in-out}
-.services img:hover {transform:scale(1.05)}
 .welcome1 {display:block;border:10px solid #f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1.5s ease-in-out;margin:auto;width:600px;height:auto;}
 .welcome1:hover {transform:scale(1.05)}
-.welcome2 {width:600px;height:auto;border:10px solid #006}
+.welcome2 {display:block;border:10px solid #006;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1.5s ease-in-out;margin:auto;width:600px;height:auto;}
+.welcome2:hover {transform:scale(1.05)}
 @media screen and (max-width:900px) {.welcome1, .welcome2 {width:94%;height:auto}}
 .portfolio {visibility:auto}
 .portfolio #portfolio-flters {margin:0 auto 15px auto;list-style:none;text-align:center;border-radius:50px}
@@ -239,7 +238,7 @@ section {padding:60px 0;overflow:hidden}
 .pricing .box span {font-size:32px;font-weight:600}
 .pricing .box .advanced {width:200px;position:absolute;top:18px;right:-68px;transform:rotate(45deg);z-index:1;font-size:18px;padding:1px 0 3px 0;background:#f80;color:#fff;font-weight:600}
 .pricing img {max-width:25%;height:auto;display:inline-block;margin-left:auto;margin-right:auto;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222)}
-.pricing .banner {border:10px solid #f80;padding:15px;margin:40px auto;width:600px;background:#fff;text-align:center;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);transition:1.5s ease-in-out;line-height:1.6;font-weight:600}
+.pricing .banner {border:10px solid #006;padding:15px;margin:40px auto;width:600px;background:#fff;text-align:center;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);transition:1.5s ease-in-out;line-height:1.6;font-weight:600}
 @media screen and (max-width:900px) {.pricing .banner {width:94%;height:auto}}
 .pricing .banner:hover {scale:1.05}
 .testimonials {padding:40px 0;background:url(../../assets/img/bg-3.webp) no-repeat;background-position:center center;background-size:cover;position:relative;visibility:auto}
