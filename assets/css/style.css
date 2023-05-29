@@ -128,8 +128,6 @@ section {padding:60px 0;overflow:hidden}
 #our-name .icon-box .description2 {font-size:18px;line-height:1.6;margin-bottom:0;font-family:'Open Sans',sans-serif;font-weight:400}
 #our-name .icon-box .description2 span {font-weight:600}
 #our-name .icon-box:hover .description1, #our-name .icon-box:hover .description2, #our-name .icon-box:hover .icon i {color:#fff}
-#our-name .golden4 {display:block;margin:auto;max-width:480px;height:auto;border:10px solid #f80}
-@media screen and (max-width:900px) {#our-name .golden4 {width:94%;height:auto}}
 .about {visibility:auto}
 .about .fourz1 {color:#f80;font-size:36px;text-align:center;padding:30px;font-family:Poppins,sans-serif;font-weight:600;letter-spacing:1px;line-height:1.6}
 .about .fourz1 span {color:#1056AD}
@@ -142,12 +140,13 @@ section {padding:60px 0;overflow:hidden}
 .about .content ul i:hover {color:#fff;background:#daa520}
 .about .content ul p {font-size:18px}
 .about .content p:last-child {margin-bottom:0}
-.about img {border:10px solid #f80;display:block;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1.5s ease-in-out;margin-left:auto;margin-right:auto}
-.about img:hover {transform:scale(1.05)}
 .about .golden1 {color:#DAA520;font-style:italic;text-align:center;font-size:32px;font-weight:600}
 .about .golden2 {color:#DAA520;font-style:italic;text-align:center;font-size:19px;letter-spacing:1px;font-weight:600;line-height:1.7}
 .about .golden2 span {color:#006}
-.about .golden3 {width:100%;height:auto;margin:auto;border:10px solid #daa520;padding:5px;-webkit-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
+.about .golden3 {width:100%;height:auto;margin:auto;border:10px solid #daa520;padding:5px;-webkit-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate;display:block;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1.5s ease-in-out;}
+.about .golden4 {border:10px solid #f80;display:block;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1.5s ease-in-out;margin:auto;max-width:480px;height:auto;}
+.about .golden4:hover {transform:scale(1.05)}
+@media screen and (max-width:900px) {.about .golden4 {width:94%;height:auto}}
 .about .golden {display:block;padding-bottom:7px;color:#DAA520;font-size:20px;font-weight:600;text-transform:uppercase;letter-spacing:1px}
 .about li {color:#f80;padding-bottom:10px}
 .about .trust {color:#006;font-size:18px;line-height:1.6}
@@ -180,7 +179,8 @@ section {padding:60px 0;overflow:hidden}
 .services h3 span {color:#f80}
 .services img {margin-left:auto;margin-right:auto;display:block;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:1.5s ease-in-out}
 .services img:hover {transform:scale(1.05)}
-.welcome1 {width:600px;height:auto;border:10px solid #f80}
+.welcome1 {display:block;border:10px solid #f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1.5s ease-in-out;margin:auto;width:600px;height:auto;}
+.welcome1:hover {transform:scale(1.05)}
 .welcome2 {width:600px;height:auto;border:10px solid #006}
 @media screen and (max-width:900px) {.welcome1, .welcome2 {width:94%;height:auto}}
 .portfolio {visibility:auto}
