@@ -323,6 +323,7 @@
 // And you would kick this off where appropriate with:
 playPauseVideo();
 })()
+
 new PureCounter({
   // Setting that can't' be overriden on pre-element
   selector: ".purecounter", // HTML query selector for spesific element
