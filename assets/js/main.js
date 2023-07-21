@@ -13,6 +13,8 @@
       return document.querySelector(el)
     }
   }
+
+  new PureCounter();
   /**
    * Intro carousel indicators
    */
@@ -323,5 +325,3 @@
 // And you would kick this off where appropriate with:
 playPauseVideo();
 })()
-
-new PureCounter();
