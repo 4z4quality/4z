@@ -323,3 +323,5 @@
 // And you would kick this off where appropriate with:
 playPauseVideo();
 })()
+
+new PureCounter();
