@@ -1,12 +1,17 @@
 /**
+* Template Name: BizLand - v3.7.0
+* Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
 */
 (function() {
   "use strict";
+
   /**
    * Easy selector helper function
    */
   const select = (el, all = false) => {
-    el = el?.trim()
+    el = el.trim()
     if (all) {
       return [...document.querySelectorAll(el)]
     } else {
@@ -287,7 +292,7 @@
       easing: 'ease-in-out',
       once: true,
       mirror: false
-    })
+    });
   });
 
   function playPauseVideo() {
@@ -318,8 +323,8 @@
             });
         }
     });
-}
+  }
 
-// And you would kick this off where appropriate with:
-playPauseVideo();
+  // And you would kick this off where appropriate with:
+  playPauseVideo();
 })()
