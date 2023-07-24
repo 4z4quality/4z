@@ -3,11 +3,13 @@
 @font-face {font-family:'Open Sans';src:url(../../assets/css/fonts/OpenSans-Medium.woff) format('woff'),url(../../assets/css/fonts/OpenSans-Medium.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
 @font-face {font-family:'Open Sans';src:url(../../assets/css/fonts/OpenSans-SemiBold.woff) format('woff'),url(../../assets/css/fonts/OpenSans-SemiBold.woff2) format('woff2');font-weight:600;font-style:normal;font-display:swap}
 @font-face {font-family:'Open Sans';src:url(../../assets/css/fonts/OpenSans-SemiBoldItalic.woff) format('woff'),url(../../assets/css/fonts/OpenSans-SemiBoldItalic.woff2) format('woff2');font-weight:600;font-style:italic;font-display:swap}
-
+@font-face {font-family:Poppins;src:url(../../assets/css/fonts/Poppins-Regular.woff) format('woff'),url(../../assets/css/fonts/Poppins-Regular.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face {font-family:Poppins;src:url(../../assets/css/fonts/Poppins-Italic.woff) format('woff'),url(../../assets/css/fonts/Poppins-Italic.woff2) format('woff2');font-weight:400;font-style:italic;font-display:swap}
+@font-face {font-family:Poppins;src:url(../../assets/css/fonts/Poppins-SemiBold.woff) format('woff'),url(../../assets/css/fonts/Poppins-SemiBold.woff2) format('woff2');font-weight:600;font-style:normal;font-display:swap}
 body {font-family:'Open Sans',sans-serif;color:#006}
 a {color:#1056ad;transition:all .5s ease-in-out;text-decoration:none}
 a:hover{color:#f80;text-decoration:none}
-
+h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 #preloader:before {content:"";position:fixed;top:calc(50% - 30px);left:calc(50% - 30px);border:6px solid #006;border-top-color:#e2eefd;border-radius:50%;width:60px;height:60px;-webkit-animation:animate-preloader 1s linear infinite;-moz-animation:animate-preloader 1s linear infinite;animation:animate-preloader 1s linear infinite}
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;z-index:9999;overflow:hidden;background:#fff}
 @keyframes animate-preloader {0% {transform:rotate(0deg)}100% {transform:rotate(360deg)}}
@@ -19,7 +21,7 @@ a:hover{color:#f80;text-decoration:none}
 @media screen and (max-width:768px) {[data-aos-delay] {transition-delay:0s!important}}
 #topbar {background:#006;height:40px;font-size:16px;transition:all 1.5s ease-in-out;padding:0}
 #topbar a {color:#fff}
-#topbar .contact-info .chat {font-size:18px;padding-left:5px;font-family:'Open Sans',sans-serif;font-weight:600}
+#topbar .contact-info .chat {font-size:18px;padding-left:5px;font-family:Poppins,sans-serif;font-weight:600}
 #topbar .contact-info .chat:hover {color:#f80;text-decoration:underline}
 #topbar .contact-info i {font-style:normal;font-size:150%;color:#fff;animation-duration:8s}
 #topbar .social-links a {font-size:150%;line-height:0;margin-left:20px}
@@ -34,7 +36,7 @@ a:hover{color:#f80;text-decoration:none}
 .logo:hover:before,.logo:hover:after {width: 100%;height: 100%}
 .logo img {display:inline-block;aspect-ratio:auto 600 / 164;width:auto;max-height:59px}
 .scrolled-offset {margin-top:70px}
-.navbar {padding:0;float:right;font-family:al-jazeera-arabic-bold,sans-serif;font-weight:600;letter-spacing:1px}
+.navbar {padding:0;float:right;font-family:Poppins,al-jazeera-arabic-bold,sans-serif;font-weight:600;letter-spacing:1px}
 .navbar ul {margin:0;padding:0;display:flex;list-style:none;align-items:center}
 .navbar li {position:relative}
 .navbar>ul>li {padding:10px 15px}
@@ -77,7 +79,7 @@ a:hover{color:#f80;text-decoration:none}
 #intro .carousel-item {background-size:cover;background-position:top;background-repeat:no-repeat}
 #intro .carousel-container {display:flex;justify-content:center;align-items:center;position:absolute;bottom:0;top:0;left:30px;right:30px}
 #intro .container {text-align:center}
-#intro .carousel-item .carousel-container .container p {font-size:70px;font-weight:600;line-height:1.2}
+#intro .carousel-item .carousel-container .container p {font-family:Poppins,sans-serif;font-size:70px;font-weight:600;line-height:1.2}
 #intro .carousel-item .carousel-container .container p span {font-size:35px}
 @media screen and (max-width:900px) {#intro .carousel-item .carousel-container .container p {font-size:60px}}
 @media screen and (max-width:900px) {#intro .carousel-item .carousel-container .container p span {font-size:30px}}
@@ -95,11 +97,11 @@ a:hover{color:#f80;text-decoration:none}
 #intro .carousel-indicators li:hover {background-color:#f80}
 #intro .carousel-indicators li {background-color:#1056ad;width:10px;height:3px;margin:5px;cursor:pointer}
 @media screen and (max-width:992px) {#intro .carousel-indicators li {display:none}}
-#intro .btn-get-started {margin-top:30px;font-size:16px;display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;color:#fff;background:#1056ad;letter-spacing:1px}
+#intro .btn-get-started {margin-top:30px;font-size:16px;display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;color:#fff;background:#1056ad;font-family:Poppins,sans-serif;letter-spacing:1px}
 #intro .btn-get-started:hover {background:#006;color:#fff}
 section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
-.section-title {text-align:center;margin:0 40px}
+.section-title {text-align:center;margin:0 40px;font-family:Poppins,sans-serif}
 .section-title .title {font-size:17px;padding:8px 20px;margin-bottom:40px;background:#e7f1fd;color:#1056ad;display:inline-block;border-radius:50px;text-transform:uppercase;letter-spacing:2px;font-weight:600}
 .section-title .subtitle {font-size:28px;font-weight:600;letter-spacing:1px;line-height:1.6}
 .section-title .subtitle span {color:#f80}
@@ -121,13 +123,13 @@ section {padding:60px 0;overflow:hidden}
 #our-name .icon-box:hover::before {background:#f80;top:0;border-radius:0}
 #our-name .icon {margin-bottom:15px}
 #our-name .icon i {font-size:48px;color:#1056ad;transition:all .5s ease-in-out;animation-duration:4s}
-#our-name .icon-box .description1 {margin-bottom:15px;font-size:22px}
+#our-name .icon-box .description1 {margin-bottom:15px;font-size:22px;font-family:Poppins,sans-serif}
 #our-name .icon-box .description1 span {font-weight:600}
 #our-name .icon-box .description2 {font-size:18px;line-height:1.6;margin-top:25px;margin-bottom:0}
 #our-name .icon-box .description2 span {font-weight:600}
 #our-name .icon-box:hover .description1, #our-name .icon-box:hover .description2, #our-name .icon-box:hover .icon i {color:#fff}
 .about {visibility:auto}
-.about .fourz1 {color:#f80;font-size:36px;text-align:center;padding:30px;font-weight:600;letter-spacing:1px;line-height:1.6}
+.about .fourz1 {color:#f80;font-size:36px;text-align:center;padding:30px;font-family:Poppins,sans-serif;font-weight:600;letter-spacing:1px;line-height:1.6}
 .about .fourz1 span {color:#1056AD}
 .about .fourz2 {padding:0 40px;color:#1056AD;font-size:32px;text-align:center;font-weight:600;line-height:1.5}
 .about .fourz2 span {color:#006}
@@ -149,10 +151,10 @@ section {padding:60px 0;overflow:hidden}
 .about li {color:#f80;padding-bottom:10px}
 .about .trust {color:#006;font-size:18px;line-height:1.6}
 .about .vision {display:flex;font-size:18px;text-align:left}
-.about .vision p {color:#f80;font-size:32px;font-weight:600}
+.about .vision p {color:#f80;font-size:32px;font-family:Poppins;font-weight:600}
 #skills {background:#fff}
 .skills .progress {height:60px;display:block;background:none;border-radius:0;visibility:auto}
-.skills .progress .skill {padding:0;margin:0 0 6px 0;display:block;font-size:17px;color:#006;letter-spacing:1px}
+.skills .progress .skill {padding:0;margin:0 0 6px 0;display:block;font-size:17px;color:#006;font-family:Poppins,sans-serif;letter-spacing:1px}
 .skills .progress .skill .val {float:right;font-style:normal}
 .skills .progress-bar-wrap {background:#e2eefd;height:10px}
 .skills .progress-bar {width:1px;height:10px;transition:all 1.5s ease-in;background-color:#f80}
@@ -161,7 +163,7 @@ section {padding:60px 0;overflow:hidden}
 .counts .count-box i {position:absolute;top:-28px;left:50%;transform:translateX(-50%);font-size:24px;background:#1056ad;color:#fff;width:56px;height:56px;line-height:0;border-radius:50px;border:5px solid #fff;display:inline-flex;align-items:center;justify-content:center;transition:all .5s ease-in-out;animation-duration:4s}
 .counts .count-box i:hover {background:#f80}
 .counts .count-box span {font-size:32px;display:block;font-weight:600;color:#062b5b}
-.counts .count-box p {padding:0;margin-top:10px;font-size:16px}
+.counts .count-box p {padding:0;margin-top:10px;font-size:16px;font-family:Poppins,sans-serif}
 #services {background:#f6f9fe}
 .services .icon-box {text-align:center;border-radius:8px;padding:80px 20px;transition:all .5s ease-in-out;box-shadow:0 0 29px 0 rgba(68,88,144,.12);overflow:hidden;position:relative;z-index:1;background:#fff}
 .services .icon-box::before {content:"";position:absolute;background:#cbe0fb;right:0;left:0;bottom:100%;top:0;transition:all .5s ease-in-out;z-index:-1}
@@ -229,7 +231,7 @@ section {padding:60px 0;overflow:hidden}
 .pricing .featured .price {color:#fff;background:#f80}
 .pricing .box ul {padding:0;list-style:none;color:#444;text-align:center;line-height:1.6}
 .pricing .box ul li {padding-bottom:16px}
-.pricing .btn-buy {background:#1056ad;display:inline-block;padding:8px 35px 10px 35px;margin-bottom:20px;border-radius:4px;color:#fff;font-size:16px;transition:all .5s ease-out}
+.pricing .btn-buy {background:#1056ad;display:inline-block;padding:8px 35px 10px 35px;margin-bottom:20px;border-radius:4px;color:#fff;font-size:16px;transition:all .5s ease-out;font-family:Poppins,sans-serif}
 .pricing .btn-buy:hover {background:#f80}
 .pricing .featured h3 {color:#fff;background:#f80}
 .pricing .featured span {font-weight:600;font-size:32px}
@@ -273,7 +275,7 @@ section {padding:60px 0;overflow:hidden}
 .faq {padding:60px 0 0;visibility:auto}
 .faq .faq-list {padding:0;list-style:none}
 .faq .faq-list li {border-bottom:1px solid #d4e5fc;margin-bottom:20px;padding-bottom:20px}
-.faq .faq-list .question {display:block;position:relative;font-size:18px;line-height:1.6;padding-left:25px;cursor:pointer;color:#f80;transition:all .5s ease-in-out}
+.faq .faq-list .question {display:block;position:relative;font-size:18px;line-height:1.6;padding-left:25px;cursor:pointer;color:#f80;transition:all .5s ease-in-out;font-family:Poppins,sans-serif}
 .faq .faq-list i {font-size:22px;position:absolute;left:0;top:0}
 .faq .faq-list p {font-size:18px;color:#006;margin-bottom:0;padding:10px 0 0 25px}
 .faq .faq-list p a {font-weight:600}
@@ -285,9 +287,9 @@ section {padding:60px 0;overflow:hidden}
 .faq .faq-list img {display:block;padding:10px;margin:auto;max-width:100%;height:auto;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222)}
 .faq .faq-list img:hover {scale:1.05}
 .pedia {border:5px solid #f80;background-color:#fff;margin:30px 10px}
-.pedia p {border:0;margin:40px 30px;font-size:18px;line-height:1.6;text-align:center}
+.pedia p {border:0;margin:40px 30px;font-size:18px;line-height:1.6;text-align:center;font-family:Poppins,sans-serif}
 .pedia p span {color:#f80}
-.pedia .subtitle {font-size:28px;font-weight:600}
+.pedia .subtitle {font-size:28px;font-family:Poppins,sans-serif;font-weight:600}
 .pedia li {color:#f80;font-size:18px;line-height:1.6;margin-bottom:10px}
 .pedia ul {border:0}
 .pedia img {max-width:94%;display:inline-block;margin:10px;border:10px solid #f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);-webkit-animation:mover 4s infinite  alternate;-moz-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
@@ -296,7 +298,7 @@ section {padding:60px 0;overflow:hidden}
 @-webkit-keyframes mover {0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
 @keyframes mover {0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
 .contact {visibility:auto;padding-bottom:0}
-.contact .info-box {color:#444;text-align:center;box-shadow:0 0 30px rgba(214,215,216,.3);padding:20px 0 30px 0;line-height:1.6;font-size:14px}
+.contact .info-box {color:#444;text-align:center;box-shadow:0 0 30px rgba(214,215,216,.3);padding:20px 0 30px 0;line-height:1.6;font-size:14px;font-family:Poppins,sans-serif}
 .contact .info-box i {font-size:32px;color:#1056ad;border-radius:50%;padding:12px;border:2px dotted #b3d1fa;transition:all .5s ease-in-out;margin-bottom:30px;animation-duration:4s}
 .contact .info-box i:hover {color:#fff;background:#f80}
 .contact .info-box span {line-height:1.6;font-size:18px;color:#222}
@@ -319,9 +321,9 @@ section {padding:60px 0;overflow:hidden}
 @keyframes animate-loading {0% {transform:rotate(0)}100% {transform:rotate(360deg)}}
 #footer {background:#f1f6fe;padding-top:20px;padding-bottom:20px;color:#444;font-size:14px;visibility:auto}
 #footer .footer-top {padding:30px 0;background:#f1f6fe}
-#footer .footer-top .footer-contact {line-height:1.5;font-weight:400}
+#footer .footer-top .footer-contact {line-height:1.5;font-family:Poppins,sans-serif;font-weight:400}
 #footer .footer-top .footer-contact .fourz4 {color:#f80;font-size:24px}
-#footer .footer-top .footer-contact p {margin:0;line-height:2.1;padding-left:10px;padding-top:3px;font-size:14px;color:#444;font-weight:600}
+#footer .footer-top .footer-contact p {margin:0;line-height:2.1;padding-left:10px;padding-top:3px;font-size:14px;color:#444;font-family:Poppins,sans-serif;font-weight:600}
 #footer .footer-top .footer-contact span {font-weight:600}
 #footer .footer-top .footer-contact i {font-size:18px;padding-left:10px;padding-top:3px}
 #footer .footer-top .footer-links p {padding-left:10px;padding-bottom:85px;color:#444;font-size:16px}
@@ -347,15 +349,15 @@ hr {width:100px;border-top: 5px solid #3b8af2;color:#3b8af2;align-content:center
 .inner-page span {color:#f80}
 .inner-page ul li {padding-bottom:5px}
 .inner-page h3 {font-size:20px}
-.callout {position:fixed;max-width:270px;bottom:10px;z-index:2;visibility:hidden;opacity:0;left:10px}
+.callout {position:fixed;max-width:270px;bottom:10px;z-index:2;visibility:hidden;opacity:0;left:10px;font-family:Poppins,sans-serif}
 .callout.active {visibility:visible;opacity:1}
 .callout-header {padding:25px 15px;background-color:#f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);font-size:30px}
 .callout-container {padding:15px;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);background-color:#f1f6fe;color:#006}
 .closebtn {position:absolute;top:-5px;right:10px;color:#fff;font-size:30px;cursor:pointer}
 
 .closebtn:hover {color:#006}
-.quote {text-align:center;color:#b85a00;font-style:italic;font-size:26px;line-height:1.6;margin:0 10px;font-weight:400}
-.quote2 {color:#b85a00;font-style:italic;font-size:20px;font-weight:400}
+.quote {text-align:center;color:#b85a00;font-style:italic;font-size:26px;line-height:1.6;margin:0 10px;font-family:Poppins,sans-serif;font-weight:400}
+.quote2 {color:#b85a00;font-style:italic;font-size:20px;font-family:Poppins,sans-serif;font-weight:400}
 table,td,th {border:1px solid #000;border-collapse:collapse;max-width:96%;margin:auto;box-shadow:0 2px 15px rgba(0, 0, 0, 0.5)}
 th {text-align:center;vertical-align:middle;line-height:.8;color:#006;font-size:15px;font-weight:600}
 td {font-size:17px}
@@ -389,6 +391,6 @@ input[type='checkbox'] {display:none;scroll-behavior:smooth}
 .collapsible-content .content-inner .twitter {position:relative;display:inline-block;width:50px;height:50px;text-align:center;line-height:53px;border-radius:50%;margin:5px 0;font-size:30px;color:#00acee;transition:.5s}
 .collapsible-content .content-inner .twitter::before {content:'';position:absolute;top:0;left:0;width:100%;height:100%;border-radius:50%;background:#00acee;transition:1.5s;z-index:-1}
 .collapsible-content .content-inner .twitter:hover {background:#00acee;color:#fff;box-shadow:0 0 10px #f80;text-shadow:0 0 5px #00acee;scale:.7}
-.linktext {text-align:center;font-style:italic;margin-top:25px;font-size:17px;color:#006}
+.linktext {text-align:center;font-style:italic;margin-top:25px;font-size:17px;color:#006;font-family:Poppins,sans-serif}
 .linktext:hover {color:#f80}
 .ornament {display:block;margin-left:auto;margin-right:auto;width:100%;height:100%;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
