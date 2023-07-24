@@ -1,7 +1,7 @@
 @font-face {font-family:al-jazeera-arabic-bold;src:url(../../assets/css/fonts/al-jazeera-arabic-bold.woff) format('woff'),url(../../assets/css/fonts/al-jazeera-arabic-bold.woff2) format('woff2');font-style:normal;font-display:swap}
 @font-face {font-family:al-jazeera-arabic_regular;src:url(../../assets/css/fonts/al-jazeera-arabic_regular.woff) format('woff'),url(../../assets/css/fonts/al-jazeera-arabic_regular.woff2) format('woff2');font-style:normal;font-display:swap}
-@font-face {font-family:'Open Sans';src:url(../../assets/css/fonts/OpenSans-Medium.woff) format('woff'),url(../../assets/css/fonts/OpenSans-Medium.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
-@font-face {font-family:'Open Sans';src:url(../../assets/css/fonts/OpenSans-SemiBold.woff) format('woff'),url(../../assets/css/fonts/OpenSans-SemiBold.woff2) format('woff2');font-weight:600;font-style:normal;font-display:swap}
+
+
 
 @font-face {font-family:Poppins;src:url(../../assets/css/fonts/Poppins-Regular.woff) format('woff'),url(../../assets/css/fonts/Poppins-Regular.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
 
@@ -125,8 +125,8 @@ section {padding:60px 0;overflow:hidden}
 #our-name .icon i {font-size:48px;color:#1056ad;transition:all .5s ease-in-out;animation-duration:4s}
 #our-name .icon-box .description1 {margin-bottom:15px;font-size:22px;font-family:al-jazeera-arabic-bold}
 #our-name .icon-box .description1 span {font-family:al-jazeera-arabic-bold,sans-serif}
-#our-name .icon-box .description2 {font-size:18px;line-height:1.6;margin-top:25px;margin-bottom:0;font-family:al-jazeera-arabic_regular,sans-serif}
-#our-name .icon-box .description2 span {font-family:al-jazeera-arabic-bold,sans-serif}
+#our-name .icon-box .description2 {font-size:18px;line-height:1.6;margin-top:25px;margin-bottom:0}
+#our-name .icon-box .description2 span {font-family:al-jazeera-arabic-bold,sans-serif;font-weight:600}
 #our-name .icon-box:hover .description1, #our-name .icon-box:hover .description2, #our-name .icon-box:hover .icon i {color:#fff}
 .about {visibility:auto}
 .about .fourz1 {color:#f80;font-size:36px;text-align:center;padding:30px;font-family:al-jazeera-arabic-bold,sans-serif;line-height:1.6}
@@ -162,7 +162,7 @@ section {padding:60px 0;overflow:hidden}
 .counts .count-box {padding:30px 30px 25px 30px;width:100%;position:relative;text-align:center;background:#f1f6fe;-webkit-filter:drop-shadow(0 2px 2px #222);filter:drop-shadow(0 2px 2px #222)}
 .counts .count-box i {position:absolute;top:-28px;left:50%;transform:translateX(-50%);font-size:24px;background:#1056ad;color:#fff;width:56px;height:56px;line-height:0;border-radius:50px;border:5px solid #fff;display:inline-flex;align-items:center;justify-content:center;transition:all .5s ease-in-out;animation-duration:4s}
 .counts .count-box i:hover {background:#f80}
-.counts .count-box span {font-size:32px;display:block;font-weight:600;color:#062b5b;font-family:'Open Sans',sans-serif}
+.counts .count-box span {font-size:32px;display:block;font-weight:600;color:#062b5b}
 .counts .count-box p {padding:0;margin-top:10px;font-size:16px;font-family:al-jazeera-arabic-bold,sans-serif}
 #services {background:#f6f9fe}
 .services .icon-box {text-align:center;border-radius:8px;padding:80px 20px;transition:all .5s ease-in-out;box-shadow:0 0 29px 0 rgba(68,88,144,.12);overflow:hidden;position:relative;z-index:1;background:#fff}
@@ -394,7 +394,3 @@ input[type='checkbox'] {display:none;scroll-behavior:smooth}
 .linktext {text-align:center;font-style:italic;margin-top:25px;font-size:17px;color:#006;font-family:al-jazeera-arabic-bold,sans-serif}
 .linktext:hover {color:#f80}
 .ornament {display:block;margin-left:auto;margin-right:auto;width:100%;height:100%;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
-.circle1 {content:"\2460";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:600}
-.circle2 {content:"\2461";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:600}
-.circle3 {content:"\2462";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:600}
-.circle4 {content:"\2463";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:600}

@@ -125,7 +125,7 @@ section {padding:60px 0;overflow:hidden}
 #our-name .icon i {font-size:48px;color:#1056ad;transition:all .5s ease-in-out;animation-duration:4s}
 #our-name .icon-box .description1 {margin-bottom:15px;font-size:22px;font-family:Poppins,sans-serif}
 #our-name .icon-box .description1 span {font-weight:600}
-#our-name .icon-box .description2 {font-size:18px;line-height:1.6;margin-top:25px;margin-bottom:0;font-family:'Open Sans',sans-serif;font-weight:400}
+#our-name .icon-box .description2 {font-size:18px;line-height:1.6;margin-top:25px;margin-bottom:0}
 #our-name .icon-box .description2 span {font-weight:600}
 #our-name .icon-box:hover .description1, #our-name .icon-box:hover .description2, #our-name .icon-box:hover .icon i {color:#fff}
 .about {visibility:auto}
@@ -394,7 +394,3 @@ input[type='checkbox'] {display:none;scroll-behavior:smooth}
 .linktext {text-align:center;font-style:italic;margin-top:25px;font-size:17px;color:#006;font-family:Poppins,sans-serif}
 .linktext:hover {color:#f80}
 .ornament {display:block;margin-left:auto;margin-right:auto;width:100%;height:100%;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
-.circle1 {content:"\2460";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:600}
-.circle2 {content:"\2461";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:600}
-.circle3 {content:"\2462";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:600}
-.circle4 {content:"\2463";font-size:18px;font-family:'Open Sans',sans-serif;font-weight:600}
