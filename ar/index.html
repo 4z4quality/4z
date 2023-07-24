@@ -1066,17 +1066,20 @@
 							<form action="https://formspree.io/f/mknkeeal" method="post" class="php-email-form">
 								<div class="row">
 									<div class="col form-group">
-										<input type="text" name="name" class="form-control" id="name" placeholder="الإسم" required />
+										<input type="text" class="form-control" name="FirstName" id="FirstName" placeholder="الإسم الأول" autocomplete="given-name" required />
 									</div>
 									<div class="col form-group">
-										<input type="email" class="form-control" name="email" id="email" placeholder="بريدك الإلكتروني" required />
+										<input type="text" class="form-control" name="LastName" id="LastName" placeholder="إسم العائلة" autocomplete="family-name" required />
 									</div>
 								</div>
 								<div class="form-group">
-									<input type="text" class="form-control" name="subject" id="subject" placeholder="الموضوع" required />
+									<input type="email" class="form-control" name="email" id="email" placeholder="بريدك الإلكتروني" autocomplete="email" required />
 								</div>
 								<div class="form-group">
-									<textarea class="form-control" name="message" rows="5" placeholder="الرسالة" required></textarea>
+									<input type="text" class="form-control" name="subject" id="subject" placeholder="الموضوع" autocomplete="off" required />
+								</div>
+								<div class="form-group">
+									<textarea class="form-control" name="message" rows="5" placeholder="الرسالة" autocomplete="off" required></textarea>
 								</div>
 								<div class="my-3">
 									<div class="loading"></div>
