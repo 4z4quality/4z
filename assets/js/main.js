@@ -318,8 +318,8 @@
             });
         }
     });
-}
+  }
 
-// And you would kick this off where appropriate with:
-playPauseVideo();
+  // And you would kick this off where appropriate with:
+  playPauseVideo();
 })()
