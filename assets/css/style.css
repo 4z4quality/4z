@@ -12,8 +12,8 @@ a:hover{color:#f80;text-decoration:none}
 h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 #preloader:before {content:"";position:fixed;top:calc(50% - 30px);left:calc(50% - 30px);border:6px solid #006;border-top-color:#e2eefd;border-radius:50%;width:60px;height:60px;-webkit-animation:animate-preloader 1s linear infinite;-moz-animation:animate-preloader 1s linear infinite;animation:animate-preloader 1s linear infinite}
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;z-index:9999;overflow:hidden;background:#fff}
-@keyframes animate-preloader {50% {transform: rotate(450deg)}}
-@-webkit-keyframes animate-preloader {50% {transform: rotate(450deg)}}
+@keyframes animate-preloader {0% {transform:rotate(0deg)}100% {transform:rotate(360deg)}}
+@-webkit-keyframes animate-preloader {0% {transform:rotate(0deg)}100% {transform:rotate(360deg)}}
 .back-to-top {position:fixed;visibility:hidden;opacity:0;right:15px;bottom:15px;z-index:996;background:#006;width:40px;height:40px;border-radius:50px;transition:all .4s ease-in-out}
 .back-to-top i {font-size:28px;color:#fff;line-height:0}
 .back-to-top:hover {background:#3284f1;color:#fff;box-shadow:0 0 15px #f80}
