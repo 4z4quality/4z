@@ -2,7 +2,6 @@
 */
 (function() {
   "use strict";
-
   /**
    * Easy selector helper function
    */
@@ -288,7 +287,7 @@
       easing: 'ease-in-out',
       once: true,
       mirror: false
-    });
+    })
   });
 
   function playPauseVideo() {
@@ -319,8 +318,8 @@
             });
         }
     });
-  }
+}
 
-  // And you would kick this off where appropriate with:
-  playPauseVideo();
+// And you would kick this off where appropriate with:
+playPauseVideo();
 })()
