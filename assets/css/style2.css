@@ -219,7 +219,6 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details .portfolio-description .black {color:#000;font-family:al-jazeera-arabic-bold,sans-serif}
 .portfolio-details .portfolio-description img {border:10px solid #f80;display:block;max-width:100%;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .portfolio-details .portfolio-description i {color:#b30}
-
 .pricing {background:#f1f6fe;margin-bottom:60px;visibility:auto}
 .pricing .box {padding:20px;background:#fff;text-align:center;box-shadow:0 0 4px rgba(0,0,0,.12);border-radius:5px;position:relative;overflow:hidden}
 .pricing .box .price {margin:-20px -20px 20px -20px;padding:20px 15px;font-size:17px;color:#777;background:#f8f8f8;font-family:al-jazeera-arabic-bold,sans-serif}
@@ -335,7 +334,6 @@ section {padding:60px 0;overflow:hidden}
 #footer .footer-top .social-links a:hover {background:#f80;color:#fff;text-decoration:none;box-shadow:0 0 10px #3b8af2}
 #footer .copyright {text-align:center;float:left;font-family:al-jazeera-arabic-bold,sans-serif}
 #footer .credits {float:right;text-align:center;font-size:14px;color:#444;font-family:al-jazeera-arabic-bold,sans-serif}
-
 @media screen and (max-width:768px) {#footer .copyright,#footer .credits {float:none;text-align:center;padding:2px 0}}
 hr {width:100px;border-top: 5px solid #3b8af2;color:#3b8af2;align-content:center;margin-left:auto;margin:50px auto}
 .inner-page {padding:20px;margin:10px;background:#f1f6fe;box-shadow:0 2px 15px rgba(0,0,0,.1)}
