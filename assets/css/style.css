@@ -2,7 +2,6 @@
 @font-face {font-family:al-jazeera-arabic_regular;src:url(../../assets/css/fonts/al-jazeera-arabic_regular.woff) format('woff'),url(../../assets/css/fonts/al-jazeera-arabic_regular.woff2) format('woff2');font-style:normal;font-display:swap}
 @font-face {font-family:'Open Sans';src:url(../../assets/css/fonts/OpenSans-Medium.woff) format('woff'),url(../../assets/css/fonts/OpenSans-Medium.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
 @font-face {font-family:'Open Sans';src:url(../../assets/css/fonts/OpenSans-SemiBold.woff) format('woff'),url(../../assets/css/fonts/OpenSans-SemiBold.woff2) format('woff2');font-weight:600;font-style:normal;font-display:swap}
-@font-face {font-family:'Open Sans';src:url(../../assets/css/fonts/OpenSans-SemiBoldItalic.woff) format('woff'),url(../../assets/css/fonts/OpenSans-SemiBoldItalic.woff2) format('woff2');font-weight:600;font-style:italic;font-display:swap}
 @font-face {font-family:Poppins;src:url(../../assets/css/fonts/Poppins-Regular.woff) format('woff'),url(../../assets/css/fonts/Poppins-Regular.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
 @font-face {font-family:Poppins;src:url(../../assets/css/fonts/Poppins-Italic.woff) format('woff'),url(../../assets/css/fonts/Poppins-Italic.woff2) format('woff2');font-weight:400;font-style:italic;font-display:swap}
 @font-face {font-family:Poppins;src:url(../../assets/css/fonts/Poppins-SemiBold.woff) format('woff'),url(../../assets/css/fonts/Poppins-SemiBold.woff2) format('woff2');font-weight:600;font-style:normal;font-display:swap}
@@ -140,8 +139,8 @@ section {padding:60px 0;overflow:hidden}
 .about .content ul i:hover {color:#fff;background:#daa520}
 .about .content ul p {font-size:18px}
 .about .content p:last-child {margin-bottom:0}
-.about .golden1 {color:#DAA520;font-style:italic;text-align:center;font-size:32px;font-weight:600}
-.about .golden2 {color:#DAA520;font-style:italic;text-align:center;font-size:19px;letter-spacing:1px;font-weight:600;line-height:1.7}
+.about .golden1 {color:#DAA520;font-style:italic;text-align:center;font-size:32px;font-family:Poppins,sans-serif}
+.about .golden2 {color:#DAA520;font-style:italic;text-align:center;font-size:19px;letter-spacing:1px;line-height:1.7;font-family:Poppins,sans-serif}
 .about .golden2 span {color:#006}
 .about .golden3 {display:block;border:10px solid #daa520;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);margin:auto;width:100%;height:auto;transition:all 1.5s ease-in-out;padding:5px;-webkit-animation:mover 4s infinite  alternate;-moz-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
 .about .golden4 {display:block;border:10px solid #f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);margin:auto;max-width:480px;height:auto;transition:all 1.5s ease-in-out}
@@ -251,8 +250,8 @@ section {padding:60px 0;overflow:hidden}
 .testimonials .testimonial-item .quote-icon-left,.testimonials .testimonial-item .quote-icon-right {color:rgba(255,255,255,.4);font-size:26px}
 .testimonials .testimonial-item .quote-icon-left {display:inline-block;left:-5px;position:relative}
 .testimonials .testimonial-item .quote-icon-right {display:inline-block;right:-5px;position:relative;top:10px}
-.testimonials .testimonial-item {line-height:1.6;margin:0 auto 15px auto;color:#eee;font-weight:600}
-.testimonials .testimonial-item p {font-style:italic}
+.testimonials .testimonial-item {line-height:1.6;margin:0 auto 15px auto;color:#eee}
+.testimonials .testimonial-item p {font-style:italic;font-family:Poppins,sans-serif}
 .testimonials .testimonial-item a {color:#f80}
 .testimonials .testimonial-item a:hover {color:#c3deff}
 .testimonials .swiper-pagination {margin-top:20px;position:relative}
@@ -356,8 +355,8 @@ hr {width:100px;border-top: 5px solid #3b8af2;color:#3b8af2;align-content:center
 .closebtn {position:absolute;top:-5px;right:10px;color:#fff;font-size:30px;cursor:pointer}
 
 .closebtn:hover {color:#006}
-.quote {text-align:center;color:#b85a00;font-style:italic;font-size:26px;line-height:1.6;margin:0 10px;font-family:Poppins,sans-serif;font-weight:400}
-.quote2 {color:#b85a00;font-style:italic;font-size:20px;font-family:Poppins,sans-serif;font-weight:400}
+.quote {text-align:center;color:#b85a00;font-style:italic;font-size:26px;line-height:1.6;margin:0 10px;font-family:Poppins,sans-serif}
+.quote2 {color:#b85a00;font-style:italic;font-size:20px;font-family:Poppins,sans-serif}
 table,td,th {border:1px solid #000;border-collapse:collapse;max-width:96%;margin:auto;box-shadow:0 2px 15px rgba(0, 0, 0, 0.5)}
 th {text-align:center;vertical-align:middle;line-height:.8;color:#006;font-size:15px;font-weight:600}
 td {font-size:17px}

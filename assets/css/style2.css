@@ -1,10 +1,6 @@
 @font-face {font-family:al-jazeera-arabic-bold;src:url(../../assets/css/fonts/al-jazeera-arabic-bold.woff) format('woff'),url(../../assets/css/fonts/al-jazeera-arabic-bold.woff2) format('woff2');font-style:normal;font-display:swap}
 @font-face {font-family:al-jazeera-arabic_regular;src:url(../../assets/css/fonts/al-jazeera-arabic_regular.woff) format('woff'),url(../../assets/css/fonts/al-jazeera-arabic_regular.woff2) format('woff2');font-style:normal;font-display:swap}
-
-
-
 @font-face {font-family:Poppins;src:url(../../assets/css/fonts/Poppins-Regular.woff) format('woff'),url(../../assets/css/fonts/Poppins-Regular.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
-
 @font-face {font-family:Poppins;src:url(../../assets/css/fonts/Poppins-SemiBold.woff) format('woff'),url(../../assets/css/fonts/Poppins-SemiBold.woff2) format('woff2');font-weight:600;font-style:normal;font-display:swap}
 body {font-family:al-jazeera-arabic_regular,sans-serif;color:#006}
 a {color:#1056ad;transition:all .5s ease-in-out;text-decoration:none}
