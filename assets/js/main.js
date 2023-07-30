@@ -13,6 +13,16 @@
       return document.querySelector(el)
     }
   }
+  /**
+   * Intro carousel indicators
+   */
+  let introCarouselIndicators = select("#intro-carousel-indicators")
+  let introCarouselItems = select('#introCarousel .carousel-item', true)
+  introCarouselItems.forEach((item, index) => {
+    (index === 0) ?
+    introCarouselIndicators.innerHTML += "<li data-bs-target='#introCarousel' data-bs-slide-to='" + index + "' class='active'></li>":
+      introCarouselIndicators.innerHTML += "<li data-bs-target='#introCarousel' data-bs-slide-to='" + index + "'></li>"
+  });
  /**
 * Hide Header on scroll
 */
