@@ -246,8 +246,8 @@ section {padding:60px 0;overflow:hidden}
 .testimonials .testimonial-item p {font-style:italic}
 .testimonials .testimonial-item a {color:#f80}
 .testimonials .testimonial-item a:hover {color:#c3deff}
-.testimonials .swiper-pagination {margin-top:20px;position:relative}
-.testimonials .swiper-pagination .swiper-pagination-bullet {width:12px;height:12px;background-color:rgba(255,255,255,.5);opacity:1}
+.testimonials .swiper-pagination {position:relative}
+.testimonials .swiper-pagination .swiper-pagination-bullet {margin:5px;margin-top:20px;width:12px;height:12px;background-color:rgba(255,255,255,.5);opacity:1}
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {background-color:#f80}
 @media screen and (min-width:992px) {.testimonials .testimonial-item {width:80%}}
 .team {margin-bottom:60px;background:#fff;visibility:auto}
