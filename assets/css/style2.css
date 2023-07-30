@@ -67,7 +67,7 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 .navbar-mobile .dropdown ul a i {font-size:17px}
 .navbar-mobile .dropdown ul a:hover,.navbar-mobile .dropdown ul .active:hover,.navbar-mobile .dropdown ul li:hover>a {color:#fff;background:#1056ad}
 .navbar-mobile .dropdown>.dropdown-active {display:inline-block}
-#intro {width:100%;height:78vh;overflow:hidden;position:relative;background:#000}
+#intro {width:100%;height:78vh;overflow:hidden;position:relative;background:#000;font-family:al-jazeera-arabic-bold,sans-serif}
 #intro .carousel-item::before {content:"";background-image:linear-gradient(to top left,rgba(241,246,254,.556),rgba(255,255,255,.95))}
 @media screen and (max-height:579px) {#intro {height:78vh}}
 @media screen and (min-height:580px) {#intro {height:88vh}}
@@ -75,25 +75,21 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 #intro .carousel-item {background-size:cover;background-position:top;background-repeat:no-repeat}
 #intro .carousel-container {display:flex;justify-content:center;align-items:center;position:absolute;bottom:0;top:0;left:30px;right:30px}
 #intro .container {text-align:center}
-#intro .carousel-item .carousel-container .container p {font-family:al-jazeera-arabic-bold,sans-serif;font-size:70px;line-height:1.4}
+#intro .carousel-item .carousel-container .container p {font-size:70px;line-height:1.4}
 #intro .carousel-item .carousel-container .container p span {font-size:35px}
 @media screen and (max-width:900px) {#intro .carousel-item .carousel-container .container p {font-size:60px}}
 @media screen and (max-width:900px) {#intro .carousel-item .carousel-container .container p span {font-size:30px}}
 @media screen and (max-width:500px) {#intro .carousel-item .carousel-container .container p {font-size:50px}}
 @media screen and (max-width:500px) {#intro .carousel-item .carousel-container .container p span {font-size:25px}}
-#intro .carousel-fade {overflow:hidden}
-#intro .carousel-fade .carousel-inner .active.carousel-item-end, #intro .carousel-fade .carousel-inner .active.carousel-item-start, #intro .carousel-fade .carousel-inner .carousel-item {opacity:0}
-#intro .carousel-fade .carousel-inner .active, #intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-start, #intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-end {opacity:1;transition:1.5s ease-in-out}
-#intro .carousel-fade .carousel-inner .active.carousel-item-end,#intro .carousel-fade .carousel-inner .active.carousel-item-start,#intro .carousel-fade .carousel-inner .carousel-item-next,#intro .carousel-fade .carousel-inner .carousel-item-prev {left:0;transform:translate3d(0,0,0)}
 #intro .carousel-control-prev, #intro .carousel-control-next {width:12%;color:#000}
 #intro .carousel-control-next:hover,#intro .carousel-control-prev:hover {color:#f80}
 @media screen and (min-width:1025px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:5%}}
 @media screen and (max-width:1024px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:48px}}
 #intro .carousel-control-next-icon,#intro .carousel-control-prev-icon {background:none;font-size:32px}
 #intro .carousel-indicators li:hover {background-color:#f80}
-#intro .carousel-indicators li {background-color:#1056ad;width:10px;height:3px;margin:5px;cursor:pointer}
+#intro .carousel-indicators li {background-color:#1056ad;width:10px;height:10px;margin:5px;cursor:pointer}
 @media screen and (max-width:992px) {#intro .carousel-indicators li {display:none}}
-#intro .btn-get-started {margin-top:30px;font-size:16px;display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;color:#fff;background:#1056ad;font-family:al-jazeera-arabic-bold,sans-serif}
+#intro .btn-get-started {font-size:16px;display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;color:#fff;background:#1056ad}
 #intro .btn-get-started:hover {background:#006;color:#fff}
 section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
