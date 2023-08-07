@@ -328,6 +328,7 @@ section {padding:60px 0;overflow:hidden}
 #footer .footer-top .footer-links ul a:hover {text-decoration:none;color:#1056ad}
 #footer .footer-top .social-links a {padding-right:10px;font-size:22px;display:inline-block;background:#3b8af2;color:#fff;line-height:1;padding:8px 0;margin-right:4px;border-radius:4px;text-align:center;width:36px;height:36px;transition:all .5s ease-in-out}
 #footer .footer-top .social-links .facebook {margin-right:10px}
+#footer .footer-top .social-links .twitter-svg {padding-bottom:10px}
 #footer .footer-top .social-links a:hover {background:#f80;color:#fff;text-decoration:none;box-shadow:0 0 10px #3b8af2}
 #footer .copyright {text-align:center;float:left;font-family:al-jazeera-arabic-bold,sans-serif}
 #footer .credits {float:right;text-align:center;font-size:14px;color:#444;font-family:al-jazeera-arabic-bold,sans-serif}
@@ -370,18 +371,18 @@ input[type='checkbox'] {display:none;scroll-behavior:smooth}
 .toggle:checked+.lbl-toggle+.collapsible-content {max-height:100vh}
 .toggle:checked+.lbl-toggle {border-bottom-right-radius:0;border-bottom-left-radius:0}
 .collapsible-content .content-inner {background:#fff;padding:.1rem 1rem;text-align:center;font-size:200%}
-.collapsible-content .content-inner .whatsapp {position:relative;display:inline-block;width:50px;height:50px;text-align:center;line-height:53px;border-radius:50%;margin:5px 0;font-size:30px;color:#25D366;transition:.5s}
+.collapsible-content .content-inner .whatsapp {position:relative;display:inline-block;width:50px;height:50px;line-height:53px;border-radius:50%;margin:5px 0;font-size:30px;color:#25D366;transition:.5s}
 .collapsible-content .content-inner .whatsapp::before {content:'';position:absolute;top:0;left:0;width:100%;height:100%;border-radius:50%;background:#25D366;transition:1.5s;z-index:-1}
 .collapsible-content .content-inner .whatsapp:hover {background:#25D366;color:#fff;box-shadow:0 0 10px #f80;text-shadow:0 0 5px #25D366;scale:.7}
-.collapsible-content .content-inner .linkedin {position:relative;display:inline-block;width:50px;height:50px;text-align:center;line-height:53px;border-radius:50%;margin:5px 0;font-size:30px;color:#0072b1;transition:.5s}
+.collapsible-content .content-inner .linkedin {position:relative;display:inline-block;width:50px;height:50px;line-height:53px;border-radius:50%;margin:5px 5px 5px 0;font-size:30px;color:#0072b1;transition:.5s}
 .collapsible-content .content-inner .linkedin::before {content:'';position:absolute;top:0;left:0;width:100%;height:100%;border-radius:50%;background:#0072b1;transition:1.5s;z-index:-1}
 .collapsible-content .content-inner .linkedin:hover {background:#0072b1;color:#fff;box-shadow:0 0 10px #f80;text-shadow:0 0 5px #0072b1;scale:.7}
-.collapsible-content .content-inner .facebook {position:relative;display:inline-block;width:50px;height:50px;text-align:center;line-height:53px;border-radius:50%;margin:5px 0;font-size:30px;color:#4267B2;transition:.5s}
+.collapsible-content .content-inner .facebook {position:relative;display:inline-block;width:50px;height:50px;line-height:53px;border-radius:50%;margin:5px 0 5px 7px;font-size:30px;color:#4267B2;transition:.5s}
 .collapsible-content .content-inner .facebook::before {content:'';position:absolute;top:0;left:0;width:100%;height:100%;border-radius:50%;background:#4267B2;transition:1.5s;z-index:-1}
 .collapsible-content .content-inner .facebook:hover {background:#4267B2;color:#fff;box-shadow:0 0 10px #f80;text-shadow:0 0 5px #4267B2;scale:.7}
-.collapsible-content .content-inner .twitter {position:relative;display:inline-block;width:50px;height:50px;text-align:center;line-height:53px;border-radius:50%;margin:5px 0;font-size:30px;color:#00acee;transition:.5s}
-.collapsible-content .content-inner .twitter::before {content:'';position:absolute;top:0;left:0;width:100%;height:100%;border-radius:50%;background:#00acee;transition:1.5s;z-index:-1}
-.collapsible-content .content-inner .twitter:hover {background:#00acee;color:#fff;box-shadow:0 0 10px #f80;text-shadow:0 0 5px #00acee;scale:.7}
+.collapsible-content .content-inner .twitter {position:relative;display:inline-block;width:20px;height:20px;margin-bottom:12px;margin-left:7px;transition:.5s}
+.collapsible-content .content-inner .twitter::before {content:'';position:absolute;top:0;left:-13px;width:230%;height:230%;border-radius:50%;background:#00acee;box-shadow:0 0 10px #f80;transition:1.5s;z-index:-1}
+.collapsible-content .content-inner .twitter:hover {background:#00acee;scale:.8;border-radius:50%}
 .linktext {text-align:center;font-style:italic;margin-top:25px;font-size:17px;color:#006;font-family:al-jazeera-arabic-bold,sans-serif}
 .linktext:hover {color:#f80}
 .ornament {display:block;margin-left:auto;margin-right:auto;width:100%;height:100%;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
