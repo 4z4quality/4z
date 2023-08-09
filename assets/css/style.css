@@ -146,7 +146,7 @@ section {padding:60px 0;overflow:hidden}
 .about li {color:#f80;padding-bottom:10px}
 .about .trust {color:#006;font-size:18px;line-height:1.6}
 .about .vision {display:flex;font-size:18px;text-align:left}
-.about .vision p {color:#f80;font-size:32px;font-family:Poppins;font-weight:600}
+.about .vision p {color:#DB7500;font-size:32px;font-family:Poppins;font-weight:600}
 #skills {background:#fff}
 .skills .progress {height:60px;display:block;background:none;border-radius:0;visibility:auto}
 .skills .progress .skill {padding:0;margin:0 0 6px 0;display:block;font-size:17px;color:#006;font-family:Poppins,sans-serif;letter-spacing:1px}
