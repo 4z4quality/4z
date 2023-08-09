@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 .navbar-mobile .dropdown ul a i {font-size:17px}
 .navbar-mobile .dropdown ul a:hover,.navbar-mobile .dropdown ul .active:hover,.navbar-mobile .dropdown ul li:hover>a {color:#fff;background:#1056ad}
 .navbar-mobile .dropdown>.dropdown-active {display:inline-block}
-#intro {width:100%;height:89vh;overflow:hidden;position:relative;background:#000;;font-family:Poppins,sans-serif}
+#intro {width:100%;height:89vh;overflow:hidden;position:relative;background:#000;font-family:Poppins,sans-serif}
 #intro .carousel-item::before {content:"";background-image:linear-gradient(to top left,rgba(241,246,254,.556),rgba(255,255,255,.95))}
 @media screen and (max-height:579px){#intro {height:78vh}}
 @media screen and (min-height:580px){#intro {height:89vh}}
@@ -136,7 +136,7 @@ section {padding:60px 0;overflow:hidden}
 .about .golden2 span {color:#006}
 .about .golden3 {display:block;border:10px solid #946c00;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);margin:auto;width:100%;height:auto;transition:all 1.5s ease-in-out;padding:5px;-webkit-animation:mover 4s infinite  alternate;-moz-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
 .about .golden4 {display:block;border:10px solid #f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);margin:auto;max-width:480px;height:auto;transition:all 1.5s ease-in-out}
-.about .golden4:hover {scale: 1.05 .95}
+.about .golden4:hover {scale:1.05 .95}
 @media screen and (max-width:900px){.about .golden4 {width:94%;height:auto}}
 .about .golden {display:block;padding-bottom:7px;color:#946c00;font-size:20px;font-weight:600;text-transform:uppercase;letter-spacing:1px}
 .about li {color:#f80;padding-bottom:10px}
@@ -347,6 +347,7 @@ hr {width:100px;border-top: 5px solid #3b8af2;color:#3b8af2;align-content:center
 .callout.active {visibility:visible;opacity:1}
 .callout-header {padding:25px 15px;background-color:#f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);font-size:30px}
 .callout-container {padding:15px;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);background-color:#f1f6fe;color:#006}
+
 .closebtn {position:absolute;top:-5px;right:10px;color:#fff;font-size:30px;cursor:pointer}
 .closebtn:hover {color:#006}
 .quote {text-align:center;color:#b85a00;font-style:italic;font-size:26px;line-height:1.6;margin:0 10px;font-family:Poppins,sans-serif}
