@@ -320,6 +320,7 @@ section {padding:60px 0;overflow:hidden}
 #footer .footer-top .footer-contact {line-height:1.5;font-family:Poppins,sans-serif}
 #footer .footer-top .footer-contact .fourz4 {color:#f80;font-size:24px;font-weight:bold}
 #footer .footer-top .footer-contact p {margin:0;line-height:2.1;padding-left:10px;padding-top:3px;font-size:14px;color:#444;font-family:Poppins,sans-serif;font-weight:600}
+#footer .footer-top .footer-contact a {font-weight:bold}
 #footer .footer-top .footer-contact span {font-weight:600}
 #footer .footer-top .footer-contact i {font-size:18px;padding-left:10px;padding-top:3px}
 #footer .footer-top .footer-links p {padding-left:10px;padding-bottom:85px;color:#444;font-size:16px}
