@@ -1,16 +1,16 @@
-@font-face {font-family:al-jazeera-arabic-bold;src:url(../../assets/css/fonts/al-jazeera-arabic-bold.woff) format('woff'),url(../../assets/css/fonts/al-jazeera-arabic-bold.woff2) format('woff2');font-style:normal;font-display:swap}
-@font-face {font-family:al-jazeera-arabic_regular;src:url(../../assets/css/fonts/al-jazeera-arabic_regular.woff) format('woff'),url(../../assets/css/fonts/al-jazeera-arabic_regular.woff2) format('woff2');font-style:normal;font-display:swap}
-@font-face {font-family:Poppins;src:url(../../assets/css/fonts/Poppins-Regular.woff) format('woff'),url(../../assets/css/fonts/Poppins-Regular.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
-@font-face {font-family:Poppins;src:url(../../assets/css/fonts/Poppins-SemiBold.woff) format('woff'),url(../../assets/css/fonts/Poppins-SemiBold.woff2) format('woff2');font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:al-jazeera-arabic-bold;src:url(../../assets/css/fonts/al-jazeera-arabic-bold.woff) format('woff'),url(../../assets/css/fonts/al-jazeera-arabic-bold.woff2) format('woff2');font-style:normal;font-display:swap}
+@font-face{font-family:al-jazeera-arabic_regular;src:url(../../assets/css/fonts/al-jazeera-arabic_regular.woff) format('woff'),url(../../assets/css/fonts/al-jazeera-arabic_regular.woff2) format('woff2');font-style:normal;font-display:swap}
+@font-face{font-family:Poppins;src:url(../../assets/css/fonts/Poppins-Regular.woff) format('woff'),url(../../assets/css/fonts/Poppins-Regular.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:Poppins;src:url(../../assets/css/fonts/Poppins-SemiBold.woff) format('woff'),url(../../assets/css/fonts/Poppins-SemiBold.woff2) format('woff2');font-weight:600;font-style:normal;font-display:swap}
 :root{--animate-duration:1s;--animate-delay:1s;--animate-repeat:1}.animate__animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-duration:var(--animate-duration);animation-duration:var(--animate-duration);-webkit-animation-fill-mode:both;animation-fill-mode:both}@media (prefers-reduced-motion:reduce),print{.animate__animated{-webkit-animation-duration:1ms!important;animation-duration:1ms!important;-webkit-animation-iteration-count:1!important;animation-iteration-count:1!important}}@-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}to{opacity:1;-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}to{opacity:1;-webkit-transform:translateZ(0);transform:translateZ(0)}}.animate__fadeInDown{-webkit-animation-name:fadeInDown;animation-name:fadeInDown}@-webkit-keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}to{opacity:1;-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}to{opacity:1;-webkit-transform:translateZ(0);transform:translateZ(0)}}.animate__fadeInUp{-webkit-animation-name:fadeInUp;animation-name:fadeInUp}[data-aos^=fade][data-aos^=fade]{opacity:0}[data-aos=fade-up]{transform:translate3d(0,100px,0)}[data-aos=fade-right]{transform:translate3d(-100px,0,0)}*,::after,::before{box-sizing:border-box}@media (prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}}
 body {font-family:al-jazeera-arabic_regular,sans-serif;color:#006}
 a {color:#1056ad;transition:all .5s ease-in-out;text-decoration:none}
 a:hover{color:#f80;text-decoration:none}
 h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 #preloader:before {content:"";position:fixed;top:calc(50% - 30px);left:calc(50% - 30px);border:6px solid #006;border-top-color:#e2eefd;border-radius:50%;width:60px;height:60px;-webkit-animation:animate-preloader 1s linear infinite;-moz-animation:animate-preloader 1s linear infinite;animation:animate-preloader 1s linear infinite}
-#preloader {position:fixed;top:0;left:0;right:0;bottom:0;z-index:9999;overflow:hidden;background:#fff}
-@keyframes animate-preloader {0% {transform:rotate(0deg)}100% {transform:rotate(360deg)}}
-@-webkit-keyframes animate-preloader {0% {transform:rotate(0deg)}100% {transform:rotate(360deg)}}
+#preloader{position:fixed;top:0;left:0;right:0;bottom:0;z-index:9999;overflow:hidden;background:#fff}
+@keyframes animate-preloader{0% {transform:rotate(0deg)}100% {transform:rotate(360deg)}}
+@-webkit-keyframes animate-preloader{0% {transform:rotate(0deg)}100% {transform:rotate(360deg)}}
 .back-to-top {position:fixed;visibility:hidden;opacity:0;left:15px;bottom:15px;z-index:996;background:#006;width:40px;height:40px;border-radius:50px;transition:all .4s ease-in-out}
 .back-to-top i {font-size:28px;color:#fff;line-height:0}
 .back-to-top:hover {background:#3284f1;color:#fff;;box-shadow:0 0 15px #f80}
@@ -25,12 +25,12 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 #topbar .social-links a:hover {color:#0000c9}
 #header {transition:all 1.5s ease-in-out;background:#fff;height:86px;box-shadow:0 2px 15px rgba(0,0,0,0.1)}
 #header.fixed-top {box-shadow:1px 1px 7px 2px #888}
-.logo {cursor: pointer;position: relative;padding: 5px 20px;background: white;font-size: 28px;border-top-right-radius: 10px;border-bottom-left-radius: 10px;transition: all 1s}
-.logo:after,.logo:before {content: " ";width: 10px;height: 10px;position: absolute;border:0 solid #fff;transition: all 1s}
-.logo:after {top: 0;left: 0;border-top: 3px solid #006;border-left: 3px solid #006}
-.logo:before {bottom: 0;right: 0;border-bottom: 3px solid #f80;border-right: 3px solid #f80}
+.logo {cursor: pointer;position: relative;padding: 5px 20px;background:#fff;font-size:28px;border-top-right-radius:10px;border-bottom-left-radius: 10px;transition:all 1s}
+.logo:after,.logo:before {content: " ";width: 10px;height: 10px;position:absolute;border:0 solid #fff;transition:all 1s}
+.logo:after {top: 0;left: 0;border-top: 3px solid #006;border-left:3px solid #006}
+.logo:before {bottom: 0;right: 0;border-bottom: 3px solid #f80;border-right:3px solid #f80}
 .logo:hover {border-top-right-radius:0;border-bottom-left-radius:0}
-.logo:hover:before,.logo:hover:after {width: 100%;height: 100%}
+.logo:hover:after,.logo:hover:before {width: 100%;height: 100%}
 .logo img {display:inline-block;aspect-ratio:auto 600 / 164;width:auto;max-height:59px}
 .scrolled-offset {margin-top:70px}
 .navbar {padding:0;float:left;font-family:al-jazeera-arabic-bold,Poppins,sans-serif;font-weight:600}
@@ -82,11 +82,11 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 @media screen and (max-width:900px) {#intro .carousel-item .carousel-container .container p span {font-size:30px}}
 @media screen and (max-width:500px) {#intro .carousel-item .carousel-container .container p {font-size:50px}}
 @media screen and (max-width:500px) {#intro .carousel-item .carousel-container .container p span {font-size:25px}}
-#intro .carousel-control-prev, #intro .carousel-control-next {width:12%;color:#000}
+#intro .carousel-control-next, #intro .carousel-control-prev {width:12%;color:#000}
 #intro .carousel-control-next:hover,#intro .carousel-control-prev:hover {color:#f80}
-@media screen and (min-width:1025px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:5%}}
-@media screen and (max-width:1024px) {#intro .carousel-control-prev, #intro .carousel-control-next {width:48px}}
-#intro .carousel-control-next-icon,#intro .carousel-control-prev-icon {background:none;font-size:32px}
+@media screen and (min-width:1025px) {#intro .carousel-control-next, #intro .carousel-control-prev {width:5%}}
+@media screen and (max-width:1024px) {#intro .carousel-control-next, #intro .carousel-control-prev {width:48px}}
+#intro .carousel-control-next-icon,#intro .carousel-control-prev-icon {background:0 0;font-size:32px}
 #intro .carousel-indicators li:hover {background-color:#f80}
 #intro .carousel-indicators li {background-color:#1056ad;width:10px;height:10px;margin:5px;cursor:pointer}
 @media screen and (max-width:992px) {#intro .carousel-indicators li {display:none}}
@@ -146,7 +146,7 @@ section {padding:60px 0;overflow:hidden}
 .about .vision {display:flex;font-size:18px;text-align:right}
 .about .vision p {color:#f80;font-size:32px;font-family:al-jazeera-arabic-bold,sans-serif}
 #skills {background:#fff}
-.skills .progress {height:60px;display:block;background:none;border-radius:0;visibility:auto}
+.skills .progress {height:60px;display:block;background:0 0;border-radius:0;visibility:auto}
 .skills .progress .skill {padding:0;margin:0 0 6px 0;display:block;font-size:17px;color:#006;font-family:al-jazeera-arabic-bold,sans-serif}
 .skills .progress .skill .val {float:left;font-style:normal}
 .skills .progress-bar-wrap {background:#e2eefd;height:10px}
@@ -184,9 +184,9 @@ section {padding:60px 0;overflow:hidden}
 .portfolio .portfolio-item .portfolio-info {opacity:0;position:absolute;left:30px;right:30px;bottom:0;z-index:3;transition:all .5s ease-in-out;background:rgba(255,255,255,.9);padding:15px;font-size:16px;font-family:al-jazeera-arabic-bold,sans-serif}
 .portfolio .portfolio-item .portfolio-info p {color:#555;font-size:16px;margin-top:10px;margin-bottom:0;font-family:al-jazeera-arabic-bold,sans-serif}
 .portfolio .portfolio-item .portfolio-info i {font-size:24px}
-.portfolio .portfolio-item .portfolio-info .preview-link,.portfolio .portfolio-item .portfolio-info .details-link {position:absolute;margin-left:10px;font-size:20px;bottom:7px;color:#3c3c3c}
-.portfolio .portfolio-item .portfolio-info .preview-link,.portfolio .portfolio-item .portfolio-info .details-link i {animation-duration:4s;transition:all .5s ease-in-out}
-.portfolio .portfolio-item .portfolio-info .preview-link:hover,.portfolio .portfolio-item .portfolio-info .details-link:hover {color:#1056ad}
+.portfolio .portfolio-item .portfolio-info .details-link {position:absolute;margin-left:10px;font-size:20px;bottom:7px;color:#3c3c3c}
+.portfolio .portfolio-item .portfolio-info .details-link i {animation-duration:4s;transition:all .5s ease-in-out}
+.portfolio .portfolio-item .portfolio-info .details-link:hover {color:#1056ad}
 .portfolio .portfolio-item .portfolio-info .details-link {left:10px}
 .portfolio .portfolio-item .portfolio-links {opacity:0;left:0;right:0;text-align:center;z-index:3;position:absolute;transition:all .5s ease-in-out}
 .portfolio .portfolio-item .portfolio-links a {color:#fff;margin:0 2px;font-size:28px;display:inline-block;transition:all .5s ease-in-out}
@@ -238,7 +238,7 @@ section {padding:60px 0;overflow:hidden}
 .testimonials .section-header {margin-bottom:40px}
 .testimonials .testimonials-carousel,.testimonials .testimonials-slider {overflow:hidden}
 .testimonials .testimonial-item {text-align:center;color:#fff}
-.testimonials .testimonial-item .testimonial-img {display:inline-block;aspect-ratio:auto 400 / 400;width:auto;max-height:200px;border-radius:50%;border:6px solid rgba(255,255,255,.15);margin:15px;transition:all 1.5s ease-in-out}
+.testimonials .testimonial-item .testimonial-img {display:inline-block;aspect-ratio:auto 400/400;width:auto;max-height:200px;border-radius:50%;border:6px solid rgba(255,255,255,.15);margin:15px;transition:all 1.5s ease-in-out}
 .testimonials .testimonial-item .testimonial-img:hover {scale:1.05}
 .testimonials .testimonial-item .quote-icon-left,.testimonials .testimonial-item .quote-icon-right {color:rgba(255,255,255,.4);font-size:26px}
 .testimonials .testimonial-item .quote-icon-left {display:inline-block;left:-5px;position:relative}
@@ -289,7 +289,7 @@ section {padding:60px 0;overflow:hidden}
 @-moz-keyframes mover {0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
 @-o-keyframes mover {0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
 @-webkit-keyframes mover {0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
-@keyframes mover {0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
+@keyframes mover{0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
 .contact {visibility:auto;padding-bottom:0}
 .contact .info-box {color:#444;text-align:center;box-shadow:0 0 30px rgba(214,215,216,.3);padding:20px 0 30px 0;line-height:1.6;font-size:14px;font-family:Poppins,sans-serif}
 .contact .info-box i {font-size:32px;color:#1056ad;border-radius:50%;padding:12px;border:2px dotted #b3d1fa;transition:all .5s ease-in-out;margin-bottom:30px;animation-duration:4s}
@@ -310,8 +310,8 @@ section {padding:60px 0;overflow:hidden}
 .contact .php-email-form textarea {padding:12px 15px}
 .contact .php-email-form button[type=submit] {background:#1056ad;border:0;padding:10px 30px;color:#fff;transition:all .5s ease-in-out;border-radius:4px}
 .contact .php-email-form button[type=submit]:hover {background:#f80}
-@-webkit-keyframes animate-loading {0% {transform:rotate(0)}100% {transform:rotate(360deg)}}
-@keyframes animate-loading {0% {transform:rotate(0)}100% {transform:rotate(360deg)}}
+@-webkit-keyframes animate-loading{0% {transform:rotate(0deg)}100% {transform:rotate(360deg)}}
+@keyframes animate-loading{0% {transform:rotate(0deg)}100% {transform:rotate(360deg)}}
 #footer {background:#f1f6fe;padding-top:20px;padding-bottom:20px;color:#444;font-size:14px;visibility:auto}
 #footer .footer-top {padding:30px 0;background:#f1f6fe}
 #footer .footer-top .footer-contact {line-height:1.7;font-family:Poppins,al-jazeera-arabic-bold,sans-serif}
@@ -367,20 +367,20 @@ input[type='checkbox'] {display:none;scroll-behavior:smooth}
 .lbl-toggle {display:block;position:relative;font-size:1rem;text-align:center;padding:.3rem;color:#006;background:#f80;cursor:pointer;transition:all .5s ease-in-out;font-family:al-jazeera-arabic-bold}
 .lbl-toggle:hover {color:#fff;background:#1056ad}
 .lbl-toggle::before {content:' ';display:inline-block;border-top:7px solid transparent;border-bottom:7px solid transparent;border-right:7px solid currentColor;vertical-align:middle;margin-left:.7rem;transform:translateY(-2px);transition:transform .5s ease-in-out}
-.toggle:checked+.lbl-toggle::before {transform:rotate(270deg) translateX(-1px)}
+.toggle:checked+.lbl-toggle::before {transform:rotate(270) translateX(-1px)}
 .collapsible-content {max-height:0;overflow:hidden;transition:max-height .5s ease-in-out}
 .toggle:checked+.lbl-toggle+.collapsible-content {max-height:100vh}
 .toggle:checked+.lbl-toggle {border-bottom-right-radius:0;border-bottom-left-radius:0}
 .collapsible-content .content-inner {background:#fff;padding:.1rem 1rem;text-align:center;font-size:200%}
-.collapsible-content .content-inner .whatsapp {position:relative;display:inline-block;width:50px;height:50px;line-height:53px;border-radius:50%;margin:5px 0;font-size:30px;color:#25D366;transition:.5s}
-.collapsible-content .content-inner .whatsapp::before {content:'';position:absolute;top:0;left:0;width:100%;height:100%;border-radius:50%;background:#25D366;transition:1.5s;z-index:-1}
-.collapsible-content .content-inner .whatsapp:hover {background:#25D366;color:#fff;box-shadow:0 0 10px #f80;text-shadow:0 0 5px #25D366;scale:.7}
+.collapsible-content .content-inner .whatsapp {position:relative;display:inline-block;width:50px;height:50px;line-height:53px;border-radius:50%;margin:5px 0;font-size:30px;color:#25d366;transition:.5s}
+.collapsible-content .content-inner .whatsapp::before {content:'';position:absolute;top:0;left:0;width:100%;height:100%;border-radius:50%;background:#25d366;transition:1.5s;z-index:-1}
+.collapsible-content .content-inner .whatsapp:hover {background:#25d366;color:#fff;box-shadow:0 0 10px #f80;text-shadow:0 0 5px #25d366;scale:.7}
 .collapsible-content .content-inner .linkedin {position:relative;display:inline-block;width:50px;height:50px;line-height:53px;border-radius:50%;margin:5px 5px 5px 0;font-size:30px;color:#0072b1;transition:.5s}
 .collapsible-content .content-inner .linkedin::before {content:'';position:absolute;top:0;left:0;width:100%;height:100%;border-radius:50%;background:#0072b1;transition:1.5s;z-index:-1}
 .collapsible-content .content-inner .linkedin:hover {background:#0072b1;color:#fff;box-shadow:0 0 10px #f80;text-shadow:0 0 5px #0072b1;scale:.7}
-.collapsible-content .content-inner .facebook {position:relative;display:inline-block;width:50px;height:50px;line-height:53px;border-radius:50%;margin:5px 0 5px 7px;font-size:30px;color:#4267B2;transition:.5s}
-.collapsible-content .content-inner .facebook::before {content:'';position:absolute;top:0;left:0;width:100%;height:100%;border-radius:50%;background:#4267B2;transition:1.5s;z-index:-1}
-.collapsible-content .content-inner .facebook:hover {background:#4267B2;color:#fff;box-shadow:0 0 10px #f80;text-shadow:0 0 5px #4267B2;scale:.7}
+.collapsible-content .content-inner .facebook {position:relative;display:inline-block;width:50px;height:50px;line-height:53px;border-radius:50%;margin:5px 0 5px 7px;font-size:30px;color:#4267b2;transition:.5s}
+.collapsible-content .content-inner .facebook::before {content:'';position:absolute;top:0;left:0;width:100%;height:100%;border-radius:50%;background:#4267b2;transition:1.5s;z-index:-1}
+.collapsible-content .content-inner .facebook:hover {background:#4267b2;color:#fff;box-shadow:0 0 10px #f80;text-shadow:0 0 5px #4267b2;scale:.7}
 .collapsible-content .content-inner .twitter {position:relative;display:inline-block;width:20px;height:20px;margin-bottom:12px;margin-left:7px;transition:.5s}
 .collapsible-content .content-inner .twitter::before {content:'';position:absolute;top:0;left:-13px;width:230%;height:230%;border-radius:50%;background:#00acee;box-shadow:0 0 10px #f80;transition:1.5s;z-index:-1}
 .collapsible-content .content-inner .twitter:hover {background:#00acee;scale:.8;border-radius:50%}
