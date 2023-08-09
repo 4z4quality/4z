@@ -99,7 +99,7 @@ section {padding:60px 0;overflow:hidden}
 .section-title {text-align:center;margin:0 40px}
 .section-title .title {font-size:17px;padding:8px 20px;margin-bottom:40px;background:#e7f1fd;color:#1056ad;display:inline-block;border-radius:50px;text-transform:uppercase;letter-spacing:2px;font-weight:600}
 .section-title .subtitle {font-size:28px;font-weight:600;letter-spacing:1px;line-height:1.6}
-.section-title .subtitle span {color:#f80}
+.section-title .subtitle span {color:#f80;font-weight:bold}
 .section-title p {margin:40px auto;font-size:18px;line-height:1.7}
 .section-title p span {color:#1056ad}
 .section-title img {border:10px solid #f80;display:block;margin:auto;transition:all 1.5s ease-in-out;box-shadow:0 2px 15px rgba(0,0,0,0.1)}
