@@ -20,9 +20,9 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 .back-to-top.active {visibility:visible;opacity:1}
 @media screen and (max-width:768px){[data-aos-delay] {transition-delay:0s!important}}
 #topbar {background:#006;transition:all 1.5s ease-in-out;height:35px;padding:0}
-#topbar .contact-info .chat {color:#fff;font-size:18px;padding:0 30px 0 0;font-family:Poppins,sans-serif;font-weight:600;line-height:1}
+#topbar .contact-info .chat {color:#fff;font-size:clamp(1rem,1.6vw,3rem);padding:0 30px 0 0;font-family:Poppins,sans-serif;font-weight:600;line-height:1}
 #topbar .contact-info .chat:hover {color:#f80;text-decoration:underline}
-#topbar .contact-info i {font-size:150%;color:#fff;animation-duration:8s}
+#topbar .contact-info i {font-size:clamp(1.5rem,2vw,4rem);color:#fff;animation-duration:8s}
 #topbar .social-links a {color:#fff;font-size:150%;line-height:0;margin-left:20px}
 #topbar .social-links a:hover {color:#f80}
 #header {transition:all 1.5s ease-in-out;background:#fff;height:86px;box-shadow:0 2px 15px rgba(0,0,0,0.1)}
@@ -78,21 +78,17 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 #intro .carousel-item {background-size:cover;background-position:top;background-repeat:no-repeat}
 #intro .carousel-container {display:flex;justify-content:center;align-items:center;position:absolute;bottom:0;top:0;left:30px;right:30px}
 #intro .container {text-align:center}
-#intro .carousel-item .carousel-container .container p {font-size:70px;font-weight:600;line-height:1.2}
-#intro .carousel-item .carousel-container .container p span {font-size:35px}
-@media screen and (max-width:900px){#intro .carousel-item .carousel-container .container p {font-size:60px}}
-@media screen and (max-width:900px){#intro .carousel-item .carousel-container .container p span {font-size:30px}}
-@media screen and (max-width:500px){#intro .carousel-item .carousel-container .container p {font-size:50px}}
-@media screen and (max-width:500px){#intro .carousel-item .carousel-container .container p span {font-size:25px}}
+#intro .carousel-item .carousel-container .container p {font-size:clamp(3rem,8vw,5.1rem);font-weight:600;line-height:1.2}
+#intro .carousel-item .carousel-container .container p span {font-size:clamp(1.5rem,4vw,3rem)}
 #intro .carousel-control-next, #intro .carousel-control-prev {width:12%;color:#000}
 #intro .carousel-control-next:hover,#intro .carousel-control-prev:hover {color:#f80}
 @media screen and (min-width:1025px){#intro .carousel-control-next, #intro .carousel-control-prev {width:5%}}
 @media screen and (max-width:1024px){#intro .carousel-control-next, #intro .carousel-control-prev {width:48px}}
 #intro .carousel-control-next-icon,#intro .carousel-control-prev-icon {background:0 0;font-size:32px}
-#intro .carousel-indicators li:hover {background-color:#f80}
 #intro .carousel-indicators li {background-color:#1056ad;width:10px;height:10px;margin:5px;cursor:pointer}
+#intro .carousel-indicators li:hover {background-color:#f80}
 @media screen and (max-width:992px){#intro .carousel-indicators li {display:none}}
-#intro .btn-get-started {font-size:16px;display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;color:#fff;background:#1056ad;letter-spacing:1px}
+#intro .btn-get-started {font-size:clamp(1rem,1.5vw,3rem);display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;color:#fff;background:#1056ad;letter-spacing:1px}
 #intro .btn-get-started:hover {background:#006;color:#fff}
 section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
