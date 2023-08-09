@@ -99,7 +99,7 @@ section {padding:60px 0;overflow:hidden}
 .section-title {text-align:center;margin:0 40px}
 .section-title .title {font-size:17px;padding:8px 20px;margin-bottom:40px;background:#e7f1fd;color:#1056ad;display:inline-block;border-radius:50px;text-transform:uppercase;letter-spacing:2px;font-weight:600}
 .section-title .subtitle {font-size:28px;font-weight:600;letter-spacing:1px;line-height:1.6}
-.section-title .subtitle span {color:#E07800;font-weight:bold}
+.section-title .subtitle span {color:#DB7500;font-weight:bold}
 .section-title p {margin:40px auto;font-size:18px;line-height:1.7}
 .section-title p span {color:#1056ad}
 .section-title img {border:10px solid #f80;display:block;margin:auto;transition:all 1.5s ease-in-out;box-shadow:0 2px 15px rgba(0,0,0,0.1)}
@@ -124,7 +124,7 @@ section {padding:60px 0;overflow:hidden}
 #our-name .icon-box .description2 span {font-weight:600}
 #our-name .icon-box:hover .description1, #our-name .icon-box:hover .description2, #our-name .icon-box:hover .icon i {color:#fff}
 .about {visibility:auto}
-.about .fourz1 {color:#E07800;font-size:36px;text-align:center;padding:30px;font-family:Poppins,sans-serif;font-weight:600;letter-spacing:1px;line-height:1.6}
+.about .fourz1 {color:#DB7500;font-size:36px;text-align:center;padding:30px;font-family:Poppins,sans-serif;font-weight:600;letter-spacing:1px;line-height:1.6}
 .about .fourz1 span {color:#1056AD}
 .about .fourz2 {padding:0 40px;color:#1056AD;font-size:32px;text-align:center;font-weight:600;line-height:1.5}
 .about .fourz2 span {color:#006}
@@ -171,7 +171,7 @@ section {padding:60px 0;overflow:hidden}
 .services .icon-box img {padding-bottom:40px;margin-left:auto;margin-right:auto;display:block;max-width:80px;-webkit-filter:drop-shadow(0 2px 2px #222);filter:drop-shadow(0 2px 2px #222);transition:1.5s ease-in-out}
 .services .icon-box img:hover {scale:1.3}
 .services h3 {text-align:center;line-height:1.6;padding:20px}
-.services h3 span {color:#E07800;font-weight:bold}
+.services h3 span {color:#DB7500;font-weight:bold}
 .welcome1 {display:block;border:10px solid #f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1.5s ease-in-out;margin:auto;width:600px;height:auto}
 .welcome1:hover {scale:1.05}
 .welcome2 {display:block;border:10px solid #006;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1.5s ease-in-out;margin:auto;width:600px;height:auto}
