@@ -132,17 +132,17 @@ section {padding:60px 0;overflow:hidden}
 .about .content ul li {display:flex;align-items:flex-start;margin-bottom:35px}
 .about .content ul li:first-child {margin-top:35px}
 .about .content ul i {background:#fff;box-shadow:0 6px 15px rgba(16,110,234,.12);font-size:24px;padding:20px;margin-top:10px;margin-right:15px;color:#1056ad;border-radius:50px;transition:all 1.5s ease-in-out;animation-duration:4s}
-.about .content ul i:hover {color:#fff;background:#daa520}
+.about .content ul i:hover {color:#fff;background:#946C00}
 .about .content ul p {font-size:18px}
 .about .content p:last-child {margin-bottom:0}
-.about .golden1 {color:#DAA520;font-style:italic;text-align:center;font-size:32px;font-family:Poppins,sans-serif}
-.about .golden2 {color:#DAA520;font-style:italic;text-align:center;font-size:19px;letter-spacing:1px;line-height:1.7;font-family:Poppins,sans-serif}
+.about .golden1 {color:#946C00;font-style:italic;text-align:center;font-size:32px;font-family:Poppins,sans-serif}
+.about .golden2 {color:#946C00;font-style:italic;text-align:center;font-size:19px;letter-spacing:1px;line-height:1.7;font-family:Poppins,sans-serif}
 .about .golden2 span {color:#006}
-.about .golden3 {display:block;border:10px solid #daa520;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);margin:auto;width:100%;height:auto;transition:all 1.5s ease-in-out;padding:5px;-webkit-animation:mover 4s infinite  alternate;-moz-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
+.about .golden3 {display:block;border:10px solid #946C00;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);margin:auto;width:100%;height:auto;transition:all 1.5s ease-in-out;padding:5px;-webkit-animation:mover 4s infinite  alternate;-moz-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
 .about .golden4 {display:block;border:10px solid #f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);margin:auto;max-width:480px;height:auto;transition:all 1.5s ease-in-out}
 .about .golden4:hover {scale: 1.05 .95}
 @media screen and (max-width:900px) {.about .golden4 {width:94%;height:auto}}
-.about .golden {display:block;padding-bottom:7px;color:#DAA520;font-size:20px;font-weight:600;text-transform:uppercase;letter-spacing:1px}
+.about .golden {display:block;padding-bottom:7px;color:#946C00;font-size:20px;font-weight:600;text-transform:uppercase;letter-spacing:1px}
 .about li {color:#f80;padding-bottom:10px}
 .about .trust {color:#006;font-size:18px;line-height:1.6}
 .about .vision {display:flex;font-size:18px;text-align:left}
