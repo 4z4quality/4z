@@ -311,12 +311,13 @@ section {padding:60px 0;overflow:hidden}
 #footer {background:#f1f6fe;padding-top:20px;padding-bottom:20px;color:#444;font-size:14px;visibility:auto}
 #footer .footer-top {padding:30px 0;background:#f1f6fe}
 #footer .footer-top .footer-contact {line-height:1.7;font-family:Poppins,al-jazeera-arabic-bold,sans-serif}
+#footer .footer-top .footer-contact a {font-weight:600}
 #footer .footer-top .footer-contact .fourz4 {color:#db7500;font-size:24px;font-family:al-jazeera-arabic-bold,sans-serif}
 #footer .footer-top .footer-contact p {margin:0;line-height:2.1;padding-right:10px;padding-top:3px;font-size:14px;color:#444;font-family:al-jazeera-arabic-bold,sans-serif}
 
 #footer .footer-top .footer-contact span {font-family:al-jazeera-arabic-bold,sans-serif}
 #footer .footer-top .footer-contact i {font-size:18px;padding-right:10px;padding-top:3px;font-family:Poppins,sans-serif}
-#footer .footer-top .footer-links p {padding-right:10px;padding-bottom:74px;color:#444;font-size:16px;font-family:al-jazeera-arabic_regular,sans-serif}
+#footer .footer-top .footer-links p {padding-right:10px;padding-bottom:74px;color:#444;font-size:16px;font-family:al-jazeera-arabic_regular,poppins,sans-serif}
 #footer .footer-top .footer-links span {color:#222;font-size:18px;padding-bottom:30px;font-family:al-jazeera-arabic-bold,sans-serif}
 #footer .footer-top .footer-links ul {list-style:none;padding:0;margin:0}
 #footer .footer-top .footer-links ul i {padding-right:5px;padding-top:3px;color:#1056ad;font-size:18px;line-height:1}
@@ -324,7 +325,7 @@ section {padding:60px 0;overflow:hidden}
 #footer .footer-top .footer-links ul li:first-child {padding-top:0}
 #footer .footer-top .footer-links ul a {color:#444;transition:all .5s ease-in-out;display:inline-block;line-height:1}
 #footer .footer-top .footer-links ul a:hover {text-decoration:none;color:#1056ad}
-#footer .footer-top .social-links a {padding-right:10px;font-size:22px;display:inline-block;background:#3b8af2;color:#fff;line-height:1;padding:8px 0;margin-right:4px;border-radius:4px;text-align:center;width:36px;height:36px;transition:all .5s ease-in-out}
+#footer .footer-top .social-links a {padding-right:10px;font-size:22px;display:inline-block;background:#3b8af2;color:#fff;line-height:1;padding:8px 0;margin-right:4px;border-radius:4px;text-align:center;box-sizing:border-box;width:36px;height:36px;transition:all 1s ease-in-out}
 #footer .footer-top .social-links a:hover {background:#f80;color:#fff;text-decoration:none;box-shadow:0 0 10px #3b8af2}
 #footer .footer-top .social-links .facebook {margin-right:10px}
 #footer .footer-top .social-links .twitter-svg {padding-bottom:10px}
