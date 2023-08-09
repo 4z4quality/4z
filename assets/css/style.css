@@ -331,7 +331,7 @@ section {padding:60px 0;overflow:hidden}
 #footer .footer-top .footer-links ul li:first-child {padding-top:0}
 #footer .footer-top .footer-links ul a {color:#444;transition:all .5s ease-in-out;display:inline-block;line-height:1}
 #footer .footer-top .footer-links ul a:hover {text-decoration:none;color:#1056ad}
-#footer .footer-top .social-links a {padding-left:10px;font-size:22px;display:inline-block;background:#f80;color:#fff;line-height:1;padding:8px 0;margin-right:4px;border-radius:4px;text-align:center;box-sizing:border-box;width:36px;height:36px;transition:all .5s ease-in-out}
+#footer .footer-top .social-links a {padding-left:10px;font-size:22px;display:inline-block;background:#f80;color:#fff;line-height:1;padding:8px 0;margin-right:4px;border-radius:4px;text-align:center;box-sizing:border-box;width:36px;height:36px;transition:all 1s ease-in-out}
 #footer .footer-top .social-links a:hover {background:#1056ad;color:#fff;text-decoration:none;box-shadow:0 0 10px #f80}
 #footer .footer-top .social-links .facebook {margin-left:10px}
 #footer .footer-top .social-links .twitter-svg {padding-bottom:10px}
