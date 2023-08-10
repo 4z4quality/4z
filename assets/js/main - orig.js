@@ -14,7 +14,7 @@
     }
   }
   /**
-   * Intro carousel indicators
+   * Intro carousel indicators 
    */
   let introCarouselIndicators = select("#intro-carousel-indicators")
   let introCarouselItems = select('#introCarousel .carousel-item', true)
