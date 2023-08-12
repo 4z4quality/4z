@@ -20,14 +20,14 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 .back-to-top.active {visibility:visible;opacity:1}
 @media screen and (max-width:768px){[data-aos-delay] {transition-delay:0s!important}}
 #topbar {background:#006;transition:all 1.5s ease-in-out;height:35px;padding:0}
-#topbar .contact-info .chat {color:#fff;font-size:clamp(1rem,1.6vw,3rem);padding:0 30px 0 0;font-family:Poppins,sans-serif;font-weight:600;line-height:1}
+#topbar .contact-info .chat {color:#fff;font-size:clamp(1rem,1.6vw,3rem);padding:0 30px 0 0;font-family:Poppins,sans-serif;font-weight:600;line-height:1.2}
 #topbar .contact-info .chat:hover {color:#f80;text-decoration:underline}
 #topbar .contact-info i {font-size:clamp(1.5rem,2vw,4rem);color:#fff;animation-duration:8s}
 #topbar .social-links a {color:#fff;font-size:150%;line-height:0;margin-left:20px}
 #topbar .social-links a:hover {color:#f80}
 #header {transition:all 1.5s ease-in-out;background:#fff;height:86px;box-shadow:0 2px 15px rgba(0,0,0,0.1)}
 #header.fixed-top {box-shadow:1px 1px 7px 2px #888}
-.logo {cursor: pointer;position: relative;padding:5px 20px;background:#fff;font-size:28px;border-top-right-radius:10px;border-bottom-left-radius:10px;transition: all 1s}
+.logo {cursor: pointer;position: relative;padding:5px 20px;background:#fff;font-size:28px;border-top-right-radius:10px;border-bottom-left-radius:10px;transition:all 1s}
 .logo:after,.logo:before {content: " ";width:10px;height:10px;position:absolute;border:0 solid #fff;transition:all 1s}
 .logo:after {top:0;left:0;border-top:3px solid #f80;border-left:3px solid #f80}
 .logo:before {bottom:0;right:0;border-bottom:3px solid #006;border-right:3px solid #006}
