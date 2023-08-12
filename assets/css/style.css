@@ -202,10 +202,10 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details .portfolio-info h3 {font-size:22px;margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #eee;font-weight:600}
 .portfolio-details .portfolio-info ul {list-style:none;padding:0;font-size:18px}
 .portfolio-details .portfolio-info ul li+li {margin-top:10px}
-.portfolio-details .portfolio-description {padding:30px 30px 60px;font-size:18px}
+.portfolio-details .portfolio-description {padding:30px 30px 60px;font-size:18px;line-height:1.6}
 .portfolio-details .portfolio-description ol li+li {margin-top:10px}
 .portfolio-details .portfolio-description ul li+li {margin-top:10px}
-.portfolio-details .portfolio-description h2 {font-size:24px;margin-bottom:20px;font-weight:600;line-height:1.6}
+.portfolio-details .portfolio-description h2 {font-size:24px;margin-bottom:20px;line-height:1.6;font-weight:600}
 .portfolio-details .portfolio-description h3 {font-size:20px;margin-bottom:20px;font-weight:600}
 .portfolio-details .portfolio-description h4 {font-size:20px;margin-bottom:20px;line-height:1.6;font-weight:600}
 .portfolio-details .portfolio-description p {font-size:17px;padding:0}
@@ -225,7 +225,7 @@ section {padding:60px 0;overflow:hidden}
 .pricing .btn-buy {background:#1056ad;display:inline-block;padding:8px 35px 10px 35px;margin-bottom:20px;border-radius:4px;color:#fff;font-size:16px;transition:all .5s ease-out;font-family:Poppins,sans-serif}
 .pricing .btn-buy:hover {background:#f80}
 .pricing .featured h3 {color:#fff;background:#f80}
-.pricing .featured span {font-weight:600;font-size:32px}
+.pricing .featured span {font-size:32px;font-weight:600}
 .pricing .box span {font-size:32px;font-weight:600}
 .pricing .box .advanced {width:200px;position:absolute;top:18px;right:-68px;transform:rotate(45deg);z-index:1;font-size:18px;padding:1px 0 3px 0;background:#f80;color:#fff;font-weight:600}
 .pricing img {max-width:25%;height:auto;display:inline-block;margin-left:auto;margin-right:auto;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222)}

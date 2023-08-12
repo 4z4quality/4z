@@ -179,7 +179,7 @@ section {padding:60px 0;overflow:hidden}
 .portfolio #portfolio-flters li.filter-active,.portfolio #portfolio-flters li:hover {color:#1056ad}
 .portfolio #portfolio-flters li:last-child {margin-right:0}
 .portfolio .portfolio-item {margin-bottom:40px}
-.portfolio .portfolio-item .portfolio-info {opacity:0;position:absolute;left:30px;right:30px;bottom:0;z-index:3;transition:all .5s ease-in-out;background:rgba(255,255,255,.9);padding:15px;font-size:16px;font-family:al-jazeera-arabic-bold,sans-serif}
+.portfolio .portfolio-item .portfolio-info {opacity:0;position:absolute;left:30px;right:30px;bottom:0;z-index:3;transition:all .5s ease-in-out;background:rgba(255,255,255,.9);padding:15px;font-size:16px;font-family:al-jazeera-arabic-bold,sans-serif;line-height:1.4}
 .portfolio .portfolio-item .portfolio-info p {color:#555;font-size:16px;margin-top:10px;margin-bottom:0;font-family:al-jazeera-arabic-bold,sans-serif}
 .portfolio .portfolio-item .portfolio-info i {font-size:24px}
 .portfolio .portfolio-item .portfolio-info .details-link {position:absolute;margin-left:10px;font-size:20px;bottom:7px;color:#3c3c3c}
@@ -313,7 +313,7 @@ section {padding:60px 0;overflow:hidden}
 @keyframes animate-loading{0% {transform:rotate(0)}100% {transform:rotate(360deg)}}
 #footer {background:#f1f6fe;padding-top:20px;padding-bottom:20px;color:#444;font-size:14px;visibility:auto}
 #footer .footer-top {padding:30px 0;background:#f1f6fe}
-#footer .footer-top .footer-contact {line-height:1.7;font-family:Poppins,al-jazeera-arabic-bold,sans-serif}
+#footer .footer-top .footer-contact {line-height:1.6;font-family:Poppins,al-jazeera-arabic-bold,sans-serif}
 #footer .footer-top .footer-contact .fourz4 {color:#db7500;font-size:24px;font-family:al-jazeera-arabic-bold,sans-serif}
 #footer .footer-top .footer-contact p {margin:0;line-height:2.1;padding-right:10px;padding-top:3px;font-size:14px;color:#444;font-family:al-jazeera-arabic-bold,sans-serif}
 #footer .footer-top .footer-contact a {font-weight:600}
@@ -339,13 +339,13 @@ hr {width:100px;border-top: 5px solid #3b8af2;color:#3b8af2;align-content:center
 .inner-page {padding:20px;margin:10px;background:#f1f6fe;box-shadow:0 2px 15px rgba(0,0,0,.1)}
 .inner-page img {border:10px solid #f80;display:block;margin:auto;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .inner-page img:hover {scale:1.05}
-.inner-page .container {padding-bottom:60px;font-family:al-jazeera-arabic_regular,sans-serif;font-size:20px;line-height:1.6}
+.inner-page .container {padding-bottom:60px;font-size:20px;line-height:1.6;font-family:al-jazeera-arabic_regular,sans-serif}
 .inner-page span {color:#f80}
 .inner-page ul li {padding-bottom:5px}
 .inner-page h3 {font-size:20px}
 .callout {position:fixed;max-width:270px;bottom:10px;z-index:2;visibility:hidden;opacity:0;right:10px}
 .callout.active {visibility:visible;opacity:1}
-.callout-header {padding:25px 15px;background-color:#f1f6fe;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);color:#006;font-size:28px;font-family:al-jazeera-arabic-bold,sans-serif}
+.callout-header {padding:25px 15px;background-color:#f1f6fe;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);font-size:28px;color:#006;font-family:al-jazeera-arabic-bold,sans-serif}
 .callout-container {padding:15px;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);background-color:rgb(255,136,0);color:#fff;font-size:18px;font-family:al-jazeera-arabic-bold,sans-serif}
 .callout-container a:hover {color:#006}
 .closebtn {position:absolute;top:-5px;left:10px;color:#006;font-size:30px;cursor:pointer}
