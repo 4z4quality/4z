@@ -78,14 +78,14 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 #intro .carousel-item {background-size:cover;background-position:top;background-repeat:no-repeat}
 #intro .carousel-container {display:flex;justify-content:center;align-items:center;position:absolute;bottom:0;top:0;left:30px;right:30px}
 #intro .container {text-align:center}
-#intro .carousel-item .carousel-container .container p {font-size:clamp(3rem,8vw,5.1rem);font-weight:600;line-height:1.2}
+#intro .carousel-item .carousel-container .container p {font-size:clamp(3rem,8vw,5.1rem);line-height:1.2;font-weight:600}
 #intro .carousel-item .carousel-container .container p span {font-size:clamp(1.5rem,4vw,3rem)}
 #intro .carousel-control-next, #intro .carousel-control-prev {width:12%;color:#000}
 #intro .carousel-control-next:hover,#intro .carousel-control-prev:hover {color:#f80}
 @media screen and (min-width:1025px){#intro .carousel-control-next, #intro .carousel-control-prev {width:5%}}
 @media screen and (max-width:1024px){#intro .carousel-control-next, #intro .carousel-control-prev {width:48px}}
 #intro .carousel-control-next-icon,#intro .carousel-control-prev-icon {background:0 0;font-size:32px}
-#intro .carousel-indicators li {background-color:#1056ad;width:10px;height:10px;margin:5px;cursor:pointer;list-style:none;}
+#intro .carousel-indicators li {background-color:#1056ad;width:10px;height:10px;margin:5px;cursor:pointer}
 #intro .carousel-indicators li:hover {background-color:#f80}
 @media screen and (max-width:992px){#intro .carousel-indicators li {display:none}}
 #intro .btn-get-started {font-size:clamp(1rem,1.5vw,3rem);display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;color:#fff;background:#1056ad;letter-spacing:1px}
@@ -94,7 +94,7 @@ section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
 .section-title {text-align:center;margin:0 40px}
 .section-title .title {font-size:17px;padding:8px 20px;margin-bottom:40px;background:#e7f1fd;color:#1056ad;display:inline-block;border-radius:50px;text-transform:uppercase;letter-spacing:2px;font-weight:600}
-.section-title .subtitle {font-size:28px;font-weight:600;letter-spacing:1px;line-height:1.6}
+.section-title .subtitle {font-size:28px;line-height:1.6;font-weight:600;letter-spacing:1px}
 .section-title .subtitle span {color:#db7500;font-weight:600}
 .section-title p {margin:40px auto;font-size:18px;line-height:1.7}
 .section-title p span {color:#1056ad}
@@ -120,9 +120,9 @@ section {padding:60px 0;overflow:hidden}
 #our-name .icon-box .description2 span {font-weight:600}
 #our-name .icon-box:hover .description1, #our-name .icon-box:hover .description2, #our-name .icon-box:hover .icon i {color:#fff}
 .about {visibility:auto}
-.about .fourz1 {color:#db7500;font-size:36px;text-align:center;padding:30px;font-family:Poppins,sans-serif;font-weight:600;letter-spacing:1px;line-height:1.6}
+.about .fourz1 {color:#db7500;font-size:36px;text-align:center;padding:30px;line-height:1.6;font-family:Poppins,sans-serif;font-weight:600;letter-spacing:1px}
 .about .fourz1 span {color:#1056ad}
-.about .fourz2 {padding:0 40px;color:#1056ad;font-size:32px;text-align:center;font-weight:600;line-height:1.5}
+.about .fourz2 {padding:0 40px;color:#1056ad;font-size:32px;text-align:center;line-height:1.5;font-weight:600}
 .about .fourz2 span {color:#006}
 .about .content ul {list-style:none;padding:0}
 .about .content ul li {display:flex;align-items:flex-start;margin-bottom:35px}
@@ -132,7 +132,7 @@ section {padding:60px 0;overflow:hidden}
 .about .content ul p {font-size:18px}
 .about .content p:last-child {margin-bottom:0}
 .about .golden1 {color:#946c00;font-style:italic;text-align:center;font-size:32px;font-family:Poppins,sans-serif}
-.about .golden2 {color:#946c00;font-style:italic;text-align:center;font-size:19px;letter-spacing:1px;line-height:1.7;font-family:Poppins,sans-serif}
+.about .golden2 {color:#946c00;font-style:italic;text-align:center;font-size:19px;line-height:1.7;font-family:Poppins,sans-serif;letter-spacing:1px}
 .about .golden2 span {color:#006}
 .about .golden3 {display:block;border:10px solid #946c00;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);margin:auto;width:100%;height:auto;transition:all 1.5s ease-in-out;padding:5px;-webkit-animation:mover 4s infinite  alternate;-moz-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
 .about .golden4 {display:block;border:10px solid #f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);margin:auto;max-width:480px;height:auto;transition:all 1.5s ease-in-out}
