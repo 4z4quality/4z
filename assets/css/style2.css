@@ -6,30 +6,30 @@
 
 @font-face{font-family:Poppins;src:url(../../assets/css/fonts/Poppins-SemiBold.woff) format('woff'),url(../../assets/css/fonts/Poppins-SemiBold.woff2) format('woff2');font-weight:600;font-style:normal;font-display:swap}
 :root{--animate-duration:1s;--animate-delay:1s;--animate-repeat:1}.animate__animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-duration:var(--animate-duration);animation-duration:var(--animate-duration);-webkit-animation-fill-mode:both;animation-fill-mode:both}@media (prefers-reduced-motion:reduce),print{.animate__animated{-webkit-animation-duration:1ms!important;animation-duration:1ms!important;-webkit-animation-iteration-count:1!important;animation-iteration-count:1!important}}@-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}to{opacity:1;-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}to{opacity:1;-webkit-transform:translateZ(0);transform:translateZ(0)}}.animate__fadeInDown{-webkit-animation-name:fadeInDown;animation-name:fadeInDown}@-webkit-keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}to{opacity:1;-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}to{opacity:1;-webkit-transform:translateZ(0);transform:translateZ(0)}}.animate__fadeInUp{-webkit-animation-name:fadeInUp;animation-name:fadeInUp}[data-aos^=fade][data-aos^=fade]{opacity:0}[data-aos=fade-up]{transform:translate3d(0,100px,0)}[data-aos=fade-right]{transform:translate3d(-100px,0,0)}*,::after,::before{box-sizing:border-box}@media (prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}}
-body {font-family:al-jazeera-arabic_regular,sans-serif;color:#006}
+body {font-family:al-jazeera-arabic_regular,sans-serif;color:#000061}
 a {color:#1056ad;transition:all .5s ease-in-out;text-decoration:none}
 a:hover{color:#f80;text-decoration:none}
 h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
-#preloader:before {content:"";position:fixed;top:calc(50% - 30px);left:calc(50% - 30px);border:6px solid #006;border-top-color:#e2eefd;border-radius:50%;width:60px;height:60px;-webkit-animation:animate-preloader 1s linear infinite;-moz-animation:animate-preloader 1s linear infinite;animation:animate-preloader 1s linear infinite}
+#preloader:before {content:"";position:fixed;top:calc(50% - 30px);left:calc(50% - 30px);border:6px solid #000061;border-top-color:#e2eefd;border-radius:50%;width:60px;height:60px;-webkit-animation:animate-preloader 1s linear infinite;-moz-animation:animate-preloader 1s linear infinite;animation:animate-preloader 1s linear infinite}
 #preloader{position:fixed;top:0;left:0;right:0;bottom:0;z-index:9999;overflow:hidden;background:#fff}
 @keyframes animate-preloader{0% {transform:rotate(0)}100% {transform:rotate(360deg)}}
 @-webkit-keyframes animate-preloader{0% {transform:rotate(0)}100% {transform:rotate(360deg)}}
-.back-to-top {position:fixed;visibility:hidden;opacity:0;left:15px;bottom:15px;z-index:996;background:#006;width:40px;height:40px;border-radius:50px;transition:all .4s ease-in-out}
+.back-to-top {position:fixed;visibility:hidden;opacity:0;left:15px;bottom:15px;z-index:996;background:#000061;width:40px;height:40px;border-radius:50px;transition:all .4s ease-in-out}
 .back-to-top i {font-size:28px;color:#fff;line-height:0}
 .back-to-top:hover {background:#3284f1;color:#fff;box-shadow:0 0 15px #f80}
 .back-to-top.active {visibility:visible;opacity:1}
 @media screen and (max-width:768px){[data-aos-delay] {transition-delay:0s!important}}
 #topbar {background:#f80;transition:all 1.5s ease-in-out;height:35px;padding:0}
-#topbar .contact-info .chat {color:#006;font-size:clamp(1rem,1.4vw,3rem);padding:0 0 0 30px;font-family:al-jazeera-arabic-bold,sans-serif;line-height:1.2}
+#topbar .contact-info .chat {color:#000061;font-size:clamp(1rem,1.4vw,3rem);padding:0 0 0 30px;font-family:al-jazeera-arabic-bold,sans-serif;line-height:1.2}
 #topbar .contact-info .chat:hover {color:#0000c9;text-decoration:underline}
-#topbar .contact-info i {font-size:clamp(1.5rem,2vw,4rem);color:#006;animation-duration:8s}
-#topbar .social-links a {color:#006;font-size:150%;line-height:0;margin-right:20px}
+#topbar .contact-info i {font-size:clamp(1.5rem,2vw,4rem);color:#000061;animation-duration:8s}
+#topbar .social-links a {color:#000061;font-size:150%;line-height:0;margin-right:20px}
 #topbar .social-links a:hover {color:#0000c9}
 #header {transition:all 1.5s ease-in-out;background:#fff;height:86px;box-shadow:0 2px 15px rgba(0,0,0,0.1)}
 #header.fixed-top {box-shadow:1px 1px 7px 2px #888}
 .logo {cursor: pointer;position: relative;padding:5px 20px;background:#fff;font-size:28px;border-top-right-radius:10px;border-bottom-left-radius:10px;transition:all 1s}
 .logo:after,.logo:before {content: " ";width:10px;height:10px;position:absolute;border:0 solid #fff;transition:all 1s}
-.logo:after {top:0;left:0;border-top:3px solid #006;border-left:3px solid #006}
+.logo:after {top:0;left:0;border-top:3px solid #000061;border-left:3px solid #000061}
 .logo:before {bottom:0;right:0;border-bottom:3px solid #f80;border-right:3px solid #f80}
 .logo:hover {border-top-right-radius:0;border-bottom-left-radius:0}
 .logo:hover:after,.logo:hover:before {width:100%;height:100%}
@@ -48,7 +48,7 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 .navbar .dropdown ul li {min-width:200px}
 .navbar .dropdown ul a {padding:10px 20px;font-family:al-jazeera-arabic_regular,sans-serif}
 .navbar .dropdown ul a i {font-size:16px}
-.navbar .dropdown ul a:hover,.navbar .dropdown ul .active:hover,.navbar .dropdown ul li:hover>a {color:#006;background:#f80}
+.navbar .dropdown ul a:hover,.navbar .dropdown ul .active:hover,.navbar .dropdown ul li:hover>a {color:#000061;background:#f80}
 .navbar .dropdown:hover>ul {opacity:1;top:100%;visibility:visible}
 .navbar .dropdown .dropdown ul {top:0;left:calc(100% - 30px);visibility:hidden}
 .navbar .dropdown .dropdown:hover>ul {opacity:1;top:0;left:100%;visibility:visible}
@@ -62,7 +62,7 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 .navbar-mobile a,.navbar-mobile a:focus {padding:10px 20px;font-size:17px;color:#222}
 .navbar-mobile>ul>li {padding:2px}
 .navbar-mobile a:hover:before,.navbar-mobile li:hover>a:before,.navbar-mobile .active:before {visibility:hidden}
-.navbar-mobile a:hover,.navbar-mobile .active,.navbar-mobile li:hover>a {color:#006;background:#f80}
+.navbar-mobile a:hover,.navbar-mobile .active,.navbar-mobile li:hover>a {color:#000061;background:#f80}
 .navbar-mobile .getstarted,.navbar-mobile .getstarted:focus {margin:15px}
 .navbar-mobile .dropdown ul {position:static;display:none;margin:10px 20px;padding:10px 0;z-index:99;opacity:1;visibility:visible;background:#fff;box-shadow:0 0 30px rgba(127,137,161,0.25)}
 .navbar-mobile .dropdown ul li {min-width:200px}
@@ -89,7 +89,7 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 #intro .carousel-indicators li:hover {background-color:#f80}
 @media screen and (max-width:992px){#intro .carousel-indicators li {display:none}}
 #intro .btn-get-started {font-size:clamp(1rem,1.5vw,3rem);display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;color:#fff;background:#1056ad}
-#intro .btn-get-started:hover {background:#006;color:#fff}
+#intro .btn-get-started:hover {background:#000061;color:#fff}
 section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
 .section-title {text-align:center;margin:0 40px;font-family:al-jazeera-arabic-bold,sans-serif}
@@ -108,7 +108,7 @@ section {padding:60px 0;overflow:hidden}
 .breadcrumbs h1 {font-size:32px;margin:0;text-align:center;color:#f80}
 #our-name {visibility:auto}
 #our-name .because {text-align:center;margin-top:15px;margin-bottom:45px;font-size:32px;color:#f80;font-family:al-jazeera-arabic-bold,sans-serif}
-#our-name .because span {font-size:20px;color:#006}
+#our-name .because span {font-size:20px;color:#000061}
 #our-name .icon-box {padding:30px;position:relative;overflow:hidden;background:#fff;box-shadow:0 0 29px 0 rgba(68,88,144,.12);transition:all .5s ease-in-out;border-radius:8px;z-index:1}
 #our-name .icon-box::before {content:"";position:absolute;background:#cbe0fb;right:0;left:0;bottom:0;top:100%;transition:all .5s ease-in-out;z-index:-1}
 #our-name .icon-box:hover::before {background:#f80;top:0;border-radius:0}
@@ -123,7 +123,7 @@ section {padding:60px 0;overflow:hidden}
 .about .fourz1 {color:#db7500;font-size:36px;text-align:center;padding:30px;line-height:1.6;font-family:al-jazeera-arabic-bold,sans-serif}
 .about .fourz1 span {color:#1056ad}
 .about .fourz2 {padding:0 40px;color:#1056ad;font-size:32px;text-align:center;line-height:1.5;font-family:al-jazeera-arabic-bold,sans-serif}
-.about .fourz2 span {color:#006}
+.about .fourz2 span {color:#000061}
 .about .content ul {list-style:none;padding:0}
 .about .content ul li {display:flex;align-items:flex-start;margin-bottom:35px}
 .about .content ul li:first-child {margin-top:35px}
@@ -133,19 +133,19 @@ section {padding:60px 0;overflow:hidden}
 .about .content p:last-child {margin-bottom:0}
 .about .golden1 {color:#946c00;font-style:italic;text-align:center;font-size:32px;font-family:al-jazeera-arabic-bold,sans-serif}
 .about .golden2 {color:#946c00;font-style:italic;text-align:center;font-size:19px;line-height:1.7;font-family:al-jazeera-arabic-bold,sans-serif}
-.about .golden2 span {color:#006}
+.about .golden2 span {color:#000061}
 .about .golden3 {display:block;border:10px solid #946c00;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);margin:auto;width:100%;height:auto;transition:all 1.5s ease-in-out;padding:5px;-webkit-animation:mover 4s infinite  alternate;-moz-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
 .about .golden4 {display:block;border:10px solid #f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);margin:auto;max-width:480px;height:auto;transition:all 1.5s ease-in-out}
 .about .golden4:hover {scale:1.05 .95}
 @media screen and (max-width:900px){.about .golden4 {width:94%;height:auto}}
 .about .golden {display:block;padding-bottom:7px;color:#946c00;font-size:20px;font-family:al-jazeera-arabic-bold,sans-serif}
 .about li {color:#f80;padding-bottom:10px}
-.about .trust {color:#006;font-size:18px;line-height:1.6;font-family:al-jazeera-arabic_regular,sans-serif}
+.about .trust {color:#000061;font-size:18px;line-height:1.6;font-family:al-jazeera-arabic_regular,sans-serif}
 .about .vision {display:flex;font-size:18px;text-align:right}
 .about .vision p {color:#db7500;font-size:32px;font-family:al-jazeera-arabic-bold,sans-serif}
 #skills {background:#fff}
 .skills .progress {height:60px;display:block;background:0 0;border-radius:0;visibility:auto}
-.skills .progress .skill {padding:0;margin:0 0 6px 0;display:block;font-size:17px;color:#006;font-family:al-jazeera-arabic-bold,sans-serif}
+.skills .progress .skill {padding:0;margin:0 0 6px 0;display:block;font-size:17px;color:#000061;font-family:al-jazeera-arabic-bold,sans-serif}
 .skills .progress .skill .val {float:left;font-style:normal}
 .skills .progress-bar-wrap {background:#e2eefd;height:10px}
 .skills .progress-bar {width:1px;height:10px;transition:all 1.5s ease-in;background-color:#f80}
@@ -170,7 +170,7 @@ section {padding:60px 0;overflow:hidden}
 .services h3 span {color:#db7500}
 .welcome1 {display:block;border:10px solid #f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1.5s ease-in-out;margin:auto;width:600px;height:auto}
 .welcome1:hover {scale:1.05}
-.welcome2 {display:block;border:10px solid #006;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1.5s ease-in-out;margin:auto;width:600px;height:auto}
+.welcome2 {display:block;border:10px solid #000061;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);transition:all 1.5s ease-in-out;margin:auto;width:600px;height:auto}
 .welcome2:hover {scale:1.05 .9}
 @media screen and (max-width:900px){.welcome1, .welcome2 {width:94%;height:auto}}
 .portfolio {visibility:auto}
@@ -229,7 +229,7 @@ section {padding:60px 0;overflow:hidden}
 .pricing .box span {font-size:32px;font-family:al-jazeera-arabic-bold,sans-serif}
 .pricing .box .advanced {width:200px;position:absolute;top:18px;left:-68px;transform:rotate(-45deg);z-index:1;font-size:13px;padding:1px 0 3px 0;background:#f80;color:#fff}
 .pricing img {max-width:25%;height:auto;display:inline-block;margin-left:auto;margin-right:auto;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222)}
-.pricing .banner {border:10px solid #006;padding:15px;margin:40px auto;width:600px;background:#fff;text-align:center;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);transition:1.5s ease-in-out;line-height:1.6;font-family:al-jazeera-arabic-bold,sans-serif}
+.pricing .banner {border:10px solid #000061;padding:15px;margin:40px auto;width:600px;background:#fff;text-align:center;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);transition:1.5s ease-in-out;line-height:1.6;font-family:al-jazeera-arabic-bold,sans-serif}
 @media screen and (max-width:900px){.pricing .banner {width:94%;height:auto}}
 .pricing .banner:hover {scale:1.05}
 .testimonials {padding:40px 0;background:url(../../assets/img/bg-3.webp) no-repeat;background-position:center center;background-size:cover;position:relative;visibility:auto}
@@ -269,7 +269,7 @@ section {padding:60px 0;overflow:hidden}
 .faq .faq-list li {border-bottom:1px solid #d4e5fc;margin-bottom:20px;padding-bottom:20px}
 .faq .faq-list .question {display:block;position:relative;font-size:19px;line-height:1.6;padding-right:25px;cursor:pointer;color:#f80;transition:all .5s ease-in-out}
 .faq .faq-list i {font-size:22px;position:absolute;right:0;top:2px}
-.faq .faq-list p {font-size:18px;color:#006;margin-bottom:0;padding:10px 25px 0 25px;line-height:1.6;font-family:al-jazeera-arabic_regular,sans-serif}
+.faq .faq-list p {font-size:18px;color:#000061;margin-bottom:0;padding:10px 25px 0 25px;line-height:1.6;font-family:al-jazeera-arabic_regular,sans-serif}
 .faq .faq-list p a {font-family:al-jazeera-arabic-bold,sans-serif}
 .faq .faq-list .icon-show {display:none}
 .faq .faq-list .collapsed {color:#000}
@@ -278,13 +278,15 @@ section {padding:60px 0;overflow:hidden}
 .faq .faq-list .collapsed .icon-close {display:none;transition:all .5s ease-in-out}
 .faq .faq-list img {display:block;padding:10px;margin:auto;max-width:100%;height:auto;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222)}
 .faq .faq-list img:hover {scale:1.05}
-.pedia {border:5px solid #f80;background-color:#fff;margin:30px 10px}
-.pedia p {border:0;margin:40px 30px;font-size:18px;line-height:1.6;text-align:center;font-family:al-jazeera-arabic-bold,sans-serif}
+.pedia {border:5px solid #f80;background-color:#000061;color:#fff;margin:30px 20px}
+.pedia a {color:#fff;text-decoration:underline}
+.pedia a:hover {color:#f80}
+.pedia p {border:0;margin:40px 20px;font-size:18px;line-height:1.6;text-align:center;font-family:al-jazeera-arabic-bold,sans-serif}
 .pedia p span {color:#f80}
 .pedia .subtitle {font-size:28px;font-family:al-jazeera-arabic-bold,sans-serif}
-.pedia li {color:#f80;font-size:18px;line-height:1.6;margin-bottom:10px}
+.pedia li {color:#f80;font-size:18px;line-height:2;margin-bottom:20px;margin-left:20px}
 .pedia ul {border:0}
-.pedia img {max-width:94%;display:inline-block;margin:10px;border:10px solid #f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);-webkit-animation:mover 4s infinite  alternate;-moz-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
+.pedia img {max-width:94%;display:inline-block;margin:auto;border:10px solid #f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);-webkit-animation:mover 4s infinite  alternate;-moz-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
 @-moz-keyframes mover{0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
 @-o-keyframes mover{0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
 @-webkit-keyframes mover{0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}
@@ -345,27 +347,29 @@ hr {width:100px;border-top: 5px solid #3b8af2;color:#3b8af2;align-content:center
 .inner-page h3 {font-size:20px}
 .callout {position:fixed;max-width:270px;bottom:10px;z-index:2;visibility:hidden;opacity:0;right:10px}
 .callout.active {visibility:visible;opacity:1}
-.callout-header {padding:25px 15px;background-color:#f1f6fe;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);font-size:28px;color:#006;font-family:al-jazeera-arabic-bold,sans-serif}
+.callout-header {padding:25px 15px;background-color:#f1f6fe;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);font-size:28px;color:#000061;font-family:al-jazeera-arabic-bold,sans-serif}
 .callout-container {padding:15px;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);background-color:rgb(255,136,0);color:#fff;font-size:18px;font-family:al-jazeera-arabic-bold,sans-serif}
-.callout-container a:hover {color:#006}
-.closebtn {position:absolute;top:-5px;left:10px;color:#006;font-size:30px;cursor:pointer}
+.callout-container a:hover {color:#000061}
+.closebtn {position:absolute;top:-5px;left:10px;color:#000061;font-size:30px;cursor:pointer}
 .closebtn:hover {color:#f80}
-.quote {text-align:center;color:#b85a00;font-style:italic;font-size:28px;line-height:1.6;margin:0 10px;font-family:al-jazeera-arabic_regular,sans-serif}
+.quote {color:#b85a00;font-style:italic;font-size:28px;text-align:center;line-height:1.6;margin:0 10px;font-family:al-jazeera-arabic_regular,sans-serif}
+.quote3 {color:#f80;font-style:italic;font-size:28px;text-align:center;line-height:1.6;margin:0 10px;font-family:al-jazeera-arabic_regular,sans-serif}
+
 .quote2 {color:#b85a00;font-style:italic;font-size:22px;font-family:al-jazeera-arabic_regular,sans-serif}
 table,td,th {border:1px solid #000;border-collapse:collapse;max-width:96%;margin:auto;box-shadow:0 2px 15px rgba(0, 0, 0, 0.5);font-family:al-jazeera-arabic-bold,sans-serif}
-th {text-align:center;vertical-align:middle;line-height:.8;color:#006;font-size:15px}
+th {text-align:center;vertical-align:middle;line-height:.8;color:#000061;font-size:15px}
 td {font-size:16px}
 .pager {padding-left:0;margin:20px 0;text-align:center;list-style:none;font-family:al-jazeera-arabic-bold,sans-serif}
 .pager i {font-weight:800}
 .pager li {display:inline}
 .pager li>a,.pager li>span {display:inline-block;padding:5px 14px;background-color:#fff;border:3px solid #f80;border-radius:15px}
-.pager li>a:focus,.pager li>a:hover {text-decoration:#fff;background-color:#006}
+.pager li>a:focus,.pager li>a:hover {text-decoration:#fff;background-color:#000061}
 .pager .next>a,.pager .next>span {float:right;position:absolute;right:40px;box-shadow:4px 3px 3px 3px #888;font-weight:600}
 .pager .previous>a,.pager .previous>span {float:left;position:absolute;left:40px;box-shadow:-4px 3px 3px 3px #888;font-weight:600}
 .pager .disabled>a,.pager .disabled>a:focus,.pager .disabled>a:hover,.pager .disabled>span {color:#777;cursor:not-allowed;background-color:#fff}
 .wrap-collabsible{margin:0}
 input[type=checkbox] {display:none;scroll-behavior:smooth}
-.lbl-toggle {display:block;position:relative;font-size:1rem;text-align:center;padding:.3rem;color:#006;background:#f80;cursor:pointer;transition:all .5s ease-in-out;font-family:al-jazeera-arabic-bold}
+.lbl-toggle {display:block;position:relative;font-size:1rem;text-align:center;padding:.3rem;color:#000061;background:#f80;cursor:pointer;transition:all .5s ease-in-out;font-family:al-jazeera-arabic-bold}
 .lbl-toggle:hover {color:#fff;background:#1056ad}
 .lbl-toggle::before {content:' ';display:inline-block;border-top:7px solid transparent;border-bottom:7px solid transparent;border-right:7px solid currentColor;vertical-align:middle;margin-left:.7rem;transform:translateY(-2px);transition:transform .5s ease-in-out}
 .toggle:checked+.lbl-toggle::before {transform:rotate(270) translateX(-1px)}
@@ -385,7 +389,7 @@ input[type=checkbox] {display:none;scroll-behavior:smooth}
 .collapsible-content .content-inner .twitter {position:relative;display:inline-block;width:50px;height:50px;line-height:53px;border-radius:50%;margin:5px 0;font-size:30px;color:#00acee;transition:.5s}
 .collapsible-content .content-inner .twitter::before {content:'';position:absolute;top:0;left:0;width:100%;height:100%;border-radius:50%;background:#00acee;transition:1.5s;z-index:-1}
 .collapsible-content .content-inner .twitter:hover {background:#00acee;color:#fff;box-shadow:0 0 10px #f80;text-shadow:0 0 5px #00acee;scale:.7}
-.linktext {text-align:center;font-style:italic;margin-top:25px;font-size:17px;color:#006;font-family:al-jazeera-arabic-bold,sans-serif}
+.linktext {text-align:center;font-style:italic;margin-top:25px;font-size:17px;color:#000061;font-family:al-jazeera-arabic-bold,sans-serif}
 .linktext:hover {color:#f80}
 .ornament {display:block;margin-left:auto;margin-right:auto;width:100%;height:100%;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .logob-twitter{display:inline-block;background-size:cover;width:20px;height:20px;background-image:url(../img/logob.svg)}
