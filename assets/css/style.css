@@ -85,7 +85,7 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 @media screen and (min-width:1025px){#intro .carousel-control-next, #intro .carousel-control-prev {width:5%}}
 @media screen and (max-width:1024px){#intro .carousel-control-next, #intro .carousel-control-prev {width:48px}}
 #intro .carousel-control-next-icon,#intro .carousel-control-prev-icon {background:0 0;font-size:32px}
-#intro .carousel-indicators li {background-color:#1056ad;width:10px;height:10px;margin:5px;cursor:pointer}
+#intro .carousel-indicators li {background-color:#1056ad;width:10px;height:10px;margin:5px;cursor:pointer;list-style:none}
 #intro .carousel-indicators li:hover {background-color:#f80}
 @media screen and (max-width:992px){#intro .carousel-indicators li {display:none}}
 #intro .btn-get-started {font-size:clamp(1rem,1.5vw,3rem);display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;color:#fff;background:#1056ad;letter-spacing:1px}
@@ -278,13 +278,13 @@ section {padding:60px 0;overflow:hidden}
 .faq .faq-list .collapsed .icon-close {display:none;transition:all .5s ease-in-out}
 .faq .faq-list img {display:block;padding:10px;margin:auto;max-width:100%;height:auto;transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222)}
 .faq .faq-list img:hover {scale:1.05}
-.pedia {border:5px solid #f80;background-color:#000061;color:#fff;margin:30px 20px}
+.pedia {border:5px solid #f80;background-color:#000061;color:#fff;margin:30px 0}
 .pedia a {color:#fff;text-decoration:underline}
 .pedia a:hover {color:#f80}
 .pedia p {border:0;margin:40px 20px;font-size:18px;line-height:1.6;text-align:center;font-family:Poppins,sans-serif}
 .pedia p span {color:#f80;font-weight:600}
 .pedia .subtitle {font-size:28px;font-family:Poppins,sans-serif;font-weight:600}
-.pedia li {color:#f80;font-size:18px;line-height:1.8;margin-bottom:10px}
+.pedia li {color:#f80;font-size:18px;line-height:2;margin-bottom:10px;margin-right:20px}
 .pedia ul {border:0}
 .pedia img {max-width:94%;display:inline-block;margin:auto;border:10px solid #f80;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);-webkit-animation:mover 4s infinite  alternate;-moz-animation:mover 4s infinite  alternate;animation:mover 4s infinite  alternate}
 @-moz-keyframes mover{0% { transform:translateY(-30px)} 100% { transform:translateY(30px)}}

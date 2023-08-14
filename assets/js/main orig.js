@@ -283,10 +283,11 @@
    */
   window.addEventListener('load', () => {
     AOS.init({
-      duration: 1000,
+      duration: 1500,
+      delay:50,
       easing: 'ease-in-out',
-      once: true,
-      mirror: false
+      
+      mirror: true,
     })
   });
 })()
