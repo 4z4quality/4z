@@ -217,9 +217,9 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details .portfolio-description span {color:#f80}
 .pricing {background:#f1f6fe;margin-bottom:60px;visibility:auto}
 .pricing .box {padding:20px;margin-top:50px;background:#fff;text-align:center;box-shadow:0 0 4px rgba(0,0,0,.12);border-radius:5px;position:relative;overflow:hidden}
-.pricing .box .price {margin:-20px -20px 20px -20px;padding:20px 15px;font-size:18px;color:#777;background:#f8f8f8;font-weight:600}
-.pricing .box .offer {color:#bababa;font-size:18px;font-weight:600}
-.pricing .featured .price {color:#fff;background:#f80}
+.pricing .box .price {margin:-20px -20px 20px -20px;padding:20px 15px;font-size:18px;color:#545454;background:#f8f8f8;font-weight:600}
+.pricing .box .offer {color:#525252;font-size:18px;font-weight:600}
+.pricing .featured .price {color:#000061;background:#f80}
 .pricing .box ul {padding:0;list-style:none;color:#444;text-align:center;line-height:1.6}
 .pricing .box ul li {padding-bottom:16px}
 .pricing .btn-buy {background:#1056ad;display:inline-block;padding:8px 35px 10px 35px;margin-bottom:20px;border-radius:4px;color:#fff;font-size:16px;transition:all .5s ease-out;font-family:Poppins,sans-serif}
@@ -227,7 +227,7 @@ section {padding:60px 0;overflow:hidden}
 .pricing .featured h3 {color:#fff;background:#f80}
 .pricing .featured span {font-size:32px;font-weight:600}
 .pricing .box span {font-size:32px;font-weight:600}
-.pricing .box .advanced {width:200px;position:absolute;top:18px;right:-68px;transform:rotate(45deg);z-index:1;font-size:18px;padding:1px 0 3px 0;background:#f80;color:#fff;font-weight:600}
+.pricing .box .advanced {width:200px;position:absolute;top:18px;right:-68px;transform:rotate(45deg);z-index:1;font-size:18px;padding:1px 0 3px 0;background:#f80;color:#000061;font-weight:600}
 .pricing img {max-width:25%;height:auto;display:inline-block;margin-left:auto;margin-right:auto;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222)}
 .pricing .banner {border:10px solid #000061;padding:15px;margin:40px auto;width:600px;background:#fff;text-align:center;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 1px 3px #222);transition:1.5s ease-in-out;line-height:1.6;font-weight:600}
 @media screen and (max-width:900px){.pricing .banner {width:94%;height:auto}}
