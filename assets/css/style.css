@@ -261,7 +261,7 @@ section {padding:60px 0;overflow:hidden}
 .team .member .social i {font-size:18px}
 .team .member .member-info {padding:25px 15px;font-size:18px}
 .team .member .member-info h4 {margin-bottom:1px;font-size:20px;color:#222}
-.team .member .member-info span {display:block;font-size:15px;color:#aaa;padding-top:5px}
+.team .member .member-info span {display:block;font-size:15px;color:#595959;padding-top:5px}
 .team .member:hover .social {opacity:1;bottom:15px}
 .team img {max-width:100%;height:auto;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .faq {padding:60px 0 0;visibility:auto}
