@@ -80,10 +80,9 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 #intro .container {text-align:center}
 #intro .carousel-item .carousel-container .container p {font-size:clamp(3rem,8vw,5.1rem);line-height:1.2;font-weight:600}
 #intro .carousel-item .carousel-container .container p span {font-size:clamp(1.5rem,4vw,3rem)}
-#intro .carousel-control-next, #intro .carousel-control-prev {width:12%;color:#000}
+#intro .carousel-control-next, #intro .carousel-control-prev {width:48px;height:48px;top:50%;color:#000}
 #intro .carousel-control-next:hover,#intro .carousel-control-prev:hover {color:#f80}
-@media screen and (min-width:1025px){#intro .carousel-control-next, #intro .carousel-control-prev {width:5%}}
-@media screen and (max-width:1024px){#intro .carousel-control-next, #intro .carousel-control-prev {width:52px}}
+@media screen and (max-width:1024px){#intro .carousel-control-next, #intro .carousel-control-prev {width:48px}}
 #intro .carousel-control-next-icon,#intro .carousel-control-prev-icon {background:0 0;font-size:32px}
 #intro .carousel-indicators li {background-color:#1056ad;width:10px;height:10px;margin:5px;cursor:pointer;list-style:none}
 #intro .carousel-indicators li:hover {background-color:#f80}
