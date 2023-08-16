@@ -84,9 +84,9 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 #intro .carousel-control-next:hover,#intro .carousel-control-prev:hover {color:#f80}
 @media screen and (max-width:1024px){#intro .carousel-control-next, #intro .carousel-control-prev {width:48px}}
 #intro .carousel-control-next-icon,#intro .carousel-control-prev-icon {background:0 0;font-size:32px}
-#intro .carousel-indicators li {background-color:#1056ad;width:10px;height:10px;margin:5px;cursor:pointer;list-style:none}
+#intro .carousel-indicators li {background-color:#1056ad;width:10px;height:10px;margin:5px;cursor:pointer;list-style:none;bottom:-15px}
 #intro .carousel-indicators li:hover {background-color:#f80}
-@media screen and (max-width:992px){#intro .carousel-indicators li {display:none}}
+@media screen and (max-width:992px){#intro .carousel-indicators li {display:true}}
 #intro .btn-get-started {font-size:clamp(1rem,1.5vw,3rem);display:inline-block;padding:6px 22px;border-radius:50px;transition:.5s ease-in-out;color:#fff;background:#1056ad}
 #intro .btn-get-started:hover {background:#000061;color:#fff}
 section {padding:60px 0;overflow:hidden}
