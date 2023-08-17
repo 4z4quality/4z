@@ -192,11 +192,12 @@ section {padding:60px 0;overflow:hidden}
 .portfolio .portfolio-item:hover .portfolio-info {opacity:1;bottom:20px}
 .portfolio .portfolio-item img {transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .portfolio-details {line-height:1.6;padding-top:40px}
+.portfolio-details a {text-decoration:underline}
 .portfolio-details .portfolio-details-slider img {display:inline-block;max-width:100%;transition:all .5s ease-in-out;height:auto}
 .portfolio-details img:hover {scale:1.05}
 .portfolio-details .portfolio-details-slider .swiper-pagination {margin-top:20px;position:relative}
 .portfolio-details .portfolio-details-slider {position:relative;box-shadow:5px 0 30px rgb(34,34,34,.2)}
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {width:12px;height:12px;background-color:#fff;margin:5px;margin-top:20px;opacity:1;border:1px solid #1056ad}
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {width:12px;height:12px;background-color:#fff;margin:5px;margin-top:20px;display:inline-block;opacity:1;border:1px solid #1056ad}
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {background-color:#1056ad}
 .portfolio-details .portfolio-info {padding:30px;box-shadow:5px 0 30px rgba(34,34,34,.2)}
 .portfolio-details .portfolio-info h3 {font-size:22px;margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #eee;font-weight:600}

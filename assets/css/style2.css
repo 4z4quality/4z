@@ -192,6 +192,7 @@ section {padding:60px 0;overflow:hidden}
 .portfolio .portfolio-item:hover .portfolio-info {opacity:1;bottom:20px}
 .portfolio .portfolio-item img {transition:all 1.5s ease-in-out;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .portfolio-details {line-height:1.6;padding-top:40px}
+.portfolio-details a {text-decoration:underline}
 .portfolio-details .portfolio-details-slider img {display:inline-block;max-width:100%;transition:all .5s ease-in-out;height:auto}
 .portfolio-details img:hover {scale:1.05}
 .portfolio-details .portfolio-details-slider .swiper-pagination {margin-top:20px;position:relative}
