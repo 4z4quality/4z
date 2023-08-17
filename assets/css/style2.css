@@ -197,7 +197,7 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details img:hover {scale:1.05}
 .portfolio-details .portfolio-details-slider .swiper-pagination {margin-top:20px;position:relative}
 .portfolio-details .portfolio-details-slider {position:relative;box-shadow:5px 0 30px rgb(34,34,34,.2)}
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {width:12px;height:12px;background-color:#fff;margin:5px;opacity:1;border:1px solid #1056ad}
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {width:12px;height:12px;background-color:#fff;margin:8px;margin-top:20px;opacity:1;border:1px solid #1056ad}
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {background-color:#1056ad}
 .portfolio-details .portfolio-info {padding:30px;box-shadow:5px 0 30px rgba(34,34,34,.2)}
 .portfolio-details .portfolio-info h3 {font-size:22px;margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #eee;font-family:al-jazeera-arabic-bold,sans-serif}
@@ -215,7 +215,7 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details .portfolio-description .black {color:#000;font-family:al-jazeera-arabic-bold,sans-serif}
 .portfolio-details .portfolio-description img {border:10px solid #f80;display:block;max-width:100%;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .portfolio-details .portfolio-description i {color:#b30}
-
+.portfolio-details .portfolio-description span {color:#d17000}
 .pricing {background:#f1f6fe;margin-bottom:60px;visibility:auto}
 .pricing .box {padding:20px;margin-top:50px;background:#fff;text-align:center;box-shadow:0 0 4px rgba(0,0,0,.12);border-radius:5px;position:relative;overflow:hidden}
 .pricing .box .price {margin:-20px -20px 20px -20px;padding:20px 15px;font-size:17px;color:#545454;background:#f8f8f8;font-family:al-jazeera-arabic-bold,sans-serif}
