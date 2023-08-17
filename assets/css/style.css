@@ -215,7 +215,7 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details .portfolio-description .black {color:#000;font-weight:600}
 .portfolio-details .portfolio-description img {border:10px solid #f80;display:block;max-width:100%;-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222)}
 .portfolio-details .portfolio-description i {color:#b30}
-.portfolio-details .portfolio-description span {color:#f80}
+.portfolio-details .portfolio-description span {color:#d17000}
 .pricing {background:#f1f6fe;margin-bottom:60px;visibility:auto}
 .pricing .box {padding:20px;margin-top:50px;background:#fff;text-align:center;box-shadow:0 0 4px rgba(0,0,0,.12);border-radius:5px;position:relative;overflow:hidden}
 .pricing .box .price {margin:-20px -20px 20px -20px;padding:20px 15px;font-size:18px;color:#545454;background:#f8f8f8;font-weight:600}
