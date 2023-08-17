@@ -197,7 +197,8 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details img:hover {scale:1.05}
 .portfolio-details .portfolio-details-slider .swiper-pagination {margin-top:20px;position:relative}
 .portfolio-details .portfolio-details-slider {position:relative;box-shadow:5px 0 30px rgb(34,34,34,.2)}
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {width:12px;height:12px;background-color:#fff;margin:5px;margin-top:20px;display:inline-block;opacity:1;border:1px solid #1056ad}
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {width:12px;height:12px;background-color:#fff;margin:5px;margin-top:20px;padding:.2em;opacity:1;border:1px solid #1056ad}
+@media (any-pointer: coarse) {.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {padding: .8em}}
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {background-color:#1056ad}
 .portfolio-details .portfolio-info {padding:30px;box-shadow:5px 0 30px rgba(34,34,34,.2)}
 .portfolio-details .portfolio-info h3 {font-size:22px;margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #eee;font-weight:600}
