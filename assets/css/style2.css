@@ -207,7 +207,7 @@ section {padding:60px 0;overflow:hidden}
 .portfolio-details .portfolio-description ol li+li {margin-top:10px}
 .portfolio-details .portfolio-description ul li+li {margin-top:10px}
 .portfolio-details .portfolio-description h2 {color:#d17000;font-size:24px;margin-bottom:20px;line-height:1.6}
-.portfolio-details .portfolio-description h3 {color:#d17000;font-size:18px;margin-bottom:20px}
+.portfolio-details .portfolio-description h3 {color:#d17000;font-size:24px;margin-bottom:20px}
 .portfolio-details .portfolio-description h4 {font-size:22px;margin-bottom:20px;line-height:1.6;font-family:al-jazeera-arabic-bold,sans-serif}
 .portfolio-details .portfolio-description p {padding:0}
 .portfolio-details .portfolio-description .red {color:#b30}
@@ -336,7 +336,6 @@ section {padding:60px 0;overflow:hidden}
 #footer .footer-top .social-links .twitter-svg {padding-bottom:10px}
 #footer .copyright {text-align:center;float:left;font-family:al-jazeera-arabic-bold,sans-serif}
 #footer .credits {float:right;text-align:center;font-size:14px;color:#444;font-family:al-jazeera-arabic-bold,sans-serif}
-
 @media screen and (max-width:768px){#footer .copyright,#footer .credits {float:none;text-align:center;padding:2px 0}}
 hr {width:100px;border-top: 5px solid #3b8af2;color:#3b8af2;align-content:center;margin-left:auto;margin:50px auto}
 .inner-page {padding:20px;margin:10px;background:#f1f6fe;box-shadow:0 2px 15px rgba(0,0,0,.1)}
@@ -356,7 +355,6 @@ hr {width:100px;border-top: 5px solid #3b8af2;color:#3b8af2;align-content:center
 .closebtn:hover {color:#f80}
 .quote {color:#b85a00;font-style:italic;font-size:28px;text-align:center;line-height:1.6;margin:0 10px;font-family:al-jazeera-arabic_regular,sans-serif}
 .quote3 {color:#f80;font-style:italic;font-size:28px;text-align:center;line-height:1.6;margin:0 10px;font-family:al-jazeera-arabic_regular,sans-serif}
-
 .quote2 {color:#b85a00;font-style:italic;font-size:22px;font-family:al-jazeera-arabic_regular,sans-serif}
 table,td,th {border:1px solid #000;border-collapse:collapse;max-width:96%;margin:auto;box-shadow:0 2px 15px rgba(0, 0, 0, 0.5);font-family:al-jazeera-arabic-bold,sans-serif}
 th {text-align:center;vertical-align:middle;line-height:.8;color:#000061;font-size:15px}
