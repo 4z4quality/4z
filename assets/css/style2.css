@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5 {font-family:al-jazeera-arabic-bold,sans-serif}
 .back-to-top:hover {background:#3284f1;color:#fff;box-shadow:0 0 15px #f80}
 .back-to-top.active {visibility:visible;opacity:1}
 @media screen and (max-width:768px){[data-aos-delay] {transition-delay:0s!important}}
-#topbar {background:#f80;transition:all 1.5s ease-in-out;height:35px;padding:0}
+#topbar {background:#f80;transition:all 1.5s ease-in-out;height:40px;padding:0}
 #topbar .contact-info .chat {color:#000061;font-size:clamp(1rem,0.6875rem + 1vw,1.25rem);padding:0 0 0 30px;font-family:al-jazeera-arabic-bold,sans-serif}
 #topbar .contact-info .chat:hover {color:#0000c9;text-decoration:underline}
 #topbar .contact-info i {font-size:clamp(1rem,0.5313rem + 1.5vw,1.375rem);color:#000061;animation-duration:8s}
