@@ -78,17 +78,17 @@ h1,h2,h3,h4,h5 {font-family:Poppins,sans-serif}
 #intro .carousel-item {background-size:cover;background-position:top;background-repeat:no-repeat}
 #intro .carousel-container {display:flex;justify-content:center;align-items:center;position:absolute;bottom:0;top:0;left:30px;right:30px}
 #intro .container {text-align:center}
-#intro .carousel-item .carousel-container .container p {font-size:clamp(3rem,8vw,5.1rem);line-height:1.2;font-weight:600;background:linear-gradient(to right, #f80 0%, #006 50%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-#intro .carousel-item .carousel-container .container p span {font-size:clamp(1.5rem,4vw,3rem);background:linear-gradient(to right, #f80 0%, #006 50%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+#intro .carousel-item .carousel-container .container p {font-size:clamp(3rem,8vw,5.1rem);line-height:1.2;font-weight:600;background:radial-gradient(#f80 0%, #000061 20%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+#intro .carousel-item .carousel-container .container p span {font-size:clamp(1.5rem,4vw,3rem);background:linear-gradient(to top left, #000061 0%, #f80 80%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
 #intro .carousel-control-next, #intro .carousel-control-prev {width:48px;height:48px;top:50%;color:#000}
 #intro .carousel-control-next:hover,#intro .carousel-control-prev:hover {color:#f80}
 @media screen and (max-width:1024px){#intro .carousel-control-next, #intro .carousel-control-prev {width:48px}}
 #intro .carousel-control-next-icon,#intro .carousel-control-prev-icon {background:0 0;font-size:32px}
-#intro .carousel-indicators li {background-color:#1056ad;width:10px;height:10px;margin:5px;cursor:pointer;list-style:none;position:relative;bottom:-15px}
+#intro .carousel-indicators li {background-color:#006;width:15px;height:15px;border-radius:50%;margin:5px;cursor:pointer;list-style:none;bottom:-15px}
 #intro .carousel-indicators li:hover {background-color:#f80}
 @media screen and (max-width:992px){#intro .carousel-indicators li {display:true}}
-#intro .btn-get-started {font-size:clamp(1rem,1.5vw,3rem);display:inline-block;padding:6px 22px;border-radius:50px;transition:2.5s ease-in-out;color:#fff;background:-webkit-linear-gradient(45deg, #f80 0%, #006 50%);letter-spacing:1px;margin-top:40px}
-#intro .btn-get-started:hover {background:#000061;color:#fff;background:-webkit-linear-gradient(#006, #f80)}
+#intro .btn-get-started {font-size:clamp(1rem,1.5vw,3rem);display:inline-block;padding:6px 22px;border-radius:50px;color:#fff;background:#006;margin-top:40px;transition:all 1s ease-in;letter-spacing:1px}
+#intro .btn-get-started:hover {color:#fff;background:-webkit-linear-gradient(45deg, #006, #f80)}
 section {padding:60px 0;overflow:hidden}
 .section-bg {background-color:#f6f9fe}
 .section-title {text-align:center;margin:0 40px}
