@@ -394,4 +394,4 @@ input[type=checkbox] {display:none;scroll-behavior:smooth}
 @media screen and (max-width:900px){.inner-page .golden4 {width:94%;height:auto}}
 .linktext {text-align:center;font-style:italic;margin-top:25px;font-size:17px;color:#000061;font-family:Poppins,sans-serif}
 .linktext:hover {color:#f80}
-.ornament {-webkit-filter:drop-shadow(0 5px 5px #222);filter:drop-shadow(0 5px 5px #222);object-fit:cover;width:100%}
+.ornament {-webkit-filter:drop-shadow(0 5px 25px #222);filter:drop-shadow(0 5px 25px #222);object-fit:cover;width:100%}
